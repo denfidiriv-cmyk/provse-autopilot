@@ -139,7 +139,18 @@ def main() -> int:
             url = upload(topic.channel, out, spec["title"], desc, spec.get("hashtags", []), os.environ.get("YT_PRIVACY", "public"))
         if not a.test:
             select.record_published(STATE, topic.query, topic.channel, url)
-        notify.send(f"🎬 <b>{ch['name']}</b>\n{spec['title']}\nТренд: {topic.query} ({topic.traffic_label})\n{url or 'не завантажено (--no-upload)'}\n\n{spec['script']}")
+        msg = (f"🎬 <b>{ch['name']}</b>\n{spec['title']}\nТренд: {topic.query} ({topic.traffic_label})\n{url or 'не завантажено (--no-upload)'}\n\n{spec['script']}")
+        try:
+            notify.send_video(out, msg)
+        except Exception as ex:
+            print("telegram video:", ex); notify.send(msg)
+        try:  # контактний лист кадрів для перевірки
+            import subprocess
+            frames = [f"-ss {t} -i {out}" for t in (0.3, 3, 7, 11, 15)]
+            cmd = "ffmpeg -loglevel error -y " + " ".join(frames) + " -filter_complex hstack=5,scale=1600:-1 " + str(STATE / "last_preview.jpg")
+            subprocess.run(cmd, shell=True, check=False)
+        except Exception:
+            pass
         print("ГОТОВО", url or out)
     except Exception as e:
         traceback.print_exc()

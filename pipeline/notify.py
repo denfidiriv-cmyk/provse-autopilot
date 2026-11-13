@@ -50,3 +50,21 @@ def control(state: Path) -> dict:
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(json.dumps(ctl))
     return ctl
+
+
+def send_video(path: Path, caption: str) -> None:
+    """Надсилає готовий ролик у Telegram (до 50 МБ)."""
+    tok, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
+    if not tok or not chat or not Path(path).exists():
+        return
+    import uuid
+    b = uuid.uuid4().hex
+    parts = []
+    for k, v in (("chat_id", chat), ("caption", caption[:1000]), ("parse_mode", "HTML"), ("supports_streaming", "true")):
+        parts.append(f'--{b}\r\nContent-Disposition: form-data; name="{k}"\r\n\r\n{v}\r\n'.encode())
+    parts.append(f'--{b}\r\nContent-Disposition: form-data; name="video"; filename="{Path(path).name}"\r\nContent-Type: video/mp4\r\n\r\n'.encode()
+                 + Path(path).read_bytes() + b"\r\n")
+    parts.append(f"--{b}--\r\n".encode())
+    req = urllib.request.Request(f"https://api.telegram.org/bot{tok}/sendVideo", data=b"".join(parts),
+                                 headers={"Content-Type": f"multipart/form-data; boundary={b}"})
+    urllib.request.urlopen(req, timeout=120).read()
