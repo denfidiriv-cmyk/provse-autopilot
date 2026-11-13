@@ -112,7 +112,8 @@ def main() -> int:
         # Безпека: Claude Code бачить лише ключі для моделі й озвучки (жодних YouTube/Telegram/GitHub токенів),
         # має явний список дозволених інструментів і не ходить в інтернет інструментами пошуку (матеріали вже зібрані кодом).
         safe_env = {k: os.environ[k] for k in ("PATH", "HOME", "LANG", "TZ", "HF_BROWSER", "ANTHROPIC_API_KEY",
-                                               "GEMINI_API_KEY", "GEMINI_TTS_MODEL", "MUSIC_DIR") if os.environ.get(k)}
+                                               "GEMINI_API_KEY", "GEMINI_TTS_MODEL", "MUSIC_DIR", "CHROME_PATH",
+                                               "PUPPETEER_EXECUTABLE_PATH", "PLAYWRIGHT_BROWSERS_PATH", "npm_config_cache") if os.environ.get(k)}
         allowed = ["Read", "Write", "Edit", "Glob", "Grep", "Skill", "Bash(python:*)", "Bash(python3:*)", "Bash(ffmpeg:*)",
                    "Bash(ffprobe:*)", "Bash(npx:*)", "Bash(node:*)", "Bash(npm:*)", "Bash(ls:*)", "Bash(mkdir:*)", "Bash(cp:*)"]
         cmd = ["claude", "-p", (ROOT / "prompts" / "claude_video.md").read_text(encoding="utf-8"),

@@ -72,6 +72,8 @@ jobs:
           TZ: Europe/Kyiv
         run: |
           export HF_BROWSER="$(which google-chrome || which chromium)"
+          export CHROME_PATH="$HF_BROWSER" PUPPETEER_EXECUTABLE_PATH="$HF_BROWSER"
+          npx -y hyperframes@0.8.216 --version > /dev/null 2>&1 || true   # прогрів кешу npm до старту Claude Code
           ARGS=""; [ "${{ inputs.no_upload }}" = "true" ] && ARGS="--no-upload"; [ "${{ inputs.test }}" = "true" ] && ARGS="$ARGS --test"
           # Claude Code зі скілами, якщо він встановився і не вибрано простий рушій (змінна ENGINE=simple)
           if [ -n "$ANTHROPIC_API_KEY" ] && [ "${{ vars.ENGINE }}" != "simple" ] && command -v claude > /dev/null; then
