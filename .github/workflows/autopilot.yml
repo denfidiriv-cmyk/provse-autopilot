@@ -1,0 +1,67 @@
+name: Автопілот (тренд -> відео -> YouTube)
+
+on:
+  schedule:
+    - cron: "17,47 * * * *"   # кожні 30 хвилин
+  workflow_dispatch:
+    inputs:
+      no_upload:
+        description: "Не завантажувати на YouTube (тест)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: autopilot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - name: Залежності
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji > /dev/null
+          pip install -q numpy
+      - name: Автопілот
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_TEXT_MODEL: ${{ vars.GEMINI_TEXT_MODEL }}
+          GEMINI_TTS_MODEL: ${{ vars.GEMINI_TTS_MODEL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_TOKEN_DIM: ${{ secrets.YT_TOKEN_DIM }}
+          YT_TOKEN_EKONOMIKA: ${{ secrets.YT_TOKEN_EKONOMIKA }}
+          YT_TOKEN_YIZHA: ${{ secrets.YT_TOKEN_YIZHA }}
+          YT_TOKEN_AVTO: ${{ secrets.YT_TOKEN_AVTO }}
+          YT_TOKEN_SPORT: ${{ secrets.YT_TOKEN_SPORT }}
+          YT_TOKEN_SVIT: ${{ secrets.YT_TOKEN_SVIT }}
+          YT_TOKEN_POLITYKA: ${{ secrets.YT_TOKEN_POLITYKA }}
+          YT_PRIVACY: ${{ vars.YT_PRIVACY || 'public' }}
+          TZ: Europe/Kyiv
+        run: |
+          export HF_BROWSER="$(which google-chrome || which chromium)"
+          ARGS=""; [ "${{ inputs.no_upload }}" = "true" ] && ARGS="--no-upload"
+          python run_autopilot.py $ARGS
+      - name: Відео як артефакт (на 7 днів)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with: { name: video, path: "out/*.mp4", retention-days: 7, if-no-files-found: ignore }
+      - name: Зберегти стан
+        if: always()
+        run: |
+          git config user.name "provse-autopilot-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -f state/*.json 2>/dev/null || true
+          git commit -m "стан автопілота [skip ci]" || echo "без змін"
+          git pull --rebase -q && git push || echo "push пропущено"

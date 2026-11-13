@@ -9,3 +9,4 @@ tools/asr/sherpa-onnx-*/
 client_secret*.json
 tokens/
 out/
+work/

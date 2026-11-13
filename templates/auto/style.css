@@ -1,0 +1,33 @@
+@font-face{font-family:Osw;src:url(assets/fonts/Oswald-700.woff)}
+@font-face{font-family:UI;font-weight:800;src:url(assets/fonts/inter-cyrillic-800-normal.woff2);unicode-range:U+0400-045F,U+0490-0491}
+@font-face{font-family:UI;font-weight:800;src:url(assets/fonts/inter-latin-800-normal.woff2);unicode-range:U+0000-00FF,U+2000-206F,U+2212}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:{bg}}
+#root{position:absolute;inset:0;overflow:hidden;background:{bg}}
+#deco{position:absolute;inset:0;{deco}}
+#cam{position:absolute;inset:0;transform-origin:50% 38%}
+.sc{position:absolute;inset:0}
+.photo{position:absolute;left:40px;top:120px;width:1000px;height:740px;background-size:cover;background-position:center;border:6px solid {sub};border-radius:26px;overflow:hidden}
+.cr{position:absolute;right:14px;top:12px;font:800 22px UI;color:#fff;background:rgba(0,0,0,.6);padding:5px 12px;border-radius:8px}
+.big{position:absolute;left:0;width:1080px;text-align:center;font:190px/1 Osw;color:{acc}}
+.big .unit{font-size:.4em;margin-left:18px;color:{sub}}
+.head{position:absolute;left:70px;width:940px;text-align:center;font:800 70px/1.08 UI;color:{fg}}
+.unitline{position:absolute;left:0;width:1080px;text-align:center;font:70px Osw;color:{sub}}
+.blab{position:absolute;left:80px;font:800 48px UI;color:{fg}}
+.bar{position:absolute;left:80px;height:120px;border-radius:16px;width:0}
+.bar.b0{background:{acc}}.bar.b1{background:{acc2}}
+.bval{position:absolute;left:80px;font:110px/1 Osw;color:{fg}}
+.bval small{font-size:.45em;color:{sub}}
+.qm{position:absolute;left:70px;top:150px;font:300px/1 Osw;color:{acc}}
+.quote{position:absolute;left:90px;width:900px;top:400px;font:800 84px/1.1 UI;color:{fg}}
+.author{position:absolute;left:90px;top:900px;font:800 50px UI;color:{acc}}
+.li{position:absolute;left:80px;width:920px;padding:30px 36px;border:6px solid {sub};border-radius:28px;font:800 62px/1.1 UI;color:{fg};display:flex;gap:30px;align-items:center}
+.li b{font:110px/1 Osw;color:{acc}}
+.stamp{position:absolute;left:150px;top:600px;padding:12px 34px;border:10px solid {acc};color:{acc};font:800 72px UI;background:rgba(255,255,255,.93);transform:rotate(-8deg);border-radius:18px;white-space:nowrap;opacity:0}
+.ring{position:absolute;left:390px;top:200px;width:300px;height:300px;border-radius:50%;border:24px solid {acc2};box-shadow:inset 0 0 0 20px {acc}}
+.cta{position:absolute;left:0;width:1080px;top:560px;text-align:center}
+.cta .a{font:800 64px UI;color:{sub}}.cta .b{font:200px/1.05 Osw;color:{acc};margin-top:10px}
+.sub{position:absolute;left:250px;top:1010px;width:580px;padding:22px 0;text-align:center;background:#e5483b;color:#fff;font:800 60px UI;border-radius:999px}
+.cap{position:absolute;left:100px;width:880px;top:1300px;text-align:center;font:800 76px/1.12 UI;text-transform:uppercase;color:#fff;-webkit-text-stroke:5px #06101d;paint-order:stroke fill;opacity:0}
+.cap .w{display:inline-block;margin:0 .2em;color:#fff}
+.cap .in{display:inline-block;background:{panel};border-radius:28px;padding:14px 22px 18px;max-width:880px}
