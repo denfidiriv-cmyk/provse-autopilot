@@ -1,0 +1,40 @@
+name: Тренди (агент без LLM)
+
+on:
+  schedule:
+    - cron: "7 */3 * * *"   # кожні 3 години (час UTC; Київ = UTC+2)
+  workflow_dispatch: {}      # кнопка «Run workflow» для ручного запуску
+
+permissions:
+  contents: write            # щоб зберегти seen_trends.json і звіти в репозиторій
+
+concurrency:
+  group: trends
+  cancel-in-progress: false
+
+jobs:
+  trends:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Тести
+        run: python -m unittest tests.test_trends
+      - name: Збір трендів
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TZ: Europe/Kyiv
+        run: |
+          python run_trends.py | tee report.txt
+          cat out/trends_*.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Зберегти історію й звіти
+        run: |
+          git config user.name "provse-trends-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -f out/seen_trends.json out/latest_trends.json out/trends_*.md out/trends_*.json
+          git commit -m "Тренди $(TZ=Europe/Kyiv date '+%Y-%m-%d %H:%M') [skip ci]" || echo "без змін"
+          git push
