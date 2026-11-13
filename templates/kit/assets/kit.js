@@ -87,7 +87,7 @@
     }
     const [a, b] = IN[kind];
     tl.fromTo(sel, a, Object.assign({}, b, opts, { stagger: opts.stagger ?? 0 }), t);
-    if (kind === "stamp") Kit.shake(tl, "#cam", t + .26, 14);
+    // тряску на штамп додавай окремо (Kit.shake), якщо справді потрібен удар
   };
   Kit.out = function (tl, sel, t, kind = "fade") {
     const v = { fade: { opacity: 0, duration: .2 }, up: { y: -120, opacity: 0, duration: .3, ease: "power2.in" },
@@ -108,11 +108,11 @@
     tl.set(to, { x: 0, y: 0, xPercent: 0, yPercent: 0, scale: 1, opacity: 1, filter: "none", clipPath: "none" }, mid - .001);
     tl.set(to, { visibility: "visible" }, ["hard", "flash", "zoom", "whip"].includes(kind) ? t : mid);
     if (kind === "whip") {
-      if (from) tl.to(from, { x: -700, filter: "blur(30px)", duration: d / 2, ease: "power2.in" }, mid);
-      tl.fromTo(to, { x: 700, filter: "blur(30px)" }, { x: 0, filter: "blur(0px)", duration: d / 2 + .08, ease: "power2.out", immediateRender: false }, t);
+      if (from) tl.to(from, { x: -700, opacity: .4, duration: d / 2, ease: "power2.in" }, mid);
+      tl.fromTo(to, { x: 700 }, { x: 0, duration: d / 2 + .08, ease: "power2.out", immediateRender: false }, t);
     } else if (kind === "zoom") {
-      if (from) tl.to(from, { scale: 1.7, opacity: 0, filter: "blur(12px)", duration: d / 2, ease: "power2.in" }, mid);
-      tl.fromTo(to, { scale: .7, opacity: 0 }, { scale: 1, opacity: 1, duration: d / 2 + .1, ease: "power3.out", immediateRender: false }, t);
+      if (from) tl.to(from, { scale: 1.25, opacity: 0, duration: d / 2, ease: "power2.in" }, mid);
+      tl.fromTo(to, { scale: .92, opacity: 0 }, { scale: 1, opacity: 1, duration: d / 2 + .1, ease: "power3.out", immediateRender: false }, t);
     } else if (kind === "push") {
       if (from) tl.to(from, { xPercent: -100, duration: d, ease: "power3.inOut" }, mid);
       tl.fromTo(to, { xPercent: 100 }, { xPercent: 0, duration: d, ease: "power3.inOut", immediateRender: false }, mid);
@@ -133,8 +133,8 @@
   Kit.drift = (tl, sel, t0, t1, o = {}) =>
     tl.fromTo(sel, { scale: o.from ?? 1, x: 0, y: 0 }, { scale: o.to ?? 1.08, x: o.x ?? 0, y: o.y ?? -20, duration: Math.max(.1, t1 - t0), ease: "none" }, t0);
   /** Різкий наїзд камери на акцентному слові. */
-  Kit.punch = (tl, t, amt = 1.07, sel = "#cam") =>
-    tl.fromTo(sel, { scale: 1 }, { scale: amt, duration: .14, ease: "power3.out" }, t).to(sel, { scale: 1, duration: .5, ease: "power2.inOut" }, t + .5);
+  Kit.punch = (tl, t, amt = 1.04, sel = "#cam") =>
+    tl.fromTo(sel, { scale: 1 }, { scale: amt, duration: .3, ease: "power2.out" }, t).to(sel, { scale: 1, duration: .5, ease: "power2.inOut" }, t + .5);
   /** Тряска на удар, затухає за ~0,25 с. */
   Kit.shake = function (tl, sel = "#cam", t, amp = 12) {
     [1, -.8, .6, -.4, .2, 0].forEach((k, n) => tl.to(sel, { x: amp * k, y: -amp * k * .5, duration: .04, ease: "none" }, t + n * .04));
@@ -169,8 +169,9 @@
   Kit.say = function (tl, sel, i0, i1, o = {}) {
     const box = one(sel), map = o.map || {}, keys = (o.keys || []).map((k) => k.toLowerCase());
     const kind = o.kind || "pop";
-    const from = { pop: { opacity: 0, scale: .4, y: 30 }, rise: { opacity: 0, y: 60 }, slam: { opacity: 0, scale: 2.2 } }[kind];
-    const ease = { pop: "back.out(2.4)", rise: "expo.out", slam: "power4.in" }[kind];
+    // Спокійна поява без стрибків: слово проявляється на місці з легким підйомом; slam для великих цифр м'якший
+    const from = { pop: { opacity: 0, y: 14 }, rise: { opacity: 0, y: 26 }, slam: { opacity: 0, scale: 1.25 } }[kind];
+    const ease = { pop: "power2.out", rise: "power2.out", slam: "power3.out" }[kind];
     for (let i = i0; i <= i1 && i < WORDS.length; i++) {
       const txt = (i in map) ? map[i] : WORDS[i][0].replace(/[,;:]$/, "");
       if (!txt) continue;
@@ -179,7 +180,7 @@
       const c = txt.toLowerCase().replace(/[^\p{L}\p{N}%]/gu, "");
       if (keys.some((k) => c.startsWith(k)) || /\d/.test(txt)) s.classList.add("key");
       box.appendChild(s);
-      tl.fromTo(s, from, { opacity: 1, scale: 1, y: 0, duration: kind === "slam" ? .2 : .2, ease }, Kit.T(i) - .04);
+      tl.fromTo(s, from, { opacity: 1, scale: 1, y: 0, duration: .22, ease }, Kit.T(i) - .06);
     }
   };
 
