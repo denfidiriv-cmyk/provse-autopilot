@@ -45,7 +45,7 @@
       host.appendChild(pg);
       const t0 = Kit.T(idx[0]) - .06;
       const t1 = p + 1 < pages.length ? Kit.T(pages[p + 1][0]) - .06 : Math.min(endT - .55, Kit.T(idx[idx.length - 1]) + 1.2);
-      tl.set(pg, { opacity: 1 }, t0);
+      tl.set(pg, { opacity: 1, visibility: "visible" }, t0);
       if (o.plate) tl.fromTo(pg, { scaleX: .85, opacity: 0 }, { scaleX: 1, opacity: 1, duration: .14, ease: "power2.out" }, t0);
       [...pg.children].forEach((s, k) => {
         const i = idx[k], ti = Kit.T(i), tn = i + 1 < WORDS.length ? Kit.T(i + 1) : ti + .4, key = s.dataset.key;
@@ -59,7 +59,8 @@
         tl.to(s, { scale: 1.06, duration: .08, ease: "power1.out", yoyo: true, repeat: 1 }, ti + .1);
         if (!key) tl.set(s, { color: "var(--cap-fg,#fff)" }, Math.max(ti + .12, tn - .03));
       });
-      tl.to(pg, { opacity: 0, y: -16, scale: .96, duration: .1, ease: "power1.in" }, t1);
+      tl.to(pg, { opacity: 0, duration: .07, ease: "power1.in" }, t1 - .08);   // стара фраза зникає ДО появи нової
+      tl.set(pg, { visibility: "hidden" }, t1);
     });
     return pages;
   };
@@ -157,6 +158,29 @@
     // Повертає першу сцену в її початковий стан (усі трансформації скинуті), щоб останній кадр збігся з першим
     tl.set(firstSel, { x: 0, y: 0, xPercent: 0, yPercent: 0, scale: 1, opacity: 1, filter: "none", clipPath: "none" }, end - .5);
     Kit.cut(tl, lastSel, firstSel, end - .35, kind);
+  };
+
+
+  /* ---------------- ТЕКСТ У КАДРІ = СУБТИТРИ ----------------
+     Kit.say(tl, "#box", i0, i1, opts): слова з i0 по i1 (включно) з'являються в елементі #box рівно тоді, коли диктор
+     їх вимовляє. Так текст на картинці і є субтитрами, без дублювання внизу.
+     opts.map: {індекс: "текст"} заміна показу (напр. {11: "100%", 12: ""} для «сто відсотків»; "" = слово не показувати),
+     opts.keys: основи ключових слів (фарбуються в --say-key), opts.kind: pop | rise | slam, opts.cls: клас для спанів.   */
+  Kit.say = function (tl, sel, i0, i1, o = {}) {
+    const box = one(sel), map = o.map || {}, keys = (o.keys || []).map((k) => k.toLowerCase());
+    const kind = o.kind || "pop";
+    const from = { pop: { opacity: 0, scale: .4, y: 30 }, rise: { opacity: 0, y: 60 }, slam: { opacity: 0, scale: 2.2 } }[kind];
+    const ease = { pop: "back.out(2.4)", rise: "expo.out", slam: "power4.in" }[kind];
+    for (let i = i0; i <= i1 && i < WORDS.length; i++) {
+      const txt = (i in map) ? map[i] : WORDS[i][0].replace(/[,;:]$/, "");
+      if (!txt) continue;
+      const s = document.createElement("span"); s.className = "say-w" + (o.cls ? " " + o.cls : "");
+      s.textContent = txt;
+      const c = txt.toLowerCase().replace(/[^\p{L}\p{N}%]/gu, "");
+      if (keys.some((k) => c.startsWith(k)) || /\d/.test(txt)) s.classList.add("key");
+      box.appendChild(s);
+      tl.fromTo(s, from, { opacity: 1, scale: 1, y: 0, duration: kind === "slam" ? .2 : .2, ease }, Kit.T(i) - .04);
+    }
   };
 
   window.Kit = Kit;

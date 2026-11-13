@@ -1,86 +1,115 @@
 <!doctype html><html lang="uk"><head><meta charset="utf-8">
 <link rel="stylesheet" href="assets/kit.css">
 <style>
-:root{--bg:#0d1b2a;--cap-y:1240px;--cap-size:84px}
+:root{--bg:#F4EFE6;--cap-y:1240px;--cap-size:84px}
 /* Стилі сцен цього ролика */
-.num{font:800 230px/1 Osw;color:#FFD43B;letter-spacing:-.02em}
-.cur{font:800 120px/1 Osw;color:#fff;margin-left:10px}
-.lbl{font:800 58px/1.1 UI;color:#e8eef7;text-transform:uppercase}
-.sub{font:800 40px/1.2 UI;color:#8fb3d9}
-.bg-grid{position:absolute;inset:-60px;background-image:linear-gradient(rgba(255,255,255,.05) 2px,transparent 2px),linear-gradient(90deg,rgba(255,255,255,.05) 2px,transparent 2px);background-size:90px 90px}
-.glow{position:absolute;width:900px;height:900px;left:90px;top:120px;border-radius:50%;background:radial-gradient(circle,rgba(255,212,59,.22),transparent 65%)}
-.cmp{position:absolute;left:70px;width:940px;height:300px;display:flex;align-items:center;gap:36px;padding:0 44px}
-.cmp .big{font:800 128px/1 Osw}
-.cmp .t{font:800 40px/1.15 UI;text-transform:uppercase}
-.stampbox{position:absolute;left:150px;top:300px;width:780px;padding:26px 0;border:12px solid #FF4545;border-radius:22px;text-align:center;color:#FF4545;font:800 190px/1 Osw}
+:root{--ink:#1c1b1f;--red:#D7262E;--cap-fg:#fff}
+.paper{position:absolute;inset:-80px;background:radial-gradient(circle at 30% 20%,#fffaf1 0,#F4EFE6 55%,#e9e0d0 100%)}
+.dots{position:absolute;inset:-80px;background-image:radial-gradient(rgba(28,27,31,.09) 2.4px,transparent 2.6px);background-size:34px 34px}
+.k1{font:800 78px/1.05 UI;color:var(--ink);text-transform:uppercase;letter-spacing:-.01em}
+.huge{font:800 380px/.9 Osw;color:var(--red);letter-spacing:-.02em}
+.box{position:absolute;width:300px;height:250px;background:#c9965a;border-radius:16px;box-shadow:inset 0 -18px 0 rgba(0,0,0,.12),0 30px 60px rgba(0,0,0,.25)}
+.box:before{content:"";position:absolute;left:125px;top:0;width:50px;height:100%;background:#e9d3a8}
+.box:after{content:"";position:absolute;left:0;top:92px;width:100%;height:16px;background:rgba(0,0,0,.08)}
+.bank{position:absolute}
+.stampR{position:absolute;border:16px solid var(--red);color:var(--red);border-radius:30px;font:800 160px/1 Osw;padding:30px 60px;text-transform:uppercase;background:rgba(244,239,230,.6)}
+.date{font:800 54px/1 UI;color:var(--ink)}
+.pct{font:800 430px/.9 Osw;color:var(--ink)}
+.pct small{font-size:.45em;color:var(--red)}
+.rank{position:absolute;left:110px;width:860px;height:600px;top:430px}
+.rank .bar{position:absolute;bottom:0;width:62px;border-radius:12px 12px 0 0;background:#cfc4b2}
+.rank .bar.me{background:var(--red)}
+.chip{position:absolute;left:90px;width:900px;padding:30px 36px;border-radius:30px;background:#fff;box-shadow:0 22px 50px rgba(0,0,0,.18);font:800 72px/1.05 UI;color:var(--ink);text-transform:uppercase;display:flex;align-items:center;gap:30px}
+.chip i{font-style:normal;display:inline-flex;width:110px;height:110px;border-radius:24px;background:var(--red);color:#fff;align-items:center;justify-content:center;font:800 70px Osw;flex:none}
+.cross{position:absolute;left:120px;top:1040px;width:840px;height:16px;background:var(--red);border-radius:8px;transform-origin:0 50%;transform:scaleX(0) rotate(-4deg)}
 
 </style>
 <script src="assets/gsap.min.js"></script><script src="assets/kit.js"></script></head><body>
-<div id="root" data-composition-id="main" data-start="0" data-duration="19.76" data-width="1080" data-height="1920">
+<div id="root" data-composition-id="main" data-start="0" data-duration="17.11" data-width="1080" data-height="1920">
   <div id="cam">
 <!--SCENES-->
-    <section class="scene" id="s1"><div class="bg-grid" id="g1"></div><div class="glow"></div>
-      <div class="center" style="top:330px"><span class="num" id="n1">8 647</span><span class="cur">₴</span></div>
-      <div class="center lbl" style="top:600px"><span class="mask"><span class="line">максимальна допомога</span></span><span class="mask"><span class="line">по безробіттю</span></span></div>
+    <section class="scene" id="s1"><div class="paper"></div><div class="dots" id="d1"></div>
+      <div class="box" id="bx" style="left:110px;top:360px;transform:rotate(-8deg) scale(1.3)"></div>
+      <div class="bank" id="bk" style="left:620px;top:350px;transform:scale(1.3);transform-origin:0 0"><svg viewBox="0 0 300 260" width="300" height="260"><polygon points="150,10 290,80 10,80" fill="#1c1b1f"/><rect x="25" y="88" width="250" height="18" fill="#1c1b1f"/>
+<g fill="#1c1b1f"><rect x="40" y="114" width="30" height="100" rx="4"/><rect x="100" y="114" width="30" height="100" rx="4"/><rect x="170" y="114" width="30" height="100" rx="4"/><rect x="230" y="114" width="30" height="100" rx="4"/></g>
+<rect x="15" y="222" width="270" height="26" fill="#1c1b1f"/><circle cx="150" cy="52" r="14" fill="#D7262E"/></svg></div>
+      <div class="say" id="y1" style="top:720px;--say-size:84px"></div>
+      <div class="say" id="y1b" style="top:930px;--say-size:380px;--say-font:Osw"></div>
     </section>
-    <section class="scene" id="s2"><div class="bg-grid"></div>
-      <div class="cmp card" id="c1" style="top:250px"><div class="big" style="color:#1b7f4b">8 647</div><div class="t">стаж понад<br>пів року</div></div>
-      <div class="cmp card" id="c2" style="top:610px;background:#FFD43B"><div class="big" id="n2">3 900</div><div class="t">стаж менше<br>7 місяців</div></div>
+    <section class="scene" id="s2"><div class="paper"></div><div class="dots"></div>
+      <div class="say" id="y2" style="top:420px;--say-size:104px"></div>
+      <div class="stampR" id="dt" style="left:190px;top:1080px;transform:rotate(-5deg);font-size:110px;padding:18px 44px">12.11.2026</div>
     </section>
-    <section class="scene" id="s3"><div class="bg-grid"></div>
-      <div class="stampbox" id="st">1 650 ₴</div>
-      <div class="center lbl" style="top:650px"><span class="mask"><span class="line">молодь без досвіду</span></span><span class="mask"><span class="line">і звільнені за прогули</span></span></div>
+    <section class="scene" id="s3"><div class="paper"></div><div class="dots"></div>
+      <div class="say" id="y3" style="top:420px;--say-size:440px;--say-font:Osw;--say-fg:#1c1b1f"></div>
+      <div class="say" id="y3b" style="top:960px;--say-size:120px"></div>
     </section>
-    <section class="scene" id="s4"><div class="bg-grid"></div>
-      <div class="card center" id="c4" style="left:110px;width:860px;top:330px;padding:60px 40px">
-        <div style="font:800 120px/1 UI">🏢</div>
-        <div class="lbl" style="color:#111;margin-top:24px;position:relative;display:inline-block">центр зайнятості<i class="marker" id="mk"></i></div>
-        <div class="sub" style="color:#555;margin-top:18px">куди звертатися</div></div>
+    <section class="scene" id="s4"><div class="paper"></div><div class="dots"></div>
+      <div class="say" id="y4" style="top:300px;--say-size:96px"></div>
+      <div class="rank" id="rk" style="top:560px"><div class="bar" style="left:0px;height:540px"></div><div class="bar" style="left:72px;height:502px"></div><div class="bar" style="left:144px;height:467px"></div><div class="bar" style="left:216px;height:434px"></div><div class="bar" style="left:288px;height:403px"></div><div class="bar" style="left:360px;height:375px"></div><div class="bar" style="left:432px;height:349px"></div><div class="bar" style="left:504px;height:324px"></div><div class="bar" style="left:576px;height:302px"></div><div class="bar" style="left:648px;height:281px"></div><div class="bar" style="left:720px;height:261px"></div><div class="bar me" id="mebar" style="left:792px;height:40px;background:#D7262E"></div></div>
+      <div class="center" style="top:1210px;font:800 90px/1 Osw;color:#D7262E" id="r59">59-те місце з 59</div>
     </section>
-    <section class="scene" id="s5"><div class="glow"></div>
-      <div class="center sub" style="top:470px;font-size:56px;color:#fff" id="e1">тут усе про</div>
-      <div class="center num" style="top:560px;font-size:170px" id="e2">ЕКОНОМІКУ</div>
+    <section class="scene" id="s5"><div class="paper"></div><div class="dots"></div>
+      <div class="say" id="y5" style="top:280px;--say-size:84px"></div>
+      <div class="chip" id="c1" style="top:640px"><i>1</i><span class="say" id="y5a" style="position:static;width:auto;justify-content:flex-start;--say-size:72px"></span></div>
+      <div class="chip" id="c2" style="top:860px"><i>2</i><span class="say" id="y5b" style="position:static;width:auto;justify-content:flex-start;--say-size:72px"></span></div>
+      <div class="chip" id="c3" style="top:1080px;background:#1c1b1f"><i>!</i><span class="say" id="y5c" style="position:static;width:auto;justify-content:flex-start;--say-size:72px;--say-fg:#fff"></span></div>
+    </section>
+    <section class="scene" id="s6"><div class="paper"></div><div class="dots"></div>
+      <div class="say" id="y6" style="top:560px;--say-size:96px"></div>
+      <div class="say" id="y6b" style="top:780px;--say-size:190px;--say-font:Osw"></div>
     </section>
 <!--/SCENES-->
   </div>
   <div id="caps"></div><div id="flash"></div><div id="grain"></div>
-  <audio id="mix" class="clip" data-start="0" data-duration="19.76" data-track-index="6" data-volume="1" src="assets/sound/mix.wav"></audio>
+  <audio id="mix" class="clip" data-start="0" data-duration="17.11" data-track-index="6" data-volume="1" src="assets/sound/mix.wav"></audio>
 </div>
 <script>
 window.__timelines = window.__timelines || {};
 const tl = gsap.timeline({paused: true});
-const WORDS = [["Вісім", 0.075], ["тисяч", 0.382], ["шістсот", 0.688], ["сорок", 0.994], ["сім", 1.301], ["гривень.", 1.454], ["Це", 1.76], ["максимум,", 1.913], ["який", 2.373], ["держава", 2.679], ["платить", 3.138], ["безробітним", 3.445], ["цього", 4.057], ["року.", 4.364], ["Але", 4.953], ["багато", 5.226], ["хто", 5.637], ["отримає", 5.774], ["менше.", 6.642], ["Якщо", 6.897], ["стаж", 7.153], ["менше", 7.281], ["семи", 7.537], ["місяців", 7.793], ["за", 8.177], ["останній", 8.305], ["рік,", 8.868], ["допомога", 8.986], ["три", 9.458], ["тисячі", 9.575], ["дев'ятсот.", 9.929], ["А", 10.604], ["молодь", 10.735], ["без", 10.996], ["досвіду", 11.127], ["та", 11.519], ["звільнені", 11.65], ["за", 12.043], ["прогули", 12.174], ["отримають", 12.717], ["лише", 13.237], ["тисячу", 13.497], ["шістсот", 13.887], ["п'ятдесят.", 14.148], ["Звертатися", 14.858], ["треба", 15.399], ["в", 15.67], ["центр", 15.805], ["зайнятості.", 15.94], ["Підписуйся,", 16.802], ["тут", 17.443], ["усе", 17.565], ["про", 17.808], ["економіку!", 17.93]];
-const END = 19.76;
+const WORDS = [["Нова", 0.075], ["пошта", 0.415], ["купує", 0.755], ["власний", 1.264], ["банк!", 1.604], ["Нацбанк", 1.774], ["дозволив", 2.434], ["власникам", 2.894], ["Нової", 3.354], ["пошти", 3.814], ["забрати", 4.121], ["сто", 4.581], ["відсотків", 4.735], ["БТА", 5.195], ["Банку.", 5.655], ["Це", 5.962], ["найменший", 6.115], ["банк", 6.896], ["країни.", 7.035], ["На", 7.451], ["його", 7.59], ["основі", 7.867], ["хочуть", 8.604], ["зробити", 8.892], ["банк", 9.325], ["для", 9.469], ["прифронтових", 9.614], ["і", 10.191], ["деокупованих", 10.335], ["громад,", 11.2], ["де", 11.489], ["відділень", 11.633], ["часто", 12.236], ["немає.", 12.523], ["Підписуйся,", 12.954], ["тут", 13.849], ["усе", 14.031], ["про", 14.394], ["економіку!", 14.689]];
+const END = 17.11;
 Kit.init(WORDS);
 const T = Kit.T;
 tl.set("#s1", {visibility: "visible"}, 0);
 //TIMELINE
-// Сцена 1, хук: цифра видна з першого кадру, далі тільки рух
-Kit.drift(tl, "#g1", 0, 5, {to: 1.12, y: -40});
-Kit.drift(tl, "#n1", 0, 5, {from: 1, to: 1.06, y: 0});
-Kit.in(tl, "#s1 .lbl", T(7) - .1, "lines");
-Kit.punch(tl, T(7));
-// Сцена 2: порівняння
-Kit.cut(tl, "#s1", "#s2", T(14) - .05, "whip");
-Kit.in(tl, "#c1", T(14), "slideL");
-Kit.in(tl, "#c2", T(19), "slideR");
-Kit.count(tl, "#n2", 0, 3900, T(28), .7);
-Kit.punch(tl, T(28), 1.05);
-// Сцена 3: удар
-Kit.cut(tl, "#s2", "#s3", T(31) - .05, "zoom");
-Kit.in(tl, "#s3 .lbl", T(32), "lines");
-Kit.in(tl, "#st", T(41) - .1, "stamp");
-// Сцена 4
-Kit.cut(tl, "#s3", "#s4", T(44) - .05, "flash");
-Kit.in(tl, "#c4", T(44) + .1, "pop");
-Kit.mark(tl, "#mk", T(47));
-// Сцена 5, CTA і петля на хук
-Kit.cut(tl, "#s4", "#s5", T(49) - .05, "slideUp");
-Kit.in(tl, "#e1", T(50), "rise");
-Kit.in(tl, "#e2", T(53) - .1, "pop");
-Kit.loop(tl, "#s5", "#s1", END, "zoom");
+const K = ["нацбанк","дозволив","найменш","прифронт","деокупов","немає","бта"];
+// 1 хук
+Kit.drift(tl, "#d1", 0, 1.8, {to: 1.1, y: -30});
+tl.fromTo("#bx", {y: 0, rotation: -8}, {y: -14, rotation: -4, duration: 1.7, ease: "sine.inOut"}, 0);
+tl.fromTo("#bk", {y: 0}, {y: 12, duration: 1.7, ease: "sine.inOut"}, 0);
+Kit.say(tl, "#y1", 0, 3, {keys: K});
+Kit.say(tl, "#y1b", 4, 4, {map: {4: "БАНК"}, keys: ["банк"], kind: "slam"});
+Kit.shake(tl, "#cam", T(4) + .16, 12);
+// 2 Нацбанк дозволив
+Kit.cut(tl, "#s1", "#s2", T(5) - .05, "whip");
+Kit.say(tl, "#y2", 5, 10, {keys: K});
+Kit.in(tl, "#dt", T(7), "stamp");
+Kit.drift(tl, "#s2", T(5), T(11), {to: 1.04, y: -10});
+// 3 100%
+Kit.cut(tl, "#s2", "#s3", T(11) - .05, "zoom");
+Kit.say(tl, "#y3", 11, 12, {map: {11: "100%", 12: ""}, kind: "slam"});
+Kit.say(tl, "#y3b", 13, 14, {keys: K});
+Kit.punch(tl, T(13), 1.05);
+// 4 найменший
+Kit.cut(tl, "#s3", "#s4", T(15) - .05, "push");
+Kit.say(tl, "#y4", 15, 18, {keys: K});
+Kit.bars(tl, "#rk .bar", T(15) + .1, .04);
+Kit.in(tl, "#r59", T(17), "pop");
+// 5 для кого
+Kit.cut(tl, "#s4", "#s5", T(19) - .05, "slideUp");
+Kit.say(tl, "#y5", 19, 25, {keys: K});
+Kit.in(tl, "#c1", T(26) - .12, "slideL"); Kit.say(tl, "#y5a", 26, 26, {keys: K});
+Kit.in(tl, "#c2", T(27) - .1, "slideR"); Kit.say(tl, "#y5b", 27, 29, {keys: K, map: {27: ""}});
+Kit.in(tl, "#c3", T(30) - .1, "rise"); Kit.say(tl, "#y5c", 30, 33, {keys: K});
+Kit.shake(tl, "#cam", T(33), 10);
+Kit.drift(tl, "#s5", T(19), T(34), {to: 1.03, y: -8});
+// 6 CTA і петля
+Kit.cut(tl, "#s5", "#s6", T(34) - .05, "iris");
+Kit.say(tl, "#y6", 34, 37, {});
+Kit.say(tl, "#y6b", 38, 38, {keys: ["економ"], kind: "slam"});
+Kit.loop(tl, "#s6", "#s1", END, "zoom");
 ///TIMELINE
-Kit.captions(tl, {keywords: ["вісім","тисяч","шістсот","сорок","сім","максимум","менше","лише","тисячу","п\u0027ятдесят"], plate: true, end: END});
 tl.set({}, {}, END);
 window.__timelines["main"] = tl;
 </script></body></html>
