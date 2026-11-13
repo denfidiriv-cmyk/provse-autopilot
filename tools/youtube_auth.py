@@ -9,7 +9,14 @@
 import json, sys, urllib.parse, urllib.request, webbrowser
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
-cid, secret = sys.argv[1], sys.argv[2]
+if len(sys.argv) == 2 and sys.argv[1].endswith(".json"):  # файл, завантажений кнопкою Download JSON
+    j = json.load(open(sys.argv[1], encoding="utf-8"))
+    j = j.get("installed") or j.get("web") or j
+    cid, secret = j["client_id"], j["client_secret"]
+else:
+    cid, secret = sys.argv[1].strip(), sys.argv[2].strip()
+if not cid.endswith(".apps.googleusercontent.com"):
+    sys.exit("Це не схоже на Client ID: він має закінчуватися на .apps.googleusercontent.com")
 PORT = 8765; REDIRECT = f"http://127.0.0.1:{PORT}/"
 scope = "https://www.googleapis.com/auth/youtube https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/yt-analytics.readonly"
 url = "https://accounts.google.com/o/oauth2/v2/auth?" + urllib.parse.urlencode(
