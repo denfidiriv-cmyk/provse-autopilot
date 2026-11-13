@@ -17,7 +17,7 @@ API = "https://api.anthropic.com/v1/messages"
 SYSTEM = "Ти досвідчений сценарист українських YouTube Shorts. Відповідай ЛИШЕ одним JSON-об'єктом, без пояснень і без ```."
 
 
-def generate_json(prompt: str, temperature: float = 0.7, max_tokens: int = 2500) -> dict:
+def generate_json(prompt: str, temperature: float = 0.7, max_tokens: int = 8000) -> dict:
     key = os.environ["ANTHROPIC_API_KEY"]
     body = {"model": os.environ.get("CLAUDE_MODEL") or "claude-sonnet-5-5", "max_tokens": max_tokens,
             "system": SYSTEM, "messages": [{"role": "user", "content": prompt}]}
@@ -35,5 +35,5 @@ def generate_json(prompt: str, temperature: float = 0.7, max_tokens: int = 2500)
     text = "".join(b.get("text", "") for b in res.get("content", []) if b.get("type") == "text")
     m = re.search(r"\{.*\}", text, re.S)
     if not m:
-        raise ValueError("Claude не повернув JSON")
+        raise ValueError(f"Claude не повернув JSON (stop_reason={res.get('stop_reason')}, блоки={[b.get('type') for b in res.get('content', [])]}): {text[:300]!r}")
     return json.loads(m.group(0))
