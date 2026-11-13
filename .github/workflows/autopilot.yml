@@ -24,16 +24,18 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 70
     steps:
       - uses: actions/checkout@v4
-      - name: Музика з приватного репозиторію provse-music
+        with: { persist-credentials: false }   # ключ GitHub не лишається на диску, поки працює Claude Code
+      - name: Скіли й музика з приватного репозиторію provse-private
         uses: actions/checkout@v4
         continue-on-error: true
         with:
-          repository: ${{ github.repository_owner }}/provse-music
-          token: ${{ secrets.MUSIC_TOKEN }}
-          path: music
+          repository: ${{ github.repository_owner }}/provse-private
+          token: ${{ secrets.PRIVATE_TOKEN }}
+          path: private
+          persist-credentials: false
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - uses: actions/setup-node@v4
@@ -41,7 +43,10 @@ jobs:
       - name: Залежності
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji > /dev/null
-          pip install -q numpy
+          pip install -q numpy scipy pillow
+          npm install -g @anthropic-ai/claude-code > /dev/null 2>&1 || echo "Claude Code не встановився"
+          if [ -d private/skills ]; then mkdir -p .claude/skills && cp -r private/skills/* .claude/skills/; fi
+          if [ -d private/music ]; then ln -sfn private/music music; fi
       - name: Автопілот
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -61,15 +66,26 @@ jobs:
           YT_TOKEN_SVIT: ${{ secrets.YT_TOKEN_SVIT }}
           YT_TOKEN_POLITYKA: ${{ secrets.YT_TOKEN_POLITYKA }}
           YT_PRIVACY: ${{ vars.YT_PRIVACY || 'private' }}
+          CC_BUDGET_USD: ${{ vars.CC_BUDGET_USD }}
+          CC_DAILY_MAX: ${{ vars.CC_DAILY_MAX }}
+          CC_MODEL: ${{ vars.CC_MODEL }}
           TZ: Europe/Kyiv
         run: |
           export HF_BROWSER="$(which google-chrome || which chromium)"
           ARGS=""; [ "${{ inputs.no_upload }}" = "true" ] && ARGS="--no-upload"; [ "${{ inputs.test }}" = "true" ] && ARGS="$ARGS --test"
-          python run_autopilot.py $ARGS
+          # Claude Code зі скілами, якщо він встановився і не вибрано простий рушій (змінна ENGINE=simple)
+          if [ -n "$ANTHROPIC_API_KEY" ] && [ "${{ vars.ENGINE }}" != "simple" ] && command -v claude > /dev/null; then
+            T=""; [ "${{ inputs.test }}" = "true" ] && T="--test"
+            python run_claude.py $T
+          else
+            python run_autopilot.py $ARGS
+          fi
       - name: Відео як артефакт (на 7 днів)
         if: always()
         uses: actions/upload-artifact@v4
-        with: { name: video, path: "out/*.mp4", retention-days: 7, if-no-files-found: ignore }
+        with: { name: video, path: |
+          out/*.mp4
+          job/*.json, retention-days: 7, if-no-files-found: ignore }
       - name: Зберегти стан
         if: always()
         run: |
@@ -77,4 +93,5 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add -f state/*.json state/*.jpg 2>/dev/null || true
           git commit -m "стан автопілота [skip ci]" || echo "без змін"
+          git remote set-url origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}"
           git pull --rebase -q && git push || echo "push пропущено"
