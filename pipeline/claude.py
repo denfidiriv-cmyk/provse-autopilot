@@ -19,7 +19,7 @@ SYSTEM = "Ти досвідчений сценарист українських 
 
 def generate_json(prompt: str, temperature: float = 0.7, max_tokens: int = 2500) -> dict:
     key = os.environ["ANTHROPIC_API_KEY"]
-    body = {"model": os.environ.get("CLAUDE_MODEL") or "claude-sonnet-5-5", "max_tokens": max_tokens, "temperature": temperature,
+    body = {"model": os.environ.get("CLAUDE_MODEL") or "claude-sonnet-5-5", "max_tokens": max_tokens,
             "system": SYSTEM, "messages": [{"role": "user", "content": prompt}]}
     req = urllib.request.Request(API, data=json.dumps(body).encode(), method="POST",
                                  headers={"x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"})
