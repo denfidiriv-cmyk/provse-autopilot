@@ -113,7 +113,7 @@ def main() -> int:
         # має явний список дозволених інструментів і не ходить в інтернет інструментами пошуку (матеріали вже зібрані кодом).
         safe_env = {k: os.environ[k] for k in ("PATH", "HOME", "LANG", "TZ", "HF_BROWSER", "ANTHROPIC_API_KEY",
                                                "GEMINI_API_KEY", "GEMINI_TTS_MODEL", "MUSIC_DIR", "CHROME_PATH",
-                                               "PUPPETEER_EXECUTABLE_PATH", "PLAYWRIGHT_BROWSERS_PATH", "npm_config_cache") if os.environ.get(k)}
+                                               "PUPPETEER_EXECUTABLE_PATH", "HYPERFRAMES_BROWSER_PATH", "PLAYWRIGHT_BROWSERS_PATH", "npm_config_cache") if os.environ.get(k)}
         allowed = ["Read", "Write", "Edit", "Glob", "Grep", "Skill", "Bash(python:*)", "Bash(python3:*)", "Bash(ffmpeg:*)",
                    "Bash(ffprobe:*)", "Bash(npx:*)", "Bash(node:*)", "Bash(npm:*)", "Bash(ls:*)", "Bash(mkdir:*)", "Bash(cp:*)"]
         cmd = ["claude", "-p", (ROOT / "prompts" / "claude_video.md").read_text(encoding="utf-8"),
@@ -174,6 +174,8 @@ def main() -> int:
     frames = " ".join(f"-ss {t} -i {out}" for t in (0.3, p["dur"] * .25, p["dur"] * .5, p["dur"] * .75, p["dur"] - .3))
     subprocess.run(f"ffmpeg -loglevel error -y {frames} -filter_complex hstack=5,scale=1600:-1 -frames:v 1 -update 1 "
                    f"{STATE / 'last_preview.jpg'}", shell=True, check=False)
+    if (JOB / "check.jpg").exists():
+        shutil.copy(JOB / "check.jpg", STATE / "last_check.jpg")
     print("ГОТОВО", url)
     return 0
 
