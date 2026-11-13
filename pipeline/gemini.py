@@ -2,7 +2,7 @@
 
 Моделі задаються змінними середовища, щоб їх можна було міняти без коду:
   GEMINI_TEXT_MODEL  (за замовчуванням gemini-2.5-flash)
-  GEMINI_TTS_MODEL   (за замовчуванням gemini-2.5-flash-preview-tts)
+  GEMINI_TTS_MODEL   (за замовчуванням gemini-3.8-flash-tts, як в AI Studio)
 """
 from __future__ import annotations
 
@@ -44,7 +44,7 @@ def generate_json(prompt: str, temperature: float = 0.7) -> dict:
 
 def tts_pcm(text: str, voice: str, style: str) -> bytes:
     """Повертає сирий PCM 16-bit mono 24 кГц."""
-    model = os.environ.get("GEMINI_TTS_MODEL", "gemini-2.5-flash-preview-tts")
+    model = os.environ.get("GEMINI_TTS_MODEL", "gemini-3.8-flash-tts")
     res = _post(model, {
         "contents": [{"role": "user", "parts": [{"text": f"{style}\n\n{text}"}]}],
         "generationConfig": {"responseModalities": ["AUDIO"],
