@@ -43,7 +43,7 @@ jobs:
       - name: Залежності
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji > /dev/null
-          pip install -q numpy scipy pillow
+          pip install -q numpy scipy pillow trafilatura
           npm install -g @anthropic-ai/claude-code > /dev/null 2>&1 || echo "Claude Code не встановився"
           if [ -d private/skills ]; then mkdir -p .claude/skills && cp -r private/skills/* .claude/skills/; fi
           if [ -d private/music ]; then ln -sfn private/music music; fi

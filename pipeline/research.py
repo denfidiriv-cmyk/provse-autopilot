@@ -15,6 +15,13 @@ def article_text(url: str, limit: int = 2500) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "uk,ru;q=0.8,en;q=0.5"})
     with urllib.request.urlopen(req, timeout=20) as r:
         raw = r.read(1_500_000).decode(r.headers.get_content_charset() or "utf-8", "replace")
+    try:  # trafilatura дістає саме текст статті, без меню й реклами
+        import trafilatura
+        txt = trafilatura.extract(raw, include_comments=False, include_tables=False, favor_precision=True) or ""
+        if len(txt) > 200:
+            return txt[:limit]
+    except ImportError:
+        pass
     paras = [html.unescape(TAG.sub("", m)).strip() for m in P.findall(raw)]
     paras = [p for p in paras if len(p) > 60]
     return "\n".join(paras)[:limit]
@@ -24,7 +31,8 @@ def bing_news(query: str, n: int = 10) -> list[dict]:
     """Новини з Bing News RSS (Україна): [{source, title, url}] з прямими посиланнями."""
     import urllib.parse
     import xml.etree.ElementTree as ET
-    q = urllib.parse.urlencode({"q": query, "format": "rss", "setlang": "uk", "cc": "UA", "mkt": "uk-UA"})
+    q = urllib.parse.urlencode({"q": query, "format": "rss", "setlang": "uk", "cc": "UA", "mkt": "uk-UA",
+                                "qft": 'interval="7"'})  # лише за останню добу
     req = urllib.request.Request(f"https://www.bing.com/news/search?{q}", headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=20) as r:
         root = ET.fromstring(r.read())
@@ -41,7 +49,7 @@ def bing_news(query: str, n: int = 10) -> list[dict]:
     return res
 
 
-def gather(trend: Trend, max_articles: int = 4) -> list[dict]:
+def gather(trend: Trend, max_articles: int = 5) -> list[dict]:
     """[{source, title, url, text}] з різних видань."""
     out, seen = [], set()
     for n in trend.news:
