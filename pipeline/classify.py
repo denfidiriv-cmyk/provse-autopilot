@@ -48,6 +48,11 @@ def classify(trend: Trend, cfg: dict) -> Trend:
     if skip:
         trend.skipped_reason = "негативна/заборонена тема: " + ", ".join(skip[:3])
         return trend
+    title_hit = any(_hits(trend.query, ch["keywords"]) for ch in cfg["channels"].values())
+    war = _hits(trend.query + " " + news_text, cfg.get("war", []))
+    if war and not title_hit:
+        trend.skipped_reason = "воєнна тема: " + ", ".join(war[:3])
+        return trend
     best, best_score, best_hits = None, 0, []
     for key, ch in cfg["channels"].items():
         h_title = _hits(trend.query, ch["keywords"])

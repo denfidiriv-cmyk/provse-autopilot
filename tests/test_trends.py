@@ -33,6 +33,13 @@ class TrendsTest(unittest.TestCase):
         self.assertNotEqual(classify(Trend("голова сільради"), CFG).channel, "sport")
         self.assertNotEqual(classify(Trend("цікаві факти"), CFG).channel, "yizha")
 
+    def test_war_and_misc(self):
+        from pipeline.trends import Trend, News
+        self.assertIsNone(classify(Trend("військовий корабель", news=[News("Удар по кораблю", "u")]), CFG).channel)
+        self.assertIsNone(classify(Trend("лукойл", news=[News("Після атаки дронів на НПЗ черги на АЗС", "u")]), CFG).channel)
+        self.assertEqual(classify(Trend("кернел", news=[News("Кернел зупинив заводи через атаки", "u")]), CFG).channel, "ekonomika")
+        self.assertEqual(classify(Trend("глобальное потепление", news=[News("ископаемого топлива", "u")]), CFG).channel, "svit")
+
     def test_news_rss(self):
         xml = b'<rss><channel><item><title>T</title><link>https://a</link><source url="x">Src</source></item></channel></rss>'
         n = parse_news_rss(xml)
