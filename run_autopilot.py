@@ -158,7 +158,7 @@ def main() -> int:
         try:  # контактний лист кадрів для перевірки
             import subprocess
             frames = [f"-ss {t} -i {out}" for t in (0.3, 3, 7, 11, 15)]
-            cmd = "ffmpeg -loglevel error -y " + " ".join(frames) + " -filter_complex hstack=5,scale=1600:-1 " + str(STATE / "last_preview.jpg")
+            cmd = "ffmpeg -loglevel error -y " + " ".join(frames) + " -filter_complex hstack=5,scale=1600:-1 -frames:v 1 -update 1 " + str(STATE / "last_preview.jpg")
             subprocess.run(cmd, shell=True, check=False)
         except Exception:
             pass

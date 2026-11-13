@@ -53,9 +53,9 @@ def scene_html(k: int, sc: dict, photos: dict, channel: str) -> str:
     ph = photos.get(k)
     if t == "hook":
         if ph:
-            out.append(f'<div class="photo" id="ph{k}" style="background-image:url({ph["file"]})"><div class="cr">{e(ph["credit"])}</div></div>')
-            out.append(f'<div class="big" id="bg{k}" style="top:900px">{e(sc.get("big"))}<span class="unit">{e(sc.get("unit"))}</span></div>')
-            out.append(f'<div class="head" style="top:1110px">{e(sc.get("headline"))}</div>')
+            out.append(f'<div class="photo" id="ph{k}" style="background-image:url({ph["file"]});height:690px"><div class="cr">{e(ph["credit"])}</div></div>')
+            out.append(f'<div class="big" id="bg{k}" style="top:850px;font-size:170px">{e(sc.get("big"))}<span class="unit">{e(sc.get("unit"))}</span></div>')
+            out.append(f'<div class="head" style="top:1050px;font-size:58px">{e(sc.get("headline"))}</div>')
         else:
             out.append(f'<div class="big" id="bg{k}" style="top:380px;font-size:260px">{e(sc.get("big"))}<span class="unit">{e(sc.get("unit"))}</span></div>')
             out.append(f'<div class="head" style="top:720px;font-size:84px">{e(sc.get("headline"))}</div>')
@@ -77,7 +77,7 @@ def scene_html(k: int, sc: dict, photos: dict, channel: str) -> str:
     elif t == "photo_fact":
         if ph:
             out.append(f'<div class="photo" id="ph{k}" style="background-image:url({ph["file"]});height:820px"><div class="cr">{e(ph["credit"])}</div></div>')
-            out.append(f'<div class="head" style="top:1010px">{e(sc.get("headline"))}</div>')
+            out.append(f'<div class="head" style="top:990px;font-size:62px">{e(sc.get("headline"))}</div>')
         else:
             out.append(f'<div class="head" style="top:520px;font-size:96px">{e(sc.get("headline"))}</div>')
     elif t == "cta":
@@ -107,7 +107,7 @@ def build_html(spec: dict, wt: list, end: float, theme: str, photos: dict, chann
     for k, sc in enumerate(scenes):
         st = starts[k]; en = starts[k + 1] if k + 1 < len(scenes) else end
         if k:
-            a(f'tl.set("#s{k-1}",{{opacity:0}},{st});tl.set("#s{k}",{{opacity:1}},{st});tl.fromTo("#cam",{{scale:1.1,rotation:{(-1) ** k}}},{{scale:1,rotation:0,duration:.35,ease:"power3.out"}},{st});')
+            a(f'tl.set("#s{k-1}",{{opacity:0}},{st});tl.set("#s{k}",{{opacity:1}},{st});tl.fromTo("#cam",{{scale:1.1,rotation:{(-1) ** k}}},{{scale:1,rotation:0,duration:.35,ease:"power3.out",immediateRender:false}},{st});')
         t = sc.get("type")
         if t == "hook":
             a(f'tl.fromTo("#bg{k}",{{scale:1.15}},{{scale:1,duration:.6,ease:"elastic.out(1,.45)"}},0);')
