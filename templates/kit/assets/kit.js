@@ -103,7 +103,7 @@
      kind: hard | whip | zoom | push | slideUp | flash | iris                                  */
   Kit.cut = function (tl, fromSel, toSel, t, kind = "whip") {
     const from = fromSel ? one(fromSel) : null, to = one(toSel);
-    const d = { whip: .22, zoom: .3, push: .38, slideUp: .38, flash: .16, iris: .45, hard: 0 }[kind] ?? .25;
+    const d = { whip: .34, zoom: .42, push: .5, slideUp: .5, flash: .2, iris: .55, hard: 0 }[kind] ?? .35;
     const mid = t - d / 2;
     tl.set(to, { x: 0, y: 0, xPercent: 0, yPercent: 0, scale: 1, opacity: 1, filter: "none", clipPath: "none" }, mid - .001);
     tl.set(to, { visibility: "visible" }, ["hard", "flash", "zoom", "whip"].includes(kind) ? t : mid);
@@ -180,7 +180,7 @@
       const c = txt.toLowerCase().replace(/[^\p{L}\p{N}%]/gu, "");
       if (keys.some((k) => c.startsWith(k)) || /\d/.test(txt)) s.classList.add("key");
       box.appendChild(s);
-      tl.fromTo(s, from, { opacity: 1, scale: 1, y: 0, duration: .22, ease }, Kit.T(i) - .06);
+      tl.fromTo(s, from, { opacity: 1, scale: 1, y: 0, duration: .34, ease }, Kit.T(i) - .08);
     }
   };
 
