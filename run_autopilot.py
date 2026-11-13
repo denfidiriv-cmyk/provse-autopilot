@@ -101,23 +101,34 @@ def main() -> int:
         print("немає ключа ні Claude, ні Gemini: лише збираю тренди"); return 0
     if ctl["paused"]:
         print("пауза: відео не роблю"); return 0
-    if a.test:
-        from pipeline.classify import rank_value
-        pool = sorted(cands, key=rank_value, reverse=True)
-        topic, why = (pool[0], "тестовий режим: найсильніший тренд") if pool else (None, "кандидатів немає")
-    else:
-        topic, why = select.pick_topic(cands, hist, STATE)
-    if not topic:
-        print("тему не обрано:", why); return 0
-    ch = cfg["channels"][topic.channel]
-    print(f"ТЕМА: {topic.query} -> {ch['name']} ({why})")
+    from pipeline.classify import rank_value
+    from pipeline.research import gather
+    from pipeline.script import write_script
+    from pipeline.voice import synth, tighten_and_align
+    tried, topic, spec = set(), None, None
+    for attempt in range(3):  # якщо модель відмовилась від теми (не підходить каналу, мало фактів), беремо наступну
+        if a.test:
+            pool = [t for t in sorted(cands, key=rank_value, reverse=True) if t.query not in tried]
+            topic, why = (pool[0], "тестовий режим: найсильніший тренд") if pool else (None, "кандидатів немає")
+        else:
+            topic, why = select.pick_topic([t for t in cands if t.query not in tried], hist, STATE)
+        if not topic:
+            print("тему не обрано:", why); return 0
+        tried.add(topic.query)
+        ch = cfg["channels"][topic.channel]
+        print(f"ТЕМА: {topic.query} -> {ch['name']} ({why})")
+        try:
+            spec = write_script(topic.query, topic.channel, gather(topic))
+            break
+        except ValueError as e:
+            print("відмова:", e)
+            if not a.test:
+                select.record_published(STATE, topic.query, topic.channel, "ПОМИЛКА")
+            spec = None
+    if not spec:
+        print("жодна тема не пройшла перевірку"); return 0
     stamp = datetime.now().strftime("%Y%m%d_%H%M")
     try:
-        from pipeline.research import gather
-        from pipeline.script import write_script
-        from pipeline.voice import synth, tighten_and_align
-        mats = gather(topic)
-        spec = write_script(topic.query, topic.channel, mats)
         (WORK / "spec.json").write_text(json.dumps(spec, ensure_ascii=False, indent=1), encoding="utf-8")
         print(json.dumps(spec, ensure_ascii=False, indent=1))
         if not os.environ.get("GEMINI_API_KEY"):  # озвучка лише через Gemini TTS: у Claude немає синтезу мови
