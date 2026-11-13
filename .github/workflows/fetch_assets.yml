@@ -1,0 +1,30 @@
+name: Завантажити файли з Wikimedia Commons
+
+on:
+  workflow_dispatch:
+    inputs:
+      urls: { description: "Посилання upload.wikimedia.org через пробіл", required: true }
+      name: { description: "Папка", required: true, default: "manual" }
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Завантажити
+        env: { URLS: "${{ inputs.urls }}" }
+        run: |
+          mkdir -p assets_cache/${{ inputs.name }}
+          for u in $URLS; do
+            case "$u" in https://upload.wikimedia.org/*) ;; *) echo "пропускаю $u"; continue;; esac
+            f=$(basename "${u%%\?*}")
+            curl -sfL -A "PROVse-autopilot/1.0 (github.com/denfidiriv-cmyk/provse-autopilot)" "$u" -o "assets_cache/${{ inputs.name }}/$f"
+          done
+          ls -la assets_cache/${{ inputs.name }}
+      - name: Зберегти
+        run: |
+          git config user.name "provse-autopilot-bot"; git config user.email "actions@users.noreply.github.com"
+          git add -f assets_cache && git commit -m "файли ${{ inputs.name }} [skip ci]" && git pull --rebase -q && git push
