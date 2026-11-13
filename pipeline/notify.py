@@ -19,6 +19,10 @@ def _api(method: str, **params):
         return json.loads(r.read())
 
 
+def esc(s: str) -> str:
+    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
 def send(text: str) -> None:
     chat = os.environ.get("TELEGRAM_CHAT_ID")
     if chat:

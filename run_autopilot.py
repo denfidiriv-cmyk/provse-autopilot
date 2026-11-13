@@ -150,7 +150,11 @@ def main() -> int:
             url = upload(topic.channel, out, spec["title"], desc, spec.get("hashtags", []), os.environ.get("YT_PRIVACY", "public"))
         if not a.test:
             select.record_published(STATE, topic.query, topic.channel, url)
-        msg = (f"🎬 <b>{ch['name']}</b>\n{spec['title']}\nТренд: {topic.query} ({topic.traffic_label})\n{url or 'не завантажено (--no-upload)'}\n\n{spec['script']}")
+        import urllib.parse as _u
+        trend_url = "https://trends.google.com/trends/explore?geo=UA&date=now%201-d&q=" + _u.quote(topic.query)
+        msg = (f"🎬 <b>{ch['name']}</b>\n"
+               f"Тренд: <a href=\"{trend_url}\">{notify.esc(topic.query)}</a> ({topic.traffic_label} пошуків)\n"
+               + (f"<a href=\"{url}\">Відкрити на YouTube</a>" if url else "Тест, на YouTube не завантажено"))
         try:
             notify.send_video(out, msg)
         except Exception as ex:
