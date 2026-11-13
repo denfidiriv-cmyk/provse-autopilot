@@ -1,0 +1,41 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "safe": {
+  "top": 160,
+  "bottom": 360
+ },
+ "grammar": "y1_kurzgesagt",
+ "duration": 4,
+ "theme": "navy",
+ "data": {
+  "center": "Nvidia",
+  "center_style": {
+   "shape": "hex",
+   "ring": true
+  }
+ },
+ "cues": [
+  {
+   "at": 0,
+   "kind": "title",
+   "text": "Що сталося з Nvidia?"
+  },
+  {
+   "at": 0.6,
+   "kind": "point",
+   "text": "Хуанг пішов"
+  },
+  {
+   "at": 1.2,
+   "kind": "point",
+   "text": "скандал"
+  },
+  {
+   "at": 1.8,
+   "kind": "point",
+   "text": "акції −10%"
+  }
+ ]
+}

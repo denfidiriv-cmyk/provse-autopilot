@@ -1,0 +1,25 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "safe": {
+  "top": 160,
+  "bottom": 360
+ },
+ "grammar": "y2_vox",
+ "duration": 4,
+ "theme": "paper",
+ "cues": [
+  {
+   "at": 0,
+   "kind": "title",
+   "text": "ЗАСНОВНИК ІДЕ"
+  },
+  {
+   "at": 0.5,
+   "kind": "image",
+   "image": "huang.png",
+   "text": "Дженсен Хуанг · Nvidia"
+  }
+ ]
+}

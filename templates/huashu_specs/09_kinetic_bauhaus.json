@@ -1,0 +1,34 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "safe": {
+  "top": 160,
+  "bottom": 360
+ },
+ "grammar": "y5_kinetic_type",
+ "duration": 4,
+ "theme": "bauhaus",
+ "cues": [
+  {
+   "at": 0.2,
+   "kind": "point",
+   "text": "ХУАНГ ІДЕ",
+   "sub": "засновник Nvidia залишає посаду CEO",
+   "data": {
+    "label": "01",
+    "key": "Nvidia"
+   }
+  },
+  {
+   "at": 2.0,
+   "kind": "point",
+   "text": "−10%",
+   "sub": "акції ще до відкриття біржі",
+   "data": {
+    "label": "02",
+    "key": "акції"
+   }
+  }
+ ]
+}

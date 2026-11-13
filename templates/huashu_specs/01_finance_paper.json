@@ -1,0 +1,50 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "safe": {
+  "top": 160,
+  "bottom": 360
+ },
+ "grammar": "t3_finance_chart",
+ "duration": 4,
+ "theme": "paper",
+ "data": {
+  "title": "Акції Nvidia",
+  "unit": "зміна, %",
+  "source": "схема за повідомленнями ЗМІ",
+  "badge": "схема",
+  "chart": "bar",
+  "series": [
+   {
+    "label": "до новини",
+    "value": 0.0
+   },
+   {
+    "label": "пре-маркет",
+    "value": -10
+   }
+  ],
+  "decimals": 0,
+  "suffix": "%",
+  "highlight": {
+   "index": 1,
+   "text": "≈ −10%",
+   "sub": "ще до відкриття біржі"
+  }
+ },
+ "cues": [
+  {
+   "at": 0,
+   "kind": "title"
+  },
+  {
+   "at": 0.4,
+   "kind": "bar"
+  },
+  {
+   "at": 2.2,
+   "kind": "highlight"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "safe": {
+  "top": 160,
+  "bottom": 360
+ },
+ "grammar": "t2_keynote_ui",
+ "duration": 4,
+ "theme": "ink",
+ "data": {
+  "eyebrow": "NVDA · пре-маркет",
+  "title": "Nvidia без Хуанга"
+ },
+ "cues": [
+  {
+   "at": 0,
+   "kind": "title"
+  },
+  {
+   "at": 1.6,
+   "kind": "number",
+   "text": "ще до відкриття біржі",
+   "data": {
+    "value": -10,
+    "suffix": "%",
+    "label": "акції"
+   }
+  }
+ ]
+}

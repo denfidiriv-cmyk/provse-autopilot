@@ -1,0 +1,36 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "safe": {
+  "top": 160,
+  "bottom": 360
+ },
+ "grammar": "y3_whiteboard",
+ "duration": 4.5,
+ "theme": "snow",
+ "cues": [
+  {
+   "at": 0,
+   "kind": "title",
+   "text": "Що сталося з Nvidia?"
+  },
+  {
+   "at": 1.0,
+   "kind": "point",
+   "text": "Хуанг пішов з посади CEO"
+  },
+  {
+   "at": 1.8,
+   "kind": "draw",
+   "text": "акції −10%",
+   "data": {
+    "icon": "doc"
+   }
+  },
+  {
+   "at": 3.2,
+   "kind": "highlight"
+  }
+ ]
+}

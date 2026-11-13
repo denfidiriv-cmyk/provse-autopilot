@@ -1,0 +1,52 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "safe": {
+  "top": 160,
+  "bottom": 360
+ },
+ "grammar": "t2_keynote_ui",
+ "duration": 4,
+ "theme": "wood",
+ "data": {
+  "eyebrow": "Nvidia",
+  "title": "Що змінилось"
+ },
+ "cues": [
+  {
+   "at": 0,
+   "kind": "title"
+  },
+  {
+   "at": 0.8,
+   "kind": "card",
+   "text": "Хуанг іде",
+   "sub": "засновник, CEO з 1993",
+   "data": {
+    "icon": "bolt"
+   }
+  },
+  {
+   "at": 1.5,
+   "kind": "card",
+   "text": "Тимчасово",
+   "sub": "Колетт Кресс",
+   "data": {
+    "icon": "layers"
+   }
+  },
+  {
+   "at": 2.2,
+   "kind": "card",
+   "text": "Акції",
+   "sub": "пре-маркет",
+   "data": {
+    "icon": "chart",
+    "value": -10,
+    "suffix": "%",
+    "label": "зміна"
+   }
+  }
+ ]
+}
