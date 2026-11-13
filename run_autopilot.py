@@ -1,7 +1,7 @@
 """Автопілот PROВсе: тренд -> факти -> сценарій -> озвучка -> монтаж -> YouTube Shorts.
 
 Один запуск = максимум одне відео. GitHub Actions запускає це кожні 30 хвилин.
-Claude не використовується. Платні/лімітовані виклики: Gemini (сценарій + озвучка) і YouTube Data API.
+Сценарій: Claude API (якщо є ANTHROPIC_API_KEY), інакше Gemini. Озвучка: Gemini TTS. Завантаження: YouTube Data API.
 
   python run_autopilot.py              # бойовий режим
   python run_autopilot.py --demo       # офлайн-перевірка монтажу на тестовому сценарії й голосі, без ключів
@@ -93,7 +93,7 @@ def main() -> int:
             t.extra_sources = len({n.source for n in fetch_news(t.query) if n.source}); time.sleep(.7)
         except Exception:
             pass
-    if not os.environ.get("GEMINI_API_KEY"):
+    if not os.environ.get("GEMINI_API_KEY"):  # озвучка поки лише через Gemini TTS (у Claude немає синтезу мови)
         print("GEMINI_API_KEY не задано: лише збираю тренди"); return 0
     if ctl["paused"]:
         print("пауза: відео не роблю"); return 0

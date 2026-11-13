@@ -4,6 +4,8 @@ from __future__ import annotations
 import json
 import re
 
+import os
+
 from . import gemini
 
 TOPIC = {"dim": "дім", "ekonomika": "економіку", "yizha": "їжу", "avto": "авто", "sport": "спорт",
@@ -94,7 +96,11 @@ def write_script(query: str, channel: str, materials: list[dict], tries: int = 2
     allowed = {m["url"] for m in materials}
     last = []
     for _ in range(tries):
-        s = gemini.generate_json(prompt)
+        if os.environ.get("ANTHROPIC_API_KEY"):
+            from . import claude
+            s = claude.generate_json(prompt)
+        else:
+            s = gemini.generate_json(prompt)
         last = validate(s, channel, allowed)
         if not last:
             return s
