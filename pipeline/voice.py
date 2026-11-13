@@ -57,6 +57,15 @@ def tighten_and_align(raw: Path, words: list[str], out_wav: Path, tempo: float =
             i = j
         else:
             i += 1
+    # Gemini TTS іноді дописує після останнього слова короткий гучний сплеск (клацання/шум). Прибираємо його.
+    while len(segs) > 2:
+        a, b = segs[-1]; pa, pb = segs[-2]
+        loud = db[int(a / .01):int(b / .01)].max() if b > a else -99
+        med = np.median([db[int(x / .01):int(y / .01)].max() for x, y in segs[:-1]])
+        if (b - a) < 0.4 and (a - pb) > 0.04 and loud > med + 3:
+            print(f"прибрав сплеск у кінці озвучки ({a:.2f}-{b:.2f} с)"); segs.pop()
+        else:
+            break
     MAXG, pad = 0.28, 0.03
     parts = [np.zeros(int(0.05 * SR), dtype=x.dtype)]; t = 0.05; prev = None; ns = []
     for a, b in segs:
@@ -64,7 +73,9 @@ def tighten_and_align(raw: Path, words: list[str], out_wav: Path, tempo: float =
         if prev is not None:
             g = min(max(0, a0 - prev), MAXG); parts.append(x[int(prev * SR):int((prev + g) * SR)]); t += g
         parts.append(x[int(a0 * SR):int(b0 * SR)]); ns.append((t + (a - a0), t + (a - a0) + (b - a))); t += b0 - a0; prev = b0
-    y = np.concatenate(parts)
+    y = np.concatenate(parts).astype(float)
+    k = min(len(y), int(.06 * SR)); y[-k:] *= np.linspace(1, 0, k)
+    y = y.astype(x.dtype)
     tmp = out_wav.with_suffix(".tight.wav")
     with wave.open(str(tmp), "wb") as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes(y.tobytes())

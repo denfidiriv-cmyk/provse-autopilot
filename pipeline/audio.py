@@ -103,6 +103,7 @@ def mix(voice_wav: Path, end: float, channel: str, cuts: list[float], stamps: li
     for t in stamps:
         s = thud(); a = int(t * SR); y[a:a + len(s)] += s[:max(0, n - a)] * .4
     y *= .92 / max(1e-6, np.abs(y).max())
+    k = int(.6 * SR); y[-k:] *= np.linspace(1, 0, k) ** 2   # м'яке затухання в кінці, без різкого обриву
     with wave.open(str(out), "wb") as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((y * 32767).astype(np.int16).tobytes())
     return out

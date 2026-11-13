@@ -21,6 +21,8 @@
 .rank .bar.me{background:var(--red)}
 .chip{position:absolute;left:90px;width:900px;padding:30px 36px;border-radius:30px;background:#fff;box-shadow:0 22px 50px rgba(0,0,0,.18);font:800 72px/1.05 UI;color:var(--ink);text-transform:uppercase;display:flex;align-items:center;gap:30px}
 .chip i{font-style:normal;display:inline-flex;width:110px;height:110px;border-radius:24px;background:var(--red);color:#fff;align-items:center;justify-content:center;font:800 70px Osw;flex:none}
+.logo-card{position:absolute;background:#fff;border-radius:40px;padding:30px;box-shadow:0 26px 60px rgba(0,0,0,.18)}
+.lic{position:absolute;left:40px;top:1560px;font:800 22px UI;color:rgba(28,27,31,.55);z-index:56}
 .cross{position:absolute;left:120px;top:1040px;width:840px;height:16px;background:var(--red);border-radius:8px;transform-origin:0 50%;transform:scaleX(0) rotate(-4deg)}
 
 </style>
@@ -29,16 +31,17 @@
   <div id="cam">
 <!--SCENES-->
     <section class="scene" id="s1"><div class="paper"></div><div class="dots" id="d1"></div>
-      <div class="box" id="bx" style="left:110px;top:360px;transform:rotate(-8deg) scale(1.3)"></div>
-      <div class="bank" id="bk" style="left:620px;top:350px;transform:scale(1.3);transform-origin:0 0"><svg viewBox="0 0 300 260" width="300" height="260"><polygon points="150,10 290,80 10,80" fill="#1c1b1f"/><rect x="25" y="88" width="250" height="18" fill="#1c1b1f"/>
+      <div class="logo-card" id="bx" style="left:110px;top:330px;transform:rotate(-6deg)"><img src="assets/img/np_icon.png" style="width:300px;height:300px"></div>
+      <div class="bank" id="bk" style="left:600px;top:360px;transform:scale(1.25);transform-origin:0 0"><svg viewBox="0 0 300 260" width="300" height="260"><polygon points="150,10 290,80 10,80" fill="#1c1b1f"/><rect x="25" y="88" width="250" height="18" fill="#1c1b1f"/>
 <g fill="#1c1b1f"><rect x="40" y="114" width="30" height="100" rx="4"/><rect x="100" y="114" width="30" height="100" rx="4"/><rect x="170" y="114" width="30" height="100" rx="4"/><rect x="230" y="114" width="30" height="100" rx="4"/></g>
 <rect x="15" y="222" width="270" height="26" fill="#1c1b1f"/><circle cx="150" cy="52" r="14" fill="#D7262E"/></svg></div>
       <div class="say" id="y1" style="top:720px;--say-size:84px"></div>
       <div class="say" id="y1b" style="top:930px;--say-size:380px;--say-font:Osw"></div>
     </section>
     <section class="scene" id="s2"><div class="paper"></div><div class="dots"></div>
-      <div class="say" id="y2" style="top:420px;--say-size:104px"></div>
-      <div class="stampR" id="dt" style="left:190px;top:1080px;transform:rotate(-5deg);font-size:110px;padding:18px 44px">12.11.2026</div>
+      <div class="logo-card" id="nbu" style="left:240px;top:250px;padding:34px 44px"><img src="assets/img/NBU_logo.svg" style="width:520px;height:auto;display:block"></div>
+      <div class="say" id="y2" style="top:560px;--say-size:100px"></div>
+      <div class="stampR" id="dt" style="left:190px;top:1150px;transform:rotate(-5deg);font-size:110px;padding:18px 44px">12.11.2026</div>
     </section>
     <section class="scene" id="s3"><div class="paper"></div><div class="dots"></div>
       <div class="say" id="y3" style="top:420px;--say-size:440px;--say-font:Osw;--say-fg:#1c1b1f"></div>
@@ -61,7 +64,7 @@
     </section>
 <!--/SCENES-->
   </div>
-  <div id="caps"></div><div id="flash"></div><div id="grain"></div>
+  <div id="caps"></div><div class="lic">Логотипи: Wikimedia Commons, суспільне надбання</div><div id="flash"></div><div id="grain"></div>
   <audio id="mix" class="clip" data-start="0" data-duration="17.11" data-track-index="6" data-volume="1" src="assets/sound/mix.wav"></audio>
 </div>
 <script>
@@ -83,6 +86,7 @@ Kit.say(tl, "#y1b", 4, 4, {map: {4: "БАНК"}, keys: ["банк"], kind: "slam
 Kit.shake(tl, "#cam", T(4) + .16, 12);
 // 2 Нацбанк дозволив
 Kit.cut(tl, "#s1", "#s2", T(5) - .05, "whip");
+Kit.in(tl, "#nbu", T(5) - .1, "pop");
 Kit.say(tl, "#y2", 5, 10, {keys: K});
 Kit.in(tl, "#dt", T(7), "stamp");
 Kit.drift(tl, "#s2", T(5), T(11), {to: 1.04, y: -10});

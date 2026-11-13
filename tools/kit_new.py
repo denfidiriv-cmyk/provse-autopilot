@@ -53,7 +53,7 @@ tl.set("#s1", {{visibility: "visible"}}, 0);
 //TIMELINE
 
 ///TIMELINE
-Kit.captions(tl, {{keywords: [], plate: {str(not a.no_plate).lower()}, end: END}});
+// Текст у сценах виводь через Kit.say (він і є субтитрами). Окремі субтитри: Kit.captions(tl, {{keywords: [], end: END}});
 tl.set({{}}, {{}}, END);
 window.__timelines["main"] = tl;
 </script></body></html>
