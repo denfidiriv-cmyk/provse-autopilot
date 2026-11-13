@@ -64,11 +64,16 @@ def _tts_model() -> str:
 def tts_pcm(text: str, voice: str, style: str) -> bytes:
     """Повертає сирий PCM 16-bit mono 24 кГц."""
     model = _tts_model()
-    res = _post(model, {
-        **({"systemInstruction": {"parts": [{"text": style}]}} if style else {}),
-        "contents": [{"role": "user", "parts": [{"text": text}]}],
-        "generationConfig": {"responseModalities": ["AUDIO"],
-                             "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voice}}}}})
+    body = {"contents": [{"role": "user", "parts": [{"text": text}]}],
+            "generationConfig": {"responseModalities": ["AUDIO"],
+                                 "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voice}}}}}
+    try:
+        res = _post(model, {**({"systemInstruction": {"parts": [{"text": style}]}} if style else {}), **body})
+    except RuntimeError as e:
+        if not style or "instruction" not in str(e).lower():
+            raise
+        print("модель TTS не приймає системну інструкцію, озвучую без стилю")  # стиль у тексті модель зачитує вголос
+        res = _post(model, body)
     for p in res["candidates"][0]["content"]["parts"]:
         if "inlineData" in p:
             return base64.b64decode(p["inlineData"]["data"])
