@@ -83,9 +83,13 @@ jobs:
       - name: Відео як артефакт (на 7 днів)
         if: always()
         uses: actions/upload-artifact@v4
-        with: { name: video, path: |
-          out/*.mp4
-          job/*.json, retention-days: 7, if-no-files-found: ignore }
+        with:
+          name: video
+          path: |
+            out/*.mp4
+            job/*.json
+          retention-days: 7
+          if-no-files-found: ignore
       - name: Зберегти стан
         if: always()
         run: |
