@@ -55,18 +55,53 @@ def _read(p: Path) -> np.ndarray:
     return np.interp(idx, np.arange(len(x)), x)
 
 
-def mix(voice_wav: Path, end: float, channel: str, cuts: list[float], stamps: list[float], out: Path, vo: float = .2) -> Path:
+# Треки з YouTube Audio Library лежать у приватному репозиторії provse-music (MUSIC_DIR).
+TRACKS = {
+    "tense": ["False Vacuum Decay", "In Battery", "Friction"],
+    "epic": ["Risen", "In Battery", "Friction"],
+    "upbeat": ["Friction", "Travelling Light", "Chromatic Rag"],
+    "warm": ["Island Summer Breeze", "Travelling Light", "Sirius Jazz"],
+    "playful": ["Chromatic Rag", "Island Summer Breeze", "Sirius Jazz"],
+    "calm": ["Sirius Jazz", "Travelling Light", "Island Summer Breeze"],
+}
+
+
+def track(mood: str, dur: float) -> np.ndarray | None:
+    import os, random, subprocess, tempfile
+    d = Path(os.environ.get("MUSIC_DIR", "music"))
+    if not d.exists():
+        return None
+    files = [f for f in d.glob("*.mp3") if any(f.name.startswith(t) for t in TRACKS.get(mood, TRACKS["upbeat"]))] or list(d.glob("*.mp3"))
+    if not files:
+        return None
+    f = random.choice(files)
+    with tempfile.NamedTemporaryFile(suffix=".wav") as tmp:
+        start = random.uniform(4, 25)
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{start:.1f}", "-i", str(f), "-t", f"{dur + 1:.1f}",
+                        "-ac", "1", "-ar", str(SR), tmp.name], check=True)
+        x = _read(Path(tmp.name))
+    print("музика:", f.name)
+    fade = np.ones(len(x)); k = int(1.5 * SR)
+    fade[:int(.3 * SR)] = np.linspace(0, 1, int(.3 * SR)); fade[-k:] = np.linspace(1, 0, k)
+    return x * fade / max(1e-6, np.abs(x).max())
+
+
+def mix(voice_wav: Path, end: float, channel: str, cuts: list[float], stamps: list[float], out: Path, vo: float = .2, mood: str = "") -> Path:
     v = _read(voice_wav); n = int(end * SR)
     y = np.zeros(n)
     y[int(vo * SR):int(vo * SR) + len(v)] += v[:n - int(vo * SR)] * 1.0
-    mus = music(end, CHANNEL_MOOD.get(channel, "bright"))
+    mus = track(mood or {"svit": "warm", "polityka": "tense", "sport": "epic"}.get(channel, "upbeat"), end)
+    if mus is None:
+        mus = music(end, CHANNEL_MOOD.get(channel, "bright")) * .5
+    mus = np.pad(mus, (0, max(0, n - len(mus))))[:n]
     talk = np.zeros(n); talk[int(vo * SR):int(vo * SR) + len(v)] = np.abs(v[:n - int(vo * SR)]) > .02
     duck = np.convolve(talk, np.ones(int(.3 * SR)) / int(.3 * SR), "same")
-    y += mus[:n] * (1 - .55 * np.clip(duck * 3, 0, 1))
+    # тихий фон: близько −24 дБ під голосом, −16 дБ у паузах
+    y += mus * (.16 - .10 * np.clip(duck * 3, 0, 1))
     for i, t in enumerate(cuts):
-        s = whoosh() if i else pop(); a = int(t * SR); y[a:a + len(s)] += s[:max(0, n - a)] * .5
+        s = whoosh() if i else pop(); a = int(t * SR); y[a:a + len(s)] += s[:max(0, n - a)] * .25
     for t in stamps:
-        s = thud(); a = int(t * SR); y[a:a + len(s)] += s[:max(0, n - a)] * .7
+        s = thud(); a = int(t * SR); y[a:a + len(s)] += s[:max(0, n - a)] * .4
     y *= .92 / max(1e-6, np.abs(y).max())
     with wave.open(str(out), "wb") as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((y * 32767).astype(np.int16).tobytes())

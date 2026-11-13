@@ -11,7 +11,8 @@ import numpy as np
 
 from . import gemini
 
-STYLE = "Read this as an energetic, confident Ukrainian news anchor. Fast pace, bright, punchy, very clear diction:"
+STYLE = ("Озвуч текст нижче ЛИШЕ українською мовою, з чистою українською вимовою, нічого не додаючи і не перекладаючи. "
+         "Голос енергійного, впевненого ведучого новин: швидкий темп, яскраво, чітка дикція. Текст:")
 VOWELS = set("аеєиіїоуюяАЕЄИІЇОУЮЯ")
 SR = 24000
 

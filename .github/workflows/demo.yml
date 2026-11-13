@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
     inputs:
       theme:
-        description: "Тема оформлення: blueprint, chalk, sunny, paper"
-        default: "blueprint"
+        description: "Стиль, напр. blueprint__bold, chalkboard__hand, newsroom_red__mono"
+        default: "newsroom_red__editorial"
 
 jobs:
   demo:

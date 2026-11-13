@@ -14,16 +14,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 TPL = ROOT / "templates" / "auto"
 
-THEMES = {
-    "blueprint": dict(bg="#0b1f3a", fg="#eaf6ff", sub="#7fd3ff", acc="#ff8a3d", acc2="#4be08a", panel="rgba(4,12,26,.85)",
-                      deco="background-image:linear-gradient(rgba(127,211,255,.10) 2px,transparent 2px),linear-gradient(90deg,rgba(127,211,255,.10) 2px,transparent 2px);background-size:120px 120px"),
-    "chalk": dict(bg="#1f2d25", fg="#f3efe2", sub="#b8c4bb", acc="#ffc93c", acc2="#58c27d", panel="rgba(10,16,12,.85)",
-                  deco="background-image:repeating-linear-gradient(115deg,rgba(255,255,255,.03) 0 2px,transparent 2px 9px)"),
-    "sunny": dict(bg="#ffe9b8", fg="#1d2a3a", sub="#8a5a20", acc="#e8463c", acc2="#2b7de9", panel="#1d2a3a",
-                  deco="background:linear-gradient(180deg,#ffd27a,#ffe9b8 55%,#fff3d6)"),
-    "paper": dict(bg="#efe6d2", fg="#1b1b1b", sub="#6b5a3e", acc="#d4372c", acc2="#1f5aa6", panel="#1b1b1b",
-                  deco="background-image:radial-gradient(rgba(0,0,0,.06) 1px,transparent 1px);background-size:14px 14px"),
-}
+from .themes import theme as get_theme
+
 TOPIC = {"dim": "ДІМ", "ekonomika": "ЕКОНОМІКУ", "yizha": "ЇЖУ", "avto": "АВТО", "sport": "СПОРТ", "svit": "СВІТ", "polityka": "ПОЛІТИКУ"}
 
 e = lambda s: html.escape(str(s or ""))
@@ -90,7 +82,7 @@ def scene_html(k: int, sc: dict, photos: dict, channel: str) -> str:
 
 
 def build_html(spec: dict, wt: list, end: float, theme: str, photos: dict, channel: str) -> str:
-    th = THEMES[theme]
+    th = get_theme(theme)
     T = lambda i: round(wt[min(i, len(wt) - 1)][1] + 0.2, 3)
     scenes = spec["scenes"]
     starts = [0.0] + [round(T(s["from_word"]) - 0.08, 3) for s in scenes[1:]]
@@ -141,8 +133,8 @@ def build_html(spec: dict, wt: list, end: float, theme: str, photos: dict, chann
         for j, i in enumerate(pg):
             nxt = T(pg[j + 1]) if j + 1 < len(pg) else en
             key = re.sub(r"[^\w'-]", "", wt[i][0].lower()) in hl
-            col = th["acc"] if theme in ("sunny", "paper") else "#ffd166"
-            a(f'tl.set("#w{k}_{j}",{{color:"{col}",scale:1.08}},{T(i) - .03:.3f});tl.set("#w{k}_{j}",{{color:"{col if key else "#ffffff"}",scale:1}},{max(nxt - .03, T(i) + .1):.3f});')
+            col = th["hl"]
+            a(f'tl.set("#w{k}_{j}",{{color:"{col}",scale:1.08}},{T(i) - .03:.3f});tl.set("#w{k}_{j}",{{color:"{col if key else th["capfg"]}",scale:1}},{max(nxt - .03, T(i) + .1):.3f});')
     return (f'<!doctype html><html lang="uk" data-resolution="portrait"><head><meta charset="UTF-8"/><meta name="viewport" content="width=1080, height=1920"/>'
             f'<script src="assets/gsap.min.js"></script><style>{css}</style></head><body>'
             f'<div id="root" data-composition-id="main" data-start="0" data-duration="{end}" data-width="1080" data-height="1920"><div id="deco"></div><div id="cam">{body}</div>{caps}'

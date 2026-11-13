@@ -26,7 +26,6 @@ from pipeline.trends import fetch_news, fetch_trends
 ROOT = Path(__file__).resolve().parent
 STATE = ROOT / "state"
 WORK = ROOT / "work"
-THEMES = list(render.THEMES)
 
 
 def duration(p: Path) -> float:
@@ -35,6 +34,7 @@ def duration(p: Path) -> float:
 
 
 def produce(spec: dict, wt: list, voice_wav: Path, channel: str, out_mp4: Path, theme: str, photo_dir: Path, find_photos=True) -> dict:
+    print("стиль:", theme, "| музика:", spec.get("music_mood"))
     end = round(duration(voice_wav) + .2 + 1.0, 2)
     photos = {}
     if find_photos:
@@ -54,7 +54,7 @@ def produce(spec: dict, wt: list, voice_wav: Path, channel: str, out_mp4: Path, 
         if s.get("stamp") and s.get("type") != "cta":
             en = cuts[k + 1] if k + 1 < len(cuts) else end
             stamps.append(cuts[k] + min(.7, (en - cuts[k]) / 2) + .22)
-    mix = audio.mix(voice_wav, end, channel, cuts, stamps, WORK / "mix.wav")
+    mix = audio.mix(voice_wav, end, channel, cuts, stamps, WORK / "mix.wav", mood=spec.get("music_mood", ""))
     render.render(spec, wt, end, theme, photos, channel, mix, WORK / "hf", out_mp4)
     return photos
 
@@ -67,7 +67,7 @@ def demo() -> int:
     WORK.mkdir(exist_ok=True)
     wt = tighten_and_align(voice_raw, spec["script"].split(), WORK / "voice.wav")
     out = ROOT / "out" / "demo.mp4"; out.parent.mkdir(exist_ok=True)
-    theme = os.environ.get("DEMO_THEME", "chalk")
+    theme = os.environ.get("DEMO_THEME", "chalkboard__hand")
     produce(spec, wt, WORK / "voice.wav", "ekonomika", out, theme, WORK, find_photos=os.environ.get("DEMO_PHOTOS") == "1")
     print("demo:", out)
     return 0
@@ -118,7 +118,13 @@ def main() -> int:
         ch = cfg["channels"][topic.channel]
         print(f"ТЕМА: {topic.query} -> {ch['name']} ({why})")
         try:
-            spec = write_script(topic.query, topic.channel, gather(topic))
+            from pipeline import themes
+            recent = json.loads((STATE / "styles.json").read_text()) if (STATE / "styles.json").exists() else []
+            options = themes.shortlist(recent)
+            spec = write_script(topic.query, topic.channel, gather(topic), themes.describe(options))
+            if spec.get("style") not in themes.ALL:
+                spec["style"] = options[0]
+            (STATE / "styles.json").write_text(json.dumps((recent + [spec["style"]])[-30:]))
             break
         except ValueError as e:
             print("відмова:", e)
@@ -136,8 +142,7 @@ def main() -> int:
             print("Сценарій готовий, озвучки немає (немає GEMINI_API_KEY)"); return 0
         raw = synth(spec["script"], ch["voice"], WORK / "voice_raw.wav")
         wt = tighten_and_align(raw, spec["script"].split(), WORK / "voice.wav")
-        n_pub = len(json.loads((STATE / "published.json").read_text())) if (STATE / "published.json").exists() else 0
-        theme = THEMES[n_pub % len(THEMES)]
+        theme = spec["style"]
         out = ROOT / "out" / f"{stamp}_{topic.channel}.mp4"; out.parent.mkdir(exist_ok=True)
         photos = produce(spec, wt, WORK / "voice.wav", topic.channel, out, theme, WORK)
         desc = spec["description"] + "\n\nДжерела:\n" + "\n".join(f"{s['name']}: {s['url']}" for s in spec["sources"])
