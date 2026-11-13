@@ -78,54 +78,62 @@ def main() -> int:
             t.extra_sources = len({n.source for n in fetch_news(t.query) if n.source}); time.sleep(.7)
         except Exception:
             pass
-    if a.test:
-        pool = sorted(cands, key=rank_value, reverse=True)
-        topic, why = (pool[0], "тест: найсильніший тренд") if pool else (None, "кандидатів немає")
-    else:
-        topic, why = select.pick_topic(cands, hist, STATE)
-    if not topic:
-        print("тему не обрано:", why); return 0
-    ch = cfg["channels"][topic.channel]
-    print(f"ТЕМА: {topic.query} -> {ch['name']} ({why})")
-
     from pipeline.research import gather
     from pipeline.script import CHANNEL_NOTES, TOPIC
-    shutil.rmtree(JOB, ignore_errors=True); JOB.mkdir()
-    recent = json.loads((STATE / "styles.json").read_text()) if (STATE / "styles.json").exists() else []
-    brief = {"query": topic.query, "traffic": topic.traffic_label, "channel": topic.channel, "channel_name": ch["name"],
-             "channel_note": CHANNEL_NOTES.get(topic.channel, ""), "topic_word": TOPIC[topic.channel], "voice": ch["voice"],
-             "materials": gather(topic), "recent_styles": recent[-12:]}
-    (JOB / "brief.json").write_text(json.dumps(brief, ensure_ascii=False, indent=1), encoding="utf-8")
+    tried = set()
+    for attempt in range(3):  # якщо Claude відмовився від теми (мало фактів), беремо наступну
+        left = [t for t in cands if t.query not in tried]
+        if a.test:
+            pool = sorted(left, key=rank_value, reverse=True)
+            topic, why = (pool[0], "тест: найсильніший тренд") if pool else (None, "кандидатів немає")
+        else:
+            topic, why = select.pick_topic(left, hist, STATE)
+        if not topic:
+            print("тему не обрано:", why); return 0
+        tried.add(topic.query)
+        ch = cfg["channels"][topic.channel]
+        print(f"ТЕМА: {topic.query} -> {ch['name']} ({why})")
 
-    budget = os.environ.get("CC_BUDGET_USD") or "3"
-    # Безпека: Claude Code бачить лише ключі для моделі й озвучки (жодних YouTube/Telegram/GitHub токенів),
-    # має явний список дозволених інструментів і не ходить в інтернет інструментами пошуку (матеріали вже зібрані кодом).
-    safe_env = {k: os.environ[k] for k in ("PATH", "HOME", "LANG", "TZ", "HF_BROWSER", "ANTHROPIC_API_KEY",
-                                           "GEMINI_API_KEY", "GEMINI_TTS_MODEL", "MUSIC_DIR") if os.environ.get(k)}
-    allowed = ["Read", "Write", "Edit", "Glob", "Grep", "Skill", "Bash(python:*)", "Bash(python3:*)", "Bash(ffmpeg:*)",
-               "Bash(ffprobe:*)", "Bash(npx:*)", "Bash(node:*)", "Bash(npm:*)", "Bash(ls:*)", "Bash(mkdir:*)", "Bash(cp:*)"]
-    cmd = ["claude", "-p", (ROOT / "prompts" / "claude_video.md").read_text(encoding="utf-8"),
-           "--model", os.environ.get("CC_MODEL") or "claude-sonnet-5-5", "--max-budget-usd", budget,
-           "--allowedTools", *allowed, "--disallowedTools", "WebFetch", "WebSearch",
-           "--output-format", "json"]
-    t0 = time.time()
-    res = subprocess.run(cmd, cwd=ROOT, env=safe_env, capture_output=True, text=True, timeout=50 * 60)
-    try:
-        info = json.loads(res.stdout.strip().splitlines()[-1])
-    except Exception:
-        info = {}
-    cost = info.get("total_cost_usd", 0)
-    print(f"Claude Code: {time.time() - t0:.0f} с, ${cost:.2f}, ходів {info.get('num_turns')}")
-    print((info.get("result") or res.stdout[-2000:] or res.stderr[-2000:])[:3000])
+        shutil.rmtree(JOB, ignore_errors=True); JOB.mkdir()
+        recent = json.loads((STATE / "styles.json").read_text()) if (STATE / "styles.json").exists() else []
+        brief = {"query": topic.query, "traffic": topic.traffic_label, "channel": topic.channel, "channel_name": ch["name"],
+                 "channel_note": CHANNEL_NOTES.get(topic.channel, ""), "topic_word": TOPIC[topic.channel], "voice": ch["voice"],
+                 "materials": gather(topic), "recent_styles": recent[-12:]}
+        print("матеріали:", [(m["source"], len(m["text"])) for m in brief["materials"]])
+        (JOB / "brief.json").write_text(json.dumps(brief, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    meta_p, mp4 = JOB / "meta.json", JOB / "final.mp4"
-    meta = json.loads(meta_p.read_text(encoding="utf-8")) if meta_p.exists() else {}
-    entry = {"at": datetime.now().isoformat(), "query": topic.query, "channel": topic.channel, "cost": cost}
-    if meta.get("skip"):
-        print("Claude відмовився від теми:", meta["skip"])
-        if not a.test:
-            select.record_published(STATE, topic.query, topic.channel, "ПОМИЛКА"); log_run(entry)
-        return 0
+        budget = os.environ.get("CC_BUDGET_USD") or "3"
+        # Безпека: Claude Code бачить лише ключі для моделі й озвучки (жодних YouTube/Telegram/GitHub токенів),
+        # має явний список дозволених інструментів і не ходить в інтернет інструментами пошуку (матеріали вже зібрані кодом).
+        safe_env = {k: os.environ[k] for k in ("PATH", "HOME", "LANG", "TZ", "HF_BROWSER", "ANTHROPIC_API_KEY",
+                                               "GEMINI_API_KEY", "GEMINI_TTS_MODEL", "MUSIC_DIR") if os.environ.get(k)}
+        allowed = ["Read", "Write", "Edit", "Glob", "Grep", "Skill", "Bash(python:*)", "Bash(python3:*)", "Bash(ffmpeg:*)",
+                   "Bash(ffprobe:*)", "Bash(npx:*)", "Bash(node:*)", "Bash(npm:*)", "Bash(ls:*)", "Bash(mkdir:*)", "Bash(cp:*)"]
+        cmd = ["claude", "-p", (ROOT / "prompts" / "claude_video.md").read_text(encoding="utf-8"),
+               "--model", os.environ.get("CC_MODEL") or "claude-sonnet-5-5", "--max-budget-usd", budget,
+               "--allowedTools", *allowed, "--disallowedTools", "WebFetch", "WebSearch",
+               "--output-format", "json"]
+        t0 = time.time()
+        res = subprocess.run(cmd, cwd=ROOT, env=safe_env, capture_output=True, text=True, timeout=50 * 60)
+        try:
+            info = json.loads(res.stdout.strip().splitlines()[-1])
+        except Exception:
+            info = {}
+        cost = info.get("total_cost_usd", 0)
+        print(f"Claude Code: {time.time() - t0:.0f} с, ${cost:.2f}, ходів {info.get('num_turns')}")
+        print((info.get("result") or res.stdout[-2000:] or res.stderr[-2000:])[:3000])
+
+        meta_p, mp4 = JOB / "meta.json", JOB / "final.mp4"
+        meta = json.loads(meta_p.read_text(encoding="utf-8")) if meta_p.exists() else {}
+        entry = {"at": datetime.now().isoformat(), "query": topic.query, "channel": topic.channel, "cost": cost}
+        if meta.get("skip"):
+            print("Claude відмовився від теми:", meta["skip"])
+            if not a.test:
+                select.record_published(STATE, topic.query, topic.channel, "ПОМИЛКА"); log_run(entry)
+            continue
+        break
+    else:
+        print("жодна тема не пройшла"); return 0
     p = probe(mp4) if mp4.exists() else {}
     if not p or not (10 <= p["dur"] <= 45 and p["w"] == 1080 and p["h"] == 1920 and p["audio"]) or not meta.get("title"):
         notify.send(f"⚠️ Claude Code не зробив коректний ролик «{notify.esc(topic.query)}» для {ch['name']} (${cost:.2f}). {p}")

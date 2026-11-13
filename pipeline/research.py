@@ -20,6 +20,27 @@ def article_text(url: str, limit: int = 2500) -> str:
     return "\n".join(paras)[:limit]
 
 
+def bing_news(query: str, n: int = 10) -> list[dict]:
+    """Новини з Bing News RSS (Україна): [{source, title, url}] з прямими посиланнями."""
+    import urllib.parse
+    import xml.etree.ElementTree as ET
+    q = urllib.parse.urlencode({"q": query, "format": "rss", "setlang": "uk", "cc": "UA", "mkt": "uk-UA"})
+    req = urllib.request.Request(f"https://www.bing.com/news/search?{q}", headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        root = ET.fromstring(r.read())
+    res = []
+    for it in root.iter("item"):
+        link = it.findtext("link") or ""
+        m = re.search(r"[?&]url=([^&]+)", link)
+        url = urllib.parse.unquote(m.group(1)) if m else link
+        src = urllib.parse.urlparse(url).netloc.replace("www.", "")
+        if url.startswith("http") and src:
+            res.append({"source": src, "title": html.unescape(it.findtext("title") or ""), "url": url})
+        if len(res) >= n:
+            break
+    return res
+
+
 def gather(trend: Trend, max_articles: int = 4) -> list[dict]:
     """[{source, title, url, text}] з різних видань."""
     out, seen = [], set()
@@ -35,6 +56,21 @@ def gather(trend: Trend, max_articles: int = 4) -> list[dict]:
             seen.add(n.source)
         if len(out) >= max_articles:
             break
+    if len(out) < 3:  # Bing News дає прямі посилання на статті (у Google News вони за редиректом)
+        try:
+            for n in bing_news(trend.query):
+                if n["source"] in seen:
+                    continue
+                try:
+                    txt = article_text(n["url"])
+                except Exception:
+                    txt = ""
+                if len(txt) > 200:
+                    out.append({**n, "text": txt}); seen.add(n["source"])
+                if len(out) >= max_articles:
+                    break
+        except Exception:
+            pass
     if len(out) < 2:  # добираємо заголовки з Google News, хоча б як підтвердження
         try:
             for n in fetch_news(trend.query, 10):
