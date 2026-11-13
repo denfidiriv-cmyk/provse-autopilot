@@ -99,7 +99,13 @@ def main() -> int:
         brief = {"query": topic.query, "traffic": topic.traffic_label, "channel": topic.channel, "channel_name": ch["name"],
                  "channel_note": CHANNEL_NOTES.get(topic.channel, ""), "topic_word": TOPIC[topic.channel], "voice": ch["voice"],
                  "materials": gather(topic), "recent_styles": recent[-12:]}
-        print("матеріали:", [(m["source"], len(m["text"])) for m in brief["materials"]])
+        try:  # перевірені факти з двома джерелами через веб-пошук Claude (без доступу до файлів і команд)
+            from pipeline.claude import web_research
+            brief["verified_facts"] = web_research(topic.query, brief["channel_note"], brief["materials"])
+        except Exception as e:
+            print("web_research:", e); brief["verified_facts"] = {}
+        print("матеріали:", [(m["source"], len(m["text"])) for m in brief["materials"]],
+              "| перевірених фактів:", len(brief["verified_facts"].get("facts", [])))
         (JOB / "brief.json").write_text(json.dumps(brief, ensure_ascii=False, indent=1), encoding="utf-8")
 
         budget = os.environ.get("CC_BUDGET_USD") or "3"
