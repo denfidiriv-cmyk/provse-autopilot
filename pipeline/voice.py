@@ -18,7 +18,13 @@ SR = 24000
 
 
 def synth(text: str, voice: str, out_wav: Path) -> Path:
+    """Стиль іде окремою системною інструкцією, а не в текст, інакше модель його зачитує.
+    Якщо аудіо підозріло довге (модель прочитала зайве), переозвучуємо без стилю."""
     pcm = gemini.tts_pcm(text, voice, STYLE)
+    expect = len(text.split()) * 0.5 + 4
+    if len(pcm) / 2 / SR > expect * 1.4:
+        print(f"озвучка задовга ({len(pcm) / 2 / SR:.1f} с), переозвучую без стилю")
+        pcm = gemini.tts_pcm(text, voice, "")
     with wave.open(str(out_wav), "wb") as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes(pcm)
     return out_wav

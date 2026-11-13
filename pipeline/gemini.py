@@ -65,7 +65,8 @@ def tts_pcm(text: str, voice: str, style: str) -> bytes:
     """Повертає сирий PCM 16-bit mono 24 кГц."""
     model = _tts_model()
     res = _post(model, {
-        "contents": [{"role": "user", "parts": [{"text": f"{style}\n\n{text}"}]}],
+        **({"systemInstruction": {"parts": [{"text": style}]}} if style else {}),
+        "contents": [{"role": "user", "parts": [{"text": text}]}],
         "generationConfig": {"responseModalities": ["AUDIO"],
                              "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voice}}}}})
     for p in res["candidates"][0]["content"]["parts"]:
