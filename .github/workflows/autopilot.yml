@@ -10,7 +10,7 @@ on:
         type: boolean
         default: false
       test:
-        description: "Тест: найсильніший тренд, без публікації"
+        description: "Тест: найсильніший тренд, приватне завантаження"
         type: boolean
         default: true
 

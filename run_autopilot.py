@@ -97,8 +97,8 @@ def main() -> int:
             t.extra_sources = len({n.source for n in fetch_news(t.query) if n.source}); time.sleep(.7)
         except Exception:
             pass
-    if a.test:
-        a.no_upload = True
+    if a.test:  # тест вантажить лише приватно, щоб перевірити YouTube і кнопки
+        os.environ["YT_PRIVACY"] = "private"
     has_llm = os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("GEMINI_API_KEY")
     if not has_llm:
         print("немає ключа ні Claude, ні Gemini: лише збираю тренди"); return 0
