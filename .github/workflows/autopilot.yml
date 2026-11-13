@@ -6,9 +6,13 @@ on:
   workflow_dispatch:
     inputs:
       no_upload:
-        description: "Не завантажувати на YouTube (тест)"
+        description: "Не завантажувати на YouTube"
         type: boolean
         default: false
+      test:
+        description: "Тест: найсильніший тренд, без публікації"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -53,7 +57,7 @@ jobs:
           TZ: Europe/Kyiv
         run: |
           export HF_BROWSER="$(which google-chrome || which chromium)"
-          ARGS=""; [ "${{ inputs.no_upload }}" = "true" ] && ARGS="--no-upload"
+          ARGS=""; [ "${{ inputs.no_upload }}" = "true" ] && ARGS="--no-upload"; [ "${{ inputs.test }}" = "true" ] && ARGS="$ARGS --test"
           python run_autopilot.py $ARGS
       - name: Відео як артефакт (на 7 днів)
         if: always()

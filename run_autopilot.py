@@ -77,6 +77,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--demo", action="store_true")
     ap.add_argument("--no-upload", action="store_true")
+    ap.add_argument("--test", action="store_true", help="взяти найсильніший тренд без правил свіжості, нічого не публікувати і не записувати")
     a = ap.parse_args()
     if a.demo:
         return demo()
@@ -93,11 +94,19 @@ def main() -> int:
             t.extra_sources = len({n.source for n in fetch_news(t.query) if n.source}); time.sleep(.7)
         except Exception:
             pass
-    if not os.environ.get("GEMINI_API_KEY"):  # озвучка поки лише через Gemini TTS (у Claude немає синтезу мови)
-        print("GEMINI_API_KEY не задано: лише збираю тренди"); return 0
+    if a.test:
+        a.no_upload = True
+    has_llm = os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("GEMINI_API_KEY")
+    if not has_llm:
+        print("немає ключа ні Claude, ні Gemini: лише збираю тренди"); return 0
     if ctl["paused"]:
         print("пауза: відео не роблю"); return 0
-    topic, why = select.pick_topic(cands, hist, STATE)
+    if a.test:
+        from pipeline.classify import rank_value
+        pool = sorted(cands, key=rank_value, reverse=True)
+        topic, why = (pool[0], "тестовий режим: найсильніший тренд") if pool else (None, "кандидатів немає")
+    else:
+        topic, why = select.pick_topic(cands, hist, STATE)
     if not topic:
         print("тему не обрано:", why); return 0
     ch = cfg["channels"][topic.channel]
@@ -110,6 +119,10 @@ def main() -> int:
         mats = gather(topic)
         spec = write_script(topic.query, topic.channel, mats)
         (WORK / "spec.json").write_text(json.dumps(spec, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(json.dumps(spec, ensure_ascii=False, indent=1))
+        if not os.environ.get("GEMINI_API_KEY"):  # озвучка лише через Gemini TTS: у Claude немає синтезу мови
+            notify.send(f"📝 Сценарій для {ch['name']} (озвучки ще немає, бо немає GEMINI_API_KEY):\n\n{spec['script']}")
+            print("Сценарій готовий, озвучки немає (немає GEMINI_API_KEY)"); return 0
         raw = synth(spec["script"], ch["voice"], WORK / "voice_raw.wav")
         wt = tighten_and_align(raw, spec["script"].split(), WORK / "voice.wav")
         n_pub = len(json.loads((STATE / "published.json").read_text())) if (STATE / "published.json").exists() else 0
@@ -124,12 +137,14 @@ def main() -> int:
         if not a.no_upload:
             from pipeline.youtube import upload
             url = upload(topic.channel, out, spec["title"], desc, spec.get("hashtags", []), os.environ.get("YT_PRIVACY", "public"))
-        select.record_published(STATE, topic.query, topic.channel, url)
+        if not a.test:
+            select.record_published(STATE, topic.query, topic.channel, url)
         notify.send(f"🎬 <b>{ch['name']}</b>\n{spec['title']}\nТренд: {topic.query} ({topic.traffic_label})\n{url or 'не завантажено (--no-upload)'}\n\n{spec['script']}")
         print("ГОТОВО", url or out)
     except Exception as e:
         traceback.print_exc()
-        select.record_published(STATE, topic.query, topic.channel, "ПОМИЛКА")  # щоб не зациклитися на тій самій темі
+        if not a.test:
+            select.record_published(STATE, topic.query, topic.channel, "ПОМИЛКА")  # щоб не зациклитися на тій самій темі
         notify.send(f"⚠️ Не вийшло зробити відео «{topic.query}» для {ch['name']}: {str(e)[:300]}")
         return 1
     return 0
