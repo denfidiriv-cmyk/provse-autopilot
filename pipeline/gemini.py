@@ -42,9 +42,28 @@ def generate_json(prompt: str, temperature: float = 0.7) -> dict:
     return json.loads(text)
 
 
+def list_models() -> list[str]:
+    req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/models?pageSize=1000",
+                                 headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        data = json.loads(r.read())
+    return [m["name"].split("/", 1)[1] for m in data.get("models", []) if "generateContent" in m.get("supportedGenerationMethods", [])]
+
+
+def _tts_model() -> str:
+    if os.environ.get("GEMINI_TTS_MODEL"):
+        return os.environ["GEMINI_TTS_MODEL"]
+    tts = [m for m in list_models() if "tts" in m]
+    print("доступні TTS-моделі:", tts)
+    flash = [m for m in tts if "flash" in m] or tts
+    if not flash:
+        raise RuntimeError("для цього ключа немає жодної TTS-моделі Gemini")
+    return sorted(flash)[-1]
+
+
 def tts_pcm(text: str, voice: str, style: str) -> bytes:
     """Повертає сирий PCM 16-bit mono 24 кГц."""
-    model = os.environ.get("GEMINI_TTS_MODEL", "gemini-3.8-flash-tts")
+    model = _tts_model()
     res = _post(model, {
         "contents": [{"role": "user", "parts": [{"text": f"{style}\n\n{text}"}]}],
         "generationConfig": {"responseModalities": ["AUDIO"],
