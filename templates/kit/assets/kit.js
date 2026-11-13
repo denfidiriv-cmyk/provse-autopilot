@@ -49,7 +49,12 @@
       if (o.plate) tl.fromTo(pg, { scaleX: .85, opacity: 0 }, { scaleX: 1, opacity: 1, duration: .14, ease: "power2.out" }, t0);
       [...pg.children].forEach((s, k) => {
         const i = idx[k], ti = Kit.T(i), tn = i + 1 < WORDS.length ? Kit.T(i + 1) : ti + .4, key = s.dataset.key;
-        tl.fromTo(s, { opacity: 0, scale: .5, y: 34 }, { opacity: 1, scale: 1, y: 0, duration: .17, ease: "back.out(2.6)" }, ti - .03);
+        if (o.plate) {  // на плашці вся фраза видна приглушено, слово спалахує в момент вимови
+          tl.set(s, { opacity: .38 }, t0);
+          tl.fromTo(s, { opacity: .38, scale: .82 }, { opacity: 1, scale: 1, duration: .16, ease: "back.out(2.6)", immediateRender: false }, ti - .03);
+        } else {
+          tl.fromTo(s, { opacity: 0, scale: .5, y: 34 }, { opacity: 1, scale: 1, y: 0, duration: .17, ease: "back.out(2.6)" }, ti - .03);
+        }
         tl.set(s, { color: key ? o.key : o.accent }, ti - .03);
         tl.to(s, { scale: 1.06, duration: .08, ease: "power1.out", yoyo: true, repeat: 1 }, ti + .1);
         if (!key) tl.set(s, { color: "var(--cap-fg,#fff)" }, Math.max(ti + .12, tn - .03));
@@ -99,7 +104,8 @@
     const from = fromSel ? one(fromSel) : null, to = one(toSel);
     const d = { whip: .22, zoom: .3, push: .38, slideUp: .38, flash: .16, iris: .45, hard: 0 }[kind] ?? .25;
     const mid = t - d / 2;
-    tl.set(to, { visibility: "visible" }, kind === "hard" || kind === "flash" ? t : mid);
+    tl.set(to, { x: 0, y: 0, xPercent: 0, yPercent: 0, scale: 1, opacity: 1, filter: "none", clipPath: "none" }, mid - .001);
+    tl.set(to, { visibility: "visible" }, ["hard", "flash", "zoom", "whip"].includes(kind) ? t : mid);
     if (kind === "whip") {
       if (from) tl.to(from, { x: -700, filter: "blur(30px)", duration: d / 2, ease: "power2.in" }, mid);
       tl.fromTo(to, { x: 700, filter: "blur(30px)" }, { x: 0, filter: "blur(0px)", duration: d / 2 + .08, ease: "power2.out", immediateRender: false }, t);
@@ -119,7 +125,7 @@
     }
     if (from) tl.set(from, { visibility: "hidden" }, t + (kind === "push" || kind === "slideUp" || kind === "iris" ? d / 2 : 0));
   };
-  Kit.flash = (tl, t, a = .85) => { const f = one("#flash"); if (f) tl.fromTo(f, { opacity: a }, { opacity: 0, duration: .22, ease: "power1.out" }, t); };
+  Kit.flash = (tl, t, a = .85) => { const f = one("#flash"); if (f) tl.fromTo(f, { opacity: a }, { opacity: 0, duration: .22, ease: "power1.out", immediateRender: false }, t); };
 
   /* ---------------- ДРІБНИЙ РУХ (щоб кадр ніколи не стояв) ---------------- */
   /** Повільний наїзд/зсув протягом [t0, t1]: фото, фон, вся сцена. */

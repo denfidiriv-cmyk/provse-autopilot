@@ -33,6 +33,6 @@ inputs = sum((["-ss", f"{t:.2f}", "-i", str(final)] for t in ts), [])
 grid = "".join(f"[{k}:v]scale=270:-1[v{k}];" for k in range(12)) + "".join(f"[v{k}]" for k in range(12)) + "xstack=inputs=12:layout=" + \
     "|".join(f"{(k % 6) * 270}_{(k // 6) * 480}" for k in range(12))
 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", grid, "-frames:v", "1", str(job / "check.jpg")], check=True)
-subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "0", "-t", "1.2", "-i", str(final), "-vf",
-                "fps=10,scale=180:-1,tile=6x2", "-frames:v", "1", str(job / "check_motion.jpg")], check=True)
+subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "0", "-t", "8", "-i", str(final), "-vf",
+                "fps=4,scale=150:-1,tile=8x4", "-frames:v", "1", str(job / "check_motion.jpg")], check=True)
 print(f"готово: {final} ({dur:.2f} с); перевір {job / 'check.jpg'} і {job / 'check_motion.jpg'}")

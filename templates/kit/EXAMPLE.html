@@ -71,7 +71,7 @@ Kit.cut(tl, "#s2", "#s3", T(31) - .05, "zoom");
 Kit.in(tl, "#s3 .lbl", T(32), "lines");
 Kit.in(tl, "#st", T(41) - .1, "stamp");
 // Сцена 4
-Kit.cut(tl, "#s3", "#s4", T(44) - .05, "push");
+Kit.cut(tl, "#s3", "#s4", T(44) - .05, "flash");
 Kit.in(tl, "#c4", T(44) + .1, "pop");
 Kit.mark(tl, "#mk", T(47));
 // Сцена 5, CTA і петля на хук
@@ -80,7 +80,7 @@ Kit.in(tl, "#e1", T(50), "rise");
 Kit.in(tl, "#e2", T(53) - .1, "pop");
 Kit.loop(tl, "#s5", "#s1", END, "zoom");
 ///TIMELINE
-Kit.captions(tl, {keywords: ["вісім","тисяч","шістсот","сорок","сім","максимум","менше","лише","тисячу","п\u0027ятдесят"], plate: false, end: END});
+Kit.captions(tl, {keywords: ["вісім","тисяч","шістсот","сорок","сім","максимум","менше","лише","тисячу","п\u0027ятдесят"], plate: true, end: END});
 tl.set({}, {}, END);
 window.__timelines["main"] = tl;
 </script></body></html>

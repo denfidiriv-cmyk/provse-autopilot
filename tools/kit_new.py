@@ -1,6 +1,6 @@
 """Створює проєкт hyperframes з motion kit для одного ролика.
 
-  python tools/kit_new.py <job_dir> <out_dir> [--bg "#0f1115"] [--plate]
+  python tools/kit_new.py <job_dir> <out_dir> [--bg "#0f1115"] [--no-plate]
 
 Бере <job_dir>/words.json і END.txt, копіює templates/kit у <out_dir> і пише index.html-заготовку:
 сцени ти дописуєш між <!--SCENES--> і <!--/SCENES-->, анімацію між //TIMELINE і ///TIMELINE.
@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 ap = argparse.ArgumentParser()
 ap.add_argument("job"); ap.add_argument("out")
 ap.add_argument("--bg", default="#0f1115")
-ap.add_argument("--plate", action="store_true", help="субтитри на темній плашці замість обведення")
+ap.add_argument("--no-plate", action="store_true", help="субтитри з обведенням без плашки (лише для дуже темного фону)")
 a = ap.parse_args()
 job, out = Path(a.job), Path(a.out)
 words = json.loads((job / "words.json").read_text(encoding="utf-8"))
@@ -53,7 +53,7 @@ tl.set("#s1", {{visibility: "visible"}}, 0);
 //TIMELINE
 
 ///TIMELINE
-Kit.captions(tl, {{keywords: [], plate: {str(a.plate).lower()}, end: END}});
+Kit.captions(tl, {{keywords: [], plate: {str(not a.no_plate).lower()}, end: END}});
 tl.set({{}}, {{}}, END);
 window.__timelines["main"] = tl;
 </script></body></html>
