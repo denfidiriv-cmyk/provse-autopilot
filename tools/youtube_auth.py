@@ -11,7 +11,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 
 cid, secret = sys.argv[1], sys.argv[2]
 PORT = 8765; REDIRECT = f"http://127.0.0.1:{PORT}/"
-scope = "https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/youtube.readonly"
+scope = "https://www.googleapis.com/auth/youtube https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/yt-analytics.readonly"
 url = "https://accounts.google.com/o/oauth2/v2/auth?" + urllib.parse.urlencode(
     {"client_id": cid, "redirect_uri": REDIRECT, "response_type": "code", "scope": scope, "access_type": "offline", "prompt": "consent select_account"})
 code = {}

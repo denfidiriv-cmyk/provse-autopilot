@@ -83,6 +83,9 @@ def main() -> int:
         return demo()
     STATE.mkdir(exist_ok=True); WORK.mkdir(exist_ok=True)
     ctl = notify.control(STATE)
+    if ctl.get("actions"):
+        notify.run_actions(ctl)
+        (STATE / "control.json").write_text(json.dumps(ctl))
     cfg = load_config(ROOT / "config" / "channels.json")
     trends = fetch_trends("UA")
     for t in trends:
@@ -152,7 +155,7 @@ def main() -> int:
         url = ""
         if not a.no_upload:
             from pipeline.youtube import upload
-            url = upload(topic.channel, out, spec["title"], desc, spec.get("hashtags", []), os.environ.get("YT_PRIVACY", "public"))
+            url = upload(topic.channel, out, spec["title"], desc, spec.get("hashtags", []), os.environ.get("YT_PRIVACY", "private"))
         if not a.test:
             select.record_published(STATE, topic.query, topic.channel, url)
         import urllib.parse as _u
@@ -161,7 +164,10 @@ def main() -> int:
                f"Тренд: <a href=\"{trend_url}\">{notify.esc(topic.query)}</a> ({topic.traffic_label} пошуків)\n"
                + (f"<a href=\"{url}\">Відкрити на YouTube</a>" if url else "Тест, на YouTube не завантажено"))
         try:
-            notify.send_video(out, msg)
+            vid = url.rsplit("/", 1)[-1] if url else ""
+            btns = [{"text": "✅ Опублікувати", "callback_data": f"pub:{topic.channel}:{vid}"},
+                    {"text": "🗑 Видалити", "callback_data": f"del:{topic.channel}:{vid}"}] if vid else None
+            notify.send_video(out, msg + ("\n\nВідео приватне, чекає твого рішення." if vid else ""), btns)
         except Exception as ex:
             print("telegram video:", ex); notify.send(msg)
         try:  # контактний лист кадрів для перевірки

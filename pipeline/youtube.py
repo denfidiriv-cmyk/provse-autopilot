@@ -35,3 +35,21 @@ def upload(channel: str, mp4: Path, title: str, description: str, tags: list[str
     with urllib.request.urlopen(put, timeout=600) as r:
         vid = json.loads(r.read())["id"]
     return f"https://youtube.com/shorts/{vid}"
+
+
+def _api(channel: str, method: str, url: str, body: dict | None = None) -> dict:
+    tok = access_token(channel)
+    req = urllib.request.Request(url, data=json.dumps(body).encode() if body else None, method=method,
+                                 headers={"Authorization": f"Bearer {tok}", "Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        raw = r.read()
+    return json.loads(raw) if raw else {}
+
+
+def set_public(channel: str, video_id: str) -> None:
+    _api(channel, "PUT", "https://www.googleapis.com/youtube/v3/videos?part=status",
+         {"id": video_id, "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False}})
+
+
+def delete(channel: str, video_id: str) -> None:
+    _api(channel, "DELETE", f"https://www.googleapis.com/youtube/v3/videos?id={video_id}")

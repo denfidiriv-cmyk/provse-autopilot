@@ -60,7 +60,7 @@ jobs:
           YT_TOKEN_SPORT: ${{ secrets.YT_TOKEN_SPORT }}
           YT_TOKEN_SVIT: ${{ secrets.YT_TOKEN_SVIT }}
           YT_TOKEN_POLITYKA: ${{ secrets.YT_TOKEN_POLITYKA }}
-          YT_PRIVACY: ${{ vars.YT_PRIVACY || 'public' }}
+          YT_PRIVACY: ${{ vars.YT_PRIVACY || 'private' }}
           TZ: Europe/Kyiv
         run: |
           export HF_BROWSER="$(which google-chrome || which chromium)"
