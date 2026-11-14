@@ -71,10 +71,23 @@ def track(mood: str, dur: float) -> np.ndarray | None:
     d = Path(os.environ.get("MUSIC_DIR", "music"))
     if not d.exists():
         return None
-    files = [f for f in d.glob("*.mp3") if any(f.name.startswith(t) for t in TRACKS.get(mood, TRACKS["upbeat"]))] or list(d.glob("*.mp3"))
-    if not files:
+    alls = sorted(d.glob("*.mp3"))
+    if not alls:
         return None
-    f = random.choice(files)
+    # Чергування: беремо трек, який звучав найдавніше (історія в state/music_recent.json), бажано під настрій
+    import json
+    hist_p = Path(os.environ.get("MUSIC_HISTORY", "state/music_recent.json"))
+    try:
+        recent = json.loads(hist_p.read_text())
+    except Exception:
+        recent = []
+    fresh = [f for f in alls if f.name not in recent[-max(1, len(alls) - 2):]] or alls
+    mood_fit = [f for f in fresh if any(f.name.startswith(t) for t in TRACKS.get(mood, []))]
+    f = random.choice(mood_fit or fresh)
+    try:
+        hist_p.parent.mkdir(parents=True, exist_ok=True); hist_p.write_text(json.dumps((recent + [f.name])[-20:], ensure_ascii=False))
+    except Exception:
+        pass
     with tempfile.NamedTemporaryFile(suffix=".wav") as tmp:
         start = random.uniform(4, 25)
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{start:.1f}", "-i", str(f), "-t", f"{dur + 1:.1f}",
@@ -96,14 +109,19 @@ def mix(voice_wav: Path, end: float, channel: str, cuts: list[float], stamps: li
     mus = np.pad(mus, (0, max(0, n - len(mus))))[:n]
     talk = np.zeros(n); talk[int(vo * SR):int(vo * SR) + len(v)] = np.abs(v[:n - int(vo * SR)]) > .02
     duck = np.convolve(talk, np.ones(int(.3 * SR)) / int(.3 * SR), "same")
-    # тихий фон: близько −24 дБ під голосом, −16 дБ у паузах
-    y += mus * (.16 - .10 * np.clip(duck * 3, 0, 1))
+    # тихий фон: близько −28 дБ під голосом, −20 дБ у паузах
+    y += mus * (.10 - .065 * np.clip(duck * 3, 0, 1))
     for i, t in enumerate(cuts):
-        s = whoosh() if i else pop(); a = int(t * SR); y[a:a + len(s)] += s[:max(0, n - a)] * .25
+        s = whoosh() if i else pop(); a = int(t * SR); y[a:a + len(s)] += s[:max(0, n - a)] * .15
     for t in stamps:
         s = thud(); a = int(t * SR); y[a:a + len(s)] += s[:max(0, n - a)] * .4
     y *= .92 / max(1e-6, np.abs(y).max())
     k = int(.6 * SR); y[-k:] *= np.linspace(1, 0, k) ** 2   # м'яке затухання в кінці, без різкого обриву
     with wave.open(str(out), "wb") as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((y * 32767).astype(np.int16).tobytes())
+    # Гучність як у звичайних Shorts, без «крику»: −18 LUFS, пік не вище −2 дБ
+    import subprocess
+    tmp = out.with_suffix(".ln.wav")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(out), "-af", "loudnorm=I=-18:TP=-2:LRA=9", "-ar", str(SR), str(tmp)], check=True)
+    tmp.replace(out)
     return out
