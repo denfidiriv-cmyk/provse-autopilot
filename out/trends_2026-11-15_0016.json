@@ -1,0 +1,129 @@
+{
+ "sport": [
+  {
+   "query": "світоліна носкова",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-14T13:30:00-08:00",
+   "news": [
+    {
+     "title": "Світоліна — Носкова: онлайн-трансляція матчу, рахунок та результат",
+     "url": "https://suspilne.media/sport/1453122-svitolina-noskova-onlajn-translacia-pivfinalu-wta-finals-2026/",
+     "source": "Суспільне | Новини"
+    },
+    {
+     "title": "Олександр Усик вийшов з емоційною заявою про Еліну Світоліну",
+     "url": "https://sport.ua/uk/news/925005-oleksandr-usik-viyshov-z-emotsiynoyu-zayavoyu-pro-elinu-svitolinu",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "\"Й***на, с**а, українка, н***й\": білоруска потрапила у скандал після програшу Світоліній (відео)",
+     "url": "https://tsn.ua/svit/yna-sa-ukrayinka-ny-biloruska-potrapyla-u-skandal-pislia-prohrashu-svitoliniy-video-3216859.html",
+     "source": "ТСН"
+    }
+   ],
+   "channel": "sport",
+   "score": 6,
+   "matched": [
+    "матч",
+    "світоліна",
+    "усик"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 6
+  },
+  {
+   "query": "португалія данія",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-14T13:20:00-08:00",
+   "news": [
+    {
+     "title": "Шок без Роналду! Матч Португалії і Данії закінчився тотальним знущанням",
+     "url": "https://sport.ua/uk/news/925106-shok-bez-ronaldu-match-portugalii-i-danii-zakinchivsya-totalnim-znushchannyam",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Ліга націй. Прокляття Роналду? Данія розгромила на виїзді Португалію",
+     "url": "https://www.ua-football.com/ua/foreign/nations_league/1794690386-liga-naciy-proklyattya-ronaldu-daniya-rozgromila-na-viyizdi-portugaliyu.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "Тренер Португалії розраховує сьогодні забезпечити перше місце у групі",
+     "url": "https://terrikon.com/uk/posts/591681",
+     "source": "Террикон"
+    }
+   ],
+   "channel": "sport",
+   "score": 2,
+   "matched": [
+    "ліга",
+    "матч"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 7
+  },
+  {
+   "query": "мастер шеф професіонали",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-14T13:50:00-08:00",
+   "news": [
+    {
+     "title": "Холостяк 15 сезон 5 выпуск смотреть онлайн от 13.11.2026 | Холостяк",
+     "url": "https://www.stb.ua/holostyak/ru/issue/holostyak-sezon-15-vypusk-5-vid-13-11-2026/",
+     "source": "Телеканал СТБ"
+    },
+    {
+     "title": "Неприятно и все: сеть в шоке от решения Холостяка",
+     "url": "https://fakty.ua/ru/481919-nepriyatno-i-vse-set-v-shoke-ot-resheniya-holostyaka",
+     "source": "ФАКТЫ"
+    },
+    {
+     "title": "После разрыва с футболистом. Модель Диана Зотова во второй раз стала участницей шоу Холостяк",
+     "url": "https://life.nv.ua/znamenitosti/holostyak-vyacheslav-kravcov-priglasil-dianu-zotovu-na-shou-kak-otreagirovali-gornyak-i-polyanskaya-50657138.html",
+     "source": "NV LIFE"
+    }
+   ],
+   "channel": "sport",
+   "score": 1,
+   "matched": [
+    "футбол"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 3
+  }
+ ],
+ "polityka": [
+  {
+   "query": "посольство",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-14T12:30:00-08:00",
+   "news": [
+    {
+     "title": "У Польщі затримали українського підлітка, який писав Слава УПА на памʼятниках - ZAXID.NET",
+     "url": "https://zaxid.net/u_gdansku_za_napisi_slava_upa_na_pamyatnikah_zatrimali_17_richnogo_ukrayintsya_n1650184",
+     "source": "Zaxid.net"
+    },
+    {
+     "title": "У Варшаві невідомі залишили на двох пам‘ятниках написи \"Слава УПА\"",
+     "url": "https://www.eurointegration.com.ua/news/2026/11/14/7250003/",
+     "source": "Європейська правда"
+    },
+    {
+     "title": "У Варшаві на двох пам’ятниках написали «Слава УПА»: посольство України заявило про провокацію рф",
+     "url": "https://www.slovoidilo.ua/2026/11/14/novyna/svit/varshavi-dvox-pamyatnykax-napysaly-slava-upa-posolstvo-ukrayiny-zayavylo-pro-provokacziyu-rf",
+     "source": "Слово і Діло"
+    }
+   ],
+   "channel": "polityka",
+   "score": 4,
+   "matched": [
+    "посол"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  }
+ ]
+}
