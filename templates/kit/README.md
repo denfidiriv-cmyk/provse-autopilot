@@ -5,6 +5,7 @@
 ## Порядок
 
 ```bash
+python tools/cc_align.py job/                         # ОБОВ'ЯЗКОВО: точний час слів через розпізнавання мови (після atempo)
 python tools/kit_new.py job/ work/hf --bg "#0d1b2a"     # заготовка з субтитрами-караоке
 # дописуєш сцени між <!--SCENES--> і <!--/SCENES-->, анімацію між //TIMELINE і ///TIMELINE
 python tools/kit_render.py job/ work/hf job/mix.wav      # рендер -> job/final.mp4 + job/check.jpg + job/check_motion.jpg
