@@ -7,6 +7,7 @@ on:
       text: { description: "Текст для диктора", required: true }
       voice: { description: "Голос", required: true, default: "uk-UA-OstapNeural" }
       rate: { description: "Темп, напр. +8%", required: false, default: "+8%" }
+      pitch: { description: "Висота, напр. +6Hz", required: false, default: "+0Hz" }
       name: { description: "Назва папки", required: true, default: "manual" }
 
 permissions:
@@ -26,7 +27,7 @@ jobs:
         run: |
           D=voice_out/${{ inputs.name }}; mkdir -p $D
           printf '%s' "$TEXT" > $D/script.txt
-          edge-tts --voice "${{ inputs.voice }}" --rate="${{ inputs.rate }}" -f $D/script.txt --write-media $D/raw.mp3
+          edge-tts --voice "${{ inputs.voice }}" --rate="${{ inputs.rate }}" --pitch="${{ inputs.pitch }}" -f $D/script.txt --write-media $D/raw.mp3
           ffmpeg -v error -y -i $D/raw.mp3 -ar 24000 -ac 1 $D/voice.wav && rm $D/raw.mp3
       - name: Зберегти
         run: |
