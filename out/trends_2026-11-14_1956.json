@@ -1,0 +1,142 @@
+{
+ "ekonomika": [
+  {
+   "query": "болгария",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-14T07:10:00-08:00",
+   "news": [
+    {
+     "title": "Болгария отказалась от финансовой помощи Украине, сославшись на дефицит бюджета",
+     "url": "https://www.dw.com/ru/radev-bolgaria-ne-mozet-predostavit-finansovuu-pomos-ukraine-izza-deficita-budzeta/a-79948406",
+     "source": "DW.com"
+    },
+    {
+     "title": "Болгария больше не будет поставлять оружие Украине: премьер объяснил причину",
+     "url": "https://www.rbc.ua/ukr/news/bolgariya-bilshe-postachatime-zbroyu-ukrayini-1794652214.html",
+     "source": "РБК-Україна"
+    },
+    {
+     "title": "Болгария больше не будет предоставлять Украине оружие и финансовую помощь — премьер",
+     "url": "https://nv.ua/world/geopolitics/bolgariya-i-pomoshch-ukraine-radev-zayavil-chto-oruzhiya-so-skladov-i-deneg-bolshe-ne-budet-50659172.html",
+     "source": "NV"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 1,
+   "matched": [
+    "бюджет"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 0
+  },
+  {
+   "query": "податкова пільга",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-14T09:40:00-08:00",
+   "news": [],
+   "channel": "ekonomika",
+   "score": 3,
+   "matched": [
+    "податк"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 0
+  }
+ ],
+ "sport": [
+  {
+   "query": "грузія – угорщина",
+   "traffic": 2000,
+   "traffic_label": "2000+",
+   "published": "2026-11-14T08:10:00-08:00",
+   "news": [
+    {
+     "title": "Грузія – Угорщина. Прогноз і анонс на матч Ліги націй",
+     "url": "https://sport.ua/uk/news/924576-gruziya-ugorshchina-prognoz-i-anons-na-match-ligi-natsiy",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Грузія – Угорщина. Дивитись онлайн LIVE пряму відеотрансляцію матчу Ліги націй",
+     "url": "https://www.ua-football.com/ua/foreign/nations_league/1794664254-gruziya-ugorschina-divitis-onlayn-live-pryamu-videotranslyaciyu-matchu-ligi-naciy.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "Грузія – Угорщина: прогноз Конкурента на матч 5-го туру 2 групи Ліги націй B, 14 листопада 2026",
+     "url": "https://www.ukr.net/ru/news/details/sport/120491969.html",
+     "source": "Ukr.net"
+    }
+   ],
+   "channel": "sport",
+   "score": 1,
+   "matched": [
+    "матч"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 0
+  },
+  {
+   "query": "україна футбол",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-14T07:30:00-08:00",
+   "news": [
+    {
+     "title": "Юнацька збірна України переграла Італію у відборі на Євро-2027",
+     "url": "https://champion.com.ua/ukr/football/zbirna-ukrajini-u-19-peregrala-italiyu-u-19-u-vidbori-na-chempionat-yevropi-2027-1090829/",
+     "source": "Champion.com.ua"
+    },
+    {
+     "title": "Характер Лужного. Україна U-19 переграла Італію U-19 та вийшла у 3-й раунд",
+     "url": "https://sport.ua/uk/news/924998-harakter-luzhnogo-ukraina-u-19-peregrala-italiyu-ta-viyshla-u-3-y-raund",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Україна перемогла Італію та достроково вийшла до наступного раунду відбору Євро-2027",
+     "url": "https://sport.rbc.ua/rus/football/ukrayina-peremogla-italiyu-ta-dostrokovo-1794674843.html",
+     "source": "РБК-Україна"
+    }
+   ],
+   "channel": "sport",
+   "score": 4,
+   "matched": [
+    "збірн",
+    "футбол"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 0
+  },
+  {
+   "query": "украина футбол",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-14T09:40:00-08:00",
+   "news": [
+    {
+     "title": "Украина победила Италию и досрочно вышла в следующий раунд отбора Евро-2027",
+     "url": "https://sport.rbc.ua/ukr/football/ukrayina-peremogla-italiyu-ta-dostrokovo-1794674843.html",
+     "source": "РБК-Україна"
+    },
+    {
+     "title": "Юношеская сборная Украины обыграла Италию и вышла в следующий раунд отбора Евро-2027",
+     "url": "https://tsn.ua/ru/prosport/yunosheskaya-sbornaya-ukrainy-obygrala-italiyu-i-vyshla-v-sleduyuschiy-raund-otbora-evro-2027-3216963.html",
+     "source": "ТСН"
+    },
+    {
+     "title": "Юношеская сборная Украины обыграла Италию в отборочном турнире Евро-2027",
+     "url": "https://champion.com.ua/rus/football/sbornaya-ukrainy-u-19-obygrala-italiyu-u-19-v-otborochnom-turnire-chempionata-evropy-2027-1090829/",
+     "source": "Champion.com.ua"
+    }
+   ],
+   "channel": "sport",
+   "score": 4,
+   "matched": [
+    "сборн",
+    "футбол"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 0
+  }
+ ]
+}
