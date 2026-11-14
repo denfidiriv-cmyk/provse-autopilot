@@ -1,9 +1,9 @@
 """Озвучка (Gemini TTS) і таймінги слів без ASR: тиша → сегменти мовлення → DP за складами.
 Той самий алгоритм, що tools/align_28.py, яким ми вирівнювали всі ручні ролики.
 """
-from __future__ import os
-import annotations
+from __future__ import annotations
 
+import os
 import subprocess
 import wave
 from pathlib import Path
