@@ -6,6 +6,8 @@ on:
       text: { description: "Текст для диктора", required: true }
       voice: { description: "Голос Gemini", required: true, default: "Charon" }
       name: { description: "Назва папки", required: true, default: "manual" }
+      model: { description: "TTS-модель (порожньо = за замовчуванням)", required: false, default: "" }
+      style: { description: "Стиль озвучки (порожньо = звичайний)", required: false, default: "" }
 
 permissions:
   contents: write
@@ -21,7 +23,8 @@ jobs:
       - name: Озвучити
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_TTS_MODEL: ${{ vars.GEMINI_TTS_MODEL }}
+          GEMINI_TTS_MODEL: ${{ inputs.model || vars.GEMINI_TTS_MODEL }}
+          VOICE_STYLE: ${{ inputs.style }}
           TEXT: ${{ inputs.text }}
         run: |
           mkdir -p voice_out/${{ inputs.name }}

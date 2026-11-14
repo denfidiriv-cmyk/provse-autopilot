@@ -1,7 +1,8 @@
 """Озвучка (Gemini TTS) і таймінги слів без ASR: тиша → сегменти мовлення → DP за складами.
 Той самий алгоритм, що tools/align_28.py, яким ми вирівнювали всі ручні ролики.
 """
-from __future__ import annotations
+from __future__ import os
+import annotations
 
 import subprocess
 import wave
@@ -20,7 +21,8 @@ SR = 24000
 def synth(text: str, voice: str, out_wav: Path) -> Path:
     """Стиль іде окремою системною інструкцією, а не в текст, інакше модель його зачитує.
     Якщо аудіо підозріло довге (модель прочитала зайве), переозвучуємо без стилю."""
-    pcm = gemini.tts_pcm(text, voice, STYLE)
+    style = os.environ.get("VOICE_STYLE") or STYLE
+    pcm = gemini.tts_pcm(text, voice, style)
     expect = len(text.split()) * 0.5 + 4
     if len(pcm) / 2 / SR > expect * 1.4:
         print(f"озвучка задовга ({len(pcm) / 2 / SR:.1f} с), переозвучую без стилю")
