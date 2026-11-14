@@ -43,5 +43,5 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg,#111)}
 /* ---------- Текст у кадрі, що з'являється слово за словом (Kit.say) ---------- */
 .say{position:absolute;left:70px;width:940px;display:flex;flex-wrap:wrap;justify-content:center;align-items:baseline;text-align:center;
   font:800 var(--say-size,92px)/1.04 var(--say-font,UI);color:var(--say-fg,#1c1b1f);text-transform:uppercase;letter-spacing:-.01em}
-.say-w{display:inline-block;margin:0 .14em;will-change:transform,opacity}
+.say-w{display:inline-block;margin:0 .14em;white-space:nowrap;will-change:transform,opacity}
 .say-w.key{color:var(--say-key,#D7262E)}
