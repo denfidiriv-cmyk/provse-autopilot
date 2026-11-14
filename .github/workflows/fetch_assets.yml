@@ -21,7 +21,7 @@ jobs:
           for u in $URLS; do
             case "$u" in https://upload.wikimedia.org/*) ;; *) echo "пропускаю $u"; continue;; esac
             f=$(basename "${u%%\?*}")
-            curl -sfL -A "PROVse-autopilot/1.0 (github.com/denfidiriv-cmyk/provse-autopilot)" "$u" -o "assets_cache/${{ inputs.name }}/$f"
+            curl -sfL -A "PROVse-autopilot/1.0 (github.com/denfidiriv-cmyk/provse-autopilot)" "$u" -o "assets_cache/${{ inputs.name }}/$f" || echo "не вдалося: $u"
           done
           ls -la assets_cache/${{ inputs.name }}
       - name: Зберегти
