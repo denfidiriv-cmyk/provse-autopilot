@@ -1,0 +1,127 @@
+{
+ "ekonomika": [
+  {
+   "query": "польща",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-13T16:40:00-08:00",
+   "news": [
+    {
+     "title": "Польща призупинить фінансування закупівлі зброї для України за програмою PURL",
+     "url": "https://www.slovoidilo.ua/2026/11/13/novyna/svit/polshha-pryzupynyt-finansuvannya-zakupivli-zbroyi-ukrayiny-prohramoyu-purl",
+     "source": "Слово і Діло"
+    },
+    {
+     "title": "Польща призупинила фінансування закупівель зброї для України в рамках PURL, – Туск",
+     "url": "https://www.unian.ua/weapons/polshcha-pripinyaye-vneski-do-programi-purl-tusk-13559262.html",
+     "source": "УНІАН"
+    },
+    {
+     "title": "Через дефіцит бюджету Польща поки не фінансуватиме закупівлю зброї США для України",
+     "url": "https://nv.ua/ukr/world/geopolitics/polshcha-timchasovo-pripinit-finansuvati-zakupivlyu-amerikanskoji-zbroji-dlya-ukrajini-50659094.html",
+     "source": "NV"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 1,
+   "matched": [
+    "бюджет"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  }
+ ],
+ "sport": [
+  {
+   "query": "світоліна",
+   "traffic": 5000,
+   "traffic_label": "5000+",
+   "published": "2026-11-13T13:20:00-08:00",
+   "news": [
+    {
+     "title": "WTA Finals. Світоліна перемогла другу ракетку світу Соболенко та пробилася до півфіналу",
+     "url": "https://btu.org.ua/ua/golovne/wta-finals-svitolina-peremohla-druhu-raketku-svitu-sobolenko-ta-probylasia-do-pivfinalu.html",
+     "source": "Великий теніс України"
+    },
+    {
+     "title": "Важлива перемога над незручною суперницею: огляд матчу Світоліна – Сабалєнка на Підсумковому турнірі",
+     "url": "https://champion.com.ua/ukr/tennis/tenis-pidsumkoviy-turnir-svitolina-sabalyenka-oglyad-matchu-tretogo-turu-1090770/",
+     "source": "Champion.com.ua"
+    },
+    {
+     "title": "Світоліна переграла Соболенко і пробилася до півфіналу Підсумкового турніру",
+     "url": "https://sport.ua/uk/news/924787-svitolina-peregrala-sobolenko-i-probilasya-do-pivfinalu-pidsumkovogo-turniru",
+     "source": "Sport.ua"
+    }
+   ],
+   "channel": "sport",
+   "score": 5,
+   "matched": [
+    "матч",
+    "світоліна"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 6
+  },
+  {
+   "query": "аргентина – уругвай",
+   "traffic": 2000,
+   "traffic_label": "2000+",
+   "published": "2026-11-13T14:30:00-08:00",
+   "news": [
+    {
+     "title": "Аргентинцы справятся без Месси! WINLINE дает кэф 3.80 на победы Нидерландов, Германии и Аргентины",
+     "url": "https://sport24.ru/football/news-897250-argentintsy-spravyatsya-bez-messi-winline-dayet-kef-380-na-pobedy-niderlandov-germanii-i-argentiny",
+     "source": "Sport24.ru"
+    },
+    {
+     "title": "Прогноз на матч Аргентина – Уругвай. «Альбиселесте» начнёт эру без Месси с победы",
+     "url": "https://metaratings.ru/prognozy/futbol/argentina-urugvaj-prognoz-na-tovarishcheskij-match-14-noyabrya-2026-goda/",
+     "source": "Metaratings"
+    },
+    {
+     "title": "Аргентина и Уругвай назвали стартовые составы на товарищеский матч",
+     "url": "https://sportsnews.kz/ru/futbol/1117436075-argentina-urugvaj-startovye-sostavy-komand-na-match-tovarishheskix-mat",
+     "source": "https://sportsnews.kz/"
+    }
+   ],
+   "channel": "sport",
+   "score": 1,
+   "matched": [
+    "матч"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  },
+  {
+   "query": "элина свитолина",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-13T14:00:00-08:00",
+   "news": [
+    {
+     "title": "Свитолина против Сабаленки на Итоговом турнире: в полуфинал пройдет только победительница",
+     "url": "https://champion.com.ua/rus/tennis/svitolina-sabalenka-anons-matcha-tretego-tura-itogovogo-turnira-1090675/",
+     "source": "Champion.com.ua"
+    },
+    {
+     "title": "Свитолина одолела Соболенко и вышла в полуфинал Итогового турнира WTA",
+     "url": "https://tsn.ua/ru/prosport/svitolina-odolela-sobolenko-i-vyshla-v-polufinal-itogovogo-turnira-wta-3216499.html",
+     "source": "ТСН"
+    },
+    {
+     "title": "Свитолина вышла в полуфинал Итогового турнира WTA",
+     "url": "https://zn.ua/SPORT/svitolina-vyshla-v-polufinal-itohovoho-turnira-wta.html",
+     "source": "Дзеркало тижня"
+    }
+   ],
+   "channel": "sport",
+   "score": 4,
+   "matched": [
+    "свитолина"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 6
+  }
+ ]
+}

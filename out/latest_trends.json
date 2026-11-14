@@ -1,205 +1,127 @@
 {
- "avto": [
+ "ekonomika": [
   {
-   "query": "глобальное потепление",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-13T09:10:00-08:00",
+   "query": "польща",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-13T16:40:00-08:00",
    "news": [
     {
-     "title": "Генсек ООН Гутерреш призвал к действиям в отношении ископаемого топлива — The Guardian",
-     "url": "https://ua.news/ru/dovkolo-svitu/gensek-oon-guterresh-zaklikav-do-dii-shchodo-vikopnogo-paliva-the-guardian",
-     "source": "UA.NEWS"
+     "title": "Польща призупинить фінансування закупівлі зброї для України за програмою PURL",
+     "url": "https://www.slovoidilo.ua/2026/11/13/novyna/svit/polshha-pryzupynyt-finansuvannya-zakupivli-zbroyi-ukrayiny-prohramoyu-purl",
+     "source": "Слово і Діло"
     },
     {
-     "title": "Генсек ООН: Превышение порога глобального потепления в 1,5 градуса теперь неизбежно",
-     "url": "https://www.aa.com.tr/ru/%D0%BC%D0%B8%D1%80/%D0%B3%D0%B5%D0%BD%D1%81%D0%B5%D0%BA-%D0%BE%D0%BE%D0%BD-%D0%BF%D1%80%D0%B5%D0%B2%D1%8B%D1%88%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D0%BE%D1%80%D0%BE%D0%B3%D0%B0-%D0%B3%D0%BB%D0%BE%D0%B1%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BF%D0%BE%D1%82%D0%B5%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B2-1-5-%D0%B3%D1%80%D0%B0%D0%B4%D1%83%D1%81%D0%B0-%D1%82%D0%B5%D0%BF%D0%B5%D1%80%D1%8C-%D0%BD%D0%B5%D0%B8%D0%B7%D0%B1%D0%B5%D0%B6%D0%BD%D0%BE/4124595",
-     "source": "Anadolu Ajansı"
+     "title": "Польща призупинила фінансування закупівель зброї для України в рамках PURL, – Туск",
+     "url": "https://www.unian.ua/weapons/polshcha-pripinyaye-vneski-do-programi-purl-tusk-13559262.html",
+     "source": "УНІАН"
     },
     {
-     "title": "Главные новости дня | четверг: КС-31, Газа, Судан, Эбола",
-     "url": "https://news.un.org/ru/story/2026/11/1469092",
-     "source": "UN News"
+     "title": "Через дефіцит бюджету Польща поки не фінансуватиме закупівлю зброї США для України",
+     "url": "https://nv.ua/ukr/world/geopolitics/polshcha-timchasovo-pripinit-finansuvati-zakupivlyu-amerikanskoji-zbroji-dlya-ukrajini-50659094.html",
+     "source": "NV"
     }
    ],
-   "channel": "avto",
+   "channel": "ekonomika",
    "score": 1,
    "matched": [
-    "топлив"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 8
-  },
-  {
-   "query": "лукойл-волгограднефтепереработка",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-13T08:30:00-08:00",
-   "news": [
-    {
-     "title": "Генштаб розповів про наслідки ураження ключової \"бензоколонки\" армії РФ",
-     "url": "https://www.pravda.com.ua/news/2026/11/13/8062729/",
-     "source": "Українська правда"
-    },
-    {
-     "title": "Після атаки дронів у Волгограді спалахнула пожежа на НПЗ \"Лукойлу\", на АЗС утворилися черги",
-     "url": "https://rubryka.com/2026/11/13/droniv-u-volgogradi-spalahnula/",
-     "source": "Rubryka"
-    },
-    {
-     "title": "Генштаб підтвердив удар по НПЗ «Лукойлу» у Волгограді - уражені установки переробки нафти",
-     "url": "https://www.ukrinform.ua/rubric-ato/4184369-genstab-pidtverdiv-udar-po-npz-lukojlu-u-volgogradi-urazeni-ustanovki-pererobki-nafti.html",
-     "source": "Укрінформ - актуальні новини України та світу"
-    }
-   ],
-   "channel": "avto",
-   "score": 1,
-   "matched": [
-    "азс"
+    "бюджет"
    ],
    "skipped_reason": "",
    "extra_sources": 9
   }
  ],
- "svit": [
+ "sport": [
   {
-   "query": "15 листопада",
-   "traffic": 200000,
-   "traffic_label": "200000+",
-   "published": "2026-11-13T08:00:00-08:00",
+   "query": "світоліна",
+   "traffic": 5000,
+   "traffic_label": "5000+",
+   "published": "2026-11-13T13:20:00-08:00",
    "news": [
     {
-     "title": "Вночі морози, а вдень ще до 9° тепла: погода в Україні на 14-16 листопада",
-     "url": "https://www.pravda.com.ua/news/2026/11/13/8062723/",
-     "source": "Українська правда"
+     "title": "WTA Finals. Світоліна перемогла другу ракетку світу Соболенко та пробилася до півфіналу",
+     "url": "https://btu.org.ua/ua/golovne/wta-finals-svitolina-peremohla-druhu-raketku-svitu-sobolenko-ta-probylasia-do-pivfinalu.html",
+     "source": "Великий теніс України"
     },
     {
-     "title": "+22° посеред листопада, але ненадовго: синоптик попередив про різку зміну погоди в Україні",
-     "url": "https://tsn.ua/ukrayina/22deg-posered-lystopada-ale-nenadovho-synoptyk-poperedyv-pro-rizku-zminu-pohody-v-ukrayini-3214935.html",
+     "title": "Важлива перемога над незручною суперницею: огляд матчу Світоліна – Сабалєнка на Підсумковому турнірі",
+     "url": "https://champion.com.ua/ukr/tennis/tenis-pidsumkoviy-turnir-svitolina-sabalyenka-oglyad-matchu-tretogo-turu-1090770/",
+     "source": "Champion.com.ua"
+    },
+    {
+     "title": "Світоліна переграла Соболенко і пробилася до півфіналу Підсумкового турніру",
+     "url": "https://sport.ua/uk/news/924787-svitolina-peregrala-sobolenko-i-probilasya-do-pivfinalu-pidsumkovogo-turniru",
+     "source": "Sport.ua"
+    }
+   ],
+   "channel": "sport",
+   "score": 5,
+   "matched": [
+    "матч",
+    "світоліна"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 6
+  },
+  {
+   "query": "аргентина – уругвай",
+   "traffic": 2000,
+   "traffic_label": "2000+",
+   "published": "2026-11-13T14:30:00-08:00",
+   "news": [
+    {
+     "title": "Аргентинцы справятся без Месси! WINLINE дает кэф 3.80 на победы Нидерландов, Германии и Аргентины",
+     "url": "https://sport24.ru/football/news-897250-argentintsy-spravyatsya-bez-messi-winline-dayet-kef-380-na-pobedy-niderlandov-germanii-i-argentiny",
+     "source": "Sport24.ru"
+    },
+    {
+     "title": "Прогноз на матч Аргентина – Уругвай. «Альбиселесте» начнёт эру без Месси с победы",
+     "url": "https://metaratings.ru/prognozy/futbol/argentina-urugvaj-prognoz-na-tovarishcheskij-match-14-noyabrya-2026-goda/",
+     "source": "Metaratings"
+    },
+    {
+     "title": "Аргентина и Уругвай назвали стартовые составы на товарищеский матч",
+     "url": "https://sportsnews.kz/ru/futbol/1117436075-argentina-urugvaj-startovye-sostavy-komand-na-match-tovarishheskix-mat",
+     "source": "https://sportsnews.kz/"
+    }
+   ],
+   "channel": "sport",
+   "score": 1,
+   "matched": [
+    "матч"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  },
+  {
+   "query": "элина свитолина",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-13T14:00:00-08:00",
+   "news": [
+    {
+     "title": "Свитолина против Сабаленки на Итоговом турнире: в полуфинал пройдет только победительница",
+     "url": "https://champion.com.ua/rus/tennis/svitolina-sabalenka-anons-matcha-tretego-tura-itogovogo-turnira-1090675/",
+     "source": "Champion.com.ua"
+    },
+    {
+     "title": "Свитолина одолела Соболенко и вышла в полуфинал Итогового турнира WTA",
+     "url": "https://tsn.ua/ru/prosport/svitolina-odolela-sobolenko-i-vyshla-v-polufinal-itogovogo-turnira-wta-3216499.html",
      "source": "ТСН"
     },
     {
-     "title": "Потеплішає до +20, у низці регіонів дощі та сніг: якою буде погода в Україні сьогодні",
-     "url": "https://www.rbc.ua/rus/news/poteplishae-20-niztsi-regioniv-doshchi-ta-1794490729.html",
-     "source": "РБК-Україна"
+     "title": "Свитолина вышла в полуфинал Итогового турнира WTA",
+     "url": "https://zn.ua/SPORT/svitolina-vyshla-v-polufinal-itohovoho-turnira-wta.html",
+     "source": "Дзеркало тижня"
     }
    ],
-   "channel": "svit",
-   "score": 2,
+   "channel": "sport",
+   "score": 4,
    "matched": [
-    "погод",
-    "сніг"
+    "свитолина"
    ],
    "skipped_reason": "",
-   "extra_sources": 10
-  },
-  {
-   "query": "військовий корабель",
-   "traffic": 500,
-   "traffic_label": "500+",
-   "published": "2026-11-13T08:40:00-08:00",
-   "news": [
-    {
-     "title": "Фінляндія зв'язалася з Україною після ураження російського військового корабля",
-     "url": "https://unn.ua/news/finliandiia-zviazalasia-z-ukrainoiu-pislia-urazhennia-rosiiskoho-viiskovoho-korablia",
-     "source": "Українські Національні Новини (УНН)"
-    },
-    {
-     "title": "Фінляндія підтвердила удар України по російському ракетному кораблю за 40 км від свого узбережжя",
-     "url": "https://nv.ua/ukr/world/geopolitics/udar-po-korablyu-buyan-m-bilya-goglanda-finlyandiya-pidtverdila-ataku-ukrajini-50658731.html",
-     "source": "NV"
-    },
-    {
-     "title": "Вже підбили корабель: експерт оцінив перспективи атак на Балтійський флот Росії",
-     "url": "https://24tv.ua/udari-po-baltiyskomu-flotu-zdatna-ukrayina-tudi-biti_n3179647",
-     "source": "24 Канал"
-    }
-   ],
-   "channel": "svit",
-   "score": 1,
-   "matched": [
-    "ракет"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 9
-  }
- ],
- "polityka": [
-  {
-   "query": "посольство фінляндії",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-13T08:40:00-08:00",
-   "news": [],
-   "channel": "polityka",
-   "score": 3,
-   "matched": [
-    "посол"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 10
-  },
-  {
-   "query": "кароль навроцький",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-13T08:30:00-08:00",
-   "news": [
-    {
-     "title": "Президент Польщі ветував законопроєкт про цифрові послуги",
-     "url": "https://www.eurointegration.com.ua/news/2026/11/13/7249960/",
-     "source": "Європейська правда"
-    },
-    {
-     "title": "Президент Польщі Навроцький удруге наклав вето на законопроєкт про цифровий контент",
-     "url": "https://mezha.net/ua/news/mezha-baf1a359bc41c676565ec3b0_prezident_polshchi_navrockiy/",
-     "source": "Mezha.net"
-    },
-    {
-     "title": "У Польщі набули чинності правила для скарг на інтернет-платформи — RMF24",
-     "url": "https://ua.news/ua/dovkolo-svitu/u-polshchi-nabuli-chinnosti-pravila-dlia-skarg-na-internet-platformi-rmf24",
-     "source": "UA.NEWS"
-    }
-   ],
-   "channel": "polityka",
-   "score": 2,
-   "matched": [
-    "закон",
-    "президент"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 9
-  },
-  {
-   "query": "министерство обороны",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-13T08:30:00-08:00",
-   "news": [
-    {
-     "title": "Минобороны: Законопроект о сроках службы уже подготовлен в нескольких версиях, сейчас идет работа внутри правительства",
-     "url": "https://ru.interfax.com.ua/news/general/1236016.html",
-     "source": "Інтерфакс-Україна"
-    },
-    {
-     "title": "В Кабмине сделали заявление насчет предельного возраста мобилизации",
-     "url": "https://korrespondent.net/ukraine/4927233-v-kabmyne-sdelaly-zaiavlenye-naschet-predelnoho-vozrasta-mobylyzatsyy",
-     "source": "Korrespondent.net"
-    },
-    {
-     "title": "В Минобороны рассказали, когда внесут в Раду законопроект о четких сроках службы",
-     "url": "https://www.rbc.ua/ukr/news/minoboroni-rozpovili-koli-vnesut-radi-zakonoproekt-1794564483.html",
-     "source": "РБК-Україна"
-    }
-   ],
-   "channel": "polityka",
-   "score": 2,
-   "matched": [
-    "закон",
-    "мобилизац"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 2
+   "extra_sources": 6
   }
  ]
 }
