@@ -1,0 +1,224 @@
+{
+ "polityka": [
+  {
+   "query": "законопроєкт",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-14T00:40:00-08:00",
+   "news": [
+    {
+     "title": "«Люди давно цього очікують»: Любов Галан розповіла про підготовку законопроєкту щодо строків служби",
+     "url": "https://armyinform.com.ua/2026/11/13/lyudy-davno-czogo-ochikuyut-lyubov-galan-rozpovila-pro-pidgotovku-zakonoproyektu-shhodo-strokiv-sluzhby/",
+     "source": "АрміяInform"
+    },
+    {
+     "title": "Міноборони консультується з керівництвом держави щодо законопроєкту про терміни служби, який обіцяли подати до кінця 2024-го",
+     "url": "https://hromadske.ua/viyna/274330-minoborony-konsultuyetsia-z-kerivnytstvom-derzavy-shchodo-zakonoproyektu-pro-terminy-sluzby-iakyy-obitsialy-podaty-do-kintsia-2024-ho",
+     "source": "Hromadske"
+    },
+    {
+     "title": "Корецький закликав посилити відповідальність за СЗЧ і переховування від служби",
+     "url": "https://24tv.ua/szch-ukrayini-koretskiy-anonsuvav-posilennya-vidpovidalnosti_n3179774",
+     "source": "24 Канал"
+    }
+   ],
+   "channel": "polityka",
+   "score": 4,
+   "matched": [
+    "закон"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  },
+  {
+   "query": "михаил драпатый",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-13T23:50:00-08:00",
+   "news": [
+    {
+     "title": "Нового главкома ВСУ обвинили в применении запрещенных методов против России",
+     "url": "https://ura.news/news/1053144155",
+     "source": "URA.RU"
+    },
+    {
+     "title": "Суд в Москве заочно арестовал бывшего министра обороны Украины Резникова",
+     "url": "http://armiya.az/ru/news/266185",
+     "source": "Armiya.az"
+    },
+    {
+     "title": "СМИ: Главкома ВСУ заочно обвинили в России в запрещенных методах войны",
+     "url": "https://nsn.fm/army-and-weapons/smi-glavkoma-vsu-zaochno-obvinili-v-rossii-v-zapreschennyh-metodah-voiny",
+     "source": "Национальная Служба Новостей"
+    }
+   ],
+   "channel": "polityka",
+   "score": 1,
+   "matched": [
+    "министр"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  },
+  {
+   "query": "саммит",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-13T23:40:00-08:00",
+   "news": [
+    {
+     "title": "Спор о представителе по Украине затмил тему первого саммита ЕС по ИИ",
+     "url": "https://ru.euronews.com/2026/11/13/ukraine-envoy-row-hijacks-eu-leaders-first-ai-summit",
+     "source": "Euronews.com"
+    },
+    {
+     "title": "Технологический суверенитет и киберугрозы: ЕС впервые проводит стратегический саммит по ИИ",
+     "url": "https://zn.ua/TECHNOLOGIES/tekhnolohicheskij-suverenitet-i-kiberuhrozy-es-vpervye-provodit-stratehicheskij-sammit-po-ii.html",
+     "source": "Дзеркало тижня"
+    },
+    {
+     "title": "На саммите ЕС обсуждают возможное участие Европы в переговорах о мире",
+     "url": "https://www.svoboda.org/a/na-sammite-es-obsuzhdayut-vozmozhnoe-uchastie-evropy-v-peregovorah/33898027.html",
+     "source": "Радио Свобода"
+    }
+   ],
+   "channel": "polityka",
+   "score": 6,
+   "matched": [
+    "=ес",
+    "переговор",
+    "саммит"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  }
+ ],
+ "ekonomika": [
+  {
+   "query": "лерчек",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-14T00:10:00-08:00",
+   "news": [
+    {
+     "title": "Путин помиловал блогера Лерчек",
+     "url": "https://meduza.io/news/2026/11/14/putin-pomiloval-blogera-lerchek",
+     "source": "Meduza"
+    },
+    {
+     "title": "Блогер Лерчек попросила Владимира Путина о помиловании",
+     "url": "https://www.forbes.ru/forbeslife/572204-bloger-lercek-poprosil-vladimira-putina-o-pomilovanii",
+     "source": "Forbes.ru"
+    },
+    {
+     "title": "Путин помиловал осужденную за уклонение от уплаты налогов блогерку Лерчек. У нее четвертая стадия рака желудка",
+     "url": "https://news.zerkalo.io/world/140490.html",
+     "source": "Zerkalo"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 1,
+   "matched": [
+    "налог"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 1
+  },
+  {
+   "query": "бюджет",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-13T22:40:00-08:00",
+   "news": [
+    {
+     "title": "Днепр теряет миллиарды из госбюджета: кто заплатит долги за тепло",
+     "url": "https://dnipro.znaj.ua/ru/573752-dnipro-vtrachaye-milyardi-z-derzhbyudzhetu-hto-splatit-borgi-za-teplo",
+     "source": "Знай.ua"
+    },
+    {
+     "title": "Горожане могут посмотреть общественные слушания по формированию бюджета Днепра",
+     "url": "https://www.gorod.dp.ua/news/266052",
+     "source": "Gorod.dp.ua"
+    },
+    {
+     "title": "Уничтожат общественные слушания и инициативы: чем завершились слушания по утверждению нового Устава Днепра",
+     "url": "https://dp.informator.ua/ru/unichtozhat-obshchestvennye-slushaniya-i-iniciativy-chem-zavershilis-slushaniya-po-utverzhdeniyu-novogo-ustava-dnepra",
+     "source": "informator.ua"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 4,
+   "matched": [
+    "бюджет"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  },
+  {
+   "query": "денежный перевод",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-13T23:20:00-08:00",
+   "news": [
+    {
+     "title": "Банковские переводы россиян поставят под контроль налоговой: кто в зоне риска",
+     "url": "https://rtvi.com/news/bankovskie-perevody-rossiyan-postavyat-pod-kontrol-nalogovoj-kto-v-zone-riska/",
+     "source": "RTVI"
+    },
+    {
+     "title": "Минфин РФ предложил обязать Центробанк передавать налоговой данные о регулярных поступлениях на счета россиян",
+     "url": "https://ru.krymr.com/a/news-minfin-rf-tsentrobank-nalogovaya-dannyye-regulyarnyye-postupleniya-scheta-rossiyan/33898233.html",
+     "source": "Крым.Реалии"
+    },
+    {
+     "title": "Минфин собирается усилить контроль за переводами между физическими лицами. Отслеживать их будет Банк России",
+     "url": "https://meduza.io/news/2026/11/13/minfin-sobiraetsya-usilit-kontrol-za-perevodami-mezhdu-fizicheskimi-litsami-otslezhivat-ih-budet-bank-rossii",
+     "source": "Meduza"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 2,
+   "matched": [
+    "банк",
+    "налог"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  }
+ ],
+ "dim": [
+  {
+   "query": "графік відключення світла на 14 листопада",
+   "traffic": 5000,
+   "traffic_label": "5000+",
+   "published": "2026-11-13T23:30:00-08:00",
+   "news": [
+    {
+     "title": "Графіки відключення світла застосують на Черкащині 14 листопада",
+     "url": "https://suspilne.media/cherkasy/1452183-grafiki-vidklucenna-svitla-zastosuut-na-cerkasini-14-listopada/",
+     "source": "Суспільне | Новини"
+    },
+    {
+     "title": "Субота з відключеннями: Укренерго повідомило про графіки на 14 листопада",
+     "url": "https://epravda.com.ua/energetika/vidklyuchennya-svitla-14-listopada-cilodobovo-diyatimut-1-5-3-chergi-827638/",
+     "source": "Економічна правда"
+    },
+    {
+     "title": "Графік погодинних відключень світла на суботу, 14 листопада",
+     "url": "https://shepetivka.com.ua/novyny/biznes/20820-hrafik-pohodynnykh-vidkliuchen-svitla-na-subotu-14-lystopada.html",
+     "source": "Сайт міста Шепетівка"
+    }
+   ],
+   "channel": "dim",
+   "score": 13,
+   "matched": [
+    "відключен",
+    "графік",
+    "світл",
+    "укренерго"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  }
+ ]
+}
