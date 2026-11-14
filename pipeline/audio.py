@@ -111,10 +111,7 @@ def mix(voice_wav: Path, end: float, channel: str, cuts: list[float], stamps: li
     duck = np.convolve(talk, np.ones(int(.3 * SR)) / int(.3 * SR), "same")
     # тихий фон: близько −28 дБ під голосом, −20 дБ у паузах
     y += mus * (.10 - .065 * np.clip(duck * 3, 0, 1))
-    for i, t in enumerate(cuts):
-        s = whoosh() if i else pop(); a = int(t * SR); y[a:a + len(s)] += s[:max(0, n - a)] * .15
-    for t in stamps:
-        s = thud(); a = int(t * SR); y[a:a + len(s)] += s[:max(0, n - a)] * .4
+    # Звуків на склейках і штампах немає: власник попросив прибрати, вони дратують. Лише голос і тиха музика.
     y *= .92 / max(1e-6, np.abs(y).max())
     k = int(.6 * SR); y[-k:] *= np.linspace(1, 0, k) ** 2   # м'яке затухання в кінці, без різкого обриву
     with wave.open(str(out), "wb") as w:
