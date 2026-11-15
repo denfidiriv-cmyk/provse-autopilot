@@ -1,0 +1,133 @@
+{
+ "sport": [
+  {
+   "query": "рейтинг wta",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-15T14:20:00-08:00",
+   "news": [
+    {
+     "title": "Элина Свитолина – Мирра Андреева. Смотреть онлайн. LIVE трансляция",
+     "url": "https://sport.ua/news/925294-elina-svitolina-mirra-andreeva-smotret-onlayn-live-translyatsiya",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Сколько заработала Элина Свитолина на Итоговом турнире WTA",
+     "url": "https://www.sports.kz/news/skolko-zarabotala-elina-svitolina-na-itogovom-turnire-wta",
+     "source": "Sports.kz"
+    },
+    {
+     "title": "Свитолина отреагировала на оскорбления со стороны белорусской теннисистки Соболенко",
+     "url": "https://zn.ua/SPORT/svitolina-otreahirovala-na-oskorblenija-so-storony-belorusskoj-tennisistki-sobolenko.html",
+     "source": "Дзеркало тижня"
+    }
+   ],
+   "channel": "sport",
+   "score": 2,
+   "matched": [
+    "свитолина",
+    "теннис"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  },
+  {
+   "query": "полісся",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-15T12:20:00-08:00",
+   "news": [
+    {
+     "title": "Полісся та Колос розійшлися миром у товариському матчі",
+     "url": "https://sport.ua/uk/news/925293-polissya-ta-kolos-roziyshlisya-mirom-u-tovariskomu-matchi",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Полісся без 14 збірників не дотиснуло Колос – житомирці марно штурмували ворота суперника (ВІДЕО)",
+     "url": "https://football24.ua/news/polissya-bez-14-zbirnykiv-ne-dotysnulo-kolos-zhytomyrtsi-marno-shturmuvaly-vorota-supernyka-video-976534",
+     "source": "Футбол 24"
+    },
+    {
+     "title": "Полісся перервало переможну серію – команда Ротаня не змогла обіграти інший клуб УПЛ",
+     "url": "https://sport24.ua/uk/football/news/170843-polissya-perervalo-peremozhnu-seriyu-komanda-rotanya-ne-zmogla-obigrati-inshiy-klub-upl",
+     "source": "Спорт 24"
+    }
+   ],
+   "channel": "sport",
+   "score": 2,
+   "matched": [
+    "збірн",
+    "матч"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 5
+  },
+  {
+   "query": "юлія джима",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-15T14:30:00-08:00",
+   "news": [
+    {
+     "title": "«Були проблеми зі здоров'ям»: тренерка збірної України з біатлону пояснила відсутність Джими у складі на Кубок світу",
+     "url": "https://suspilne.media/sport/1453337-buli-problemi-zi-zdorovam-trenerka-zbirnoi-ukraini-z-biatlonu-poasnila-vidsutnist-dzimi-u-skladi-na-kubok-svitu/",
+     "source": "Суспільне | Новини"
+    },
+    {
+     "title": "Збірна України оголосила склад на чоловічі Кубок світу та Кубок IBU сезону-2026/27| Біатлон",
+     "url": "https://champion.com.ua/ukr/biathlon/zbirna-ukrajini-ogolosila-sklad-na-cholovichi-kubok-svitu-ta-kubok-ibu-sezonu-2026-27-1090905/",
+     "source": "Champion.com.ua"
+    },
+    {
+     "title": "Капітан у строю, але є втрати: Україна оголосила склад чоловічої збірної на Кубок світу з біатлону",
+     "url": "https://sport.rbc.ua/rus/winter/kapitan-stroyu-ale-e-vtrati-ukrayina-ogolosila-1794748580.html",
+     "source": "РБК-Україна"
+    }
+   ],
+   "channel": "sport",
+   "score": 3,
+   "matched": [
+    "біатлон",
+    "збірн",
+    "кубок"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  }
+ ],
+ "polityka": [
+  {
+   "query": "президент сша",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-15T14:20:00-08:00",
+   "news": [
+    {
+     "title": "Байден в мемуарах назвал Зеленского \"недостаточно благодарным\", а Путина – \"похожим на подростка\"",
+     "url": "https://www.pravda.com.ua/rus/news/2026/11/15/8062940/",
+     "source": "Українська правда"
+    },
+    {
+     "title": "Путин на встречах был как «подросток, изображающий безразличие», а Зеленский не проявлял достаточно благодарности",
+     "url": "https://meduza.io/feature/2026/11/15/bayden-vypuskaet-memuary-vot-neskolko-tsitat-iz-nih",
+     "source": "Meduza"
+    },
+    {
+     "title": "В своих мемуарах Байден заявил, что не позволил команде Трампа вести переговоры с Путиным до инаугурации",
+     "url": "https://nv.ua/world/countries/memuary-baydena-byvshiy-prezident-rasskazal-o-trebovaniyah-komandy-trampa-o-pryamyh-kontaktah-50659331.html",
+     "source": "NV"
+    }
+   ],
+   "channel": "polityka",
+   "score": 6,
+   "matched": [
+    "зеленск",
+    "переговор",
+    "президент",
+    "трамп"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  }
+ ]
+}
