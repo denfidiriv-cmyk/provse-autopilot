@@ -1,4 +1,4 @@
-name: Відео-сток Pexels для довгих роликів
+name: Відео-сток (Pixabay або Pexels) для довгих роликів
 
 # Шукає короткі вертикальні/горизонтальні кліпи на Pexels (ліцензія Pexels: безкоштовно, без обов'язкової атрибуції)
 # і віддає їх артефактом (не в репозиторій, щоб не роздувати git). Ключ: секрет PEXELS_API_KEY.
@@ -8,7 +8,8 @@ on:
       queries: { description: "Запити через ; у форматі назва|англійський запит, напр. truck|truck night highway;lab|chemistry lab", required: true }
       orientation: { description: "landscape або portrait", required: false, default: "landscape" }
       per: { description: "Скільки кліпів на запит", required: false, default: "2" }
-      name: { description: "Назва артефакту", required: true, default: "pexels" }
+      name: { description: "Назва артефакту", required: true, default: "stock" }
+      provider: { description: "pixabay або pexels", required: false, default: "pixabay" }
 
 jobs:
   fetch:
@@ -16,38 +17,55 @@ jobs:
     steps:
       - name: Завантажити
         env:
-          KEY: ${{ secrets.PEXELS_API_KEY }}
+          KEY: ${{ inputs.provider == 'pexels' && secrets.PEXELS_API_KEY || secrets.PIXABAY_API_KEY }}
+          PROV: ${{ inputs.provider }}
           Q: ${{ inputs.queries }}
           OR: ${{ inputs.orientation }}
           PER: ${{ inputs.per }}
         run: |
           set -e
-          [ -n "$KEY" ] || { echo "Немає секрету PEXELS_API_KEY"; exit 1; }
+          [ -n "$KEY" ] || { echo "Немає секрету PIXABAY_API_KEY / PEXELS_API_KEY"; exit 1; }
           mkdir -p out
           python3 - <<'PY'
           import json, os, urllib.parse, urllib.request
           key, q, ori, per = os.environ["KEY"], os.environ["Q"], os.environ["OR"], int(os.environ["PER"])
           credits = {}
+          prov = os.environ.get("PROV", "pixabay")
+          def get(u, h=None):
+              return urllib.request.urlopen(urllib.request.Request(u, headers=dict({"User-Agent": "provse-autopilot"}, **(h or {}))))
           for item in [x for x in q.split(";") if x.strip()]:
               slug, query = [s.strip() for s in item.split("|", 1)]
-              url = "https://api.pexels.com/videos/search?" + urllib.parse.urlencode({"query": query, "orientation": ori, "per_page": 10, "size": "medium"})
-              req = urllib.request.Request(url, headers={"Authorization": key, "User-Agent": "provse-autopilot"})
-              data = json.load(urllib.request.urlopen(req))
               got = 0
-              for v in data.get("videos", []):
-                  if v.get("duration", 0) < 4:
-                      continue
-                  files = [f for f in v["video_files"] if f.get("file_type") == "video/mp4" and f.get("width") and 1200 <= max(f["width"], f["height"]) <= 2000]
-                  if not files:
-                      continue
-                  f = sorted(files, key=lambda f: -f["width"])[0]
-                  name = f"{slug}_{got + 1}.mp4"
-                  r = urllib.request.Request(f["link"], headers={"User-Agent": "provse-autopilot"})
-                  open(f"out/{name}", "wb").write(urllib.request.urlopen(r).read())
-                  credits[name] = {"pexels_id": v["id"], "author": v["user"]["name"], "url": v["url"], "duration": v["duration"]}
-                  got += 1
-                  if got >= per:
-                      break
+              if prov == "pixabay":
+                  data = json.load(get("https://pixabay.com/api/videos/?" + urllib.parse.urlencode({"key": key, "q": query, "per_page": 20, "safesearch": "true"})))
+                  for v in data.get("hits", []):
+                      if v.get("duration", 0) < 4:
+                          continue
+                      vids = v.get("videos", {})
+                      f = next((vids[k] for k in ("large", "medium") if vids.get(k, {}).get("url") and vids[k].get("width", 0) >= 1280), None)
+                      if not f or (ori == "landscape" and f["width"] < f["height"]) or (ori == "portrait" and f["width"] > f["height"]):
+                          continue
+                      name = f"{slug}_{got + 1}.mp4"
+                      open(f"out/{name}", "wb").write(get(f["url"]).read())
+                      credits[name] = {"pixabay_id": v["id"], "author": v.get("user"), "url": v.get("pageURL"), "duration": v["duration"]}
+                      got += 1
+                      if got >= per:
+                          break
+              else:
+                  data = json.load(get("https://api.pexels.com/videos/search?" + urllib.parse.urlencode({"query": query, "orientation": ori, "per_page": 10, "size": "medium"}), {"Authorization": key}))
+                  for v in data.get("videos", []):
+                      if v.get("duration", 0) < 4:
+                          continue
+                      files = [f for f in v["video_files"] if f.get("file_type") == "video/mp4" and f.get("width") and 1200 <= max(f["width"], f["height"]) <= 2000]
+                      if not files:
+                          continue
+                      f = sorted(files, key=lambda f: -f["width"])[0]
+                      name = f"{slug}_{got + 1}.mp4"
+                      open(f"out/{name}", "wb").write(get(f["link"]).read())
+                      credits[name] = {"pexels_id": v["id"], "author": v["user"]["name"], "url": v["url"], "duration": v["duration"]}
+                      got += 1
+                      if got >= per:
+                          break
               print(slug, "->", got)
           json.dump(credits, open("out/credits.json", "w"), ensure_ascii=False, indent=1)
           PY
