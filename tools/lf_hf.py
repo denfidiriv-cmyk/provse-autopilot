@@ -270,7 +270,7 @@ def main():
     for i, (_, t, p) in enumerate(cfg["beats"]):
         s, d = starts[i], starts[i + 1] - starts[i]
         h, j = scene(i, t, p, img, s, d + .7)
-        if i == 0:  # хук: головна цифра на екрані з першого кадру, без появи
+        if i == 0 and t == "big" and cfg.get("hook", cfg["theme"] == "hook"):  # хук: головна цифра на екрані з першого кадру, без появи
             j = re.sub(r"tl\.fromTo\('#b0 \.bigt \.w',[^;]*;", "", j).replace("s+.2);", "s);")
         j = re.sub(r"tl\.fromTo\(('[^']+'),(\{[^{}]*\}),(\{[^{}]*\}),s\+([^)]*)\);", lambda m: f"tl.set({m[1]},{m[2]},s);" + m[0], j)
         bt = THEMES[p.get("theme", cfg["theme"])]
