@@ -192,6 +192,8 @@ def scene(i, t, p, img, S=0.0, D=0.0):
               f"tl.fromTo('#{sid} .masc',{{y:0}},{{y:-18,duration:.5,yoyo:true,repeat:Math.max(1,Math.floor(d/0.5)-2),ease:'sine.inOut',immediateRender:false}},s+.7);")
     else:
         raise ValueError(t)
+    if t in ("versus", "timeline", "list", "mascot"):
+        js += f"tl.fromTo('#{sid} .pat',{{scale:1,x:0}},{{scale:1.1,x:-80,duration:d,ease:'none',immediateRender:false}},s);"
     return f"<section class='sc' id='{sid}'>{body}</section>", js
 
 
@@ -267,8 +269,8 @@ def main():
     for i, (_, t, p) in enumerate(cfg["beats"]):
         s, d = starts[i], starts[i + 1] - starts[i]
         h, j = scene(i, t, p, img, s, d + .7)
-        if i == 0:
-            j = j.replace("s+.15)", "s)").replace("s+.2);", "s);")
+        if i == 0:  # хук: головна цифра на екрані з першого кадру, без появи
+            j = re.sub(r"tl\.fromTo\('#b0 \.bigt \.w',[^;]*;", "", j).replace("s+.2);", "s);")
         j = re.sub(r"tl\.fromTo\(('[^']+'),(\{[^{}]*\}),(\{[^{}]*\}),s\+([^)]*)\);", lambda m: f"tl.set({m[1]},{m[2]},s);" + m[0], j)
         bt = THEMES[p.get("theme", cfg["theme"])]
         sv = f"--bg:{bt['bg']};--ink:{bt['ink']};--acc:{bt['acc']};--acc2:{bt['acc2']};--head:{bt['head']}"
