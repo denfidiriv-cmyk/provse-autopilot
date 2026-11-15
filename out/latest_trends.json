@@ -1,129 +1,223 @@
 {
- "sport": [
+ "ekonomika": [
   {
-   "query": "світоліна носкова",
-   "traffic": 1000,
-   "traffic_label": "1000+",
-   "published": "2026-11-14T13:30:00-08:00",
+   "query": "эмманюэль макрон",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-14T21:00:00-08:00",
    "news": [
     {
-     "title": "Світоліна — Носкова: онлайн-трансляція матчу, рахунок та результат",
-     "url": "https://suspilne.media/sport/1453122-svitolina-noskova-onlajn-translacia-pivfinalu-wta-finals-2026/",
-     "source": "Суспільне | Новини"
+     "title": "\"Это рецепт новой войны\": Макрон объяснил, чем несправедливый мир в Украине угрожает Европе",
+     "url": "https://www.pravda.com.ua/rus/news/2026/11/15/8062909/",
+     "source": "Українська правда"
     },
     {
-     "title": "Олександр Усик вийшов з емоційною заявою про Еліну Світоліну",
-     "url": "https://sport.ua/uk/news/925005-oleksandr-usik-viyshov-z-emotsiynoyu-zayavoyu-pro-elinu-svitolinu",
+     "title": "Место Украины в НАТО и план на зиму: Макрон обратился к французам",
+     "url": "https://www.rbc.ua/ukr/news/mistse-ukrayini-nato-i-plan-zimu-makron-zvernuvsya-1794705099.html",
+     "source": "РБК-Україна"
+    },
+    {
+     "title": "Макрон: поддержка Украины — залог безопасности Франции и всей Европы, ее место — в НАТО",
+     "url": "https://nv.ua/world/geopolitics/podderzhka-ukrainy-eto-zashchita-francii-i-evropy-zayavil-makron-posle-sammita-50659291.html",
+     "source": "НВ"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 1,
+   "matched": [
+    "евро"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 7
+  }
+ ],
+ "sport": [
+  {
+   "query": "збірна угорщини з футболу",
+   "traffic": 5000,
+   "traffic_label": "5000+",
+   "published": "2026-11-14T20:40:00-08:00",
+   "news": [
+    {
+     "title": "Таблиці Ліги націй. Україна – третя і боротиметься за невиліт до Ліги C",
+     "url": "https://sport.ua/uk/news/925104-tablitsi-ligi-natsiy-ukraina-tretya-i-borotimetsya-za-nevilit-do-ligi-c",
      "source": "Sport.ua"
     },
     {
-     "title": "\"Й***на, с**а, українка, н***й\": білоруска потрапила у скандал після програшу Світоліній (відео)",
-     "url": "https://tsn.ua/svit/yna-sa-ukrayinka-ny-biloruska-potrapyla-u-skandal-pislia-prohrashu-svitoliniy-video-3216859.html",
-     "source": "ТСН"
+     "title": "Україна втратила шанси виграти групу Ліги націй після перемоги Угорщини над Грузією",
+     "url": "https://suspilne.media/sport/1453105-ukraina-vtratila-sansi-vigrati-grupu-ligi-nacij-pisla-peremogi-ugorsini-nad-gruzieu/",
+     "source": "Суспільне | Новини"
+    },
+    {
+     "title": "Україна ще ніколи не була так близько до провалу в Лізі націй: замість еліти можемо грати із Сан-Марино",
+     "url": "https://sport.nv.ua/ukr/football/liga-naciy-zbirna-ukrajini-rizikuye-viletiti-do-nizhchoji-ligi-rozkladi-v-grupi-50659282.html",
+     "source": "NV Спорт"
     }
    ],
    "channel": "sport",
    "score": 6,
    "matched": [
-    "матч",
-    "світоліна",
-    "усик"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 6
-  },
-  {
-   "query": "португалія данія",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-14T13:20:00-08:00",
-   "news": [
-    {
-     "title": "Шок без Роналду! Матч Португалії і Данії закінчився тотальним знущанням",
-     "url": "https://sport.ua/uk/news/925106-shok-bez-ronaldu-match-portugalii-i-danii-zakinchivsya-totalnim-znushchannyam",
-     "source": "Sport.ua"
-    },
-    {
-     "title": "Ліга націй. Прокляття Роналду? Данія розгромила на виїзді Португалію",
-     "url": "https://www.ua-football.com/ua/foreign/nations_league/1794690386-liga-naciy-proklyattya-ronaldu-daniya-rozgromila-na-viyizdi-portugaliyu.html",
-     "source": "UA-Football"
-    },
-    {
-     "title": "Тренер Португалії розраховує сьогодні забезпечити перше місце у групі",
-     "url": "https://terrikon.com/uk/posts/591681",
-     "source": "Террикон"
-    }
-   ],
-   "channel": "sport",
-   "score": 2,
-   "matched": [
-    "ліга",
-    "матч"
+    "збірн",
+    "футбол"
    ],
    "skipped_reason": "",
    "extra_sources": 7
   },
   {
-   "query": "мастер шеф професіонали",
+   "query": "левый берег – буковина",
    "traffic": 100,
    "traffic_label": "100+",
-   "published": "2026-11-14T13:50:00-08:00",
+   "published": "2026-11-14T21:00:00-08:00",
    "news": [
     {
-     "title": "Холостяк 15 сезон 5 выпуск смотреть онлайн от 13.11.2026 | Холостяк",
-     "url": "https://www.stb.ua/holostyak/ru/issue/holostyak-sezon-15-vypusk-5-vid-13-11-2026/",
-     "source": "Телеканал СТБ"
+     "title": "Удалось реализовать свои моменты: Шищенко – о разгромной победе над Левым берегом",
+     "url": "https://champion.com.ua/rus/football/shishchenko-ocenil-pobedu-nad-levym-beregom-v-upl-1090827/",
+     "source": "Champion.com.ua"
     },
     {
-     "title": "Неприятно и все: сеть в шоке от решения Холостяка",
-     "url": "https://fakty.ua/ru/481919-nepriyatno-i-vse-set-v-shoke-ot-resheniya-holostyaka",
-     "source": "ФАКТЫ"
+     "title": "Левый Берег и Буковина доиграли матч 11-го тура УПЛ: 0:3",
+     "url": "https://korrespondent.net/sport/football/4928719-levyi-bereh-y-bukovyna-doyhraly-match-11-ho-tura-upl-03",
+     "source": "Korrespondent.net"
     },
     {
-     "title": "После разрыва с футболистом. Модель Диана Зотова во второй раз стала участницей шоу Холостяк",
-     "url": "https://life.nv.ua/znamenitosti/holostyak-vyacheslav-kravcov-priglasil-dianu-zotovu-na-shou-kak-otreagirovali-gornyak-i-polyanskaya-50657138.html",
-     "source": "NV LIFE"
+     "title": "\"Что можно говорить?\": Рябоконь не искал оправданий после разгрома от Буковины",
+     "url": "https://www.ua-football.com/ukrainian/high/1794679610-chto-mozhno-govorit-ryabokon-ne-iskal-opravdaniy-posle-razgroma-ot-bukoviny.html",
+     "source": "UA-Football"
     }
    ],
    "channel": "sport",
    "score": 1,
    "matched": [
-    "футбол"
+    "матч"
    ],
    "skipped_reason": "",
-   "extra_sources": 3
+   "extra_sources": 6
+  }
+ ],
+ "yizha": [
+  {
+   "query": "олія",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-14T20:50:00-08:00",
+   "news": [
+    {
+     "title": "РФ розбила резервуар \"Кернела\" й залила олією тисячі квадратів землі",
+     "url": "https://epravda.com.ua/biznes/udar-rf-po-zavodu-kernela-sprichiniv-vitik-oliji-na-mikolajivshchini-827639/",
+     "source": "Економічна правда"
+    },
+    {
+     "title": "Плюс $60–65/т за день: як європейський ринок олії відреагував на зупинку заводів в Україні",
+     "url": "https://latifundist.com/novosti/71682-plyus-6065-t-za-den-yak-yevropejskij-rinok-oliyi-vidreaguvav-na-zupinku-zavodiv-v-ukrayini",
+     "source": "Latifundist.com"
+    },
+    {
+     "title": "Дефіциту олії в Україні не буде, але переробники попередили про іншу загрозу для галузі",
+     "url": "https://mind.ua/news/20312257-deficitu-oliyi-v-ukrayini-ne-bude-ale-pererobniki-poperedili-pro-inshu-zagrozu-dlya-galuzi",
+     "source": "Mind.ua"
+    }
+   ],
+   "channel": "yizha",
+   "score": 4,
+   "matched": [
+    "олія",
+    "олії"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
   }
  ],
  "polityka": [
   {
-   "query": "посольство",
+   "query": "варшава",
    "traffic": 200,
    "traffic_label": "200+",
-   "published": "2026-11-14T12:30:00-08:00",
+   "published": "2026-11-14T20:30:00-08:00",
    "news": [
     {
-     "title": "У Польщі затримали українського підлітка, який писав Слава УПА на памʼятниках - ZAXID.NET",
-     "url": "https://zaxid.net/u_gdansku_za_napisi_slava_upa_na_pamyatnikah_zatrimali_17_richnogo_ukrayintsya_n1650184",
-     "source": "Zaxid.net"
-    },
-    {
-     "title": "У Варшаві невідомі залишили на двох пам‘ятниках написи \"Слава УПА\"",
-     "url": "https://www.eurointegration.com.ua/news/2026/11/14/7250003/",
+     "title": "В Варшаве неизвестные оставили на двух памятниках надписи \"Слава УПА\"",
+     "url": "https://www.eurointegration.com.ua/rus/news/2026/11/14/7250003/",
      "source": "Європейська правда"
     },
     {
-     "title": "У Варшаві на двох пам’ятниках написали «Слава УПА»: посольство України заявило про провокацію рф",
-     "url": "https://www.slovoidilo.ua/2026/11/14/novyna/svit/varshavi-dvox-pamyatnykax-napysaly-slava-upa-posolstvo-ukrayiny-zayavylo-pro-provokacziyu-rf",
-     "source": "Слово і Діло"
+     "title": "Посольство Украины назвало надписи \"Слава УПА\" в Польше проявлением гибридной войны РФ",
+     "url": "https://www.pravda.com.ua/rus/news/2026/11/14/8062891/",
+     "source": "Українська правда"
+    },
+    {
+     "title": "В Варшаве на двух памятниках написали \"Слава УПА\": в посольстве Украины отреагировали",
+     "url": "https://24tv.ua/ru/posolstvo-ukrainy-otreagirovalo-na-oskvernenie-pamjatnikov-nadpisjami-slava-upa-v-varshave_n3180604",
+     "source": "24 Канал"
     }
    ],
    "channel": "polityka",
-   "score": 4,
+   "score": 1,
    "matched": [
     "посол"
    ],
    "skipped_reason": "",
-   "extra_sources": 9
+   "extra_sources": 10
+  },
+  {
+   "query": "затримання",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-14T20:40:00-08:00",
+   "news": [
+    {
+     "title": "Під час обшуків у корупційній справі проти міністра часів Орбана виявили мільярди готівки, закопані в лісах",
+     "url": "https://hromadske.ua/polityka/274386-pid-chas-obshukiv-u-koruptsiyniy-spravi-proty-ministra-chasiv-orbana-vyiavyly-miliardy-hotivky-zakopani-v-lisakh",
+     "source": "Hromadske"
+    },
+    {
+     "title": "У справі ексміністра уряду Орбана знайшли мільйони готівки, частину – закопану у лісі",
+     "url": "https://www.eurointegration.com.ua/news/2026/11/13/7249978/",
+     "source": "Європейська правда"
+    },
+    {
+     "title": "Угорщина: в ексміністра часів Орбана вилучили майже 20 млн доларів – частина була закопана в лісі",
+     "url": "https://www.radiosvoboda.org/a/news-uhorshchyna-eksministr-chasiv-orbana-vyluchennia-hotivky/33898655.html",
+     "source": "Радіо Свобода"
+    }
+   ],
+   "channel": "polityka",
+   "score": 2,
+   "matched": [
+    "міністр",
+    "уряд"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  },
+  {
+   "query": "freyja",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-14T20:30:00-08:00",
+   "news": [
+    {
+     "title": "Зеленський заявив про готовність української ракети для системи FREYJA",
+     "url": "https://fakty.com.ua/ua/ukraine/20261114-zelenskyj-zayavyv-pro-gotovnist-ukrayinskoyi-rakety-dlya-systemy-freyja/",
+     "source": "Факти ICTV"
+    },
+    {
+     "title": "Прем’єр-міністерка Данії Фредеріксен закликала надати Україні більше допомоги перед зимою",
+     "url": "https://lb.ua/society/2026/11/13/780788_premier-ministerka_daniyi.html",
+     "source": "LB.ua"
+    },
+    {
+     "title": "Клименко обговорив з радником прем'єра Канади запуск спільного виробництва українських БПЛА та підтримку Freyja",
+     "url": "https://interfax.com.ua/news/general/1236122.html",
+     "source": "Інтерфакс-Україна"
+    }
+   ],
+   "channel": "polityka",
+   "score": 1,
+   "matched": [
+    "зеленськ"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
   }
  ]
 }
