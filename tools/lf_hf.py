@@ -88,7 +88,7 @@ html,body{width:1920px;height:1080px;overflow:hidden;background:var(--bg)}
 .bub{position:absolute;max-width:900px;background:#fff;color:#111;font:800 66px/1.2 UI;padding:40px 52px;border-radius:40px;box-shadow:0 20px 50px rgba(0,0,0,.3)}
 """
 
-TRANS = ["wipe", "slide", "zoom", "flip", "iris", "push", "slide", "wipe"]
+TRANS = ["slide", "cut", "push", "zoom", "cut", "wipe", "slide", "cut"]
 
 
 def esc(s):
@@ -114,9 +114,9 @@ def scene(i, t, p, img, S=0.0, D=0.0):
                 + (f"<div class='tag'>{esc(p['tag'])}</div>" if p.get("tag") else "")
                 + (f"<div class='bigt' style='top:{p.get('top', 380)}px;font-size:{p.get('size', 150)}px;color:#fff;text-shadow:0 10px 40px rgba(0,0,0,.8)'>{words_html(p['text'], p.get('acc', []))}</div>" if p.get("text") else ""))
         js = (f"tl.fromTo('#{sid} .vw',{{scale:1.02}},{{scale:1.1,duration:d,ease:'none',immediateRender:false}},s);"
-              f"tl.fromTo('#{sid} .tag',{{xPercent:-120,opacity:0}},{{xPercent:0,opacity:1,duration:.6,ease:'expo.out',immediateRender:false}},s+.45);"
-              f"tl.fromTo('#{sid} .tag2',{{y:30,opacity:0}},{{y:0,opacity:1,duration:.5,ease:'power2.out',immediateRender:false}},s+.75);"
-              f"tl.fromTo('#{sid} .bigt .w',{{y:100,opacity:0}},{{y:0,opacity:1,duration:.5,ease:'back.out(1.7)',stagger:.1,immediateRender:false}},s+.3);")
+              f"tl.fromTo('#{sid} .tag',{{clipPath:'inset(0 100% 0 0)'}},{{clipPath:'inset(0 0% 0 0)',duration:.55,ease:'expo.out',immediateRender:false}},s+.45);"
+              f"tl.fromTo('#{sid} .tag2',{{y:24,opacity:0,filter:'blur(8px)'}},{{y:0,opacity:1,filter:'blur(0px)',duration:.55,ease:'power3.out',immediateRender:false}},s+.75);"
+              f"tl.fromTo('#{sid} .bigt .w',{{yPercent:55,opacity:0,filter:'blur(14px)'}},{{yPercent:0,opacity:1,filter:'blur(0px)',duration:.6,ease:'power3.out',stagger:.07,immediateRender:false}},s+.3);")
     elif t == "photo":
         src = f"assets/img/{p['img']}"
         body = (f"<div class='ph'><img src='{src}' style='object-position:{p.get('pos','center')}'></div><div class='shade'></div>"
@@ -124,8 +124,8 @@ def scene(i, t, p, img, S=0.0, D=0.0):
                 + (f"<div class='tag'>{esc(p['tag'])}</div>" if p.get("tag") else ""))
         dx = p.get("dx", 60 if i % 2 else -60)
         js = (f"tl.fromTo('#{sid} .ph img',{{scale:1.04,x:0}},{{scale:1.16,x:{dx},duration:d,ease:'none',immediateRender:false}},s);"
-              f"tl.fromTo('#{sid} .tag',{{xPercent:-120,opacity:0}},{{xPercent:0,opacity:1,duration:.6,ease:'expo.out',immediateRender:false}},s+.45);"
-              f"tl.fromTo('#{sid} .tag2',{{y:30,opacity:0}},{{y:0,opacity:1,duration:.5,ease:'power2.out',immediateRender:false}},s+.75);")
+              f"tl.fromTo('#{sid} .tag',{{clipPath:'inset(0 100% 0 0)'}},{{clipPath:'inset(0 0% 0 0)',duration:.55,ease:'expo.out',immediateRender:false}},s+.45);"
+              f"tl.fromTo('#{sid} .tag2',{{y:24,opacity:0,filter:'blur(8px)'}},{{y:0,opacity:1,filter:'blur(0px)',duration:.55,ease:'power3.out',immediateRender:false}},s+.75);")
     elif t == "polaroid":
         src = f"assets/img/{p['img']}"
         w, h = p.get("w", 900), p.get("h", 620)
@@ -134,19 +134,19 @@ def scene(i, t, p, img, S=0.0, D=0.0):
         body = (pat + f"<div class='pol' style='left:{left}px;top:{top}px;transform:rotate({rot}deg)'><div class='tape'></div>"
                 f"<img src='{src}' style='width:{w}px;height:{h}px;object-position:{p.get('pos','center')}'>"
                 + (f"<div class='cap'>{esc(p['cap'])}</div>" if p.get("cap") else "") + "</div>"
-                + (f"<div class='stamp' style='right:170px;bottom:150px;transform:rotate(-9deg)'>{esc(p['stamp'])}</div>" if p.get("stamp") else ""))
-        js = (f"tl.fromTo('#{sid} .pol',{{y:-900,rotation:{rot - 14}}},{{y:0,rotation:{rot},duration:.9,ease:'back.out(1.3)',immediateRender:false}},s+.05);"
+                + (f"<div class='stamp' style='{f'left:{left + w + 110}px;top:{top + h - 40}px' if left + w + 110 + 560 < 1920 else 'right:120px;top:120px'};transform:rotate(-9deg)'>{esc(p['stamp'])}</div>" if p.get("stamp") else ""))
+        js = (f"tl.fromTo('#{sid} .pol',{{scale:1.3,opacity:0,y:40,rotation:{rot + 9}}},{{scale:1,opacity:1,y:0,rotation:{rot},duration:.7,ease:'power3.out',immediateRender:false}},s+.05);"
               f"tl.fromTo('#{sid} .pol img',{{scale:1}},{{scale:1.1,duration:d,ease:'none',immediateRender:false}},s);"
               f"tl.fromTo('#{sid} .pat',{{x:0}},{{x:-120,duration:d,ease:'none',immediateRender:false}},s);"
-              f"tl.fromTo('#{sid} .stamp',{{scale:2.6,opacity:0}},{{scale:1,opacity:1,duration:.35,ease:'power4.in',immediateRender:false}},s+1.1);")
+              f"tl.fromTo('#{sid} .stamp',{{scale:2.2,opacity:0}},{{scale:1,opacity:1,duration:.28,ease:'power4.in',immediateRender:false}},s+.95);")
     elif t == "big":
         bgimg = f"<div class='ph' style='filter:blur(5px) brightness(.45)'><img src='assets/img/{p['img']}'></div>" if p.get("img") else pat
         size = p.get("size", 190)
         top = p.get("top", 330 if p.get("sub") else 400)
         body = (bgimg + f"<div class='bigt' style='top:{top}px;font-size:{size}px;{'color:#fff' if p.get('img') else ''}'>{words_html(p['text'], p.get('acc', []))}</div>"
                 + (f"<div class='subt' style='top:{top + int(size * 1.15) + 40}px;{'color:#fff' if p.get('img') else ''}'>{esc(p['sub'])}</div>" if p.get("sub") else ""))
-        js = (f"tl.fromTo('#{sid} .bigt .w',{{y:120,opacity:0,rotationX:-70}},{{y:0,opacity:1,rotationX:0,duration:.55,ease:'back.out(1.7)',stagger:.12,immediateRender:false}},s+.15);"
-              f"tl.fromTo('#{sid} .subt',{{y:40,opacity:0}},{{y:0,opacity:1,duration:.5,ease:'power2.out',immediateRender:false}},s+.75);"
+        js = (f"tl.fromTo('#{sid} .bigt .w',{{yPercent:55,opacity:0,filter:'blur(14px)'}},{{yPercent:0,opacity:1,filter:'blur(0px)',duration:.6,ease:'power3.out',stagger:.08,immediateRender:false}},s+.15);"
+              f"tl.fromTo('#{sid} .subt',{{y:24,opacity:0,filter:'blur(8px)'}},{{y:0,opacity:1,filter:'blur(0px)',duration:.55,ease:'power3.out',immediateRender:false}},s+.7);"
               f"tl.fromTo('#{sid} .bigt',{{scale:1}},{{scale:1.06,duration:d,ease:'none',immediateRender:false}},s);"
               f"tl.fromTo('#{sid} .ph img, #{sid} .pat',{{scale:1.05,x:0}},{{scale:1.15,x:-50,duration:d,ease:'none',immediateRender:false}},s);")
         if p.get("count"):
@@ -180,10 +180,10 @@ def scene(i, t, p, img, S=0.0, D=0.0):
                    f"tl.fromTo('#{sid} .tlab:nth-of-type({k * 2 + 4})',{{y:40,opacity:0}},{{y:0,opacity:1,duration:.4,ease:'power2.out',immediateRender:false}},{when}+.1);")
     elif t == "list":
         body = pat + (f"<div class='bigt' style='top:110px;font-size:110px'>{words_html(p['title'], p.get('acc', []))}</div>" if p.get("title") else "")
-        js = (f"tl.fromTo('#{sid} .bigt .w',{{y:60,opacity:0}},{{y:0,opacity:1,duration:.45,stagger:.08,ease:'back.out(1.6)',immediateRender:false}},s+.1);")
+        js = (f"tl.fromTo('#{sid} .bigt .w',{{yPercent:55,opacity:0,filter:'blur(12px)'}},{{yPercent:0,opacity:1,filter:'blur(0px)',duration:.55,stagger:.07,ease:'power3.out',immediateRender:false}},s+.1);")
         for k, (a, b) in enumerate(p["items"]):
             body += f"<div class='li' style='top:{300 + k * 108}px'><b>{esc(a)}</b><span>{esc(b)}</span></div>"
-            js += f"tl.fromTo('#{sid} .li:nth-of-type({k + (3 if p.get('title') else 2)})',{{x:-200,opacity:0}},{{x:0,opacity:1,duration:.45,ease:'expo.out',immediateRender:false}},s+{0.5 + k * p.get('gap', .45)});"
+            js += f"tl.fromTo('#{sid} .li:nth-of-type({k + (3 if p.get('title') else 2)})',{{x:-60,opacity:0,filter:'blur(8px)'}},{{x:0,opacity:1,filter:'blur(0px)',duration:.5,ease:'power3.out',immediateRender:false}},s+{0.5 + k * p.get('gap', .45)});"
     elif t == "mascot":
         body = (pat + f"<div class='masc' style='left:180px;top:330px'><img src='assets/img/avatar.png'></div>"
                 f"<div class='bub' style='left:690px;top:300px'>{esc(p['text'])}</div>")
@@ -205,7 +205,7 @@ def trans_js(a, b, s, kind):
         js += (f"tl.fromTo('{B}',{{xPercent:100}},{{xPercent:0,duration:{d},ease:'expo.inOut',immediateRender:false}},{s:.3f});"
                f"tl.fromTo('{A}',{{xPercent:0}},{{xPercent:-35,duration:{d},ease:'expo.inOut',immediateRender:false}},{s:.3f});")
     elif kind == "zoom":
-        js += (f"tl.fromTo('{B}',{{scale:1.35,opacity:0}},{{scale:1,opacity:1,duration:{d},ease:'power3.out',immediateRender:false}},{s:.3f});"
+        js += (f"tl.fromTo('{B}',{{scale:1.12,opacity:0,filter:'blur(12px)'}},{{scale:1,opacity:1,filter:'blur(0px)',duration:{d},ease:'power3.out',immediateRender:false}},{s:.3f});"
                f"tl.fromTo('{A}',{{scale:1}},{{scale:.85,duration:{d},ease:'power3.in',immediateRender:false}},{s:.3f});")
     elif kind == "flip":
         js += f"tl.fromTo('{B}',{{rotationY:-90,transformPerspective:2000,opacity:.4}},{{rotationY:0,opacity:1,duration:{d + .1},ease:'power3.out',immediateRender:false}},{s:.3f});"
@@ -267,6 +267,7 @@ def main():
     for i, (_, t, p) in enumerate(cfg["beats"]):
         s, d = starts[i], starts[i + 1] - starts[i]
         h, j = scene(i, t, p, img, s, d + .7)
+        j = re.sub(r"tl\.fromTo\(('[^']+'),(\{[^{}]*\}),(\{[^{}]*\}),s\+([^)]*)\);", lambda m: f"tl.set({m[1]},{m[2]},s);" + m[0], j)
         bt = THEMES[p.get("theme", cfg["theme"])]
         sv = f"--bg:{bt['bg']};--ink:{bt['ink']};--acc:{bt['acc']};--acc2:{bt['acc2']};--head:{bt['head']}"
         h = h.replace(f"<section class='sc' id='b{i}'>", f"<section class='sc' id='b{i}' style=\"{sv}\">", 1)
