@@ -287,6 +287,7 @@ window.__timelines["main"] = tl;
     (proj / "index.html").write_text(page, encoding="utf-8")
     (job / "END.txt").write_text(str(end))
     # мікс: голос + музика розділу (тихо, з приглушенням під голос)
+    # музика нормалізується до music_lufs (типово -31 LUFS, голос близько -16), тож гучність треку не залежить від файлу; vol лише множник
     # музика: або один трек ("music"), або кілька ("musics": [[індекс біта, файл, зсув у треку, гучність], ...]) з перехресними згасаннями
     segs = cfg.get("musics") or ([[0, cfg["music"], cfg.get("music_start", 0), cfg.get("music_vol", .2)]] if cfg.get("music") else [])
     if segs:
@@ -298,7 +299,7 @@ window.__timelines["main"] = tl;
             ins += ["-ss", str(off), "-i", f]
             fi = 0.8 if k else 1.0
             fl.append(f"[{k + 1}:a]aresample=48000,aformat=channel_layouts=stereo,atrim=0:{ln:.3f},asetpts=PTS-STARTPTS,"
-                      f"afade=t=in:d={fi},afade=t=out:st={max(0, ln - (0.8 if k + 1 < len(segs) else 1.5)):.3f}:d={0.8 if k + 1 < len(segs) else 1.5},volume={vol},adelay={int(t0 * 1000)}|{int(t0 * 1000)},apad=whole_dur={end}[m{k}]")
+                      f"loudnorm=I={cfg.get('music_lufs', -31)}:TP=-3:LRA=11,aresample=48000,afade=t=in:d={fi},afade=t=out:st={max(0, ln - (0.8 if k + 1 < len(segs) else 1.5)):.3f}:d={0.8 if k + 1 < len(segs) else 1.5},volume={vol},adelay={int(t0 * 1000)}|{int(t0 * 1000)},apad=whole_dur={end}[m{k}]")
         fl.append("".join(f"[m{k}]" for k in range(len(segs))) + f"amix=inputs={len(segs)}:normalize=0[mm]")
         fl.append(f"[0:a]aresample=48000,aformat=channel_layouts=stereo,apad=whole_dur={end},asplit=2[v][sc]")
         fl.append("[mm][sc]sidechaincompress=threshold=0.03:ratio=5:attack=20:release=350[md]")
