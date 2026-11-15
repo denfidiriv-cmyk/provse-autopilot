@@ -340,7 +340,7 @@ window.__timelines["main"] = tl;
         subprocess.run([sys.executable, str(ROOT / "tools" / "sfx_lib.py")], check=True)
     trk = np.zeros(int((end + 2) * 48000))
     # власник не хоче звуків на переходах: «вжух», наростання й подібне вимкнено за замовчуванням
-    mute = set(cfg.get("sfx_mute", ["whoosh", "whoosh_fast", "riser"]))
+    mute = set(cfg.get("sfx_mute", ["whoosh", "whoosh_fast", "riser", "boom", "hit", "pop", "shutter", "scratch", "ding", "typewriter"]))  # власник: лише голос і музика
     for tt, nm, g in ev:
         if nm in mute:
             continue
