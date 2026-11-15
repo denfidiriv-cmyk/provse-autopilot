@@ -1,223 +1,101 @@
 {
  "ekonomika": [
   {
-   "query": "эмманюэль макрон",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-14T21:00:00-08:00",
+   "query": "валютный рынок",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-15T06:30:00-08:00",
    "news": [
     {
-     "title": "\"Это рецепт новой войны\": Макрон объяснил, чем несправедливый мир в Украине угрожает Европе",
-     "url": "https://www.pravda.com.ua/rus/news/2026/11/15/8062909/",
-     "source": "Українська правда"
-    },
-    {
-     "title": "Место Украины в НАТО и план на зиму: Макрон обратился к французам",
-     "url": "https://www.rbc.ua/ukr/news/mistse-ukrayini-nato-i-plan-zimu-makron-zvernuvsya-1794705099.html",
+     "title": "Гривна под давлением импорта и потребностей бюджета: что будет с курсом доллара до конца года",
+     "url": "https://www.rbc.ua/ukr/news/grivnya-pid-tiskom-importu-ta-potreb-byudzhetu-1794658234.html",
      "source": "РБК-Україна"
     },
     {
-     "title": "Макрон: поддержка Украины — залог безопасности Франции и всей Европы, ее место — в НАТО",
-     "url": "https://nv.ua/world/geopolitics/podderzhka-ukrainy-eto-zashchita-francii-i-evropy-zayavil-makron-posle-sammita-50659291.html",
-     "source": "НВ"
+     "title": "Доллар и евро подешевели на межбанке",
+     "url": "https://minfin.com.ua/2026/11/13/185477847/",
+     "source": "Мінфін"
+    },
+    {
+     "title": "Курс валют на 13 ноября: наличный евро дешевеет второй день подряд",
+     "url": "https://epravda.com.ua/rus/finances/kursy-valyut-13-noyabrya-grivna-ukreplyaetsya-po-otnosheniyu-k-evro-kurs-dollara-stabilen-827615/",
+     "source": "Економічна правда"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 5,
+   "matched": [
+    "бюджет",
+    "гривн",
+    "доллар",
+    "евро",
+    "курс"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 5
+  },
+  {
+   "query": "опек",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-15T05:30:00-08:00",
+   "news": [
+    {
+     "title": "Цены на нефть упали ниже 100 долларов. Избыток сырья снижает стоимость топлива и бьет по РФ — МЭА",
+     "url": "https://biz.nv.ua/economics/mirovoy-rynok-nefti-vozvrashchaetsya-k-proficitu-ceny-padayut-a-rf-narushaet-kvoty-na-dobychu-opek-50659272.html",
+     "source": "NV Бизнес"
+    },
+    {
+     "title": "Нафта возвращается к избытку после возобновления экспорта из стран Персидского залива",
+     "url": "https://epravda.com.ua/rus/energetika/mir-vstupaet-v-period-proficita-nefti-827610/",
+     "source": "Економічна правда"
+    },
+    {
+     "title": "Экспорт нефти из Персидского залива меняет прогноз МЭА",
+     "url": "https://korrespondent.net/business/economics/4928517-eksport-nefty-yz-persydskoho-zalyva-meniaet-prohnoz-mea",
+     "source": "Korrespondent.net"
     }
    ],
    "channel": "ekonomika",
    "score": 1,
    "matched": [
-    "евро"
+    "доллар"
    ],
    "skipped_reason": "",
-   "extra_sources": 7
-  }
- ],
- "sport": [
-  {
-   "query": "збірна угорщини з футболу",
-   "traffic": 5000,
-   "traffic_label": "5000+",
-   "published": "2026-11-14T20:40:00-08:00",
-   "news": [
-    {
-     "title": "Таблиці Ліги націй. Україна – третя і боротиметься за невиліт до Ліги C",
-     "url": "https://sport.ua/uk/news/925104-tablitsi-ligi-natsiy-ukraina-tretya-i-borotimetsya-za-nevilit-do-ligi-c",
-     "source": "Sport.ua"
-    },
-    {
-     "title": "Україна втратила шанси виграти групу Ліги націй після перемоги Угорщини над Грузією",
-     "url": "https://suspilne.media/sport/1453105-ukraina-vtratila-sansi-vigrati-grupu-ligi-nacij-pisla-peremogi-ugorsini-nad-gruzieu/",
-     "source": "Суспільне | Новини"
-    },
-    {
-     "title": "Україна ще ніколи не була так близько до провалу в Лізі націй: замість еліти можемо грати із Сан-Марино",
-     "url": "https://sport.nv.ua/ukr/football/liga-naciy-zbirna-ukrajini-rizikuye-viletiti-do-nizhchoji-ligi-rozkladi-v-grupi-50659282.html",
-     "source": "NV Спорт"
-    }
-   ],
-   "channel": "sport",
-   "score": 6,
-   "matched": [
-    "збірн",
-    "футбол"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 7
-  },
-  {
-   "query": "левый берег – буковина",
-   "traffic": 100,
-   "traffic_label": "100+",
-   "published": "2026-11-14T21:00:00-08:00",
-   "news": [
-    {
-     "title": "Удалось реализовать свои моменты: Шищенко – о разгромной победе над Левым берегом",
-     "url": "https://champion.com.ua/rus/football/shishchenko-ocenil-pobedu-nad-levym-beregom-v-upl-1090827/",
-     "source": "Champion.com.ua"
-    },
-    {
-     "title": "Левый Берег и Буковина доиграли матч 11-го тура УПЛ: 0:3",
-     "url": "https://korrespondent.net/sport/football/4928719-levyi-bereh-y-bukovyna-doyhraly-match-11-ho-tura-upl-03",
-     "source": "Korrespondent.net"
-    },
-    {
-     "title": "\"Что можно говорить?\": Рябоконь не искал оправданий после разгрома от Буковины",
-     "url": "https://www.ua-football.com/ukrainian/high/1794679610-chto-mozhno-govorit-ryabokon-ne-iskal-opravdaniy-posle-razgroma-ot-bukoviny.html",
-     "source": "UA-Football"
-    }
-   ],
-   "channel": "sport",
-   "score": 1,
-   "matched": [
-    "матч"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 6
-  }
- ],
- "yizha": [
-  {
-   "query": "олія",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-14T20:50:00-08:00",
-   "news": [
-    {
-     "title": "РФ розбила резервуар \"Кернела\" й залила олією тисячі квадратів землі",
-     "url": "https://epravda.com.ua/biznes/udar-rf-po-zavodu-kernela-sprichiniv-vitik-oliji-na-mikolajivshchini-827639/",
-     "source": "Економічна правда"
-    },
-    {
-     "title": "Плюс $60–65/т за день: як європейський ринок олії відреагував на зупинку заводів в Україні",
-     "url": "https://latifundist.com/novosti/71682-plyus-6065-t-za-den-yak-yevropejskij-rinok-oliyi-vidreaguvav-na-zupinku-zavodiv-v-ukrayini",
-     "source": "Latifundist.com"
-    },
-    {
-     "title": "Дефіциту олії в Україні не буде, але переробники попередили про іншу загрозу для галузі",
-     "url": "https://mind.ua/news/20312257-deficitu-oliyi-v-ukrayini-ne-bude-ale-pererobniki-poperedili-pro-inshu-zagrozu-dlya-galuzi",
-     "source": "Mind.ua"
-    }
-   ],
-   "channel": "yizha",
-   "score": 4,
-   "matched": [
-    "олія",
-    "олії"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 9
+   "extra_sources": 10
   }
  ],
  "polityka": [
   {
-   "query": "варшава",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-14T20:30:00-08:00",
+   "query": "сергей лавров",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-15T06:20:00-08:00",
    "news": [
     {
-     "title": "В Варшаве неизвестные оставили на двух памятниках надписи \"Слава УПА\"",
-     "url": "https://www.eurointegration.com.ua/rus/news/2026/11/14/7250003/",
-     "source": "Європейська правда"
+     "title": "В РФ высмеяли позицию ЕС по участию в переговорах",
+     "url": "https://korrespondent.net/world/russia/4928841-v-rf-vysmeialy-pozytsyui-es-po-uchastyui-v-perehovorakh",
+     "source": "Korrespondent.net"
     },
     {
-     "title": "Посольство Украины назвало надписи \"Слава УПА\" в Польше проявлением гибридной войны РФ",
-     "url": "https://www.pravda.com.ua/rus/news/2026/11/14/8062891/",
-     "source": "Українська правда"
+     "title": "\"Поезд отходит\": Лавров высказался об участии Европы в переговорах по Украине",
+     "url": "https://tsn.ua/ru/politika/poezd-othodit-lavrov-vyskazalsya-ob-uchastii-evropy-v-peregovorah-po-ukraine-3217403.html",
+     "source": "ТСН"
     },
     {
-     "title": "В Варшаве на двух памятниках написали \"Слава УПА\": в посольстве Украины отреагировали",
-     "url": "https://24tv.ua/ru/posolstvo-ukrainy-otreagirovalo-na-oskvernenie-pamjatnikov-nadpisjami-slava-upa-v-varshave_n3180604",
-     "source": "24 Канал"
-    }
-   ],
-   "channel": "polityka",
-   "score": 1,
-   "matched": [
-    "посол"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 10
-  },
-  {
-   "query": "затримання",
-   "traffic": 100,
-   "traffic_label": "100+",
-   "published": "2026-11-14T20:40:00-08:00",
-   "news": [
-    {
-     "title": "Під час обшуків у корупційній справі проти міністра часів Орбана виявили мільярди готівки, закопані в лісах",
-     "url": "https://hromadske.ua/polityka/274386-pid-chas-obshukiv-u-koruptsiyniy-spravi-proty-ministra-chasiv-orbana-vyiavyly-miliardy-hotivky-zakopani-v-lisakh",
-     "source": "Hromadske"
-    },
-    {
-     "title": "У справі ексміністра уряду Орбана знайшли мільйони готівки, частину – закопану у лісі",
-     "url": "https://www.eurointegration.com.ua/news/2026/11/13/7249978/",
-     "source": "Європейська правда"
-    },
-    {
-     "title": "Угорщина: в ексміністра часів Орбана вилучили майже 20 млн доларів – частина була закопана в лісі",
-     "url": "https://www.radiosvoboda.org/a/news-uhorshchyna-eksministr-chasiv-orbana-vyluchennia-hotivky/33898655.html",
-     "source": "Радіо Свобода"
+     "title": "Лавров: европейцы хотят «успеть на последний поезд» в обсуждениях по Украине",
+     "url": "https://www.vedomosti.ru/politics/news/2026/11/15/1245442-lavrov-evropeitsi-hotyat",
+     "source": "Ведомости"
     }
    ],
    "channel": "polityka",
    "score": 2,
    "matched": [
-    "міністр",
-    "уряд"
+    "=ес",
+    "переговор"
    ],
    "skipped_reason": "",
-   "extra_sources": 8
-  },
-  {
-   "query": "freyja",
-   "traffic": 100,
-   "traffic_label": "100+",
-   "published": "2026-11-14T20:30:00-08:00",
-   "news": [
-    {
-     "title": "Зеленський заявив про готовність української ракети для системи FREYJA",
-     "url": "https://fakty.com.ua/ua/ukraine/20261114-zelenskyj-zayavyv-pro-gotovnist-ukrayinskoyi-rakety-dlya-systemy-freyja/",
-     "source": "Факти ICTV"
-    },
-    {
-     "title": "Прем’єр-міністерка Данії Фредеріксен закликала надати Україні більше допомоги перед зимою",
-     "url": "https://lb.ua/society/2026/11/13/780788_premier-ministerka_daniyi.html",
-     "source": "LB.ua"
-    },
-    {
-     "title": "Клименко обговорив з радником прем'єра Канади запуск спільного виробництва українських БПЛА та підтримку Freyja",
-     "url": "https://interfax.com.ua/news/general/1236122.html",
-     "source": "Інтерфакс-Україна"
-    }
-   ],
-   "channel": "polityka",
-   "score": 1,
-   "matched": [
-    "зеленськ"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 10
+   "extra_sources": 9
   }
  ]
 }

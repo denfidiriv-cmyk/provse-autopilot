@@ -1,0 +1,101 @@
+{
+ "ekonomika": [
+  {
+   "query": "валютный рынок",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-15T06:30:00-08:00",
+   "news": [
+    {
+     "title": "Гривна под давлением импорта и потребностей бюджета: что будет с курсом доллара до конца года",
+     "url": "https://www.rbc.ua/ukr/news/grivnya-pid-tiskom-importu-ta-potreb-byudzhetu-1794658234.html",
+     "source": "РБК-Україна"
+    },
+    {
+     "title": "Доллар и евро подешевели на межбанке",
+     "url": "https://minfin.com.ua/2026/11/13/185477847/",
+     "source": "Мінфін"
+    },
+    {
+     "title": "Курс валют на 13 ноября: наличный евро дешевеет второй день подряд",
+     "url": "https://epravda.com.ua/rus/finances/kursy-valyut-13-noyabrya-grivna-ukreplyaetsya-po-otnosheniyu-k-evro-kurs-dollara-stabilen-827615/",
+     "source": "Економічна правда"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 5,
+   "matched": [
+    "бюджет",
+    "гривн",
+    "доллар",
+    "евро",
+    "курс"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 5
+  },
+  {
+   "query": "опек",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-15T05:30:00-08:00",
+   "news": [
+    {
+     "title": "Цены на нефть упали ниже 100 долларов. Избыток сырья снижает стоимость топлива и бьет по РФ — МЭА",
+     "url": "https://biz.nv.ua/economics/mirovoy-rynok-nefti-vozvrashchaetsya-k-proficitu-ceny-padayut-a-rf-narushaet-kvoty-na-dobychu-opek-50659272.html",
+     "source": "NV Бизнес"
+    },
+    {
+     "title": "Нафта возвращается к избытку после возобновления экспорта из стран Персидского залива",
+     "url": "https://epravda.com.ua/rus/energetika/mir-vstupaet-v-period-proficita-nefti-827610/",
+     "source": "Економічна правда"
+    },
+    {
+     "title": "Экспорт нефти из Персидского залива меняет прогноз МЭА",
+     "url": "https://korrespondent.net/business/economics/4928517-eksport-nefty-yz-persydskoho-zalyva-meniaet-prohnoz-mea",
+     "source": "Korrespondent.net"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 1,
+   "matched": [
+    "доллар"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  }
+ ],
+ "polityka": [
+  {
+   "query": "сергей лавров",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-15T06:20:00-08:00",
+   "news": [
+    {
+     "title": "В РФ высмеяли позицию ЕС по участию в переговорах",
+     "url": "https://korrespondent.net/world/russia/4928841-v-rf-vysmeialy-pozytsyui-es-po-uchastyui-v-perehovorakh",
+     "source": "Korrespondent.net"
+    },
+    {
+     "title": "\"Поезд отходит\": Лавров высказался об участии Европы в переговорах по Украине",
+     "url": "https://tsn.ua/ru/politika/poezd-othodit-lavrov-vyskazalsya-ob-uchastii-evropy-v-peregovorah-po-ukraine-3217403.html",
+     "source": "ТСН"
+    },
+    {
+     "title": "Лавров: европейцы хотят «успеть на последний поезд» в обсуждениях по Украине",
+     "url": "https://www.vedomosti.ru/politics/news/2026/11/15/1245442-lavrov-evropeitsi-hotyat",
+     "source": "Ведомости"
+    }
+   ],
+   "channel": "polityka",
+   "score": 2,
+   "matched": [
+    "=ес",
+    "переговор"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  }
+ ]
+}
