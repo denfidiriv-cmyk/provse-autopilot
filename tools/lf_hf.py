@@ -339,7 +339,11 @@ window.__timelines["main"] = tl;
     if not (sfxdir / "whoosh.wav").exists():
         subprocess.run([sys.executable, str(ROOT / "tools" / "sfx_lib.py")], check=True)
     trk = np.zeros(int((end + 2) * 48000))
+    # власник не хоче звуків на переходах: «вжух», наростання й подібне вимкнено за замовчуванням
+    mute = set(cfg.get("sfx_mute", ["whoosh", "whoosh_fast", "riser"]))
     for tt, nm, g in ev:
+        if nm in mute:
+            continue
         x = wavfile.read(sfxdir / f"{nm}.wav")[1].astype(float) / 32767
         a = int(max(0, tt) * 48000); trk[a:a + len(x)] += x[:len(trk) - a] * g
     wavfile.write(job / "sfx.wav", 48000, (np.clip(trk, -1, 1) * 32767).astype(np.int16))
