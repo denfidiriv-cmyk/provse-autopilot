@@ -58,7 +58,7 @@ html,body{width:1920px;height:1080px;overflow:hidden;background:var(--bg)}
 .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;will-change:transform}
 .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05),rgba(0,0,0,.15) 55%,rgba(0,0,0,.7))}
 .tag{position:absolute;left:100px;bottom:110px;font:700 64px/1 var(--head);padding:18px 32px;background:var(--acc);color:#fff;letter-spacing:1px}
-.tag2{position:absolute;left:100px;bottom:200px;font:800 34px/1 UI;color:#fff;background:rgba(0,0,0,.6);padding:12px 20px}
+.tag2{position:absolute;left:100px;bottom:200px;font:800 46px/1 UI;color:#fff;background:rgba(0,0,0,.6);padding:12px 20px}
 .pol{position:absolute;background:#faf6ee;padding:24px 24px 80px;box-shadow:0 40px 80px rgba(0,0,0,.45)}
 .pol img{display:block;object-fit:cover}
 .pol .cap{position:absolute;left:0;right:0;bottom:18px;text-align:center;font:700 44px/1 Cav;color:#333}
@@ -248,12 +248,20 @@ def main():
     words = json.loads((job / "words.json").read_text(encoding="utf-8"))
     vdur = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(job / "voice.wav")]))
     end = round(vdur + cfg.get("tail", 0.8), 2)
-    starts, pos = [], 0
+    starts, pos, kidx = [], 0, []
     for a, _, _ in cfg["beats"]:
         k = next((i for i in range(pos, len(words)) if norm(words[i][0]).startswith(norm(a))), None)
         if k is None:
             raise SystemExit(f"не знайшов якір '{a}' після слова {pos}")
-        starts.append(0.0 if not starts else max(.1, words[k][1] - .25)); pos = k + 1
+        starts.append(0.0 if not starts else max(.1, words[k][1] - .25)); pos = k + 1; kidx.append(k)
+
+    def wt(a, k0):
+        """час слова-якоря a, шукаючи від слова k0"""
+        k = next((i for i in range(k0, len(words)) if norm(words[i][0]).startswith(norm(a))), None)
+        if k is None:
+            raise SystemExit(f"не знайшов слово '{a}' після {k0}")
+        return words[k][1]
+    ev, drops = [], []  # звукові ефекти [час, назва, гучність]; провали музики [від, до]
     starts.append(end)
     secs, js = [], []
     for i, (_, t, p) in enumerate(cfg["beats"]):
@@ -264,10 +272,46 @@ def main():
         h = h.replace(f"<section class='sc' id='b{i}'>", f"<section class='sc' id='b{i}' style=\"{sv}\">", 1)
         secs.append(h.replace("{pat}", bt["pat"]))
         js.append(f"(function(s,d){{{j}}})({s:.3f},{d + .7:.3f});")
+        kind = None
         if i == 0:
             js.append("tl.set('#b0',{visibility:'visible'},0);")
         else:
-            js.append(trans_js(i - 1, i, s, p.get("tr") or cfg.get("trans", TRANS)[i % len(cfg.get("trans", TRANS))]))
+            kind = p.get("tr") or cfg.get("trans", TRANS)[i % len(cfg.get("trans", TRANS))]
+            js.append(trans_js(i - 1, i, s, kind))
+        # звук під подію (як у референсах: вжух на переходах, удар на великих написах, «поп» на плашках)
+        if kind == "flash":
+            ev.append([s, "boom", .8])
+        elif kind and kind != "cut":
+            ev.append([s - .18, "whoosh", .45])
+        if t == "chapter":
+            ev += [[s - 1.5, "riser", .35], [s + .15, "boom", .7]]
+        elif t == "big":
+            ev.append([s + .15, "hit", .5])
+        elif t == "polaroid":
+            ev += [[s, "whoosh_fast", .4], [s + .9, "shutter", .6]] + ([[s + 1.1, "hit", .6]] if p.get("stamp") else [])
+        elif t == "versus":
+            ev += [[s + .1, "whoosh_fast", .4], [s + .9, "hit", .6]]
+        elif t == "list":
+            ev += [[s + .5 + k2 * p.get("gap", .45), "pop", .45] for k2 in range(len(p["items"]))]
+        elif t == "timeline":
+            ev += [[s + .35 + k2 * .35, "pop", .45] for k2 in range(len(p["points"]))]
+        elif t == "mascot":
+            ev.append([s + .45, "pop", .5])
+        if p.get("tag"):
+            ev.append([s + .45, "pop", .4])
+        for a in p.get("punch", []):  # різке наближення на слові
+            tp = wt(a, kidx[i]) - .05
+            js.append(f"tl.to('#b{i}',{{scale:1.14,duration:.14,ease:'power4.out'}},{tp:.3f});tl.to('#b{i}',{{scale:1,duration:.5,ease:'power2.inOut'}},{tp + 1.1:.3f});")
+            ev.append([tp - .05, "whoosh_fast", .35])
+        if p.get("freeze"):  # чорно-білий «стоп-кадр» на панчлайні
+            tf = wt(p["freeze"], kidx[i]) - .05
+            js.append(f"tl.set('#b{i}',{{filter:'grayscale(1) contrast(1.35)'}},{tf:.3f});tl.fromTo('#b{i}',{{scale:1}},{{scale:1.08,duration:.18,ease:'power4.out',immediateRender:false}},{tf:.3f});")
+            ev.append([tf, "shutter", .8])
+        if p.get("drop"):  # тиша в музиці під жарт: [слово, тривалість]
+            td = wt(p["drop"][0], kidx[i]) - .1
+            drops.append([td, td + p["drop"][1]])
+        for o, nm, g in p.get("sfx", []):
+            ev.append([s + o, nm, g])
     root_vars = f"--bg:{th['bg']};--ink:{th['ink']};--acc:{th['acc']};--acc2:{th['acc2']};--head:{th['head']}"
     page = f"""<!doctype html><html lang="uk"><head><meta charset="utf-8"><style>{CSS}</style>
 <script src="assets/gsap.min.js"></script></head><body>
@@ -289,6 +333,16 @@ window.__timelines["main"] = tl;
     # мікс: голос + музика розділу (тихо, з приглушенням під голос)
     # музика нормалізується до music_lufs (типово -31 LUFS, голос близько -16), тож гучність треку не залежить від файлу; vol лише множник
     # музика: або один трек ("music"), або кілька ("musics": [[індекс біта, файл, зсув у треку, гучність], ...]) з перехресними згасаннями
+    import numpy as np
+    from scipy.io import wavfile
+    sfxdir = ROOT / "assets_cache" / "sfx"
+    if not (sfxdir / "whoosh.wav").exists():
+        subprocess.run([sys.executable, str(ROOT / "tools" / "sfx_lib.py")], check=True)
+    trk = np.zeros(int((end + 2) * 48000))
+    for tt, nm, g in ev:
+        x = wavfile.read(sfxdir / f"{nm}.wav")[1].astype(float) / 32767
+        a = int(max(0, tt) * 48000); trk[a:a + len(x)] += x[:len(trk) - a] * g
+    wavfile.write(job / "sfx.wav", 48000, (np.clip(trk, -1, 1) * 32767).astype(np.int16))
     segs = cfg.get("musics") or ([[0, cfg["music"], cfg.get("music_start", 0), cfg.get("music_vol", .2)]] if cfg.get("music") else [])
     if segs:
         ins, fl = ["-i", str(job / "voice.wav")], []
@@ -300,10 +354,13 @@ window.__timelines["main"] = tl;
             fi = 0.8 if k else 1.0
             fl.append(f"[{k + 1}:a]aresample=48000,aformat=channel_layouts=stereo,atrim=0:{ln:.3f},asetpts=PTS-STARTPTS,"
                       f"loudnorm=I={cfg.get('music_lufs', -31)}:TP=-3:LRA=11,aresample=48000,afade=t=in:d={fi},afade=t=out:st={max(0, ln - (0.8 if k + 1 < len(segs) else 1.5)):.3f}:d={0.8 if k + 1 < len(segs) else 1.5},volume={vol},adelay={int(t0 * 1000)}|{int(t0 * 1000)},apad=whole_dur={end}[m{k}]")
-        fl.append("".join(f"[m{k}]" for k in range(len(segs))) + f"amix=inputs={len(segs)}:normalize=0[mm]")
+        dexpr = "*".join(f"(1-between(t,{a:.2f},{b:.2f}))" for a, b in drops) or "1"
+        fl.append("".join(f"[m{k}]" for k in range(len(segs))) + f"amix=inputs={len(segs)}:normalize=0,volume='{dexpr}':eval=frame[mm]")
         fl.append(f"[0:a]aresample=48000,aformat=channel_layouts=stereo,apad=whole_dur={end},asplit=2[v][sc]")
         fl.append("[mm][sc]sidechaincompress=threshold=0.03:ratio=5:attack=20:release=350[md]")
-        fl.append("[v][md]amix=inputs=2:normalize=0,alimiter=limit=0.95,atrim=0:" + str(end) + "[o]")
+        ins += ["-i", str(job / "sfx.wav")]
+        fl.append(f"[{len(segs) + 1}:a]aresample=48000,aformat=channel_layouts=stereo,volume={cfg.get('sfx_vol', .5)}[fx]")
+        fl.append("[v][md][fx]amix=inputs=3:normalize=0,alimiter=limit=0.95,atrim=0:" + str(end) + "[o]")
         subprocess.run(["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", ";".join(fl), "-map", "[o]", "-ar", "48000", str(job / "mix.wav")], check=True)
     else:
         shutil.copy(job / "voice.wav", job / "mix.wav")
