@@ -1,0 +1,161 @@
+{
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/full/c0",
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/vid",
+ "theme": "hook",
+ "tail": 0.6,
+ "beats": [
+  [
+   "У",
+   "big",
+   {
+    "text": "ЛИТВА: 18+",
+    "acc": [
+     "18+"
+    ],
+    "img": "vilnius.jpg",
+    "size": 200
+   }
+  ],
+  [
+   "Польщі",
+   "photo",
+   {
+    "img": "warsaw.jpg",
+    "tag": "ПОЛЬЩА: 18+",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Норвегії",
+   "big",
+   {
+    "text": "НОРВЕГІЯ РУМУНІЯ УГОРЩИНА",
+    "size": 150,
+    "tr": "cut"
+   }
+  ],
+  [
+   "Казахстані",
+   "big",
+   {
+    "text": "КАЗАХСТАН: 21+",
+    "acc": [
+     "21+"
+    ],
+    "size": 200,
+    "punch": [
+     "двадцятирічному."
+    ],
+    "tr": "flash"
+   }
+  ],
+  [
+   "Україні",
+   "video",
+   {
+    "vid": "school_1.mp4",
+    "text": "УКРАЇНА",
+    "acc": [
+     "УКРАЇНА"
+    ],
+    "size": 170,
+    "punch": [
+     "п'ятикласник"
+    ],
+    "tr": "cut"
+   }
+  ],
+  [
+   "пів",
+   "video",
+   {
+    "vid": "supermarket_1.mp4",
+    "tag": "ПІВ ЛІТРА КОФЕЇНУ",
+    "tr": "cut"
+   }
+  ],
+  [
+   "продавець",
+   "polaroid",
+   {
+    "theme": "hook",
+    "img": "rbkyiv.jpg",
+    "w": 440,
+    "h": 700,
+    "rot": -3,
+    "stamp": "не може відмовити",
+    "pos": "center 40%",
+    "freeze": "відмовити."
+   }
+  ],
+  [
+   "Як",
+   "photo",
+   {
+    "img": "rbcan.jpg",
+    "kicker": "солодка газованка з бичком"
+   }
+  ],
+  [
+   "забороняють",
+   "big",
+   {
+    "text": "ЗАБОРОНЯЮТЬ ДІТЯМ",
+    "acc": [
+     "ДІТЯМ"
+    ],
+    "size": 180,
+    "tr": "cut"
+   }
+  ],
+  [
+   "аптечного",
+   "polaroid",
+   {
+    "img": "lipo.jpg",
+    "w": 520,
+    "h": 680,
+    "stamp": "аптечний сироп",
+    "pos": "center 30%"
+   }
+  ],
+  [
+   "тайських",
+   "video",
+   {
+    "vid": "tuktuk_2.mp4",
+    "tag": "ДЛЯ ТАЙСЬКИХ ДАЛЕКОБІЙНИКІВ",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Це",
+   "big",
+   {
+    "text": "ATTIC FILES",
+    "acc": [
+     "FILES"
+    ],
+    "sub": "справа про банку з крилами",
+    "img": "attic.jpg",
+    "size": 220,
+    "tr": "zoom"
+   }
+  ]
+ ],
+ "musics": [
+  [
+   0,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Raspberrymusic_%E2%80%93_Aliens_%28Epic_Hybrid_Sci-Fi_Music%29.opus",
+   0,
+   1.0
+  ],
+  [
+   11,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Eighties_Action_%28ISRC_USUAN1100243%29.mp3",
+   4,
+   1.0
+  ]
+ ]
+}

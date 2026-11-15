@@ -1,0 +1,373 @@
+{
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/full/c2",
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/vid",
+ "theme": "austria",
+ "tail": 0.8,
+ "beats": [
+  [
+   "І",
+   "chapter",
+   {
+    "theme": "austria",
+    "no": "СПРАВА №3",
+    "text": "АВСТРІЄЦЬ"
+   }
+  ],
+  [
+   "Звати",
+   "video",
+   {
+    "theme": "austria",
+    "vid": "plane_2.mp4",
+    "tag": "ДІТРІХ МАТЕШИЦЬ"
+   }
+  ],
+  [
+   "маркетолог",
+   "video",
+   {
+    "theme": "austria",
+    "vid": "laptop_1.mp4",
+    "kicker": "маркетолог: косметика й зубна паста",
+    "tr": "cut"
+   }
+  ],
+  [
+   "вісімдесят",
+   "video",
+   {
+    "theme": "austria",
+    "vid": "airport_2.mp4",
+    "text": "1982",
+    "size": 200,
+    "tr": "cut"
+   }
+  ],
+  [
+   "джетлаг",
+   "video",
+   {
+    "theme": "austria",
+    "vid": "sleep_1.mp4",
+    "tag": "ДЖЕТЛАГ",
+    "punch": [
+     "джетлаг."
+    ]
+   }
+  ],
+  [
+   "випиває",
+   "polaroid",
+   {
+    "theme": "austria",
+    "img": "lipo.jpg",
+    "w": 520,
+    "h": 680,
+    "rot": -5,
+    "cap": "тайський сироп",
+    "tr": "cut"
+   }
+  ],
+  [
+   "калькулятор",
+   "video",
+   {
+    "theme": "austria",
+    "vid": "money_1.mp4",
+    "text": "ВМИКАЄТЬСЯ КАЛЬКУЛЯТОР",
+    "acc": [
+     "КАЛЬКУЛЯТОР"
+    ],
+    "size": 130,
+    "punch": [
+     "калькулятор."
+    ]
+   }
+  ],
+  [
+   "Заході",
+   "video",
+   {
+    "theme": "austria",
+    "vid": "paris_1.mp4",
+    "kicker": "на Заході такого немає",
+    "tr": "cut"
+   }
+  ],
+  [
+   "знаходить",
+   "video",
+   {
+    "theme": "austria",
+    "vid": "bangkok_2.mp4",
+    "text": "1984",
+    "size": 200,
+    "tr": "cut"
+   }
+  ],
+  [
+   "створюють",
+   "photo",
+   {
+    "theme": "austria",
+    "img": "rbhq5.jpg",
+    "tag": "RED BULL, ФУШЛЬ-АМ-ЗЕЕ"
+   }
+  ],
+  [
+   "сорок",
+   "versus",
+   {
+    "theme": "austria",
+    "a": "49%",
+    "ai": "Дітріх",
+    "b": "49%",
+    "bi": "Чалео",
+    "bt": 0.6
+   }
+  ],
+  [
+   "два",
+   "big",
+   {
+    "theme": "austria",
+    "text": "2%",
+    "acc": [
+     "2%"
+    ],
+    "sub": "синові Чалео",
+    "size": 260,
+    "tr": "cut"
+   }
+  ],
+  [
+   "три",
+   "video",
+   {
+    "theme": "austria",
+    "vid": "lab_2.mp4",
+    "tag": "ТРИ РОКИ ПЕРЕРОБКИ"
+   }
+  ],
+  [
+   "газують",
+   "video",
+   {
+    "theme": "austria",
+    "vid": "supermarket_3.mp4",
+    "kicker": "газують і роблять менш солодким",
+    "tr": "cut"
+   }
+  ],
+  [
+   "наливають",
+   "photo",
+   {
+    "theme": "austria",
+    "img": "rbcan.jpg",
+    "kicker": "вузька срібно-синя банка",
+    "tr": "cut"
+   }
+  ],
+  [
+   "ставлять",
+   "video",
+   {
+    "theme": "austria",
+    "vid": "dollars_1.mp4",
+    "text": "НАВМИСНО ДОРОГО",
+    "acc": [
+     "ДОРОГО"
+    ],
+    "size": 160
+   }
+  ],
+  [
+   "модне",
+   "video",
+   {
+    "theme": "austria",
+    "vid": "club_2.mp4",
+    "kicker": "модне й трохи заборонене",
+    "tr": "cut"
+   }
+  ],
+  [
+   "перші",
+   "big",
+   {
+    "theme": "austria",
+    "text": "ТЕСТИ ПРОВАЛЕНІ",
+    "acc": [
+     "ПРОВАЛЕНІ"
+    ],
+    "size": 170,
+    "freeze": "провальні."
+   }
+  ],
+  [
+   "Будь-хто",
+   "video",
+   {
+    "theme": "austria",
+    "vid": "tired_3.mp4",
+    "kicker": "будь-хто інший переписав би рецепт",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Матешиць",
+   "photo",
+   {
+    "theme": "austria",
+    "img": "rbhq3.jpg",
+    "kicker": "«люди просто ще не зрозуміли»"
+   }
+  ],
+  [
+   "Першого",
+   "big",
+   {
+    "theme": "austria",
+    "text": "1 КВІТНЯ 1987",
+    "acc": [
+     "1987"
+    ],
+    "sub": "Ред Булл у магазинах Австрії",
+    "size": 180,
+    "tr": "flash"
+   }
+  ],
+  [
+   "Так",
+   "mascot",
+   {
+    "theme": "austria",
+    "text": "Якщо провал, скажемо: та ми ж пожартували",
+    "drop": [
+     "пожартували.",
+     1.0
+    ]
+   }
+  ],
+  [
+   "Але",
+   "big",
+   {
+    "theme": "austria",
+    "text": "ПРОВАЛУ НЕ СТАЛОСЯ",
+    "acc": [
+     "НЕ",
+     "СТАЛОСЯ"
+    ],
+    "size": 160,
+    "tr": "cut"
+   }
+  ],
+  [
+   "образ",
+   "video",
+   {
+    "theme": "austria",
+    "vid": "skydive_2.mp4",
+    "tag": "ПРОДАВАЛИ ОБРАЗ"
+   }
+  ],
+  [
+   "сноубордистів",
+   "photo",
+   {
+    "theme": "austria",
+    "img": "flugtag.jpg",
+    "tag": "RED BULL FLUGTAG",
+    "tr": "cut"
+   }
+  ],
+  [
+   "гонщиків",
+   "video",
+   {
+    "theme": "austria",
+    "vid": "race_2.mp4",
+    "tr": "cut"
+   }
+  ],
+  [
+   "власні",
+   "photo",
+   {
+    "theme": "austria",
+    "img": "rb19.jpg",
+    "tag": "RED BULL RACING",
+    "tr": "cut"
+   }
+  ],
+  [
+   "дві",
+   "video",
+   {
+    "theme": "austria",
+    "vid": "stratos_1.mp4",
+    "text": "2012",
+    "size": 200,
+    "tr": "flash"
+   }
+  ],
+  [
+   "стрибнув",
+   "photo",
+   {
+    "theme": "austria",
+    "img": "felix.jpg",
+    "tag": "RED BULL STRATOS",
+    "punch": [
+     "бика."
+    ]
+   }
+  ],
+  [
+   "Ви",
+   "video",
+   {
+    "theme": "austria",
+    "vid": "sky_2.mp4",
+    "text": "БАНКА ГАЗОВАНОЇ ВОДИ",
+    "acc": [
+     "ВОДИ"
+    ],
+    "size": 140
+   }
+  ],
+  [
+   "відчуваєте",
+   "video",
+   {
+    "theme": "austria",
+    "vid": "skydive_1.mp4",
+    "kicker": "а відчуваєте себе так, ніби стрибнули з космосу",
+    "tr": "cut"
+   }
+  ]
+ ],
+ "musics": [
+  [
+   0,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Upbeat_Forever_%28ISRC_USUAN1500063%29.mp3",
+   0,
+   1.0
+  ],
+  [
+   20,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Rafael_Krux_-_Inspiring_Advertising_-_Upbeat_Summer_Corporate_%28cc-by%29_%28filmmusic%29.mp3",
+   0,
+   1.0
+  ],
+  [
+   27,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Stratosphere%2C_%28MacLeod%2C_Kevin%29.oga",
+   0,
+   1.0
+  ]
+ ]
+}

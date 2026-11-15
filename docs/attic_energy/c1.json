@@ -1,0 +1,222 @@
+{
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/full/c1",
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/vid",
+ "theme": "asia",
+ "tail": 0.6,
+ "beats": [
+  [
+   "Справа",
+   "chapter",
+   {
+    "theme": "asia",
+    "no": "СПРАВА №1",
+    "text": "ЯПОНІЯ, 1962"
+   }
+  ],
+  [
+   "Компанія",
+   "video",
+   {
+    "theme": "asia",
+    "vid": "tokyo_1.mp4",
+    "tag": "TAISHO"
+   }
+  ],
+  [
+   "пляшечку",
+   "polaroid",
+   {
+    "theme": "asia",
+    "img": "lipo.jpg",
+    "w": 520,
+    "h": 680,
+    "rot": 4,
+    "stamp": "Lipovitan D",
+    "cap": "Taisho, 1962",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Виглядає",
+   "video",
+   {
+    "theme": "asia",
+    "vid": "pill_2.mp4",
+    "text": "ЯК ЛІКИ",
+    "acc": [
+     "ЛІКИ"
+    ],
+    "size": 200,
+    "punch": [
+     "продається",
+     "п'ють"
+    ]
+   }
+  ],
+  [
+   "офісні",
+   "video",
+   {
+    "theme": "asia",
+    "vid": "tired_1.mp4",
+    "kicker": "офіс перед нічною зміною",
+    "tr": "cut"
+   }
+  ],
+  [
+   "студенти",
+   "video",
+   {
+    "theme": "asia",
+    "vid": "exam_2.mp4",
+    "kicker": "студенти перед іспитом",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Ніякого",
+   "video",
+   {
+    "theme": "asia",
+    "vid": "club_1.mp4",
+    "text": "НІЯКИХ ВЕЧІРОК",
+    "acc": [
+     "ВЕЧІРОК"
+    ],
+    "size": 170,
+    "freeze": "вечірок."
+   }
+  ],
+  [
+   "Просто",
+   "video",
+   {
+    "theme": "asia",
+    "vid": "exam_3.mp4",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Цю",
+   "chapter",
+   {
+    "theme": "asia",
+    "no": "СПРАВА №2",
+    "text": "ТАЇЛАНД, 1976"
+   }
+  ],
+  [
+   "підприємець",
+   "video",
+   {
+    "theme": "asia",
+    "vid": "bangkok_1.mp4",
+    "tag": "ЧАЛЕО ЮВІДЬЯ"
+   }
+  ],
+  [
+   "Кратінг",
+   "big",
+   {
+    "theme": "asia",
+    "text": "KRATING DAENG",
+    "acc": [
+     "DAENG"
+    ],
+    "sub": "«червоний гаур»",
+    "size": 170
+   }
+  ],
+  [
+   "Гаур",
+   "photo",
+   {
+    "theme": "asia",
+    "img": "gaur.jpg",
+    "tag": "ГАУР. НЕ БИК",
+    "punch": [
+     "бик,"
+    ]
+   }
+  ],
+  [
+   "погодьтеся",
+   "video",
+   {
+    "theme": "asia",
+    "vid": "bull_1.mp4",
+    "kicker": "але «червоний бик» звучить солідніше",
+    "drop": [
+     "солідніше.",
+     1.0
+    ],
+    "tr": "cut"
+   }
+  ],
+  [
+   "Сироп",
+   "photo",
+   {
+    "theme": "asia",
+    "img": "rbthai.jpg",
+    "tag": "KRATING DAENG: СИРОП У ПЛЯШЕЧКАХ",
+    "pos": "center 45%"
+   }
+  ],
+  [
+   "ящиками",
+   "video",
+   {
+    "theme": "asia",
+    "vid": "thaitruck_2.mp4",
+    "tag": "ВОДІЇ ВАНТАЖІВОК"
+   }
+  ],
+  [
+   "будівельники",
+   "video",
+   {
+    "theme": "asia",
+    "vid": "builder_1.mp4",
+    "tr": "cut"
+   }
+  ],
+  [
+   "фермери",
+   "video",
+   {
+    "theme": "asia",
+    "vid": "rice_1.mp4",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Жодних",
+   "big",
+   {
+    "theme": "hook",
+    "text": "ЧИСТИЙ РОБОЧИЙ БЕНЗИН",
+    "acc": [
+     "БЕНЗИН"
+    ],
+    "size": 150,
+    "tr": "flash"
+   }
+  ]
+ ],
+ "musics": [
+  [
+   0,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Kevin_MacLeod_-_Autumn_Day.ogg",
+   0,
+   1.0
+  ],
+  [
+   8,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Funkorama_%28MacLeod%2C_Kevin%29_%28ISRC_USUAN1100474%29.oga",
+   0,
+   0.85
+  ]
+ ]
+}

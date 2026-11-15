@@ -1,0 +1,313 @@
+{
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/full/c7",
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/vid",
+ "theme": "health",
+ "tail": 2.0,
+ "beats": [
+  [
+   "Тепер",
+   "chapter",
+   {
+    "theme": "health",
+    "no": "СПРАВА №8",
+    "text": "ЩО В БАНЦІ"
+   }
+  ],
+  [
+   "Звичайна",
+   "big",
+   {
+    "theme": "health",
+    "text": "250 мл = 80 мг",
+    "acc": [
+     "80",
+     "мг"
+    ],
+    "sub": "кофеїну в звичайній банці",
+    "size": 180
+   }
+  ],
+  [
+   "Це",
+   "video",
+   {
+    "theme": "health",
+    "vid": "espresso_2.mp4",
+    "tag": "ЯК ЧАШКА ЕСПРЕСО",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Пів",
+   "versus",
+   {
+    "theme": "health",
+    "a": "0,5 л",
+    "ai": "одна банка",
+    "b": "2",
+    "bi": "чашки еспресо",
+    "bt": 0.8,
+    "tr": "cut"
+   }
+  ],
+  [
+   "Європейське",
+   "photo",
+   {
+    "theme": "health",
+    "img": "caffeine.png",
+    "tag": "EFSA: БЕЗПЕЧНО ДЛЯ ДОРОСЛИХ"
+   }
+  ],
+  [
+   "дорослому",
+   "list",
+   {
+    "theme": "health",
+    "title": "ДОРОСЛОМУ",
+    "items": [
+     [
+      "400 мг",
+      "на день"
+     ],
+     [
+      "200 мг",
+      "за раз"
+     ]
+    ],
+    "gap": 2.3,
+    "tr": "cut"
+   }
+  ],
+  [
+   "для",
+   "big",
+   {
+    "theme": "health",
+    "text": "3 МГ / КГ",
+    "acc": [
+     "КГ"
+    ],
+    "sub": "норма для дітей і підлітків",
+    "size": 200,
+    "tr": "flash"
+   }
+  ],
+  [
+   "Тринадцятирічний",
+   "video",
+   {
+    "theme": "health",
+    "vid": "teen_2.mp4",
+    "kicker": "13 років, 40 кг: денна норма = 120 мг"
+   }
+  ],
+  [
+   "півтори",
+   "big",
+   {
+    "theme": "health",
+    "text": "1,5 БАНКИ",
+    "acc": [
+     "1,5"
+    ],
+    "sub": "маленької, і денна норма вичерпана",
+    "size": 200,
+    "punch": [
+     "банки."
+    ],
+    "tr": "cut"
+   }
+  ],
+  [
+   "згадайте",
+   "video",
+   {
+    "theme": "health",
+    "vid": "supermarket_1.mp4",
+    "kicker": "а скільки великих банок у руках школярів?"
+   }
+  ],
+  [
+   "Пам'ятаєте",
+   "photo",
+   {
+    "theme": "health",
+    "img": "vilnius.jpg",
+    "tag": "ЛИТВА, 2014: ПЕРШОЮ У СВІТІ",
+    "punch": [
+     "світі."
+    ]
+   }
+  ],
+  [
+   "Польща",
+   "photo",
+   {
+    "theme": "health",
+    "img": "warsaw.jpg",
+    "tag": "ПОЛЬЩА, 2024: НАВІТЬ З АВТОМАТІВ",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Україні",
+   "photo",
+   {
+    "theme": "health",
+    "img": "canteen.jpg",
+    "tag": "УКРАЇНА: ЛИШЕ ШКІЛЬНІ БУФЕТИ"
+   }
+  ],
+  [
+   "Законопроєкти",
+   "photo",
+   {
+    "theme": "health",
+    "img": "rada.jpg",
+    "kicker": "законопроєкти про заборону до 18 досі в комітеті",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Тепер",
+   "big",
+   {
+    "theme": "health",
+    "text": "ТЕПЕР ЧЕСНО",
+    "acc": [
+     "ЧЕСНО"
+    ],
+    "size": 180,
+    "tr": "flash"
+   }
+  ],
+  [
+   "Він",
+   "video",
+   {
+    "theme": "health",
+    "vid": "battery_3.mp4",
+    "text": "ВИМИКАЄ ІНДИКАТОР ЗАРЯДУ",
+    "acc": [
+     "ІНДИКАТОР"
+    ],
+    "size": 110,
+    "top": 700
+   }
+  ],
+  [
+   "Кофеїн",
+   "video",
+   {
+    "theme": "health",
+    "vid": "exam_2.mp4",
+    "kicker": "кофеїн блокує сигнал «я втомився»",
+    "tr": "cut"
+   }
+  ],
+  [
+   "втома",
+   "video",
+   {
+    "theme": "health",
+    "vid": "clock_1.mp4",
+    "kicker": "втома приходить пізніше і з відсотками",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Тож",
+   "big",
+   {
+    "theme": "health",
+    "text": "ЦЕ КРЕДИТ",
+    "acc": [
+     "КРЕДИТ"
+    ],
+    "sub": "не друг і не ворог",
+    "size": 220,
+    "freeze": "кредит."
+   }
+  ],
+  [
+   "Від",
+   "timeline",
+   {
+    "theme": "health",
+    "points": [
+     [
+      "1962",
+      "аптечний сироп"
+     ],
+     [
+      "1987",
+      "Red Bull"
+     ],
+     [
+      "2025",
+      "14 млрд банок"
+     ]
+    ]
+   }
+  ],
+  [
+   "Напишіть",
+   "mascot",
+   {
+    "theme": "health",
+    "text": "Напишіть у коментарях, який був ваш перший енергетик",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Рево",
+   "big",
+   {
+    "theme": "health",
+    "text": "REVO ПАМ'ЯТАЄ ВАС",
+    "acc": [
+     "REVO"
+    ],
+    "size": 170,
+    "tr": "cut"
+   }
+  ],
+  [
+   "Це",
+   "big",
+   {
+    "theme": "health",
+    "text": "ATTIC FILES",
+    "acc": [
+     "FILES"
+    ],
+    "sub": "підписуйтесь, висипайтесь і бережіть свої сердечка",
+    "img": "attic.jpg",
+    "size": 220,
+    "tr": "zoom"
+   }
+  ]
+ ],
+ "musics": [
+  [
+   0,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Thinking_Music_%28ISRC_USUAN1600060%29.mp3",
+   20,
+   1.0
+  ],
+  [
+   14,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Kevin_MacLeod_-_Early_Riser.ogg",
+   0,
+   1.0
+  ],
+  [
+   22,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Eighties_Action_%28ISRC_USUAN1100243%29.mp3",
+   4,
+   1.0
+  ]
+ ]
+}

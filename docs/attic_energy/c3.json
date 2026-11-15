@@ -1,0 +1,293 @@
+{
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/full/c3",
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/vid",
+ "theme": "news",
+ "tail": 0.8,
+ "beats": [
+  [
+   "Звісно",
+   "chapter",
+   {
+    "theme": "news",
+    "no": "СПРАВА №4",
+    "text": "СКАНДАЛИ"
+   }
+  ],
+  [
+   "дев'яносто",
+   "big",
+   {
+    "theme": "news",
+    "text": "ДАНІЯ ФРАНЦІЯ",
+    "acc": [
+     "ФРАНЦІЯ"
+    ],
+    "sub": "1997: Ред Булл не пускають на полиці",
+    "size": 180
+   }
+  ],
+  [
+   "Французи",
+   "photo",
+   {
+    "theme": "news",
+    "img": "paris.jpg",
+    "tag": "ЗАБОРОНА ДО 2008",
+    "tr": "cut"
+   }
+  ],
+  [
+   "тепер",
+   "video",
+   {
+    "theme": "news",
+    "vid": "pharmacy_1.mp4",
+    "text": "ТАУРИН",
+    "acc": [
+     "ТАУРИН"
+    ],
+    "size": 200
+   }
+  ],
+  [
+   "найвідоміша",
+   "mascot",
+   {
+    "theme": "news",
+    "text": "Найвідоміша байка в історії напоїв"
+   }
+  ],
+  [
+   "Десь",
+   "photo",
+   {
+    "theme": "news",
+    "img": "bull.jpg",
+    "kicker": "«таурин роблять із бичачих…»",
+    "punch": [
+     "органів."
+    ],
+    "tr": "cut"
+   }
+  ],
+  [
+   "Логіка",
+   "big",
+   {
+    "theme": "news",
+    "text": "ЛОГІКА ЗАЛІЗНА",
+    "acc": [
+     "ЗАЛІЗНА"
+    ],
+    "size": 170
+   }
+  ],
+  [
+   "слово",
+   "list",
+   {
+    "theme": "news",
+    "title": "ДОКАЗИ",
+    "items": [
+     [
+      "банка",
+      "бик"
+     ],
+     [
+      "taurus",
+      "бик латиною"
+     ],
+     [
+      "отже",
+      "бик постраждав"
+     ]
+    ],
+    "gap": 1.3
+   }
+  ],
+  [
+   "Реальність",
+   "big",
+   {
+    "theme": "news",
+    "text": "РЕАЛЬНІСТЬ НУДНІША",
+    "acc": [
+     "НУДНІША"
+    ],
+    "size": 160,
+    "freeze": "нудніша.",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Таурин",
+   "photo",
+   {
+    "theme": "news",
+    "img": "taurine.png",
+    "tag": "1827: З БИЧАЧОЇ ЖОВЧІ"
+   }
+  ],
+  [
+   "Не",
+   "big",
+   {
+    "theme": "news",
+    "text": "З ЖОВЧІ",
+    "acc": [
+     "ЖОВЧІ"
+    ],
+    "sub": "не з того, про що ви подумали",
+    "size": 200,
+    "drop": [
+     "жовчі.",
+     1.2
+    ],
+    "tr": "cut"
+   }
+  ],
+  [
+   "сьогодні",
+   "video",
+   {
+    "theme": "news",
+    "vid": "factory_2.mp4",
+    "tag": "СИНТЕЗ НА ЗАВОДІ"
+   }
+  ],
+  [
+   "жоден",
+   "video",
+   {
+    "theme": "news",
+    "vid": "bull_1.mp4",
+    "kicker": "жоден бик не страждає",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Хіба",
+   "mascot",
+   {
+    "theme": "news",
+    "text": "Хіба що морально, коли бачить свій портрет на банці"
+   }
+  ],
+  [
+   "Але",
+   "big",
+   {
+    "theme": "news",
+    "text": "«RED BULL ОКРИЛЯЄ»",
+    "acc": [
+     "ОКРИЛЯЄ»"
+    ],
+    "size": 150,
+    "tr": "flash"
+   }
+  ],
+  [
+   "дві",
+   "video",
+   {
+    "theme": "news",
+    "vid": "lawyer_2.mp4",
+    "tag": "2014: КОЛЕКТИВНИЙ ПОЗОВ"
+   }
+  ],
+  [
+   "мовляв",
+   "photo",
+   {
+    "theme": "news",
+    "img": "court.jpg",
+    "kicker": "реклама обіцяє більше, ніж дає напій",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Крил",
+   "video",
+   {
+    "theme": "news",
+    "vid": "skydive_3.mp4",
+    "text": "КРИЛ НІХТО НЕ ОТРИМАВ",
+    "acc": [
+     "НЕ",
+     "ОТРИМАВ"
+    ],
+    "size": 130,
+    "tr": "cut"
+   }
+  ],
+  [
+   "погодився",
+   "big",
+   {
+    "theme": "news",
+    "text": "0",
+    "sub": "доларів погодився виплатити Ред Булл",
+    "size": 220,
+    "count": [
+     0,
+     13000000,
+     "$#"
+    ],
+    "cdur": 1.6
+   }
+  ],
+  [
+   "Кожен",
+   "versus",
+   {
+    "theme": "news",
+    "a": "$10",
+    "ai": "готівкою",
+    "b": "$15",
+    "bi": "продукцією",
+    "bt": 2.8
+   }
+  ],
+  [
+   "Тобто",
+   "photo",
+   {
+    "theme": "news",
+    "img": "rbcans.jpg",
+    "kicker": "компенсація за те, що енергетик не дав крил…"
+   }
+  ],
+  [
+   "енергетиком",
+   "big",
+   {
+    "theme": "news",
+    "text": "…ЕНЕРГЕТИКОМ",
+    "acc": [
+     "…ЕНЕРГЕТИКОМ"
+    ],
+    "sub": "Геніально.",
+    "size": 170,
+    "punch": [
+     "Геніально."
+    ],
+    "tr": "cut"
+   }
+  ]
+ ],
+ "musics": [
+  [
+   0,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Funkorama_%28MacLeod%2C_Kevin%29_%28ISRC_USUAN1100474%29.oga",
+   30,
+   0.9
+  ],
+  [
+   14,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Thinking_Music_%28ISRC_USUAN1600060%29.mp3",
+   0,
+   1.0
+  ]
+ ]
+}

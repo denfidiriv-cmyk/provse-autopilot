@@ -1,0 +1,293 @@
+{
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/full/c5",
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/vid",
+ "theme": "ukraine2000s",
+ "tail": 0.8,
+ "beats": [
+  [
+   "А",
+   "chapter",
+   {
+    "theme": "ukraine2000s",
+    "no": "СПРАВА №6",
+    "text": "А ТЕПЕР ДО НАС"
+   }
+  ],
+  [
+   "дві",
+   "video",
+   {
+    "theme": "ukraine2000s",
+    "vid": "kyiv_2.mp4",
+    "text": "2005",
+    "size": 220
+   }
+  ],
+  [
+   "компанія",
+   "big",
+   {
+    "theme": "ukraine2000s",
+    "text": "NEW PRODUCTS",
+    "acc": [
+     "PRODUCTS"
+    ],
+    "sub": "до того: слабоалкогольні коктейлі в банках",
+    "size": 170,
+    "tr": "cut"
+   }
+  ],
+  [
+   "запускає",
+   "video",
+   {
+    "theme": "ukraine2000s",
+    "vid": "canline_3.mp4",
+    "tag": "ПЕРШИЙ УКРАЇНСЬКИЙ ЕНЕРГЕТИК"
+   }
+  ],
+  [
+   "Нон",
+   "big",
+   {
+    "theme": "ukraine2000s",
+    "text": "NON STOP",
+    "acc": [
+     "STOP"
+    ],
+    "size": 240,
+    "punch": [
+     "Стоп."
+    ],
+    "tr": "flash"
+   }
+  ],
+  [
+   "Не",
+   "list",
+   {
+    "theme": "ukraine2000s",
+    "title": "NON STOP",
+    "items": [
+     [
+      "не",
+      "Ред Булл"
+     ],
+     [
+      "не",
+      "Монстр"
+     ],
+     [
+      "а",
+      "наш завод і наша ціна"
+     ]
+    ],
+    "gap": 0.9
+   }
+  ],
+  [
+   "Тобто",
+   "big",
+   {
+    "theme": "ukraine2000s",
+    "text": "ТОБТО ДЕШЕВШЕ",
+    "acc": [
+     "ДЕШЕВШЕ"
+    ],
+    "size": 170,
+    "drop": [
+     "дешевше.",
+     0.9
+    ],
+    "tr": "cut"
+   }
+  ],
+  [
+   "Через",
+   "big",
+   {
+    "theme": "ukraine2000s",
+    "text": "2007: REVO",
+    "acc": [
+     "REVO"
+    ],
+    "size": 220,
+    "tr": "flash"
+   }
+  ],
+  [
+   "кожен",
+   "video",
+   {
+    "theme": "ukraine2000s",
+    "vid": "skate_1.mp4",
+    "kicker": "кожен, хто був підлітком у 2007-му"
+   }
+  ],
+  [
+   "дивне",
+   "mascot",
+   {
+    "theme": "ukraine2000s",
+    "text": "…зараз відчув щось дивне в животі",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Бо",
+   "big",
+   {
+    "theme": "ukraine2000s",
+    "text": "REVO ALCO ENERGY",
+    "acc": [
+     "ALCO"
+    ],
+    "sub": "енергетик з алкоголем",
+    "size": 170,
+    "freeze": "алкоголем."
+   }
+  ],
+  [
+   "Барвиста",
+   "list",
+   {
+    "theme": "ukraine2000s",
+    "title": "В ОДНІЙ БАНЦІ",
+    "items": [
+     [
+      "барвиста",
+      "банка"
+     ],
+     [
+      "солодкий",
+      "смак"
+     ],
+     [
+      "кофеїн",
+      "+ градус"
+     ]
+    ],
+    "gap": 1.1,
+    "tr": "cut"
+   }
+  ],
+  [
+   "Для",
+   "video",
+   {
+    "theme": "ukraine2000s",
+    "vid": "party_2.mp4",
+    "tag": "ПЕРША «ДОРОСЛА» БАНКА"
+   }
+  ],
+  [
+   "за",
+   "video",
+   {
+    "theme": "ukraine2000s",
+    "vid": "skate_3.mp4",
+    "kicker": "за гаражами, з виглядом людини, яка точно знає, що робить",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Вона",
+   "big",
+   {
+    "theme": "ukraine2000s",
+    "text": "ВОНА НЕ ЗНАЛА",
+    "acc": [
+     "НЕ",
+     "ЗНАЛА"
+    ],
+    "size": 180,
+    "drop": [
+     "знала.",
+     1.0
+    ],
+    "tr": "cut"
+   }
+  ],
+  [
+   "кофеїн",
+   "video",
+   {
+    "theme": "ukraine2000s",
+    "vid": "heart_2.mp4",
+    "tag": "КОФЕЇН МАСКУЄ СП'ЯНІННЯ"
+   }
+  ],
+  [
+   "організм",
+   "mascot",
+   {
+    "theme": "ukraine2000s",
+    "text": "Організм уже давно подав заяву на звільнення",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Америці",
+   "photo",
+   {
+    "theme": "ukraine2000s",
+    "img": "loko.jpg",
+    "tag": "США: ПЕРЕРОБИЛИ БЕЗ КОФЕЇНУ"
+   }
+  ],
+  [
+   "одинадцятому",
+   "big",
+   {
+    "theme": "ukraine2000s",
+    "text": "2011: PIT BULL",
+    "acc": [
+     "PIT",
+     "BULL"
+    ],
+    "size": 200,
+    "tr": "flash"
+   }
+  ],
+  [
+   "чотирнадцятому",
+   "big",
+   {
+    "theme": "ukraine2000s",
+    "text": "2014",
+    "sub": "лідер ринку енергетиків в Україні (за даними компанії)",
+    "size": 220
+   }
+  ],
+  [
+   "Поки",
+   "video",
+   {
+    "theme": "ukraine2000s",
+    "vid": "kyiv_1.mp4",
+    "kicker": "поки світ ділили Ред Булл і Монстр, у нас найбільше пили своє"
+   }
+  ]
+ ],
+ "musics": [
+  [
+   0,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Loyalty_Freak_Music_-_No_Cadillac.ogg",
+   0,
+   1.0
+  ],
+  [
+   11,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/RetroFuture_Dirty_%28ISRC_USUAN1200041%29.mp3",
+   0,
+   0.9
+  ],
+  [
+   20,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Audionautix-com-ccby-feelgoodfeel.mp3",
+   0,
+   1.0
+  ]
+ ]
+}

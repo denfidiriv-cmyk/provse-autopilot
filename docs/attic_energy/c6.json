@@ -1,0 +1,119 @@
+{
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/full/c6",
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/vid",
+ "theme": "war",
+ "tail": 1.4,
+ "beats": [
+  [
+   "А",
+   "chapter",
+   {
+    "theme": "war",
+    "no": "СПРАВА №7",
+    "text": "2022"
+   }
+  ],
+  [
+   "Енергетик",
+   "video",
+   {
+    "theme": "war",
+    "vid": "road_1.mp4",
+    "kicker": "енергетик перестав бути напоєм для вечірок"
+   }
+  ],
+  [
+   "бардачки",
+   "video",
+   {
+    "theme": "war",
+    "vid": "truck_2.mp4",
+    "tag": "ВОЛОНТЕРСЬКІ БУСИ",
+    "tr": "cut"
+   }
+  ],
+  [
+   "підсумки",
+   "video",
+   {
+    "theme": "war",
+    "vid": "soldier_1.mp4",
+    "tag": "ФРОНТ",
+    "tr": "cut"
+   }
+  ],
+  [
+   "кишені",
+   "video",
+   {
+    "theme": "war",
+    "vid": "volunteer_2.mp4",
+    "kicker": "гуманітарка вночі без фар",
+    "tr": "cut"
+   }
+  ],
+  [
+   "рюкзаки",
+   "video",
+   {
+    "theme": "war",
+    "vid": "students_1.mp4",
+    "kicker": "вчаться, працюють і сидять в укритті одночасно",
+    "tr": "cut"
+   }
+  ],
+  [
+   "З'являється",
+   "big",
+   {
+    "theme": "war",
+    "text": "NON STOP MILITARY",
+    "acc": [
+     "MILITARY"
+    ],
+    "sub": "окрема лінійка для фронту",
+    "size": 170
+   }
+  ],
+  [
+   "аналітики",
+   "big",
+   {
+    "theme": "war",
+    "text": "+0%",
+    "sub": "прогноз зростання продажів енергетиків у 2023",
+    "size": 240,
+    "count": [
+     0,
+     35,
+     "+#%"
+    ],
+    "cdur": 2.0
+   }
+  ],
+  [
+   "Країна",
+   "video",
+   {
+    "theme": "war",
+    "vid": "road_2.mp4",
+    "text": "КРАЇНА, ЯКА НЕ СПИТЬ",
+    "acc": [
+     "НЕ",
+     "СПИТЬ"
+    ],
+    "size": 140,
+    "tail": 1
+   }
+  ]
+ ],
+ "musics": [
+  [
+   0,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Driving_to_the_Night_by_Frank_Schroeter.ogg",
+   0,
+   1.0
+  ]
+ ]
+}

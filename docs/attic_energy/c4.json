@@ -1,0 +1,206 @@
+{
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/full/c4",
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/attic/vid",
+ "theme": "monster",
+ "tail": 0.8,
+ "beats": [
+  [
+   "Тим",
+   "chapter",
+   {
+    "theme": "monster",
+    "no": "СПРАВА №5",
+    "text": "МОНСТР"
+   }
+  ],
+  [
+   "дві",
+   "big",
+   {
+    "theme": "monster",
+    "text": "2002",
+    "acc": [
+     "2002"
+    ],
+    "sub": "американська компанія Hansen's",
+    "size": 220
+   }
+  ],
+  [
+   "продавала",
+   "video",
+   {
+    "theme": "monster",
+    "vid": "supermarket_3.mp4",
+    "kicker": "до того: соки й натуральна газована вода",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Монстр",
+   "photo",
+   {
+    "theme": "monster",
+    "img": "monster.jpg",
+    "tag": "MONSTER ENERGY",
+    "punch": [
+     "Енерджі."
+    ]
+   }
+  ],
+  [
+   "Чорна",
+   "photo",
+   {
+    "theme": "monster",
+    "img": "shelf.jpg",
+    "kicker": "чорна банка, зелені сліди кігтів",
+    "tr": "cut"
+   }
+  ],
+  [
+   "вдвічі",
+   "versus",
+   {
+    "theme": "monster",
+    "a": "250 мл",
+    "ai": "Ред Булл",
+    "b": "500 мл",
+    "bi": "Монстр, та сама ціна",
+    "bt": 1.2
+   }
+  ],
+  [
+   "Ред",
+   "big",
+   {
+    "theme": "monster",
+    "text": "РОЗКІШ VS ОБ'ЄМ",
+    "acc": [
+     "ОБ'ЄМ"
+    ],
+    "size": 170,
+    "tr": "cut"
+   }
+  ],
+  [
+   "І",
+   "mascot",
+   {
+    "theme": "monster",
+    "text": "Монстр повірив, що слово «монстр» тепер належить йому"
+   }
+  ],
+  [
+   "Компанія",
+   "video",
+   {
+    "theme": "monster",
+    "vid": "lawyer_1.mp4",
+    "tag": "СКАРГИ НА ВСІХ"
+   }
+  ],
+  [
+   "ігри",
+   "list",
+   {
+    "theme": "monster",
+    "title": "ПІД ПРИЦІЛОМ",
+    "items": [
+     [
+      "ігри",
+      ""
+     ],
+     [
+      "кафе",
+      ""
+     ],
+     [
+      "вудки",
+      ""
+     ],
+     [
+      "гурти",
+      ""
+     ]
+    ],
+    "gap": 0.6,
+    "tr": "cut"
+   }
+  ],
+  [
+   "Дійшло",
+   "big",
+   {
+    "theme": "monster",
+    "text": "2023",
+    "acc": [
+     "2023"
+    ],
+    "sub": "Монстр проти… Покемонів",
+    "size": 220,
+    "tr": "flash"
+   }
+  ],
+  [
+   "торговельну",
+   "video",
+   {
+    "theme": "monster",
+    "vid": "game_2.mp4",
+    "tag": "«POCKET MONSTERS»",
+    "punch": [
+     "Монстерз»."
+    ]
+   }
+  ],
+  [
+   "грудні",
+   "photo",
+   {
+    "theme": "monster",
+    "img": "jpo.jpg",
+    "tag": "ПАТЕНТНЕ ВІДОМСТВО ЯПОНІЇ"
+   }
+  ],
+  [
+   "людина",
+   "video",
+   {
+    "theme": "monster",
+    "vid": "coffee_2.mp4",
+    "kicker": "хто купує каву з Пікачу, не подумає, що це енергетик",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Покемони",
+   "big",
+   {
+    "theme": "monster",
+    "text": "ПОКЕМОНИ ВИГРАЛИ",
+    "acc": [
+     "ВИГРАЛИ"
+    ],
+    "size": 170,
+    "freeze": "виграли.",
+    "tr": "flash"
+   }
+  ]
+ ],
+ "musics": [
+  [
+   0,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Epic_Trailer_by_Rafael_Krux.ogg",
+   0,
+   1.0
+  ],
+  [
+   10,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Super_Power_Cool_Dude_%28ISRC_USUAN1600036%29.mp3",
+   0,
+   0.9
+  ]
+ ]
+}
