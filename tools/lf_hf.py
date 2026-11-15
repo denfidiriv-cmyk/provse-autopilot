@@ -214,6 +214,11 @@ def trans_js(a, b, s, kind):
     elif kind == "push":
         js += (f"tl.fromTo('{B}',{{yPercent:100}},{{yPercent:0,duration:{d},ease:'power4.inOut',immediateRender:false}},{s:.3f});"
                f"tl.fromTo('{A}',{{yPercent:0}},{{yPercent:-100,duration:{d},ease:'power4.inOut',immediateRender:false}},{s:.3f});")
+    elif kind == "cut":
+        d = 0
+    elif kind == "flash":
+        js += f"tl.fromTo('{B}',{{filter:'brightness(3)'}},{{filter:'brightness(1)',duration:.35,ease:'power2.out',immediateRender:false}},{s:.3f});"
+        d = 0
     js += f"tl.set('{A}',{{visibility:'hidden'}},{s + d + .12:.3f});"
     return js
 
@@ -262,7 +267,7 @@ def main():
         if i == 0:
             js.append("tl.set('#b0',{visibility:'visible'},0);")
         else:
-            js.append(trans_js(i - 1, i, s, cfg.get("trans", TRANS)[i % len(cfg.get("trans", TRANS))]))
+            js.append(trans_js(i - 1, i, s, p.get("tr") or cfg.get("trans", TRANS)[i % len(cfg.get("trans", TRANS))]))
     root_vars = f"--bg:{th['bg']};--ink:{th['ink']};--acc:{th['acc']};--acc2:{th['acc2']};--head:{th['head']}"
     page = f"""<!doctype html><html lang="uk"><head><meta charset="utf-8"><style>{CSS}</style>
 <script src="assets/gsap.min.js"></script></head><body>
@@ -282,14 +287,23 @@ window.__timelines["main"] = tl;
     (proj / "index.html").write_text(page, encoding="utf-8")
     (job / "END.txt").write_text(str(end))
     # мікс: голос + музика розділу (тихо, з приглушенням під голос)
-    mus = cfg.get("music")
-    if mus:
-        ms = cfg.get("music_start", 0)
-        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(job / "voice.wav"), "-ss", str(ms), "-i", mus, "-filter_complex",
-                        f"[0:a]aresample=48000,aformat=channel_layouts=stereo,apad=whole_dur={end},asplit=2[v][sc];"
-                        f"[1:a]aresample=48000,aformat=channel_layouts=stereo,atrim=0:{end},asetpts=PTS-STARTPTS,afade=t=in:d=1,afade=t=out:st={end - 1.5}:d=1.5,volume={cfg.get('music_vol', .2)}[m];"
-                        f"[m][sc]sidechaincompress=threshold=0.03:ratio=5:attack=20:release=350[md];"
-                        f"[v][md]amix=inputs=2:normalize=0,alimiter=limit=0.95[o]", "-map", "[o]", "-ar", "48000", str(job / "mix.wav")], check=True)
+    # музика: або один трек ("music"), або кілька ("musics": [[індекс біта, файл, зсув у треку, гучність], ...]) з перехресними згасаннями
+    segs = cfg.get("musics") or ([[0, cfg["music"], cfg.get("music_start", 0), cfg.get("music_vol", .2)]] if cfg.get("music") else [])
+    if segs:
+        ins, fl = ["-i", str(job / "voice.wav")], []
+        for k, (bi, f, off, vol) in enumerate(segs):
+            t0 = starts[bi]
+            t1 = starts[segs[k + 1][0]] if k + 1 < len(segs) else end
+            ln = t1 - t0 + (0.8 if k + 1 < len(segs) else 0)
+            ins += ["-ss", str(off), "-i", f]
+            fi = 0.8 if k else 1.0
+            fl.append(f"[{k + 1}:a]aresample=48000,aformat=channel_layouts=stereo,atrim=0:{ln:.3f},asetpts=PTS-STARTPTS,"
+                      f"afade=t=in:d={fi},afade=t=out:st={max(0, ln - (0.8 if k + 1 < len(segs) else 1.5)):.3f}:d={0.8 if k + 1 < len(segs) else 1.5},volume={vol},adelay={int(t0 * 1000)}|{int(t0 * 1000)},apad=whole_dur={end}[m{k}]")
+        fl.append("".join(f"[m{k}]" for k in range(len(segs))) + f"amix=inputs={len(segs)}:normalize=0[mm]")
+        fl.append(f"[0:a]aresample=48000,aformat=channel_layouts=stereo,apad=whole_dur={end},asplit=2[v][sc]")
+        fl.append("[mm][sc]sidechaincompress=threshold=0.03:ratio=5:attack=20:release=350[md]")
+        fl.append("[v][md]amix=inputs=2:normalize=0,alimiter=limit=0.95,atrim=0:" + str(end) + "[o]")
+        subprocess.run(["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", ";".join(fl), "-map", "[o]", "-ar", "48000", str(job / "mix.wav")], check=True)
     else:
         shutil.copy(job / "voice.wav", job / "mix.wav")
     print("проєкт:", proj, "тривалість", end, "бітів", len(cfg["beats"]))
