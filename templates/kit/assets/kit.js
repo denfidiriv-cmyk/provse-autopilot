@@ -21,6 +21,11 @@
      Сторінки по 1–3 слова (розрив на розділовому знаку, паузі > .35 с або > maxChars символів).
      Кожне слово вистрибує в момент вимови (back.out), активне слово підсвічене, ключові лишаються кольоровими.
      opts: keywords: ["слово", ...] (без регістру, за початком), accent, key, plate (bool), maxWords, maxChars, end (кінець ролика). */
+  /** Ховає субтитри на відрізку [t0, t1): там, де в кадрі вже є текст, субтитри дублюють його (побажання власника). */
+  Kit.capsOff = function (tl, t0, t1) {
+    tl.set("#caps", { autoAlpha: 0 }, Math.max(0, t0));
+    if (t1 != null) tl.set("#caps", { autoAlpha: 1 }, t1);
+  };
   Kit.captions = function (tl, opts = {}) {
     const o = Object.assign({ keywords: [], accent: "#FFD43B", key: "#FF4545", plate: false, maxWords: 3, maxChars: 15, end: null }, opts);
     const host = one("#caps") || (() => { const d = document.createElement("div"); d.id = "caps"; one("#root").appendChild(d); return d; })();
