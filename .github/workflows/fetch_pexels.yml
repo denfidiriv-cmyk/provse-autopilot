@@ -42,7 +42,7 @@ jobs:
                       if v.get("duration", 0) < 4:
                           continue
                       vids = v.get("videos", {})
-                      f = next((vids[k] for k in ("large", "medium") if vids.get(k, {}).get("url") and vids[k].get("width", 0) >= 1280), None)
+                      f = next((vids[k] for k in ("medium", "small", "large") if vids.get(k, {}).get("url") and 1280 <= vids[k].get("width", 0) <= 1920), None)
                       if not f or (ori == "landscape" and f["width"] < f["height"]) or (ori == "portrait" and f["width"] > f["height"]):
                           continue
                       name = f"{slug}_{got + 1}.mp4"
