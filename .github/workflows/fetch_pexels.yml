@@ -1,0 +1,58 @@
+name: Відео-сток Pexels для довгих роликів
+
+# Шукає короткі вертикальні/горизонтальні кліпи на Pexels (ліцензія Pexels: безкоштовно, без обов'язкової атрибуції)
+# і віддає їх артефактом (не в репозиторій, щоб не роздувати git). Ключ: секрет PEXELS_API_KEY.
+on:
+  workflow_dispatch:
+    inputs:
+      queries: { description: "Запити через ; у форматі назва|англійський запит, напр. truck|truck night highway;lab|chemistry lab", required: true }
+      orientation: { description: "landscape або portrait", required: false, default: "landscape" }
+      per: { description: "Скільки кліпів на запит", required: false, default: "2" }
+      name: { description: "Назва артефакту", required: true, default: "pexels" }
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Завантажити
+        env:
+          KEY: ${{ secrets.PEXELS_API_KEY }}
+          Q: ${{ inputs.queries }}
+          OR: ${{ inputs.orientation }}
+          PER: ${{ inputs.per }}
+        run: |
+          set -e
+          [ -n "$KEY" ] || { echo "Немає секрету PEXELS_API_KEY"; exit 1; }
+          mkdir -p out
+          python3 - <<'PY'
+          import json, os, urllib.parse, urllib.request
+          key, q, ori, per = os.environ["KEY"], os.environ["Q"], os.environ["OR"], int(os.environ["PER"])
+          credits = {}
+          for item in [x for x in q.split(";") if x.strip()]:
+              slug, query = [s.strip() for s in item.split("|", 1)]
+              url = "https://api.pexels.com/videos/search?" + urllib.parse.urlencode({"query": query, "orientation": ori, "per_page": 10, "size": "medium"})
+              req = urllib.request.Request(url, headers={"Authorization": key, "User-Agent": "provse-autopilot"})
+              data = json.load(urllib.request.urlopen(req))
+              got = 0
+              for v in data.get("videos", []):
+                  if v.get("duration", 0) < 4:
+                      continue
+                  files = [f for f in v["video_files"] if f.get("file_type") == "video/mp4" and f.get("width") and 1200 <= max(f["width"], f["height"]) <= 2000]
+                  if not files:
+                      continue
+                  f = sorted(files, key=lambda f: -f["width"])[0]
+                  name = f"{slug}_{got + 1}.mp4"
+                  r = urllib.request.Request(f["link"], headers={"User-Agent": "provse-autopilot"})
+                  open(f"out/{name}", "wb").write(urllib.request.urlopen(r).read())
+                  credits[name] = {"pexels_id": v["id"], "author": v["user"]["name"], "url": v["url"], "duration": v["duration"]}
+                  got += 1
+                  if got >= per:
+                      break
+              print(slug, "->", got)
+          json.dump(credits, open("out/credits.json", "w"), ensure_ascii=False, indent=1)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ inputs.name }}
+          path: out/
+          retention-days: 7
