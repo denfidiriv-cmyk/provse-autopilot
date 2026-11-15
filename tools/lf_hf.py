@@ -81,8 +81,8 @@ html,body{width:1920px;height:1080px;overflow:hidden;background:var(--bg)}
 .tdot{position:absolute;top:530px;width:70px;height:70px;margin-left:-35px;border-radius:50%;background:var(--acc);box-shadow:0 0 0 12px rgba(0,0,0,.08)}
 .tlab{position:absolute;top:620px;width:360px;margin-left:-180px;text-align:center;font:700 64px/1.05 var(--head);color:var(--ink)}
 .tlab small{display:block;font:800 30px/1.2 UI;opacity:.8;margin-top:8px}
-.li{position:absolute;left:300px;right:300px;height:96px;display:flex;align-items:center;gap:30px;font:800 54px/1 UI;color:var(--ink);border-bottom:3px solid rgba(128,128,128,.3)}
-.li b{font:700 60px/1 Osw;color:var(--acc);min-width:180px}
+.li{position:absolute;left:330px;right:330px;height:140px;display:flex;align-items:center;gap:44px;font:800 76px/1 UI;color:var(--ink);border-bottom:4px solid rgba(128,128,128,.3)}
+.li b{font:700 84px/1 var(--head);color:var(--acc);min-width:300px}
 .masc{position:absolute;width:420px;height:420px;border-radius:50%;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,.45)}
 .masc img{width:100%;height:100%}
 .bub{position:absolute;max-width:900px;background:#fff;color:#111;font:800 66px/1.2 UI;padding:40px 52px;border-radius:40px;box-shadow:0 20px 50px rgba(0,0,0,.3)}
@@ -134,7 +134,7 @@ def scene(i, t, p, img, S=0.0, D=0.0):
         body = (pat + f"<div class='pol' style='left:{left}px;top:{top}px;transform:rotate({rot}deg)'><div class='tape'></div>"
                 f"<img src='{src}' style='width:{w}px;height:{h}px;object-position:{p.get('pos','center')}'>"
                 + (f"<div class='cap'>{esc(p['cap'])}</div>" if p.get("cap") else "") + "</div>"
-                + (f"<div class='stamp' style='{f'left:{left + w + 110}px;top:{top + h - 40}px' if left + w + 110 + 560 < 1920 else 'right:120px;top:120px'};transform:rotate(-9deg)'>{esc(p['stamp'])}</div>" if p.get("stamp") else ""))
+                + (f"<div class='stamp' style='left:{left + w // 2 - 60}px;top:{top + h - 150}px;transform:rotate(-9deg);background:rgba(250,246,238,.85);white-space:nowrap'>{esc(p['stamp'])}</div>" if p.get("stamp") else ""))
         js = (f"tl.fromTo('#{sid} .pol',{{scale:1.3,opacity:0,y:40,rotation:{rot + 9}}},{{scale:1,opacity:1,y:0,rotation:{rot},duration:.7,ease:'power3.out',immediateRender:false}},s+.05);"
               f"tl.fromTo('#{sid} .pol img',{{scale:1}},{{scale:1.1,duration:d,ease:'none',immediateRender:false}},s);"
               f"tl.fromTo('#{sid} .pat',{{x:0}},{{x:-120,duration:d,ease:'none',immediateRender:false}},s);"
@@ -179,10 +179,10 @@ def scene(i, t, p, img, S=0.0, D=0.0):
             js += (f"tl.fromTo('#{sid} .tdot:nth-of-type({k * 2 + 3})',{{scale:0}},{{scale:1,duration:.4,ease:'back.out(3)',immediateRender:false}},{when});"
                    f"tl.fromTo('#{sid} .tlab:nth-of-type({k * 2 + 4})',{{y:40,opacity:0}},{{y:0,opacity:1,duration:.4,ease:'power2.out',immediateRender:false}},{when}+.1);")
     elif t == "list":
-        body = pat + (f"<div class='bigt' style='top:110px;font-size:110px'>{words_html(p['title'], p.get('acc', []))}</div>" if p.get("title") else "")
+        body = pat + (f"<div class='bigt' style='top:150px;font-size:130px'>{words_html(p['title'], p.get('acc', []))}</div>" if p.get("title") else "")
         js = (f"tl.fromTo('#{sid} .bigt .w',{{yPercent:55,opacity:0,filter:'blur(12px)'}},{{yPercent:0,opacity:1,filter:'blur(0px)',duration:.55,stagger:.07,ease:'power3.out',immediateRender:false}},s+.1);")
         for k, (a, b) in enumerate(p["items"]):
-            body += f"<div class='li' style='top:{300 + k * 108}px'><b>{esc(a)}</b><span>{esc(b)}</span></div>"
+            body += f"<div class='li' style='top:{360 + k * 160}px'><b>{esc(a)}</b><span>{esc(b)}</span></div>"
             js += f"tl.fromTo('#{sid} .li:nth-of-type({k + (3 if p.get('title') else 2)})',{{x:-60,opacity:0,filter:'blur(8px)'}},{{x:0,opacity:1,filter:'blur(0px)',duration:.5,ease:'power3.out',immediateRender:false}},s+{0.5 + k * p.get('gap', .45)});"
     elif t == "mascot":
         body = (pat + f"<div class='masc' style='left:180px;top:330px'><img src='assets/img/avatar.png'></div>"
@@ -267,6 +267,8 @@ def main():
     for i, (_, t, p) in enumerate(cfg["beats"]):
         s, d = starts[i], starts[i + 1] - starts[i]
         h, j = scene(i, t, p, img, s, d + .7)
+        if i == 0:
+            j = j.replace("s+.15)", "s)").replace("s+.2);", "s);")
         j = re.sub(r"tl\.fromTo\(('[^']+'),(\{[^{}]*\}),(\{[^{}]*\}),s\+([^)]*)\);", lambda m: f"tl.set({m[1]},{m[2]},s);" + m[0], j)
         bt = THEMES[p.get("theme", cfg["theme"])]
         sv = f"--bg:{bt['bg']};--ink:{bt['ink']};--acc:{bt['acc']};--acc2:{bt['acc2']};--head:{bt['head']}"
@@ -365,7 +367,7 @@ window.__timelines["main"] = tl;
         fl.append("[mm][sc]sidechaincompress=threshold=0.03:ratio=5:attack=20:release=350[md]")
         ins += ["-i", str(job / "sfx.wav")]
         fl.append(f"[{len(segs) + 1}:a]aresample=48000,aformat=channel_layouts=stereo,volume={cfg.get('sfx_vol', .5)}[fx]")
-        fl.append("[v][md][fx]amix=inputs=3:normalize=0,alimiter=limit=0.95,atrim=0:" + str(end) + "[o]")
+        fl.append("[v][md][fx]amix=inputs=3:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000,atrim=0:" + str(end) + "[o]")
         subprocess.run(["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", ";".join(fl), "-map", "[o]", "-ar", "48000", str(job / "mix.wav")], check=True)
     else:
         shutil.copy(job / "voice.wav", job / "mix.wav")
