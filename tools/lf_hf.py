@@ -45,7 +45,7 @@ html,body{width:1920px;height:1080px;overflow:hidden;background:var(--bg)}
 .sc{position:absolute;inset:0;visibility:hidden;overflow:hidden;background:var(--bg)}
 .pat{position:absolute;inset:-200px}
 .pat.scan{background:repeating-linear-gradient(0deg,rgba(255,255,255,.035) 0 2px,transparent 2px 6px),radial-gradient(circle at 50% 50%,#2a0d0d,#0b0b0d 70%)}
-.pat.sun{background:radial-gradient(circle at 88% 26%,var(--acc) 0 190px,transparent 192px),radial-gradient(circle at 50% 50%,#f8eedc,#ead7b5)}
+.pat.sun{background:repeating-linear-gradient(0deg,rgba(0,0,0,.025) 0 2px,transparent 2px 9px),radial-gradient(circle at 50% 50%,#f8eedc,#e6d0a8)}
 .pat.stripes{background:repeating-linear-gradient(115deg,rgba(30,74,168,.08) 0 40px,transparent 40px 120px),linear-gradient(180deg,#eef3f9,#cfdbea)}
 .pat.paper{background:repeating-linear-gradient(0deg,rgba(0,0,0,.04) 0 1px,transparent 1px 38px),#efe9dc}
 .pat.claws{background:radial-gradient(circle at 50% 50%,#0f2a0f,#050705 70%)}
@@ -103,11 +103,21 @@ def words_html(text, acc_words=()):
     return " ".join(out)
 
 
-def scene(i, t, p, img):
+def scene(i, t, p, img, S=0.0, D=0.0):
     """HTML сцени + JS-анімації (функція від часу початку s і тривалості d)."""
     sid = f"b{i}"
     pat = "<div class='pat {pat}'></div>"
-    if t == "photo":
+    if t == "video":
+        vid = f"<video class='clip' id='v{i}' muted playsinline data-start='{S:.3f}' data-duration='{D:.3f}' data-media-start='{p.get('from', 0)}' src='assets/vid/{p['vid']}' style='position:absolute;inset:0;width:100%;height:100%;object-fit:cover'></video>"
+        body = (f"<div class='ph vw'>{vid}</div><div class='shade'></div>"
+                + (f"<div class='tag2'>{esc(p['kicker'])}</div>" if p.get("kicker") else "")
+                + (f"<div class='tag'>{esc(p['tag'])}</div>" if p.get("tag") else "")
+                + (f"<div class='bigt' style='top:{p.get('top', 380)}px;font-size:{p.get('size', 150)}px;color:#fff;text-shadow:0 10px 40px rgba(0,0,0,.8)'>{words_html(p['text'], p.get('acc', []))}</div>" if p.get("text") else ""))
+        js = (f"tl.fromTo('#{sid} .vw',{{scale:1.02}},{{scale:1.1,duration:d,ease:'none',immediateRender:false}},s);"
+              f"tl.fromTo('#{sid} .tag',{{xPercent:-120,opacity:0}},{{xPercent:0,opacity:1,duration:.6,ease:'expo.out',immediateRender:false}},s+.45);"
+              f"tl.fromTo('#{sid} .tag2',{{y:30,opacity:0}},{{y:0,opacity:1,duration:.5,ease:'power2.out',immediateRender:false}},s+.75);"
+              f"tl.fromTo('#{sid} .bigt .w',{{y:100,opacity:0}},{{y:0,opacity:1,duration:.5,ease:'back.out(1.7)',stagger:.1,immediateRender:false}},s+.3);")
+    elif t == "photo":
         src = f"assets/img/{p['img']}"
         body = (f"<div class='ph'><img src='{src}' style='object-position:{p.get('pos','center')}'></div><div class='shade'></div>"
                 + (f"<div class='tag2'>{esc(p['kicker'])}</div>" if p.get("kicker") else "")
@@ -223,6 +233,10 @@ def main():
     (proj / "assets" / "img").mkdir(exist_ok=True); (proj / "assets" / "sound").mkdir(exist_ok=True)
     img = Path(cfg["img"])
     used = {b[2].get("img") for b in cfg["beats"]} | {"avatar.png"}
+    (proj / "assets" / "vid").mkdir(exist_ok=True)
+    for b in cfg["beats"]:
+        if b[2].get("vid"):
+            shutil.copy(Path(cfg["vid"]) / b[2]["vid"], proj / "assets" / "vid" / b[2]["vid"])
     for u in used:
         if u:
             shutil.copy(img / u, proj / "assets" / "img" / u)
@@ -239,7 +253,7 @@ def main():
     secs, js = [], []
     for i, (_, t, p) in enumerate(cfg["beats"]):
         s, d = starts[i], starts[i + 1] - starts[i]
-        h, j = scene(i, t, p, img)
+        h, j = scene(i, t, p, img, s, d + .7)
         bt = THEMES[p.get("theme", cfg["theme"])]
         sv = f"--bg:{bt['bg']};--ink:{bt['ink']};--acc:{bt['acc']};--acc2:{bt['acc2']};--head:{bt['head']}"
         h = h.replace(f"<section class='sc' id='b{i}'>", f"<section class='sc' id='b{i}' style=\"{sv}\">", 1)

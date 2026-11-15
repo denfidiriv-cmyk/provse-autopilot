@@ -11,6 +11,9 @@ on:
       name: { description: "Назва артефакту", required: true, default: "stock" }
       provider: { description: "pixabay або pexels", required: false, default: "pixabay" }
 
+permissions:
+  contents: write
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -69,8 +72,12 @@ jobs:
               print(slug, "->", got)
           json.dump(credits, open("out/credits.json", "w"), ensure_ascii=False, indent=1)
           PY
-      - uses: actions/upload-artifact@v4
-        with:
-          name: ${{ inputs.name }}
-          path: out/
-          retention-days: 7
+      - name: Віддати окремою гілкою stock-<name> (артефакти недоступні з хмари Claude)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd out
+          git init -q -b stock-${{ inputs.name }}
+          git config user.name "provse-autopilot-bot"; git config user.email "actions@users.noreply.github.com"
+          git add -A && git commit -qm "сток ${{ inputs.name }}"
+          git push -f -q "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" stock-${{ inputs.name }}
