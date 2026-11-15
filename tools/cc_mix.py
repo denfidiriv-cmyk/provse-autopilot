@@ -2,7 +2,7 @@
 
   python tools/cc_mix.py <job_dir> <mood> "<склейки, с через кому>" ["<удари, с через кому>"]
 
-mood: tense | epic | upbeat | warm | playful | calm. Голос іде без зсуву, тож час слів з words.json збігається з міксом.
+mood: tense | epic | upbeat | warm | playful | calm | space | explain. Голос іде без зсуву, тож час слів з words.json збігається з міксом.
 Результат: <job_dir>/mix.wav (48 кГц). Склейки передавай ті самі, що в Kit.cut.
 """
 import sys

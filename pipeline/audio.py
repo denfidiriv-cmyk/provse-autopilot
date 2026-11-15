@@ -56,22 +56,24 @@ def _read(p: Path) -> np.ndarray:
 
 
 # Треки з YouTube Audio Library лежать у приватному репозиторії provse-music (MUSIC_DIR).
+# Плюс вільні треки з Wikimedia Commons (CC0 / CC BY) у assets_cache/music_cc; автори для опису в tools/music_credits.json.
 TRACKS = {
-    "tense": ["False Vacuum Decay", "In Battery", "Friction"],
-    "epic": ["Risen", "In Battery", "Friction"],
-    "upbeat": ["Friction", "Travelling Light", "Chromatic Rag"],
-    "warm": ["Island Summer Breeze", "Travelling Light", "Sirius Jazz"],
-    "playful": ["Chromatic Rag", "Island Summer Breeze", "Sirius Jazz"],
-    "calm": ["Sirius Jazz", "Travelling Light", "Island Summer Breeze"],
+    "tense": ["False Vacuum Decay", "In Battery", "Friction", "Cipher", "RetroFuture", "Ouroboros", "Loyalty_Freak_Music_-_07"],
+    "epic": ["Risen", "In Battery", "Friction", "Epic_Trailer", "Eighties_Action", "Super_Power", "Kevin_MacLeod_-_Call", "Raspberrymusic"],
+    "upbeat": ["Friction", "Travelling Light", "Chromatic Rag", "Digital_Lemonade", "Upbeat_Forever", "Rafael_Krux_-_Inspiring", "Audionautix-com-ccby-feelgoodfeel", "Funkorama", "Loyalty_Freak_Music_-_No"],
+    "warm": ["Island Summer Breeze", "Travelling Light", "Sirius Jazz", "Kevin_MacLeod_-_Early", "Kevin_MacLeod_-_Autumn", "Audionautix-com-ccby-datgroove"],
+    "playful": ["Chromatic Rag", "Island Summer Breeze", "Sirius Jazz", "Funkorama", "Audionautix-com-ccby-bigswingband", "Digital_Lemonade"],
+    "calm": ["Sirius Jazz", "Travelling Light", "Island Summer Breeze", "Thinking_Music", "Kevin_MacLeod_-_Autumn", "Driving_to_the_Night"],
+    "space": ["Stratosphere", "Raspberrymusic", "Ouroboros", "Driving_to_the_Night", "Cipher"],
+    "explain": ["Thinking_Music", "Digital_Lemonade", "Audionautix-com-ccby-datgroove", "Funkorama", "Early"],
 }
+AUDIO_EXT = ("*.mp3", "*.ogg", "*.oga", "*.opus", "*.wav")
 
 
 def track(mood: str, dur: float) -> np.ndarray | None:
     import os, random, subprocess, tempfile
-    d = Path(os.environ.get("MUSIC_DIR", "music"))
-    if not d.exists():
-        return None
-    alls = sorted(d.glob("*.mp3"))
+    dirs = [Path(x) for x in os.environ.get("MUSIC_DIR", "music").split(os.pathsep)] + [Path(__file__).resolve().parent.parent / "assets_cache" / "music_cc"]
+    alls = sorted({f for d in dirs if d.exists() for e in AUDIO_EXT for f in d.glob(e)})
     if not alls:
         return None
     # Чергування: беремо трек, який звучав найдавніше (історія в state/music_recent.json), бажано під настрій
