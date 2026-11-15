@@ -33,5 +33,18 @@
   "channel": "sport",
   "cost": 0.4921607,
   "url": "https://youtube.com/shorts/zXSO_oBF5uE"
+ },
+ {
+  "at": "2026-11-15T19:12:49.770828",
+  "query": "мороз",
+  "channel": "svit",
+  "cost": 0.0741204
+ },
+ {
+  "at": "2026-11-15T19:21:22.836595",
+  "query": "валютный рынок",
+  "channel": "ekonomika",
+  "cost": 0.45200969999999996,
+  "url": "https://youtube.com/shorts/GnMa2nR-kNk"
  }
 ]
