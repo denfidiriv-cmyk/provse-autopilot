@@ -23,9 +23,9 @@ KIT = ROOT / "templates" / "kit"
 THEMES = {
     # bg, panel, ink, accent, accent2, font для заголовків, фон-патерн
     "hook":    dict(bg="#0b0b0d", ink="#f5f1e8", acc="#ff3b30", acc2="#ffd60a", head="Osw", pat="scan"),
-    "asia":    dict(bg="#f3e6cf", ink="#2a1b12", acc="#c8102e", acc2="#1f3a5f", head="PF",  pat="sun"),
-    "austria": dict(bg="#dfe8f2", ink="#0e1f3a", acc="#1e4aa8", acc2="#c0c7d1", head="Osw", pat="stripes"),
-    "news":    dict(bg="#efe9dc", ink="#1b1b1b", acc="#b3121f", acc2="#1b1b1b", head="PF",  pat="paper"),
+    "asia":    dict(vacc="#ff4d5e", bg="#f3e6cf", ink="#2a1b12", acc="#c8102e", acc2="#1f3a5f", head="PF",  pat="sun"),
+    "austria": dict(vacc="#8ec5ff", bg="#dfe8f2", ink="#0e1f3a", acc="#1e4aa8", acc2="#c0c7d1", head="Osw", pat="stripes"),
+    "news":    dict(vacc="#ff5a4f", bg="#efe9dc", ink="#1b1b1b", acc="#b3121f", acc2="#1b1b1b", head="PF",  pat="paper"),
     "monster": dict(bg="#070907", ink="#e9ffe9", acc="#6bff3c", acc2="#ffffff", head="Osw", pat="claws"),
     "ukraine2000s": dict(bg="#0f3d91", ink="#ffffff", acc="#ffd500", acc2="#7fd3ff", head="Osw", pat="y2k"),
     "war":     dict(bg="#1c1f17", ink="#e6e2d3", acc="#c9b37e", acc2="#7d8a5a", head="Osw", pat="dust"),
@@ -67,6 +67,7 @@ html,body{width:1920px;height:1080px;overflow:hidden;background:var(--bg)}
 .bigt{position:absolute;left:120px;right:120px;text-align:center;font:700 200px/1.02 var(--head);color:var(--ink)}
 .bigt .w{display:inline-block;margin:0 .12em}
 .bigt .a{color:var(--acc)}
+.vt .a{color:var(--vacc)}
 .subt{position:absolute;left:220px;right:220px;text-align:center;font:800 52px/1.25 UI;color:var(--ink);opacity:.9}
 .hl{position:absolute;height:26px;background:var(--acc2);opacity:.35;transform-origin:0 50%}
 .chapno{position:absolute;left:140px;top:250px;font:700 60px/1 JB;color:var(--acc);letter-spacing:12px}
@@ -112,7 +113,7 @@ def scene(i, t, p, img, S=0.0, D=0.0):
         body = (f"<div class='ph vw'>{vid}</div><div class='shade'></div>"
                 + (f"<div class='tag2'>{esc(p['kicker'])}</div>" if p.get("kicker") else "")
                 + (f"<div class='tag'>{esc(p['tag'])}</div>" if p.get("tag") else "")
-                + (f"<div class='bigt' style='top:{p.get('top', 380)}px;font-size:{p.get('size', 150)}px;color:#fff;text-shadow:0 10px 40px rgba(0,0,0,.8)'>{words_html(p['text'], p.get('acc', []))}</div>" if p.get("text") else ""))
+                + (f"<div class='bigt vt' style='top:{p.get('top', 380)}px;font-size:{p.get('size', 150)}px;color:#fff;text-shadow:0 10px 40px rgba(0,0,0,.8)'>{words_html(p['text'], p.get('acc', []))}</div>" if p.get("text") else ""))
         js = (f"tl.fromTo('#{sid} .vw',{{scale:1.02}},{{scale:1.1,duration:d,ease:'none',immediateRender:false}},s);"
               f"tl.fromTo('#{sid} .tag',{{clipPath:'inset(0 100% 0 0)'}},{{clipPath:'inset(0 0% 0 0)',duration:.55,ease:'expo.out',immediateRender:false}},s+.45);"
               f"tl.fromTo('#{sid} .tag2',{{y:24,opacity:0,filter:'blur(8px)'}},{{y:0,opacity:1,filter:'blur(0px)',duration:.55,ease:'power3.out',immediateRender:false}},s+.75);"
@@ -273,7 +274,7 @@ def main():
             j = re.sub(r"tl\.fromTo\('#b0 \.bigt \.w',[^;]*;", "", j).replace("s+.2);", "s);")
         j = re.sub(r"tl\.fromTo\(('[^']+'),(\{[^{}]*\}),(\{[^{}]*\}),s\+([^)]*)\);", lambda m: f"tl.set({m[1]},{m[2]},s);" + m[0], j)
         bt = THEMES[p.get("theme", cfg["theme"])]
-        sv = f"--bg:{bt['bg']};--ink:{bt['ink']};--acc:{bt['acc']};--acc2:{bt['acc2']};--head:{bt['head']}"
+        sv = f"--vacc:{bt.get('vacc', bt['acc'])};--bg:{bt['bg']};--ink:{bt['ink']};--acc:{bt['acc']};--acc2:{bt['acc2']};--head:{bt['head']}"
         h = h.replace(f"<section class='sc' id='b{i}'>", f"<section class='sc' id='b{i}' style=\"{sv}\">", 1)
         secs.append(h.replace("{pat}", bt["pat"]))
         js.append(f"(function(s,d){{{j}}})({s:.3f},{d + .7:.3f});")
