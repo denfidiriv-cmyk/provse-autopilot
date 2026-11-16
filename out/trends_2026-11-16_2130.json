@@ -1,0 +1,131 @@
+{
+ "sport": [
+  {
+   "query": "німеччина – нідерланди",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-16T11:00:00-08:00",
+   "news": [
+    {
+     "title": "Німеччина – Нідерланди. Дивитися онлайн. LIVE трансляція",
+     "url": "https://sport.ua/uk/news/925710-nimechchina-niderlandi-divitisya-onlayn-live-translyatsiya",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Нідерланди зіграють проти Німеччини 50-й матч в історії. З ким грали більше",
+     "url": "https://sport.ua/uk/news/925711-niderlandi-zigrayut-proti-nimechchini-50-y-match-v-istorii-z-kim-grali-bilshe",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Клопп влаштував кумедне шоу з зіркою Ліверпуля перед матчем Ліги націй: Я боюсь його!",
+     "url": "https://football24.ua/news/klopp-vlashtuvav-kumedne-shou-z-zirkoyu-liverpulya-pered-matchem-lihy-natsiy-ya-boyus-yoho-976610",
+     "source": "Футбол 24"
+    }
+   ],
+   "channel": "sport",
+   "score": 1,
+   "matched": [
+    "матч"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 6
+  },
+  {
+   "query": "германия – нидерланды",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-16T11:00:00-08:00",
+   "news": [
+    {
+     "title": "Германия — Нидерланды: видео голов и обзор матча Лиги наций",
+     "url": "https://sport.nv.ua/football/germaniya-niderlandy-besplatno-video-golov-translyaciya-matcha-50659707.html",
+     "source": "NV Спорт"
+    },
+    {
+     "title": "Все звезды на месте? Сборные Германии и Нидерландов объявили стартовые составы на матч Лиги наций",
+     "url": "https://www.ua-football.com/foreign/nations_league/1794853248-vse-zvezdy-na-meste-sbornye-germanii-i-niderlandov-obyavili-startovye-sostavy-na-match-ligi-naciy.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "Клопп устроил забавное шоу с звездой Ливерпуля перед матчем Лиги наций: Я его боюсь!",
+     "url": "https://football24.ua/ru/news/klopp-ustroil-zabavnoe-shou-s-zvezdoj-liverpulja-pered-matchem-ligi-nacij-ja-ego-bojus-976616",
+     "source": "Футбол 24"
+    }
+   ],
+   "channel": "sport",
+   "score": 2,
+   "matched": [
+    "матч",
+    "сборн"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 7
+  }
+ ],
+ "svit": [
+  {
+   "query": "17 листопада",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-16T09:40:00-08:00",
+   "news": [
+    {
+     "title": "Дощі і до +14° – погода в Україні на 17-19 листопада",
+     "url": "https://www.pravda.com.ua/news/2026/11/16/8063098/",
+     "source": "Українська правда"
+    },
+    {
+     "title": "Тепліше за норму, але ледь не щодня з дощами: якою буде погода в Україні цього тижня",
+     "url": "https://24tv.ua/prognoz-pogodi-ukrayini-de-tsogo-tizhnya-budut-doshhi-moroz-mokriy_n3180948",
+     "source": "24 Канал"
+    },
+    {
+     "title": "Підступний кінець осені. Експертка Укргідрометцентру розповіла про погоду цього тижня і попередила про різкі зміни наступного",
+     "url": "https://nv.ua/ukr/ukraine/events/pogoda-v-ukrajini-de-bude-doshch-do-15-vden-i-koli-vidchutne-poholodannya-ta-snig-50659670.html",
+     "source": "NV"
+    }
+   ],
+   "channel": "svit",
+   "score": 1,
+   "matched": [
+    "погод"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  }
+ ],
+ "polityka": [
+  {
+   "query": "перемирие",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-16T09:40:00-08:00",
+   "news": [
+    {
+     "title": "В администрации Путина заявили, что участие Европы в мирных переговорах не согласовывалось с Россией",
+     "url": "https://www.pravda.com.ua/rus/news/2026/11/16/8063169/",
+     "source": "Українська правда"
+    },
+    {
+     "title": "Кремль не согласовал участие Европы в мирных переговорах. Как минимум еще один раунд будет трехсторонним",
+     "url": "https://meduza.io/news/2026/11/16/kreml-uchastie-evropy-v-mirnyh-peregovorah-s-rossiey-ne-soglasovyvalos-kak-minimum-esche-odin-raund-budet-trehstoronnim",
+     "source": "Meduza"
+    },
+    {
+     "title": "В Кремле отвергли возможность перемирия и заявили, что война против Украины будет продолжаться ради «мира на столетия»",
+     "url": "https://nv.ua/world/geopolitics/kreml-sdelal-kategorichnoe-zayavlenie-otnositelno-voyny-protiv-ukrainy-i-potencialnogo-peremiriya-50659638.html",
+     "source": "NV"
+    }
+   ],
+   "channel": "polityka",
+   "score": 8,
+   "matched": [
+    "переговор",
+    "перемир",
+    "перемирие"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  }
+ ]
+}
