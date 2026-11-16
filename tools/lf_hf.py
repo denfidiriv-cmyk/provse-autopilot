@@ -164,7 +164,9 @@ def scene(i, t, p, img, S=0.0, D=0.0):
                    f"tl.to(o,{{v:{b},duration:{p.get('cdur',1.4)},ease:'power2.out',onUpdate:()=>{{el.textContent='{fmt}'.replace('#',Math.round(o.v).toString().replace(/\\B(?=(\\d{{3}})+(?!\\d))/g,' '))}}}},s+.2);}})();")
     elif t == "chapter":
         letters = " ".join("<span style='display:inline-block;white-space:nowrap'>" + "".join(f"<span class='l'>{esc(ch)}</span>" for ch in wd) + "</span>" for wd in p["text"].split())
-        body = pat + f"<div class='chapno'>{esc(p.get('no', ''))}</div><div class='chapt'>{letters}</div><div class='chapbar'></div>"
+        n_ch = len(p["text"]); fs = p.get("size") or (210 if n_ch <= 12 else max(120, int(1640 / (n_ch * 0.56))))
+        lines = 1 if n_ch * 0.56 * fs <= 1640 else 2
+        body = pat + f"<div class='chapno'>{esc(p.get('no', ''))}</div><div class='chapt' style='font-size:{fs}px'>{letters}</div><div class='chapbar' style='top:{340 + int(lines * fs * 1.02) + 40}px'></div>"
         js = (f"tl.fromTo('#{sid} .chapt .l',{{yPercent:110,opacity:0}},{{yPercent:0,opacity:1,duration:.5,ease:'power4.out',stagger:.035,immediateRender:false}},s+.2);"
               f"tl.fromTo('#{sid} .chapno',{{x:-80,opacity:0}},{{x:0,opacity:1,duration:.5,ease:'power2.out',immediateRender:false}},s+.05);"
               f"tl.fromTo('#{sid} .chapbar',{{scaleX:0}},{{scaleX:1,duration:.8,ease:'expo.out',immediateRender:false}},s+.6);"
