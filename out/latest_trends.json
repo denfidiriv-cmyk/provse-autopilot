@@ -1,133 +1,196 @@
 {
- "sport": [
-  {
-   "query": "рейтинг wta",
-   "traffic": 1000,
-   "traffic_label": "1000+",
-   "published": "2026-11-15T14:20:00-08:00",
-   "news": [
-    {
-     "title": "Элина Свитолина – Мирра Андреева. Смотреть онлайн. LIVE трансляция",
-     "url": "https://sport.ua/news/925294-elina-svitolina-mirra-andreeva-smotret-onlayn-live-translyatsiya",
-     "source": "Sport.ua"
-    },
-    {
-     "title": "Сколько заработала Элина Свитолина на Итоговом турнире WTA",
-     "url": "https://www.sports.kz/news/skolko-zarabotala-elina-svitolina-na-itogovom-turnire-wta",
-     "source": "Sports.kz"
-    },
-    {
-     "title": "Свитолина отреагировала на оскорбления со стороны белорусской теннисистки Соболенко",
-     "url": "https://zn.ua/SPORT/svitolina-otreahirovala-na-oskorblenija-so-storony-belorusskoj-tennisistki-sobolenko.html",
-     "source": "Дзеркало тижня"
-    }
-   ],
-   "channel": "sport",
-   "score": 2,
-   "matched": [
-    "свитолина",
-    "теннис"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 9
-  },
-  {
-   "query": "полісся",
-   "traffic": 500,
-   "traffic_label": "500+",
-   "published": "2026-11-15T12:20:00-08:00",
-   "news": [
-    {
-     "title": "Полісся та Колос розійшлися миром у товариському матчі",
-     "url": "https://sport.ua/uk/news/925293-polissya-ta-kolos-roziyshlisya-mirom-u-tovariskomu-matchi",
-     "source": "Sport.ua"
-    },
-    {
-     "title": "Полісся без 14 збірників не дотиснуло Колос – житомирці марно штурмували ворота суперника (ВІДЕО)",
-     "url": "https://football24.ua/news/polissya-bez-14-zbirnykiv-ne-dotysnulo-kolos-zhytomyrtsi-marno-shturmuvaly-vorota-supernyka-video-976534",
-     "source": "Футбол 24"
-    },
-    {
-     "title": "Полісся перервало переможну серію – команда Ротаня не змогла обіграти інший клуб УПЛ",
-     "url": "https://sport24.ua/uk/football/news/170843-polissya-perervalo-peremozhnu-seriyu-komanda-rotanya-ne-zmogla-obigrati-inshiy-klub-upl",
-     "source": "Спорт 24"
-    }
-   ],
-   "channel": "sport",
-   "score": 2,
-   "matched": [
-    "збірн",
-    "матч"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 5
-  },
-  {
-   "query": "юлія джима",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-15T14:30:00-08:00",
-   "news": [
-    {
-     "title": "«Були проблеми зі здоров'ям»: тренерка збірної України з біатлону пояснила відсутність Джими у складі на Кубок світу",
-     "url": "https://suspilne.media/sport/1453337-buli-problemi-zi-zdorovam-trenerka-zbirnoi-ukraini-z-biatlonu-poasnila-vidsutnist-dzimi-u-skladi-na-kubok-svitu/",
-     "source": "Суспільне | Новини"
-    },
-    {
-     "title": "Збірна України оголосила склад на чоловічі Кубок світу та Кубок IBU сезону-2026/27| Біатлон",
-     "url": "https://champion.com.ua/ukr/biathlon/zbirna-ukrajini-ogolosila-sklad-na-cholovichi-kubok-svitu-ta-kubok-ibu-sezonu-2026-27-1090905/",
-     "source": "Champion.com.ua"
-    },
-    {
-     "title": "Капітан у строю, але є втрати: Україна оголосила склад чоловічої збірної на Кубок світу з біатлону",
-     "url": "https://sport.rbc.ua/rus/winter/kapitan-stroyu-ale-e-vtrati-ukrayina-ogolosila-1794748580.html",
-     "source": "РБК-Україна"
-    }
-   ],
-   "channel": "sport",
-   "score": 3,
-   "matched": [
-    "біатлон",
-    "збірн",
-    "кубок"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 8
-  }
- ],
  "polityka": [
   {
-   "query": "президент сша",
+   "query": "стів віткофф",
    "traffic": 100,
    "traffic_label": "100+",
-   "published": "2026-11-15T14:20:00-08:00",
+   "published": "2026-11-15T21:30:00-08:00",
    "news": [
     {
-     "title": "Байден в мемуарах назвал Зеленского \"недостаточно благодарным\", а Путина – \"похожим на подростка\"",
-     "url": "https://www.pravda.com.ua/rus/news/2026/11/15/8062940/",
-     "source": "Українська правда"
+     "title": "«З’явилися нові ідеї»: Кушнер натякнув на несподіваний поворот у переговорах про мир",
+     "url": "https://tsn.ua/politika/ziavylysia-novi-ideyi-kushner-natiaknuv-na-nespodivanyy-povorot-u-perehovorakh-pro-myr-3217099.html",
+     "source": "ТСН"
     },
     {
-     "title": "Путин на встречах был как «подросток, изображающий безразличие», а Зеленский не проявлял достаточно благодарности",
-     "url": "https://meduza.io/feature/2026/11/15/bayden-vypuskaet-memuary-vot-neskolko-tsitat-iz-nih",
-     "source": "Meduza"
+     "title": "Розраховуємо, що буде справді великий обмін полоненими – звернення Президента",
+     "url": "https://www.president.gov.ua/news/rozrahovuyemo-sho-bude-spravdi-velikij-obmin-polonenimi-zver-107329",
+     "source": "Офіційне інтернет-представництво Президента України"
     },
     {
-     "title": "В своих мемуарах Байден заявил, что не позволил команде Трампа вести переговоры с Путиным до инаугурации",
-     "url": "https://nv.ua/world/countries/memuary-baydena-byvshiy-prezident-rasskazal-o-trebovaniyah-komandy-trampa-o-pryamyh-kontaktah-50659331.html",
-     "source": "NV"
+     "title": "Зеленський зустрівся зі Віткоффом та Кушнером в Ірландії",
+     "url": "https://hromadske.radio/news/2026/11/13/zelenskyy-zustrivsia-zi-vitkoffom-ta-kushnerom-v-irlandii",
+     "source": "Громадське радіо"
     }
    ],
    "channel": "polityka",
-   "score": 6,
+   "score": 8,
    "matched": [
-    "зеленск",
+    "віткофф",
+    "зеленськ",
+    "кушнер",
     "переговор",
-    "президент",
-    "трамп"
+    "президент"
    ],
    "skipped_reason": "",
-   "extra_sources": 9
+   "extra_sources": 7
+  },
+  {
+   "query": "украинская правда",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-15T21:50:00-08:00",
+   "news": [
+    {
+     "title": "У Арахамии и Буданова разные подходы в дискуссии о Донбассе на переговорах – УП",
+     "url": "https://www.pravda.com.ua/rus/news/2026/11/16/8063013/",
+     "source": "Українська правда"
+    },
+    {
+     "title": "Настаивает ли Россия на выходе украинских войск из Донбасса: что сказал Буданов",
+     "url": "https://www.rbc.ua/ukr/news/chi-napolyagae-rosiya-vihodi-ukrayinskih-1794398932.html",
+     "source": "РБК-Україна"
+    },
+    {
+     "title": "Жизнь \"других\". Как Буданов и Арахамия делят влияние во власти Зеленского",
+     "url": "https://www.pravda.com.ua/rus/articles/2026/11/16/8062992/",
+     "source": "Українська правда"
+    }
+   ],
+   "channel": "polityka",
+   "score": 2,
+   "matched": [
+    "зеленск",
+    "переговор"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 2
+  }
+ ],
+ "svit": [
+  {
+   "query": "погода харків",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-15T21:10:00-08:00",
+   "news": [
+    {
+     "title": "До 3° морозу вночі та мокрий сніг: прогноз погоди для Харківщини на початок тижня",
+     "url": "https://suspilne.media/kharkiv/1453255-do-3-morozu-vnoci-ta-mokrij-snig-prognoz-pogodi-dla-harkivsini-na-pocatok-tizna/",
+     "source": "Суспільне | Новини"
+    },
+    {
+     "title": "Морози вночі та сонячний день: погода у Харкові завтра",
+     "url": "https://harkiv.novyny.live/morozi-vnochi-ta-soniachnii-den-pogoda-u-kharkovi-zavtra-354489.html",
+     "source": "Новини.Live"
+    },
+    {
+     "title": "Прогноз погоди в Харківській області на 15 листопада",
+     "url": "https://dumka.media/ukr/suspilstvo/1794663636-sinoptiki-rozpovili-yakim-bude-15-listopada-na-harkivshchini",
+     "source": "dumka.media"
+    }
+   ],
+   "channel": "svit",
+   "score": 5,
+   "matched": [
+    "погод",
+    "сніг"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 7
+  },
+  {
+   "query": "погода одесса",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-15T21:10:00-08:00",
+   "news": [
+    {
+     "title": "Погода резко ухудшится: синоптики дали прогноз на неделю в Одесской области с 16 по 22 ноября",
+     "url": "https://kiev.politeka.net/ru/481430-sinoptiki-poperedili-pro-doshchi-prognoz-pogodi-na-tizhden-v-odeskiy-oblasti-z-16-po-22-listopada",
+     "source": "Politeka"
+    },
+    {
+     "title": "Утренний дождь и сильный ветер: какой будет погода в Одесской области 14 ноября",
+     "url": "https://odessa.online/ru/utrennij-dozhd-i-silnyj-veter-kakoj-budet-pogoda-v-odesskoj-oblasti-14-noyabrya/",
+     "source": "Odesa Online"
+    },
+    {
+     "title": "До +15 °С, но с дождями: какая погода будет в Одессе на следующей неделе",
+     "url": "https://od.vgorode.ua/news/sobytyia/a1292652-do-15-s-no-s-dozhdjami-kakaja-pohoda-budet-v-odesse-na-sledujushchej-nedele",
+     "source": "Vgorode"
+    }
+   ],
+   "channel": "svit",
+   "score": 4,
+   "matched": [
+    "погод"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  },
+  {
+   "query": "погода одеса",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-15T21:00:00-08:00",
+   "news": [
+    {
+     "title": "Якою буде погода на Одещині 16 листопада",
+     "url": "https://suspilne.media/odesa/1453287-akou-bude-pogoda-na-odesini-16-listopada/",
+     "source": "Суспільне | Новини"
+    },
+    {
+     "title": "У найближчі дні жителів Одеського регіону очікують швидкі зміни погодних умов",
+     "url": "https://yug.today/u-nayblyzhchi-dni-zhyteliv-odeskoho-rehionu-ochikuiut-shvydki-zminy-pohodnykh-umov/",
+     "source": "Південь сьогодні"
+    },
+    {
+     "title": "Прогноз погоди в Одесі на 15 листопада: ясний день з легким похолоданням",
+     "url": "https://www.048.ua/news/4179788/prognoz-pogodi-v-odesi-na-15-listopada-asnij-den-z-legkim-poholodannam",
+     "source": "048.ua"
+    }
+   ],
+   "channel": "svit",
+   "score": 4,
+   "matched": [
+    "погод"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 7
+  }
+ ],
+ "sport": [
+  {
+   "query": "хокей",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-15T21:00:00-08:00",
+   "news": [
+    {
+     "title": "IIHF не допустила молодіжну збірну Росії на чемпіонат світу в Канаді",
+     "url": "https://champion.com.ua/ukr/ice-hockey/rosiya-propustit-molodizhniy-chempionat-svitu-z-hokeyu-2027-cherez-obmezhennya-vid-uryadu-kanadi-1090940/",
+     "source": "Champion.com.ua"
+    },
+    {
+     "title": "Росія не зіграє на МЧC із хокею. Що змінилося для збірної України",
+     "url": "https://sport.ua/uk/news/925372-rosiya-ne-zigraie-na-mchm-iz-hokeyu-shcho-zminilosya-dlya-zbirnoi-ukraini",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Росію відсторонили від молодіжного чемпіонату світу з хокею",
+     "url": "https://ua.korrespondent.net/world/4928947-rosiui-vidstoronyly-vid-molodizhnoho-chempionatu-svitu-z-khokeui",
+     "source": "Korrespondent.net"
+    }
+   ],
+   "channel": "sport",
+   "score": 5,
+   "matched": [
+    "збірн",
+    "хокей",
+    "чемпіон"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 7
   }
  ]
 }
