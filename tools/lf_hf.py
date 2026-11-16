@@ -29,6 +29,10 @@ THEMES = {
     "monster": dict(bg="#070907", ink="#e9ffe9", acc="#6bff3c", acc2="#ffffff", head="Osw", pat="claws"),
     "ukraine2000s": dict(bg="#0f3d91", ink="#ffffff", acc="#ffd500", acc2="#7fd3ff", head="Osw", pat="y2k"),
     "war":     dict(bg="#1c1f17", ink="#e6e2d3", acc="#c9b37e", acc2="#7d8a5a", head="Osw", pat="dust"),
+    "kharkiv90": dict(vacc="#ffd23f", bg="#10202a", ink="#f2efe6", acc="#ffd23f", acc2="#4fb3bf", head="Osw", pat="k90"),
+    "mivina":  dict(vacc="#ffd000", bg="#f7e7b4", ink="#3a1606", acc="#d6261c", acc2="#f2a900", head="Osw", pat="miv"),
+    "viet":    dict(vacc="#ffcd00", bg="#0f2a22", ink="#f4f1e6", acc="#da251d", acc2="#ffcd00", head="PF", pat="vn"),
+    "swiss":   dict(vacc="#ff5a5a", bg="#f4f4f2", ink="#141414", acc="#e3001b", acc2="#5a5a5a", head="Osw", pat="clean"),
     "health":  dict(bg="#eef6f6", ink="#0f2d33", acc="#e63946", acc2="#1d7f86", head="Osw", pat="grid"),
 }
 
@@ -51,6 +55,10 @@ html,body{width:1920px;height:1080px;overflow:hidden;background:var(--bg)}
 .pat.claws{background:radial-gradient(circle at 50% 50%,#0f2a0f,#050705 70%)}
 .pat.y2k{background:radial-gradient(circle at 30% 30%,#2f6fe0,#0f3d91 50%,#071d4a)}
 .pat.dust{background:radial-gradient(circle at 50% 40%,#2b3022,#14160f 75%)}
+.pat.k90{background:radial-gradient(circle at 50% 45%,#1d3a48,#10202a 60%,#08121a)}
+.pat.miv{background:radial-gradient(circle at 50% 45%,#fff3c8,#f7e7b4 55%,#ecd08a)}
+.pat.vn{background:radial-gradient(circle at 50% 45%,#1d4a3c,#0f2a22 60%,#071711)}
+.pat.clean{background:radial-gradient(circle at 50% 45%,#ffffff,#f1f1ee 60%,#e2e2dd)}
 .pat.grid{background:linear-gradient(rgba(29,127,134,.08) 2px,transparent 2px) 0 0/80px 80px,linear-gradient(90deg,rgba(29,127,134,.08) 2px,transparent 2px) 0 0/80px 80px,#eef6f6}
 .grain{position:absolute;inset:-100px;opacity:.12;pointer-events:none;z-index:90;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/></filter><rect width='300' height='300' filter='url(%23n)'/></svg>")}
 .vig{position:absolute;inset:0;pointer-events:none;z-index:89;background:radial-gradient(ellipse at 50% 50%,transparent 55%,rgba(0,0,0,.55) 100%)}
@@ -155,7 +163,7 @@ def scene(i, t, p, img, S=0.0, D=0.0):
             js += (f"(function(){{const o={{v:{a}}};const el=document.querySelector('#{sid} .bigt .w');"
                    f"tl.to(o,{{v:{b},duration:{p.get('cdur',1.4)},ease:'power2.out',onUpdate:()=>{{el.textContent='{fmt}'.replace('#',Math.round(o.v).toString().replace(/\\B(?=(\\d{{3}})+(?!\\d))/g,' '))}}}},s+.2);}})();")
     elif t == "chapter":
-        letters = "".join(f"<span class='l'>{esc(ch) if ch != ' ' else '&nbsp;'}</span>" for ch in p["text"])
+        letters = " ".join("<span style='display:inline-block;white-space:nowrap'>" + "".join(f"<span class='l'>{esc(ch)}</span>" for ch in wd) + "</span>" for wd in p["text"].split())
         body = pat + f"<div class='chapno'>{esc(p.get('no', ''))}</div><div class='chapt'>{letters}</div><div class='chapbar'></div>"
         js = (f"tl.fromTo('#{sid} .chapt .l',{{yPercent:110,opacity:0}},{{yPercent:0,opacity:1,duration:.5,ease:'power4.out',stagger:.035,immediateRender:false}},s+.2);"
               f"tl.fromTo('#{sid} .chapno',{{x:-80,opacity:0}},{{x:0,opacity:1,duration:.5,ease:'power2.out',immediateRender:false}},s+.05);"

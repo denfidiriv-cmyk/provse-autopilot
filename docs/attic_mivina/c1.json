@@ -1,0 +1,186 @@
+{
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/full/c1",
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/vid",
+ "theme": "kharkiv90",
+ "tail": 0.8,
+ "beats": [
+  [
+   "Фам",
+   "chapter",
+   {
+    "theme": "kharkiv90",
+    "no": "СПРАВА №1",
+    "text": "ХАРКІВ, 90-ТІ"
+   }
+  ],
+  [
+   "В'єтнамі,",
+   "photo",
+   {
+    "theme": "kharkiv90",
+    "img": "p21.jpg",
+    "tag": "В'ЄТНАМ, 1968"
+   }
+  ],
+  [
+   "математику,",
+   "video",
+   {
+    "theme": "kharkiv90",
+    "vid": "lecture_1.mp4",
+    "kicker": "стипендія за математику",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Москву,",
+   "photo",
+   {
+    "theme": "kharkiv90",
+    "img": "p14.jpg",
+    "kicker": "геологорозвідувальний інститут"
+   }
+  ],
+  [
+   "копалини.",
+   "video",
+   {
+    "theme": "kharkiv90",
+    "vid": "geology_1.mp4",
+    "text": "ШУКАТИ КОПАЛИНИ",
+    "acc": [
+     "КОПАЛИНИ"
+    ],
+    "size": 140,
+    "tr": "cut"
+   }
+  ],
+  [
+   "Союз",
+   "video",
+   {
+    "theme": "kharkiv90",
+    "vid": "oldtv_3.mp4",
+    "text": "СОЮЗ РОЗВАЛЮЄТЬСЯ",
+    "acc": [
+     "РОЗВАЛЮЄТЬСЯ"
+    ],
+    "size": 140
+   }
+  ],
+  [
+   "переїжджає",
+   "photo",
+   {
+    "theme": "kharkiv90",
+    "img": "p03.jpg",
+    "tag": "ХАРКІВ",
+    "punch": [
+     "Харків."
+    ],
+    "tr": "cut"
+   }
+  ],
+  [
+   "гроші",
+   "video",
+   {
+    "theme": "kharkiv90",
+    "vid": "calc_3.mp4",
+    "text": "ГРОШІ ЗНЕЦІНЮЮТЬСЯ",
+    "acc": [
+     "ЗНЕЦІНЮЮТЬСЯ"
+    ],
+    "size": 130
+   }
+  ],
+  [
+   "ринках",
+   "video",
+   {
+    "theme": "kharkiv90",
+    "vid": "shelf_2.mp4",
+    "kicker": "від джинсів до запчастин",
+    "tr": "cut"
+   }
+  ],
+  [
+   "позичає",
+   "big",
+   {
+    "theme": "kharkiv90",
+    "text": "$10000",
+    "acc": [
+     "$"
+    ],
+    "size": 240,
+    "count": [
+     0,
+     10000,
+     "$#"
+    ],
+    "cdur": 1.2,
+    "sub": "у борг у друзів і родичів"
+   }
+  ],
+  [
+   "невеликий",
+   "photo",
+   {
+    "theme": "kharkiv90",
+    "img": "p13.jpg",
+    "tag": "В'ЄТНАМСЬКИЙ РЕСТОРАН",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Справи",
+   "video",
+   {
+    "theme": "kharkiv90",
+    "vid": "rain_1.mp4",
+    "text": "СПРАВИ ЙДУТЬ ПОГАНО",
+    "acc": [
+     "ПОГАНО"
+    ],
+    "size": 130,
+    "freeze": "погано."
+   }
+  ],
+  [
+   "Зате",
+   "video",
+   {
+    "theme": "kharkiv90",
+    "vid": "cook_1.mp4",
+    "text": "ЛОКШИНА БЕЗ ВАРІННЯ",
+    "acc": [
+     "БЕЗ"
+    ],
+    "size": 130
+   }
+  ],
+  [
+   "Залив",
+   "video",
+   {
+    "theme": "kharkiv90",
+    "vid": "cup_1.mp4",
+    "kicker": "окріп + 3 хвилини",
+    "punch": [
+     "готовий."
+    ],
+    "tr": "cut"
+   }
+  ]
+ ],
+ "musics": [
+  [
+   0,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/RetroFuture_Dirty_%28ISRC_USUAN1200041%29.mp3",
+   0,
+   1.0
+  ]
+ ]
+}

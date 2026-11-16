@@ -1,0 +1,125 @@
+{
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/full/c4",
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/vid",
+ "theme": "swiss",
+ "tail": 0.8,
+ "beats": [
+  [
+   "До",
+   "chapter",
+   {
+    "theme": "swiss",
+    "no": "СПРАВА №4",
+    "text": "УГОДА З NESTLÉ"
+   }
+  ],
+  [
+   "пюре",
+   "video",
+   {
+    "theme": "swiss",
+    "vid": "warehouse_3.mp4",
+    "kicker": "пюре, приправи, соуси"
+   }
+  ],
+  [
+   "Річний",
+   "big",
+   {
+    "theme": "swiss",
+    "text": "$100 МЛН+",
+    "acc": [
+     "МЛН+"
+    ],
+    "size": 220,
+    "count": [
+     0,
+     100,
+     "$#"
+    ],
+    "cdur": 1.2,
+    "sub": "річний виторг Технокому"
+   }
+  ],
+  [
+   "з'являється",
+   "video",
+   {
+    "theme": "swiss",
+    "vid": "handshake_2.mp4",
+    "tag": "ПОКУПЕЦЬ",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Швейцарський",
+   "photo",
+   {
+    "theme": "swiss",
+    "img": "p25.jpg",
+    "tag": "NESTLÉ, ВЕВЕ"
+   }
+  ],
+  [
+   "дві",
+   "big",
+   {
+    "theme": "swiss",
+    "text": "$150 МЛН",
+    "acc": [
+     "МЛН"
+    ],
+    "size": 230,
+    "count": [
+     0,
+     150,
+     "$#"
+    ],
+    "cdur": 1.3,
+    "sub": "2010 рік: Nestlé купує Техноком"
+   }
+  ],
+  [
+   "Для",
+   "video",
+   {
+    "theme": "swiss",
+    "vid": "switz_1.mp4",
+    "text": "ПЕРЕМОГА",
+    "acc": [
+     "ПЕРЕМОГА"
+    ],
+    "size": 170,
+    "tr": "cut"
+   }
+  ],
+  [
+   "Але",
+   "video",
+   {
+    "theme": "swiss",
+    "vid": "money_2.mp4",
+    "kicker": "але не на пенсію"
+   }
+  ],
+  [
+   "Гроші",
+   "video",
+   {
+    "theme": "swiss",
+    "vid": "vietnam_1.mp4",
+    "tag": "ДОДОМУ, У В'ЄТНАМ",
+    "tr": "cut"
+   }
+  ]
+ ],
+ "musics": [
+  [
+   0,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Audionautix-com-ccby-bigswingband.mp3",
+   0,
+   1.0
+  ]
+ ]
+}

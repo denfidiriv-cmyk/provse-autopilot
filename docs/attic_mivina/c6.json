@@ -1,0 +1,184 @@
+{
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/full/c6",
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/vid",
+ "theme": "war",
+ "tail": 0.8,
+ "beats": [
+  [
+   "А",
+   "chapter",
+   {
+    "theme": "war",
+    "no": "СПРАВА №6",
+    "text": "МІВІНА І ВІЙНА"
+   }
+  ],
+  [
+   "харківська",
+   "big",
+   {
+    "theme": "war",
+    "text": "ФАБРИКА ЗУПИНЯЄТЬСЯ",
+    "acc": [
+     "ЗУПИНЯЄТЬСЯ"
+    ],
+    "size": 150,
+    "sub": "після вторгнення москалів"
+   }
+  ],
+  [
+   "Харків",
+   "photo",
+   {
+    "theme": "war",
+    "img": "p11.jpg",
+    "tag": "ХАРКІВ ПІД ОБСТРІЛАМИ",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Працівники,",
+   "video",
+   {
+    "theme": "war",
+    "vid": "warehouse_2.mp4",
+    "kicker": "продукцію зі складу роздають волонтерам безкоштовно"
+   }
+  ],
+  [
+   "Але",
+   "big",
+   {
+    "theme": "swiss",
+    "text": "АЛЕ ЦЕ НЕ КІНЕЦЬ",
+    "acc": [
+     "НЕ"
+    ],
+    "size": 170,
+    "tr": "flash"
+   }
+  ],
+  [
+   "Нестле",
+   "video",
+   {
+    "theme": "swiss",
+    "vid": "construction_2.mp4",
+    "kicker": "Nestlé вирішує будувати в Україні",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Смолигів",
+   "big",
+   {
+    "theme": "swiss",
+    "text": "СМОЛИГІВ",
+    "acc": [
+     "СМОЛИГІВ"
+    ],
+    "size": 220,
+    "sub": "Волинська область"
+   }
+  ],
+  [
+   "сорока",
+   "big",
+   {
+    "theme": "swiss",
+    "text": "40 МЛН CHF",
+    "acc": [
+     "CHF"
+    ],
+    "size": 210,
+    "count": [
+     0,
+     40,
+     "#"
+    ],
+    "cdur": 1.0,
+    "sub": "інвестиції у нову фабрику",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Улітку",
+   "timeline",
+   {
+    "theme": "swiss",
+    "points": [
+     [
+      "2022",
+      "Харків зупинився"
+     ],
+     [
+      "2023",
+      "старт будівництва"
+     ],
+     [
+      "2025",
+      "перша лінія"
+     ]
+    ]
+   }
+  ],
+  [
+   "Тепер",
+   "big",
+   {
+    "theme": "swiss",
+    "text": "75%",
+    "acc": [
+     "75%"
+    ],
+    "size": 260,
+    "count": [
+     0,
+     75,
+     "#%"
+    ],
+    "cdur": 1.0,
+    "sub": "їде на експорт у ЄС, переважно під брендом Maggi",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Німеччині",
+   "video",
+   {
+    "theme": "swiss",
+    "vid": "shelf_1.mp4",
+    "kicker": "Німеччина, Франція: та сама українська локшина"
+   }
+  ],
+  [
+   "фабриці",
+   "big",
+   {
+    "theme": "swiss",
+    "text": "300 → 1500",
+    "acc": [
+     "1500"
+    ],
+    "size": 210,
+    "sub": "робочих місць зараз і після розширення",
+    "tr": "cut"
+   }
+  ]
+ ],
+ "musics": [
+  [
+   0,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Cipher_%28ISRC_USUAN1100844%29.oga",
+   0,
+   1.0
+  ],
+  [
+   4,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Kevin_MacLeod_-_Call_to_Adventure.ogg",
+   0,
+   1.0
+  ]
+ ]
+}

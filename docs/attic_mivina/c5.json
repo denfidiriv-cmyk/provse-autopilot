@@ -1,0 +1,196 @@
+{
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/full/c5",
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/vid",
+ "theme": "viet",
+ "tail": 0.8,
+ "beats": [
+  [
+   "Ще",
+   "chapter",
+   {
+    "theme": "viet",
+    "no": "СПРАВА №5",
+    "text": "ВІД ЛОКШИНИ ДО ЕЛЕКТРОКАРІВ"
+   }
+  ],
+  [
+   "острів",
+   "video",
+   {
+    "theme": "viet",
+    "vid": "beach_2.mp4",
+    "kicker": "острів біля узбережжя В'єтнаму"
+   }
+  ],
+  [
+   "курорт",
+   "photo",
+   {
+    "theme": "viet",
+    "img": "p20.jpg",
+    "tag": "VINPEARL, НЯЧАНГ",
+    "tr": "cut"
+   }
+  ],
+  [
+   "вежі",
+   "photo",
+   {
+    "theme": "viet",
+    "img": "p23.jpg",
+    "tag": "LANDMARK 81",
+    "kicker": "вежі, торгові центри, квартали",
+    "pos": "50% 30%"
+   }
+  ],
+  [
+   "Усе",
+   "polaroid",
+   {
+    "theme": "viet",
+    "img": "p01.png",
+    "w": 700,
+    "h": 470,
+    "rot": -4,
+    "cap": "Vingroup"
+   }
+  ],
+  [
+   "тисячі",
+   "big",
+   {
+    "theme": "viet",
+    "text": "ПЕРШИЙ МІЛЬЯРДЕР",
+    "acc": [
+     "МІЛЬЯРДЕР"
+    ],
+    "size": 170,
+    "sub": "В'єтнаму, за Forbes, 2013",
+    "tr": "flash"
+   }
+  ],
+  [
+   "далі",
+   "video",
+   {
+    "theme": "viet",
+    "vid": "evdrive_3.mp4",
+    "text": "БОЖЕВІЛЛЯ?",
+    "acc": [
+     "БОЖЕВІЛЛЯ?"
+    ],
+    "size": 170,
+    "freeze": "божевіллям:"
+   }
+  ],
+  [
+   "запускає",
+   "photo",
+   {
+    "theme": "viet",
+    "img": "p17.jpg",
+    "tag": "VINFAST",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Компанія",
+   "video",
+   {
+    "theme": "viet",
+    "vid": "ev_1.mp4",
+    "kicker": "електромобілі й електроскутери"
+   }
+  ],
+  [
+   "двадцять",
+   "photo",
+   {
+    "theme": "viet",
+    "img": "p15.jpg",
+    "tag": "NASDAQ, 2023",
+    "tr": "cut"
+   }
+  ],
+  [
+   "акції",
+   "big",
+   {
+    "theme": "viet",
+    "text": "$10 → $93",
+    "acc": [
+     "$93"
+    ],
+    "size": 220,
+    "sub": "акції VinFast після виходу на біржу"
+   }
+  ],
+  [
+   "компанію",
+   "big",
+   {
+    "theme": "viet",
+    "text": "≈$200 МЛРД",
+    "acc": [
+     "МЛРД"
+    ],
+    "size": 210,
+    "sub": "дорожче за Ford і General Motors",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Потім",
+   "video",
+   {
+    "theme": "viet",
+    "vid": "stock_1.mp4",
+    "kicker": "акції падають"
+   }
+  ],
+  [
+   "За",
+   "big",
+   {
+    "theme": "viet",
+    "text": "$34 МЛРД",
+    "acc": [
+     "МЛРД"
+    ],
+    "size": 230,
+    "count": [
+     0,
+     34,
+     "$#"
+    ],
+    "cdur": 1.2,
+    "sub": "статок Вионга, Forbes, весна 2026"
+   }
+  ],
+  [
+   "все",
+   "photo",
+   {
+    "theme": "viet",
+    "img": "p07.jpg",
+    "tag": "З ХАРКІВСЬКОЇ ЛОКШИНИ",
+    "tr": "cut"
+   }
+  ]
+ ],
+ "musics": [
+  [
+   0,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Epic_Trailer_by_Rafael_Krux.ogg",
+   0,
+   1.0
+  ],
+  [
+   12,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Ouroboros_%28ISRC_USUAN1400007%29.mp3",
+   0,
+   1.0
+  ]
+ ]
+}

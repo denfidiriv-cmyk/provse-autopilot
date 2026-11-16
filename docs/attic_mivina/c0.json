@@ -1,0 +1,164 @@
+{
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/full/c0",
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/vid",
+ "theme": "hook",
+ "tail": 0.8,
+ "beats": [
+  [
+   "Пачка",
+   "big",
+   {
+    "theme": "hook",
+    "text": "ПАЧКА ЗА КОПІЙКИ",
+    "acc": [
+     "КОПІЙКИ"
+    ],
+    "size": 210,
+    "sub": "Харків, 1995"
+   }
+  ],
+  [
+   "студенти",
+   "video",
+   {
+    "theme": "hook",
+    "vid": "student_1.mp4",
+    "kicker": "студенти в гуртожитках",
+    "tr": "cut"
+   }
+  ],
+  [
+   "школярі",
+   "photo",
+   {
+    "theme": "mivina",
+    "img": "p06.jpg",
+    "tag": "СУХОЮ, З ПАКЕТА",
+    "punch": [
+     "сухою,"
+    ],
+    "tr": "cut"
+   }
+  ],
+  [
+   "людина,",
+   "big",
+   {
+    "theme": "hook",
+    "text": "$34 МЛРД",
+    "acc": [
+     "МЛРД"
+    ],
+    "size": 220,
+    "count": [
+     0,
+     34,
+     "$#"
+    ],
+    "cdur": 1.4,
+    "sub": "статок творця, за оцінкою Forbes"
+   }
+  ],
+  [
+   "власний",
+   "photo",
+   {
+    "theme": "hook",
+    "img": "p22.jpg",
+    "tag": "VINFAST",
+    "tr": "cut"
+   }
+  ],
+  [
+   "курорти",
+   "photo",
+   {
+    "theme": "hook",
+    "img": "p26.jpg",
+    "tag": "VINPEARL",
+    "tr": "cut"
+   }
+  ],
+  [
+   "почалося",
+   "photo",
+   {
+    "theme": "hook",
+    "img": "p02.jpg",
+    "tag": "ХАРКІВ",
+    "punch": [
+     "Харкові."
+    ]
+   }
+  ],
+  [
+   "Привіт,",
+   "big",
+   {
+    "theme": "hook",
+    "text": "ATTIC FILES",
+    "acc": [
+     "FILES"
+    ],
+    "size": 230,
+    "sub": "речі, з якими ми виросли",
+    "tr": "flash"
+   }
+  ],
+  [
+   "Сьогодні",
+   "polaroid",
+   {
+    "theme": "mivina",
+    "img": "p24.png",
+    "w": 900,
+    "h": 330,
+    "rot": -3,
+    "cap": "жовта пачка, яку знає кожен",
+    "pos": "center"
+   }
+  ],
+  [
+   "Розберемося,",
+   "list",
+   {
+    "theme": "mivina",
+    "title": "ПИТАННЯ",
+    "acc": [
+     "ПИТАННЯ"
+    ],
+    "items": [
+     [
+      "01",
+      "хто її вигадав"
+     ],
+     [
+      "02",
+      "чому вона стала словом"
+     ],
+     [
+      "03",
+      "що з нею сталося у війну"
+     ]
+    ],
+    "gap": 1.25
+   }
+  ]
+ ],
+ "musics": [
+  [
+   0,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Super_Power_Cool_Dude_%28ISRC_USUAN1600036%29.mp3",
+   0,
+   1.0
+  ],
+  [
+   7,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Digital_Lemonade_%28ISRC_USUAN1700010%29.mp3",
+   0,
+   1.0
+  ]
+ ],
+ "hook": true
+}

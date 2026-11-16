@@ -1,0 +1,222 @@
+{
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/full/c3",
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/vid",
+ "theme": "ukraine2000s",
+ "tail": 0.8,
+ "beats": [
+  [
+   "Мівіна",
+   "chapter",
+   {
+    "theme": "ukraine2000s",
+    "no": "СПРАВА №3",
+    "text": "КОЛИ БРЕНД СТАЄ СЛОВОМ"
+   }
+  ],
+  [
+   "«мівіною»",
+   "big",
+   {
+    "theme": "ukraine2000s",
+    "text": "«МІВІНА»",
+    "acc": [
+     "«МІВІНА»"
+    ],
+    "size": 230,
+    "sub": "так називають будь-яку локшину швидкого приготування"
+   }
+  ],
+  [
+   "Як",
+   "versus",
+   {
+    "theme": "ukraine2000s",
+    "a": "КСЕРОКС",
+    "ai": "будь-який копіювальний апарат",
+    "b": "ПАМПЕРСИ",
+    "bi": "будь-які підгузки",
+    "bt": 1.1
+   }
+  ],
+  [
+   "Цифри",
+   "photo",
+   {
+    "theme": "ukraine2000s",
+    "img": "p09.jpg",
+    "tag": "ЦИФРИ ВРАЖАЮТЬ",
+    "tr": "cut"
+   }
+  ],
+  [
+   "мільйона",
+   "big",
+   {
+    "theme": "ukraine2000s",
+    "text": "1000000",
+    "acc": [
+     "1000000"
+    ],
+    "size": 230,
+    "count": [
+     0,
+     1000000,
+     "#"
+    ],
+    "cdur": 1.2,
+    "sub": "порцій Мівіни щодня, початок 2010-х"
+   }
+  ],
+  [
+   "мільйон",
+   "big",
+   {
+    "theme": "ukraine2000s",
+    "text": "1200000",
+    "acc": [
+     "1200000"
+    ],
+    "size": 230,
+    "count": [
+     0,
+     1200000,
+     "#"
+    ],
+    "cdur": 1.2,
+    "sub": "ложок приправи щодня",
+    "tr": "cut"
+   }
+  ],
+  [
+   "За",
+   "big",
+   {
+    "theme": "ukraine2000s",
+    "text": "40000",
+    "acc": [
+     "т"
+    ],
+    "size": 230,
+    "count": [
+     0,
+     40000,
+     "# т"
+    ],
+    "cdur": 1.0,
+    "sub": "виробляли за рік",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Як",
+   "video",
+   {
+    "theme": "mivina",
+    "vid": "pack_1.mp4",
+    "text": "ЯК ЇЇ РОБЛЯТЬ",
+    "acc": [
+     "РОБЛЯТЬ"
+    ],
+    "size": 150
+   }
+  ],
+  [
+   "тісто",
+   "video",
+   {
+    "theme": "mivina",
+    "vid": "cook_3.mp4",
+    "kicker": "тісто ріжуть на хвилясті смужки",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Потім",
+   "video",
+   {
+    "theme": "mivina",
+    "vid": "kettle_3.mp4",
+    "text": "ПАРА 110°C",
+    "acc": [
+     "110°C"
+    ],
+    "size": 160
+   }
+  ],
+  [
+   "обсмажують",
+   "video",
+   {
+    "theme": "mivina",
+    "vid": "noodles_1.mp4",
+    "kicker": "обсмажують в олії",
+    "tr": "cut"
+   }
+  ],
+  [
+   "Саме",
+   "photo",
+   {
+    "theme": "mivina",
+    "img": "p18.jpg",
+    "kicker": "вам лишається тільки додати окріп"
+   }
+  ],
+  [
+   "міфу,",
+   "big",
+   {
+    "theme": "health",
+    "text": "МІФ",
+    "acc": [
+     "МІФ"
+    ],
+    "size": 260,
+    "sub": "локшина роздувається в шлунку?"
+   }
+  ],
+  [
+   "Наукових",
+   "big",
+   {
+    "theme": "health",
+    "text": "НЕ ПІДТВЕРДЖЕНО",
+    "acc": [
+     "НЕ"
+    ],
+    "size": 170,
+    "tr": "cut"
+   }
+  ],
+  [
+   "лікарі",
+   "big",
+   {
+    "theme": "health",
+    "text": "СОЛІ Й ЖИРУ ЧИМАЛО",
+    "acc": [
+     "СОЛІ",
+     "ЖИРУ"
+    ],
+    "size": 150,
+    "sub": "лікарі радять не захоплюватися",
+    "tr": "cut"
+   }
+  ]
+ ],
+ "musics": [
+  [
+   0,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Upbeat_Forever_%28ISRC_USUAN1500063%29.mp3",
+   0,
+   1.0
+  ],
+  [
+   12,
+   "/home/claude/provse-autopilot/assets_cache/music_cc/Thinking_Music_%28ISRC_USUAN1600060%29.mp3",
+   0,
+   1.0
+  ]
+ ]
+}
