@@ -84,7 +84,7 @@ for k, (wi, media, text, accw) in enumerate(sc):
             tl.append(f"tl.fromTo('#t{k}', {{scale: 1.1}}, {{scale: 1, duration: 1, ease: 'power2.out', immediateRender: false}}, 0);")
         else:
             tl.append(f"Kit.in(tl, '#t{k}', {a + .05:.3f}, '{'pop' if media == 'end' else 'rise'}');")
-        caps_off.append((a - .06 if k else 0, b - .06))
+        caps_off.append((a - .05 if k else 0, b - .06))
     secs.append(f"    <section class=\"scene\" id=\"{sid}\"{vis}>{body}</section>")
     if k:
         tl.append(f"Kit.cut(tl, '#s{k}', '#{sid}', {a - .06:.3f}, '{TR[k % len(TR)]}');")
