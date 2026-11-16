@@ -1,0 +1,77 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/vid",
+ "outro": "/home/claude/provse-autopilot/voice_out/miv_outro",
+ "name": "s7",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/full/c5",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/shorts/s7",
+ "w0": 51,
+ "w1": 135,
+ "bg": "#0f2a22",
+ "bg2": "#1d4a3c",
+ "accent": "#ffcd00",
+ "mood": "epic",
+ "keywords": [
+  "вінфаст.",
+  "біржу,",
+  "дев'яноста",
+  "трьох.",
+  "мільярдів"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:p17.jpg",
+   "VINFAST ДОРОЖЧИЙ ЗА FORD",
+   "FORD"
+  ],
+  [
+   8,
+   "img:p22.jpg",
+   "",
+   ""
+  ],
+  [
+   13,
+   "vid:ev_1.mp4",
+   "",
+   ""
+  ],
+  [
+   21,
+   "img:p15.jpg",
+   "",
+   ""
+  ],
+  [
+   29,
+   "vid:exchange_1.mp4",
+   "З $10 ДО $93",
+   "$93"
+  ],
+  [
+   40,
+   "vid:exchange_2.mp4",
+   "≈$200 МЛРД",
+   "МЛРД"
+  ],
+  [
+   53,
+   "vid:stock_1.mp4",
+   "",
+   ""
+  ],
+  [
+   64,
+   "img:p23.jpg",
+   "$34 МЛРД",
+   "$34"
+  ],
+  [
+   78,
+   "img:p07.jpg",
+   "",
+   ""
+  ]
+ ]
+}

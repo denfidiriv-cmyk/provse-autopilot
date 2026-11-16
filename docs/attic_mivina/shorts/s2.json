@@ -1,0 +1,52 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/vid",
+ "outro": "/home/claude/provse-autopilot/voice_out/miv_outro",
+ "name": "s2",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/full/c1",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/shorts/s2",
+ "w0": 78,
+ "w1": 133,
+ "bg": "#10202a",
+ "bg2": "#1d3a48",
+ "accent": "#ffd23f",
+ "mood": "tense",
+ "keywords": [
+  "десять",
+  "тисяч",
+  "погано.",
+  "варити."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:p13.jpg",
+   "$10 000 У БОРГ",
+   "$10"
+  ],
+  [
+   14,
+   "vid:calc_3.mp4",
+   "",
+   ""
+  ],
+  [
+   27,
+   "vid:rain_1.mp4",
+   "",
+   ""
+  ],
+  [
+   30,
+   "vid:cook_1.mp4",
+   "ЛОКШИНА БЕЗ ВАРІННЯ",
+   "БЕЗ"
+  ],
+  [
+   48,
+   "vid:cup_1.mp4",
+   "",
+   ""
+  ]
+ ]
+}

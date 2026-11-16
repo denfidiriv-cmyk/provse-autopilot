@@ -1,0 +1,63 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/vid",
+ "outro": "/home/claude/provse-autopilot/voice_out/miv_outro",
+ "name": "s6",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/full/c4",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/shorts/s6",
+ "w0": 0,
+ "w1": 69,
+ "bg": "#1a1a1a",
+ "bg2": "#444",
+ "accent": "#ff3b3b",
+ "mood": "upbeat",
+ "keywords": [
+  "нестле.",
+  "перемога.",
+  "в'єтнам."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:p25.jpg",
+   "NESTLÉ КУПИЛА МІВІНУ ЗА $150 МЛН",
+   "$150"
+  ],
+  [
+   11,
+   "vid:warehouse_3.mp4",
+   "",
+   ""
+  ],
+  [
+   17,
+   "vid:money_2.mp4",
+   "$100 МЛН+ НА РІК",
+   "$100"
+  ],
+  [
+   25,
+   "vid:handshake_2.mp4",
+   "",
+   ""
+  ],
+  [
+   27,
+   "img:p16.jpg",
+   "",
+   ""
+  ],
+  [
+   44,
+   "vid:switz_1.mp4",
+   "",
+   ""
+  ],
+  [
+   61,
+   "vid:vietnam_1.mp4",
+   "",
+   ""
+  ]
+ ]
+}

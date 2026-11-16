@@ -1,0 +1,39 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/vid",
+ "outro": "/home/claude/provse-autopilot/voice_out/miv_outro",
+ "name": "s9",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/full/c6",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/shorts/s9",
+ "w0": 67,
+ "w1": 114,
+ "bg": "#151515",
+ "bg2": "#3a3a3a",
+ "accent": "#e3001b",
+ "mood": "upbeat",
+ "keywords": [
+  "експорт,",
+  "маггі.",
+  "історії."
+ ],
+ "scenes": [
+  [
+   0,
+   "vid:truck_1.mp4",
+   "УКРАЇНСЬКА ЛОКШИНА ПІД БРЕНДОМ MAGGI",
+   "MAGGI"
+  ],
+  [
+   16,
+   "vid:shelf_1.mp4",
+   "",
+   ""
+  ],
+  [
+   33,
+   "vid:construction_3.mp4",
+   "ДО 1500 РОБОЧИХ МІСЦЬ",
+   "1500"
+  ]
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/vid",
+ "outro": "/home/claude/provse-autopilot/voice_out/miv_outro",
+ "name": "s4",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/full/c3",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/shorts/s4",
+ "w0": 0,
+ "w1": 53,
+ "bg": "#0f3d91",
+ "bg2": "#2f6fe0",
+ "accent": "#ffd500",
+ "mood": "upbeat",
+ "keywords": [
+  "брендом.",
+  "ксерокс",
+  "памперси."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:p09.JPG",
+   "«МІВІНА» СТАЛА СЛОВОМ",
+   "«МІВІНА»"
+  ],
+  [
+   22,
+   "vid:oldtv_3.mp4",
+   "ЯК КСЕРОКС ЧИ ПАМПЕРСИ",
+   "КСЕРОКС"
+  ],
+  [
+   26,
+   "img:p10.jpg",
+   "",
+   ""
+  ],
+  [
+   34,
+   "vid:cook_3.mp4",
+   "1 000 000 ПОРЦІЙ ЩОДНЯ",
+   "1"
+  ],
+  [
+   42,
+   "vid:kettle_3.mp4",
+   "1,2 МЛН ЛОЖОК ПРИПРАВИ",
+   "1,2"
+  ],
+  [
+   47,
+   "vid:pack_1.mp4",
+   "40 000 ТОНН НА РІК",
+   "40"
+  ]
+ ]
+}

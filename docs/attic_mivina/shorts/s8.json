@@ -1,0 +1,64 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/vid",
+ "outro": "/home/claude/provse-autopilot/voice_out/miv_outro",
+ "name": "s8",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/full/c6",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/shorts/s8",
+ "w0": 0,
+ "w1": 66,
+ "bg": "#1c1f17",
+ "bg2": "#2b3022",
+ "accent": "#c9b37e",
+ "mood": "tense",
+ "keywords": [
+  "москалів",
+  "зупиняється.",
+  "безкоштовно.",
+  "будувати."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:p11.jpg",
+   "ФАБРИКА МІВІНИ ЗУПИНИЛАСЬ",
+   "ЗУПИНИЛАСЬ"
+  ],
+  [
+   16,
+   "vid:warehouse_2.mp4",
+   "",
+   ""
+  ],
+  [
+   30,
+   "vid:construction_1.mp4",
+   "",
+   ""
+  ],
+  [
+   36,
+   "vid:construction_2.mp4",
+   "",
+   ""
+  ],
+  [
+   46,
+   "vid:wheat_2.mp4",
+   "СМОЛИГІВ, ВОЛИНЬ",
+   "СМОЛИГІВ,"
+  ],
+  [
+   56,
+   "vid:coins_1.mp4",
+   "40 МЛН CHF",
+   "40"
+  ],
+  [
+   60,
+   "vid:pack_1.mp4",
+   "ПЕРША ЛІНІЯ, 2025",
+   "2025"
+  ]
+ ]
+}

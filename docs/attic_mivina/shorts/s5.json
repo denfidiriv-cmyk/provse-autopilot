@@ -1,0 +1,65 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/vid",
+ "outro": "/home/claude/provse-autopilot/voice_out/miv_outro",
+ "name": "s5",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/full/c3",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/shorts/s5",
+ "w0": 54,
+ "w1": 119,
+ "bg": "#141414",
+ "bg2": "#3a3a3a",
+ "accent": "#ff4d3d",
+ "mood": "calm",
+ "keywords": [
+  "пара",
+  "обсмажують",
+  "окріп.",
+  "міфу,",
+  "немає."
+ ],
+ "scenes": [
+  [
+   0,
+   "vid:pack_1.mp4",
+   "ЯК РОБЛЯТЬ МІВІНУ",
+   "МІВІНУ"
+  ],
+  [
+   9,
+   "vid:cook_3.mp4",
+   "",
+   ""
+  ],
+  [
+   16,
+   "vid:kettle_3.mp4",
+   "ПАРА 110°C",
+   "110°C"
+  ],
+  [
+   25,
+   "vid:noodles_1.mp4",
+   "",
+   ""
+  ],
+  [
+   28,
+   "img:p18.jpg",
+   "",
+   ""
+  ],
+  [
+   46,
+   "img:p07.jpg",
+   "МІФ ЧИ ПРАВДА?",
+   "МІФ"
+  ],
+  [
+   56,
+   "img:p04.jpg",
+   "СОЛІ Й ЖИРУ ЧИМАЛО",
+   "СОЛІ"
+  ]
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/vid",
+ "outro": "/home/claude/provse-autopilot/voice_out/miv_outro",
+ "name": "s3",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/full/c2",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/miv/shorts/s3",
+ "w0": 53,
+ "w1": 117,
+ "bg": "#3a1606",
+ "bg2": "#7a2a10",
+ "accent": "#ffd000",
+ "mood": "upbeat",
+ "keywords": [
+  "дешева,",
+  "кіоску,",
+  "сухою,",
+  "чіпси,"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:p09.JPG",
+   "ЧОМУ МІВІНУ ЇЛИ СУХОЮ?",
+   "СУХОЮ?"
+  ],
+  [
+   21,
+   "vid:money_1.mp4",
+   "",
+   ""
+  ],
+  [
+   31,
+   "vid:coins_1.mp4",
+   "$1 000 000 ЗА ДВА РОКИ",
+   "$1"
+  ],
+  [
+   38,
+   "img:p05.jpg",
+   "",
+   ""
+  ],
+  [
+   48,
+   "vid:ramen_1.mp4",
+   "",
+   ""
+  ],
+  [
+   58,
+   "vid:ramen_2.mp4",
+   "",
+   ""
+  ]
+ ]
+}
