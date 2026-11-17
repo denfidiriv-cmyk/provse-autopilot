@@ -72,5 +72,12 @@
   "query": "кібератака",
   "channel": "polityka",
   "cost": 0.13489940000000003
+ },
+ {
+  "at": "2026-11-17T14:02:37.956408",
+  "query": "сінгапур – бразилія",
+  "channel": "sport",
+  "cost": 0.42413330000000005,
+  "url": "https://youtube.com/shorts/gk4drsyhswY"
  }
 ]
