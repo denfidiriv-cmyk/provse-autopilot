@@ -1,0 +1,58 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t17/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t17/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "mukach",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t17/src/mukach",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t17/jobs/mukach",
+ "w1": 39,
+ "end_w": 35,
+ "bg": "#0d1424",
+ "bg2": "#22304f",
+ "accent": "#ff5a5a",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "ПОЛІТИКУ"
+ ],
+ "end_acc": "ПОЛІТИКУ",
+ "keywords": [
+  "мукачевом.",
+  "москалі",
+  "влучив",
+  "реб."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:q07.jpg",
+   "3 ШАХЕДИ НАД МУКАЧЕВОМ",
+   "3"
+  ],
+  [
+   4,
+   "vid:mountains_1.mp4",
+   "",
+   ""
+  ],
+  [
+   13,
+   "img:q01.jpg",
+   "",
+   ""
+  ],
+  [
+   20,
+   "img:q11.png",
+   "1 ВЛУЧИВ, 2 ЗБИЛА РЕБ",
+   "РЕБ"
+  ],
+  [
+   30,
+   "img:q08.jpg",
+   "",
+   ""
+  ]
+ ]
+}
