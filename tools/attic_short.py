@@ -26,19 +26,25 @@ w0, w1 = S["w0"], S["w1"]
 t0 = max(0.0, W[w0][1] - 0.05)
 t1 = W[w1 + 1][1] - 0.02 if w1 + 1 < len(W) else float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(src / "voice.wav")]))
 gap = 0.35
-o = Path(S["outro"])
-od = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(o / "voice.wav")]))
 seg = t1 - t0
-# голос: відрізок розділу + пауза + аутро
-subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{t0:.3f}", "-t", f"{seg:.3f}", "-i", str(src / "voice.wav"), "-i", str(o / "voice.wav"),
-                "-filter_complex", f"[0:a]aresample=48000,aformat=channel_layouts=mono,afade=t=out:st={seg - 0.08:.3f}:d=0.08,apad=pad_dur={gap}[a];[1:a]aresample=48000,aformat=channel_layouts=mono[b];[a][b]concat=n=2:v=0:a=1[o]",
-                "-map", "[o]", str(job / "voice.wav")], check=True)
-words = [[w, round(t - t0, 3)] for w, t in W[w0:w1 + 1]]
-ow = json.load(open(o / "words.json"))
-outro_start = seg + gap
-words += [[w, round(t + outro_start, 3)] for w, t in ow]
+if S.get("outro"):
+    o = Path(S["outro"])
+    od = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(o / "voice.wav")]))
+    # голос: відрізок розділу + пауза + аутро
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{t0:.3f}", "-t", f"{seg:.3f}", "-i", str(src / "voice.wav"), "-i", str(o / "voice.wav"),
+                    "-filter_complex", f"[0:a]aresample=48000,aformat=channel_layouts=mono,afade=t=out:st={seg - 0.08:.3f}:d=0.08,apad=pad_dur={gap}[a];[1:a]aresample=48000,aformat=channel_layouts=mono[b];[a][b]concat=n=2:v=0:a=1[o]",
+                    "-map", "[o]", str(job / "voice.wav")], check=True)
+    words = [[w, round(t - t0, 3)] for w, t in W[w0:w1 + 1]]
+    outro_start = seg + gap
+    words += [[w, round(t + outro_start, 3)] for w, t in json.load(open(o / "words.json"))]
+    end = round(outro_start + od + 0.6, 2)
+else:
+    # трендовий шортс: увесь голос; фінальна картка з'являється на слові end_w ("Підписуйся")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{t0:.3f}", "-t", f"{seg:.3f}", "-i", str(src / "voice.wav"), "-af", "aresample=48000", str(job / "voice.wav")], check=True)
+    words = [[w, round(t - t0, 3)] for w, t in W[w0:w1 + 1]]
+    outro_start = words[S["end_w"]][1] + 0.1
+    end = round(seg + 0.6, 2)
 json.dump(words, open(job / "words.json", "w"), ensure_ascii=False)
-end = round(outro_start + od + 0.6, 2)
 (job / "END.txt").write_text(str(end))
 (job / "script.txt").write_text(" ".join(w for w, _ in words))
 
@@ -52,7 +58,7 @@ css = (f".full{{position:absolute;inset:0;overflow:hidden}}.full img,.full video
        f".tt{{position:absolute;left:70px;right:70px;text-align:center;font:700 130px/1.02 Osw;color:#fff;text-shadow:0 10px 40px rgba(0,0,0,.75)}}"
        f".tt b{{color:{acc};font-weight:700}}.sb{{position:absolute;left:90px;right:90px;text-align:center;font:800 54px/1.2 UI;color:#fff;text-shadow:0 6px 24px rgba(0,0,0,.8)}}")
 secs, tl, caps_off = [], [], []
-sc = S["scenes"] + [[None, "end", " ".join(S.get("end_text", ["ПОВНА ІСТОРІЯ", "НА ATTIC FILES"])), "FILES"]]
+sc = S["scenes"] + [[None, "end", " ".join(S.get("end_text", ["ПОВНА ІСТОРІЯ", "НА ATTIC FILES"])), S.get("end_acc", "FILES")]]
 starts = []
 for k, (wi, media, text, accw) in enumerate(sc):
     starts.append(0.0 if k == 0 else (outro_start - 0.1 if wi is None else max(0.1, words[wi][1] - 0.08)))
