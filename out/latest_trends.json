@@ -1,225 +1,126 @@
 {
- "polityka": [
-  {
-   "query": "україна",
-   "traffic": 500,
-   "traffic_label": "500+",
-   "published": "2026-11-16T19:20:00-08:00",
-   "news": [
-    {
-     "title": "Новини 16 листопада: рекордний транш ЄС, блекаут у Дніпрі та удар по \"Королівському смаку\"",
-     "url": "https://epravda.com.ua/finances/novini-16-listopada-rekordniy-transh-yes-blekaut-u-dnipri-ta-udar-po-korolivskomu-smaku-827705/",
-     "source": "Економічна правда"
-    },
-    {
-     "title": "Рада ЄС схвалила виділення Україні рекордних майже 8 млрд євро",
-     "url": "https://www.eurointegration.com.ua/news/2026/11/16/7250062/",
-     "source": "Європейська правда"
-    },
-    {
-     "title": "«Прогрес є» – Корецький про пошуки 70 мільярдів євро для України на наступний рік",
-     "url": "https://www.radiosvoboda.org/a/news-progres-koretsky-poshuky-70-mlrd-euro-dlja-ukrajiny/33899637.html",
-     "source": "Радіо Свобода"
-    }
-   ],
-   "channel": "polityka",
-   "score": 2,
-   "matched": [
-    "=єс",
-    "рада"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 7
-  },
-  {
-   "query": "дональд трамп",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-16T19:00:00-08:00",
-   "news": [
-    {
-     "title": "Путин в войне против Украины \"мог бы действовать жестче\" – Трамп",
-     "url": "https://www.pravda.com.ua/rus/news/2026/11/16/8063126/",
-     "source": "Українська правда"
-    },
-    {
-     "title": "«РФ теряет 25 тысяч солдат в месяц». Трамп заявил, что Путин «немного сдаёт позиции» в отношении Украины",
-     "url": "https://nv.ua/world/geopolitics/donald-tramp-prezident-ssha-zayavil-o-potere-putinym-poziciy-v-otnoshenii-ukrainy-50659674.html",
-     "source": "NV"
-    },
-    {
-     "title": "Трамп считает, что Путин \"мог бы действовать более жестко\" в войне в Украине",
-     "url": "https://www.eurointegration.com.ua/rus/news/2026/11/16/7250101/",
-     "source": "Європейська правда"
-    }
-   ],
-   "channel": "polityka",
-   "score": 4,
-   "matched": [
-    "трамп"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 8
-  },
-  {
-   "query": "дмитрий песков",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-16T17:50:00-08:00",
-   "news": [
-    {
-     "title": "«Мечта лидера РФ». Чего ожидать от встречи Путина, Трампа и Си и какие у неё шансы стать Ялтой-2 — интервью с Фишманом",
-     "url": "https://nv.ua/world/geopolitics/vstrecha-trampa-si-i-putina-cel-sammita-i-sostoitsya-li-novaya-yalta-50659591.html",
-     "source": "NV"
-    },
-    {
-     "title": "Сикорский считает, что на саммите США-Россия-Китай вместо РФ должен быть ЕС",
-     "url": "https://www.pravda.com.ua/rus/news/2026/11/16/8063046/",
-     "source": "Українська правда"
-    },
-    {
-     "title": "Кремль видит встречу с Трампом и Си новой \"Ялтой\", где мир будет заново поделен на части. Почему этого не произойдет?",
-     "url": "https://www.currenttime.tv/a/kreml-vidit-vstrechu-s-trampom-i-si-novoy-yaltoy-gde-mir-budet-zanovo-podelen-na-chasti-pochemu-etogo-ne-proizoydet/33899467.html",
-     "source": "Настоящее Время"
-    }
-   ],
-   "channel": "polityka",
-   "score": 3,
-   "matched": [
-    "=ес",
-    "саммит",
-    "трамп"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 8
-  }
- ],
- "svit": [
-  {
-   "query": "прогноз",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-16T19:10:00-08:00",
-   "news": [
-    {
-     "title": "Дощі і до +14° – погода в Україні на 17-19 листопада",
-     "url": "https://www.pravda.com.ua/news/2026/11/16/8063098/",
-     "source": "Українська правда"
-    },
-    {
-     "title": "Підступний кінець осені. Експертка Укргідрометцентру розповіла про погоду цього тижня і попередила про різкі зміни наступного",
-     "url": "https://nv.ua/ukr/ukraine/events/pogoda-v-ukrajini-de-bude-doshch-do-15-vden-i-koli-vidchutne-poholodannya-ta-snig-50659670.html",
-     "source": "NV"
-    },
-    {
-     "title": "Тепліше за норму, але ледь не щодня з дощами: якою буде погода в Україні цього тижня",
-     "url": "https://24tv.ua/prognoz-pogodi-ukrayini-de-tsogo-tizhnya-budut-doshhi-moroz-mokriy_n3180948",
-     "source": "24 Канал"
-    }
-   ],
-   "channel": "svit",
-   "score": 1,
-   "matched": [
-    "погод"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 9
-  }
- ],
- "yizha": [
-  {
-   "query": "пожежа",
-   "traffic": 1000,
-   "traffic_label": "1000+",
-   "published": "2026-11-16T18:40:00-08:00",
-   "news": [
-    {
-     "title": "Росія вдарила по підприємству Королівський смак, виникла масштабна пожежа",
-     "url": "https://latifundist.com/novosti/71698-rosiya-vdarila-po-pidpriyemstvu-korolivskij-smak-vinikla-masshtabna-pozhezha",
-     "source": "Latifundist.com"
-    },
-    {
-     "title": "Слідом за Кернел і Королівським Смаком. В Україні зупинив роботу ще один великий виробник олії",
-     "url": "https://biz.nv.ua/ukr/markets/v-ukrajini-zupiniv-robotu-shche-odin-velikiy-virobnik-oliji-slidom-za-kernel-i-korolivskim-smakom-50659656.html",
-     "source": "NV Бизнес"
-    },
-    {
-     "title": "Укроліяпром виступив проти скасування мит на соняшник, сою та ріпак через зупинку заводів",
-     "url": "https://agropolit.com/news/32619-ukroliyaprom-vistupiv-proti-skasuvannya-mit-na-sonyashnik-soyu-ta-ripak-cherez-zupinku-zavodiv",
-     "source": "Агрополіт"
-    }
-   ],
-   "channel": "yizha",
-   "score": 3,
-   "matched": [
-    "королівський смак",
-    "олії",
-    "соняшник"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 9
-  }
- ],
  "ekonomika": [
   {
-   "query": "европейская правда",
-   "traffic": 100,
-   "traffic_label": "100+",
-   "published": "2026-11-16T18:30:00-08:00",
+   "query": "нефть",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-17T06:00:00-08:00",
    "news": [
     {
-     "title": "Putin named the only line of demarcation with Ukraine",
-     "url": "https://www.oreanda-news.com/en/gosudarstvo/putin-named-the-only-line-of-demarcation-with-ukraine/article1605056/",
-     "source": "ИА Ореанда-Новости"
+     "title": "США продлили Словакии разрешение на закупку российской нефти",
+     "url": "https://korrespondent.net/business/economics/4929440-ssha-prodlyly-slovakyy-razreshenye-na-zakupku-rossyiskoi-nefty",
+     "source": "Korrespondent.net"
     },
     {
-     "title": "Witkoff and Kushner to meet with Putin",
-     "url": "https://www.oreanda-news.com/en/v_mire/witkoff-and-kushner-to-meet-with-putin/article1604942/",
-     "source": "ИА Ореанда-Новости"
+     "title": "Словакии продлили исключение из санкций США ради нефти РФ",
+     "url": "https://finance.mail.ru/article/slovakii-prodlili-isklyuchenie-iz-sankcij-ssha-radi-nefti-rf-69237688/",
+     "source": "Финансы Mail"
+    },
+    {
+     "title": "Европейской стране снова разрешили покупать нефть у России",
+     "url": "https://lenta.news/news/2026/11/17/evropeyskoy-strane-snova-razreshili-pokupat-neft-u-rossii/",
+     "source": "Lenta News"
     }
    ],
    "channel": "ekonomika",
-   "score": 3,
+   "score": 1,
    "matched": [
     "евро"
    ],
    "skipped_reason": "",
-   "extra_sources": 1
-  }
- ],
- "sport": [
+   "extra_sources": 9
+  },
   {
-   "query": "збірна білорусі з футболу",
+   "query": "национальное антикоррупционное бюро украины",
    "traffic": 200,
    "traffic_label": "200+",
-   "published": "2026-11-16T18:00:00-08:00",
+   "published": "2026-11-17T06:10:00-08:00",
    "news": [
     {
-     "title": "білорусь – Албанія. Прогноз та анонс на матч Ліги націй",
-     "url": "https://sport.ua/uk/news/925053-bilorus-albaniya-prognoz-ta-anons-na-match-ligi-natsiy",
-     "source": "Sport.ua"
+     "title": "Главная подозреваемая по делу о \"яйцах по 17 грн\" получила новое подозрение от НАБУ",
+     "url": "https://biz.liga.net/fmcg/news/glavnaya-podozrevaemaya-po-delu-o-yaitsah-po-17-grn-poluchila-novoe-podozrenie-ot-nabu",
+     "source": "LIGA.net"
     },
     {
-     "title": "Дежавю. Албанія перервала дві серії свого суперника і не дозволила йому очолити групу",
-     "url": "https://www.ua-football.com/ua/foreign/nations_league/1794768787-dezhavyu-albaniya-perervala-dvi-seriyi-svogo-supernika-i-ne-dozvolila-yomu-ocholiti-grupu.html",
-     "source": "UA-Football"
+     "title": "Фигуранты дела о «яйцах по 17 грн» получили новые подозрения",
+     "url": "https://zn.ua/anticorruption/fihurantam-dela-o-jajtsakh-po-17-hrn-predjavleny-novye-podozrenija.html",
+     "source": "Дзеркало тижня"
     },
     {
-     "title": "Ліга націй: Білорусь програла ключовий матч і не піднялася до України, розгром 7:2",
-     "url": "https://sport24.ua/uk/football/news/170867-liga-natsiy-bilorus-prograla-klyuchoviy-match-i-ne-pidnyalasya-do-ukrayini-rozgrom-72",
-     "source": "Спорт 24"
+     "title": "1,1 млн евро за преследование и розыск теневых средств: четырем лицам сообщили о подозрении",
+     "url": "https://ru.slovoidilo.ua/2026/11/17/novost/politika/11-mln-evro-presledovanie-i-rozysk-tenevyx-sredstv-chetyrem-liczam-soobshhili-podozrenii",
+     "source": "Слово и Дело"
     }
    ],
-   "channel": "sport",
-   "score": 8,
+   "channel": "ekonomika",
+   "score": 1,
    "matched": [
-    "збірн",
-    "ліга",
-    "матч",
-    "футбол"
+    "евро"
    ],
    "skipped_reason": "",
-   "extra_sources": 8
+   "extra_sources": 6
+  },
+  {
+   "query": "сенат сша",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-17T07:20:00-08:00",
+   "news": [
+    {
+     "title": "Республиканцы в Сенате предлагают выделить 300 млн долларов на противодействие влиянию РФ",
+     "url": "https://www.rbc.ua/ukr/news/respublikantsi-senati-proponuyut-300-mln-1794899522.html",
+     "source": "РБК-Україна"
+    },
+    {
+     "title": "Республиканцы в Сенате США предложили выделить $1,1 трлн на нужды Пентагона и разведки",
+     "url": "https://www.ng.ru/news/851047.html",
+     "source": "Независимая газета"
+    },
+    {
+     "title": "Республиканцы США представили план оборонных расходов на сумму 1.100 триллиона долларов.",
+     "url": "https://www.agenzianova.com/ru/news/%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D0%BD%D1%86%D1%8B-%D0%A1%D0%A8%D0%90-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D0%BB%D0%B8-%D0%BF%D0%BB%D0%B0%D0%BD-%D0%BE%D0%B1%D0%BE%D1%80%D0%BE%D0%BD%D0%BD%D1%8B%D1%85-%D1%80%D0%B0%D1%81%D1%85%D0%BE%D0%B4%D0%BE%D0%B2-%D0%BD%D0%B0-%D1%81%D1%83%D0%BC%D0%BC%D1%83-1-1-%D1%82%D1%80%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0-%D0%B4%D0%BE%D0%BB%D0%BB%D0%B0%D1%80%D0%BE%D0%B2./",
+     "source": "Agenzia Nova"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 1,
+   "matched": [
+    "доллар"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  }
+ ],
+ "polityka": [
+  {
+   "query": "космонавт",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-17T06:50:00-08:00",
+   "news": [
+    {
+     "title": "Российский космонавт описал быт на МКС словами «чувствуешь себя, как ребенок»",
+     "url": "https://lenta.news/news/2026/11/13/rossiyskiy-kosmonavt-opisal-byt-na-mks-slovami-chuvstvuesh-sebya-kak-rebenok/",
+     "source": "Lenta News"
+    },
+    {
+     "title": "В Усольском районе школьники встретились с летчиком-космонавтом Сергеем Микаевым",
+     "url": "https://usolie.info/news/107459",
+     "source": "Usolie.Info"
+    },
+    {
+     "title": "Космонавт Сергей Микаев встретился со школьниками Усольского района и побывал на Иркутском радаре некогерентного рассеяния",
+     "url": "https://baikal24.ru/text/16-11-2026/003/",
+     "source": "Байкал24"
+    }
+   ],
+   "channel": "polityka",
+   "score": 1,
+   "matched": [
+    "рада"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
   }
  ]
 }
