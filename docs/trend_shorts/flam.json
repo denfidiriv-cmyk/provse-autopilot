@@ -1,0 +1,58 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t17/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t17/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "flam",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t17/src/flam",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t17/jobs/flam",
+ "w1": 41,
+ "end_w": 37,
+ "bg": "#0d1424",
+ "bg2": "#22304f",
+ "accent": "#ff5a5a",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "ПОЛІТИКУ"
+ ],
+ "end_acc": "ПОЛІТИКУ",
+ "keywords": [
+  "фламінго",
+  "нептун.",
+  "обвалився",
+  "закрито."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:q13.jpg",
+   "«ФЛАМІНГО» ПО КРИМСЬКОМУ МОСТУ",
+   "ФЛАМІНГО"
+  ],
+  [
+   7,
+   "img:q15.jpg",
+   "",
+   ""
+  ],
+  [
+   12,
+   "img:q09.jpg",
+   "ФЛАМІНГО І НЕПТУН",
+   "НЕПТУН"
+  ],
+  [
+   15,
+   "vid:phone_2.mp4",
+   "3 ПУСКИ НА ВІДЕО",
+   "3"
+  ],
+  [
+   28,
+   "img:q06.jpg",
+   "",
+   ""
+  ]
+ ]
+}

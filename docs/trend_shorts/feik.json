@@ -1,0 +1,71 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t17/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t17/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "feik",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t17/src/feik",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t17/jobs/feik",
+ "w1": 63,
+ "end_w": 59,
+ "bg": "#0f2a2a",
+ "bg2": "#1d4a4a",
+ "accent": "#5cd6c0",
+ "mood": "upbeat",
+ "end_text": [
+  "УСЕ ПРО",
+  "СВІТ"
+ ],
+ "end_acc": "СВІТ",
+ "keywords": [
+  "обнулять",
+  "вимкнуть",
+  "фейк.",
+  "радіо",
+  "телебаченні."
+ ],
+ "scenes": [
+  [
+   0,
+   "vid:internet_1.mp4",
+   "17 ЛИСТОПАДА: ІНТЕРНЕТ ПРАЦЮЄ",
+   "ПРАЦЮЄ"
+  ],
+  [
+   11,
+   "img:q10.jpg",
+   "",
+   ""
+  ],
+  [
+   16,
+   "img:q03.jpg",
+   "",
+   ""
+  ],
+  [
+   25,
+   "vid:shop_1.mp4",
+   "",
+   ""
+  ],
+  [
+   30,
+   "vid:phone_1.mp4",
+   "ЦЕ ФЕЙК",
+   "ФЕЙК"
+  ],
+  [
+   37,
+   "vid:internet_2.mp4",
+   "",
+   ""
+  ],
+  [
+   45,
+   "vid:phone_2.mp4",
+   "",
+   ""
+  ]
+ ]
+}

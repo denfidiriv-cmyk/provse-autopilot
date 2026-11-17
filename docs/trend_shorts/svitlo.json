@@ -1,0 +1,65 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t17/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t17/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "svitlo",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t17/src/svitlo",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t17/jobs/svitlo",
+ "w1": 62,
+ "end_w": 58,
+ "bg": "#0e1712",
+ "bg2": "#1f3527",
+ "accent": "#f2c94c",
+ "mood": "calm",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЕКОНОМІКУ"
+ ],
+ "end_acc": "ЕКОНОМІКУ",
+ "keywords": [
+  "десяти",
+  "половиною",
+  "п'ять",
+  "десять",
+  "москалів"
+ ],
+ "scenes": [
+  [
+   0,
+   "vid:candle_1.mp4",
+   "ДО 10,5 ГОДИН БЕЗ СВІТЛА",
+   "10,5"
+  ],
+  [
+   10,
+   "img:q04.jpg",
+   "",
+   ""
+  ],
+  [
+   16,
+   "vid:flashlight_2.mp4",
+   "ВІД 5 ДО 10,5 ГОДИН НА ДОБУ",
+   "10,5"
+  ],
+  [
+   36,
+   "img:q02.jpg",
+   "",
+   ""
+  ],
+  [
+   41,
+   "vid:flashlight_1.mp4",
+   "",
+   ""
+  ],
+  [
+   49,
+   "vid:phone_1.mp4",
+   "",
+   ""
+  ]
+ ]
+}
