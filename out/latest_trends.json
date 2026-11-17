@@ -1,73 +1,105 @@
 {
- "sport": [
+ "polityka": [
   {
-   "query": "німеччина – нідерланди",
+   "query": "україна",
    "traffic": 500,
    "traffic_label": "500+",
-   "published": "2026-11-16T11:00:00-08:00",
+   "published": "2026-11-16T19:20:00-08:00",
    "news": [
     {
-     "title": "Німеччина – Нідерланди. Дивитися онлайн. LIVE трансляція",
-     "url": "https://sport.ua/uk/news/925710-nimechchina-niderlandi-divitisya-onlayn-live-translyatsiya",
-     "source": "Sport.ua"
+     "title": "Новини 16 листопада: рекордний транш ЄС, блекаут у Дніпрі та удар по \"Королівському смаку\"",
+     "url": "https://epravda.com.ua/finances/novini-16-listopada-rekordniy-transh-yes-blekaut-u-dnipri-ta-udar-po-korolivskomu-smaku-827705/",
+     "source": "Економічна правда"
     },
     {
-     "title": "Нідерланди зіграють проти Німеччини 50-й матч в історії. З ким грали більше",
-     "url": "https://sport.ua/uk/news/925711-niderlandi-zigrayut-proti-nimechchini-50-y-match-v-istorii-z-kim-grali-bilshe",
-     "source": "Sport.ua"
+     "title": "Рада ЄС схвалила виділення Україні рекордних майже 8 млрд євро",
+     "url": "https://www.eurointegration.com.ua/news/2026/11/16/7250062/",
+     "source": "Європейська правда"
     },
     {
-     "title": "Клопп влаштував кумедне шоу з зіркою Ліверпуля перед матчем Ліги націй: Я боюсь його!",
-     "url": "https://football24.ua/news/klopp-vlashtuvav-kumedne-shou-z-zirkoyu-liverpulya-pered-matchem-lihy-natsiy-ya-boyus-yoho-976610",
-     "source": "Футбол 24"
+     "title": "«Прогрес є» – Корецький про пошуки 70 мільярдів євро для України на наступний рік",
+     "url": "https://www.radiosvoboda.org/a/news-progres-koretsky-poshuky-70-mlrd-euro-dlja-ukrajiny/33899637.html",
+     "source": "Радіо Свобода"
     }
    ],
-   "channel": "sport",
-   "score": 1,
-   "matched": [
-    "матч"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 6
-  },
-  {
-   "query": "германия – нидерланды",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-16T11:00:00-08:00",
-   "news": [
-    {
-     "title": "Германия — Нидерланды: видео голов и обзор матча Лиги наций",
-     "url": "https://sport.nv.ua/football/germaniya-niderlandy-besplatno-video-golov-translyaciya-matcha-50659707.html",
-     "source": "NV Спорт"
-    },
-    {
-     "title": "Все звезды на месте? Сборные Германии и Нидерландов объявили стартовые составы на матч Лиги наций",
-     "url": "https://www.ua-football.com/foreign/nations_league/1794853248-vse-zvezdy-na-meste-sbornye-germanii-i-niderlandov-obyavili-startovye-sostavy-na-match-ligi-naciy.html",
-     "source": "UA-Football"
-    },
-    {
-     "title": "Клопп устроил забавное шоу с звездой Ливерпуля перед матчем Лиги наций: Я его боюсь!",
-     "url": "https://football24.ua/ru/news/klopp-ustroil-zabavnoe-shou-s-zvezdoj-liverpulja-pered-matchem-ligi-nacij-ja-ego-bojus-976616",
-     "source": "Футбол 24"
-    }
-   ],
-   "channel": "sport",
+   "channel": "polityka",
    "score": 2,
    "matched": [
-    "матч",
-    "сборн"
+    "=єс",
+    "рада"
    ],
    "skipped_reason": "",
    "extra_sources": 7
+  },
+  {
+   "query": "дональд трамп",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-16T19:00:00-08:00",
+   "news": [
+    {
+     "title": "Путин в войне против Украины \"мог бы действовать жестче\" – Трамп",
+     "url": "https://www.pravda.com.ua/rus/news/2026/11/16/8063126/",
+     "source": "Українська правда"
+    },
+    {
+     "title": "«РФ теряет 25 тысяч солдат в месяц». Трамп заявил, что Путин «немного сдаёт позиции» в отношении Украины",
+     "url": "https://nv.ua/world/geopolitics/donald-tramp-prezident-ssha-zayavil-o-potere-putinym-poziciy-v-otnoshenii-ukrainy-50659674.html",
+     "source": "NV"
+    },
+    {
+     "title": "Трамп считает, что Путин \"мог бы действовать более жестко\" в войне в Украине",
+     "url": "https://www.eurointegration.com.ua/rus/news/2026/11/16/7250101/",
+     "source": "Європейська правда"
+    }
+   ],
+   "channel": "polityka",
+   "score": 4,
+   "matched": [
+    "трамп"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  },
+  {
+   "query": "дмитрий песков",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-16T17:50:00-08:00",
+   "news": [
+    {
+     "title": "«Мечта лидера РФ». Чего ожидать от встречи Путина, Трампа и Си и какие у неё шансы стать Ялтой-2 — интервью с Фишманом",
+     "url": "https://nv.ua/world/geopolitics/vstrecha-trampa-si-i-putina-cel-sammita-i-sostoitsya-li-novaya-yalta-50659591.html",
+     "source": "NV"
+    },
+    {
+     "title": "Сикорский считает, что на саммите США-Россия-Китай вместо РФ должен быть ЕС",
+     "url": "https://www.pravda.com.ua/rus/news/2026/11/16/8063046/",
+     "source": "Українська правда"
+    },
+    {
+     "title": "Кремль видит встречу с Трампом и Си новой \"Ялтой\", где мир будет заново поделен на части. Почему этого не произойдет?",
+     "url": "https://www.currenttime.tv/a/kreml-vidit-vstrechu-s-trampom-i-si-novoy-yaltoy-gde-mir-budet-zanovo-podelen-na-chasti-pochemu-etogo-ne-proizoydet/33899467.html",
+     "source": "Настоящее Время"
+    }
+   ],
+   "channel": "polityka",
+   "score": 3,
+   "matched": [
+    "=ес",
+    "саммит",
+    "трамп"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
   }
  ],
  "svit": [
   {
-   "query": "17 листопада",
+   "query": "прогноз",
    "traffic": 200,
    "traffic_label": "200+",
-   "published": "2026-11-16T09:40:00-08:00",
+   "published": "2026-11-16T19:10:00-08:00",
    "news": [
     {
      "title": "Дощі і до +14° – погода в Україні на 17-19 листопада",
@@ -75,14 +107,14 @@
      "source": "Українська правда"
     },
     {
-     "title": "Тепліше за норму, але ледь не щодня з дощами: якою буде погода в Україні цього тижня",
-     "url": "https://24tv.ua/prognoz-pogodi-ukrayini-de-tsogo-tizhnya-budut-doshhi-moroz-mokriy_n3180948",
-     "source": "24 Канал"
-    },
-    {
      "title": "Підступний кінець осені. Експертка Укргідрометцентру розповіла про погоду цього тижня і попередила про різкі зміни наступного",
      "url": "https://nv.ua/ukr/ukraine/events/pogoda-v-ukrajini-de-bude-doshch-do-15-vden-i-koli-vidchutne-poholodannya-ta-snig-50659670.html",
      "source": "NV"
+    },
+    {
+     "title": "Тепліше за норму, але ледь не щодня з дощами: якою буде погода в Україні цього тижня",
+     "url": "https://24tv.ua/prognoz-pogodi-ukrayini-de-tsogo-tizhnya-budut-doshhi-moroz-mokriy_n3180948",
+     "source": "24 Канал"
     }
    ],
    "channel": "svit",
@@ -91,41 +123,103 @@
     "погод"
    ],
    "skipped_reason": "",
-   "extra_sources": 10
+   "extra_sources": 9
   }
  ],
- "polityka": [
+ "yizha": [
   {
-   "query": "перемирие",
-   "traffic": 500,
-   "traffic_label": "500+",
-   "published": "2026-11-16T09:40:00-08:00",
+   "query": "пожежа",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-16T18:40:00-08:00",
    "news": [
     {
-     "title": "В администрации Путина заявили, что участие Европы в мирных переговорах не согласовывалось с Россией",
-     "url": "https://www.pravda.com.ua/rus/news/2026/11/16/8063169/",
-     "source": "Українська правда"
+     "title": "Росія вдарила по підприємству Королівський смак, виникла масштабна пожежа",
+     "url": "https://latifundist.com/novosti/71698-rosiya-vdarila-po-pidpriyemstvu-korolivskij-smak-vinikla-masshtabna-pozhezha",
+     "source": "Latifundist.com"
     },
     {
-     "title": "Кремль не согласовал участие Европы в мирных переговорах. Как минимум еще один раунд будет трехсторонним",
-     "url": "https://meduza.io/news/2026/11/16/kreml-uchastie-evropy-v-mirnyh-peregovorah-s-rossiey-ne-soglasovyvalos-kak-minimum-esche-odin-raund-budet-trehstoronnim",
-     "source": "Meduza"
+     "title": "Слідом за Кернел і Королівським Смаком. В Україні зупинив роботу ще один великий виробник олії",
+     "url": "https://biz.nv.ua/ukr/markets/v-ukrajini-zupiniv-robotu-shche-odin-velikiy-virobnik-oliji-slidom-za-kernel-i-korolivskim-smakom-50659656.html",
+     "source": "NV Бизнес"
     },
     {
-     "title": "В Кремле отвергли возможность перемирия и заявили, что война против Украины будет продолжаться ради «мира на столетия»",
-     "url": "https://nv.ua/world/geopolitics/kreml-sdelal-kategorichnoe-zayavlenie-otnositelno-voyny-protiv-ukrainy-i-potencialnogo-peremiriya-50659638.html",
-     "source": "NV"
+     "title": "Укроліяпром виступив проти скасування мит на соняшник, сою та ріпак через зупинку заводів",
+     "url": "https://agropolit.com/news/32619-ukroliyaprom-vistupiv-proti-skasuvannya-mit-na-sonyashnik-soyu-ta-ripak-cherez-zupinku-zavodiv",
+     "source": "Агрополіт"
     }
    ],
-   "channel": "polityka",
-   "score": 8,
+   "channel": "yizha",
+   "score": 3,
    "matched": [
-    "переговор",
-    "перемир",
-    "перемирие"
+    "королівський смак",
+    "олії",
+    "соняшник"
    ],
    "skipped_reason": "",
-   "extra_sources": 10
+   "extra_sources": 9
+  }
+ ],
+ "ekonomika": [
+  {
+   "query": "европейская правда",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-16T18:30:00-08:00",
+   "news": [
+    {
+     "title": "Putin named the only line of demarcation with Ukraine",
+     "url": "https://www.oreanda-news.com/en/gosudarstvo/putin-named-the-only-line-of-demarcation-with-ukraine/article1605056/",
+     "source": "ИА Ореанда-Новости"
+    },
+    {
+     "title": "Witkoff and Kushner to meet with Putin",
+     "url": "https://www.oreanda-news.com/en/v_mire/witkoff-and-kushner-to-meet-with-putin/article1604942/",
+     "source": "ИА Ореанда-Новости"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 3,
+   "matched": [
+    "евро"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 1
+  }
+ ],
+ "sport": [
+  {
+   "query": "збірна білорусі з футболу",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-16T18:00:00-08:00",
+   "news": [
+    {
+     "title": "білорусь – Албанія. Прогноз та анонс на матч Ліги націй",
+     "url": "https://sport.ua/uk/news/925053-bilorus-albaniya-prognoz-ta-anons-na-match-ligi-natsiy",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Дежавю. Албанія перервала дві серії свого суперника і не дозволила йому очолити групу",
+     "url": "https://www.ua-football.com/ua/foreign/nations_league/1794768787-dezhavyu-albaniya-perervala-dvi-seriyi-svogo-supernika-i-ne-dozvolila-yomu-ocholiti-grupu.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "Ліга націй: Білорусь програла ключовий матч і не піднялася до України, розгром 7:2",
+     "url": "https://sport24.ua/uk/football/news/170867-liga-natsiy-bilorus-prograla-klyuchoviy-match-i-ne-pidnyalasya-do-ukrayini-rozgrom-72",
+     "source": "Спорт 24"
+    }
+   ],
+   "channel": "sport",
+   "score": 8,
+   "matched": [
+    "збірн",
+    "ліга",
+    "матч",
+    "футбол"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
   }
  ]
 }
