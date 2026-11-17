@@ -60,5 +60,17 @@
   "channel": "polityka",
   "cost": 0.3440101,
   "url": "https://youtube.com/shorts/v9suyko6ZRg"
+ },
+ {
+  "at": "2026-11-17T05:11:50.973464",
+  "query": "пожежа",
+  "channel": "yizha",
+  "cost": 0.336401
+ },
+ {
+  "at": "2026-11-17T05:15:53.841141",
+  "query": "кібератака",
+  "channel": "polityka",
+  "cost": 0.13489940000000003
  }
 ]
