@@ -9,6 +9,7 @@ spec:
  "scenes": [[індекс слова (відносно w0), "img:p02.jpg" або "vid:cook_1.mp4", "ТЕКСТ або порожньо", "АКЦЕНТ"], ...]}
 Перша сцена видно з першого кадру (хук). Де в сцені є текст, субтитри вимкнені; де тексту немає, йдуть субтитри.
 Без звукових ефектів: лише голос і музика.
+Якщо в src є script.txt, час слів спершу вирівнюється tools/cc_align.py (справжнє розпізнавання), щоб субтитри не відставали від голосу.
 """
 import html as H
 import json
@@ -21,6 +22,12 @@ ROOT = Path(__file__).resolve().parent.parent
 S = json.load(open(sys.argv[1]))
 src, job = Path(S["src"]), Path(S["job"])
 job.mkdir(parents=True, exist_ok=True)
+# справжній час слів за розпізнаванням мови (оцінка за голосними відстає/випереджає до 1,5 с)
+if (src / "script.txt").exists() and not (src / "aligned.ok").exists():
+    if not (src / "words_est.json").exists():
+        shutil.copy(src / "words.json", src / "words_est.json")
+    subprocess.run([sys.executable, str(ROOT / "tools" / "cc_align.py"), str(src)], check=True, stdout=subprocess.DEVNULL)
+    (src / "aligned.ok").write_text("1")
 W = json.load(open(src / "words.json"))
 w0, w1 = S["w0"], S["w1"]
 t0 = max(0.0, W[w0][1] - 0.05)

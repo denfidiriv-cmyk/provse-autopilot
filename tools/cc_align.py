@@ -52,11 +52,30 @@ out, pos = [], 0
 for word, sw in zip(script, S):
     t = next((ct[amap[pos + k]] - k * .06 for k in range(len(sw)) if pos + k in amap), None)
     out.append([word, t]); pos += len(sw)
-for i, (_, t) in enumerate(out):  # слова, яких не розпізнало: між сусідами
-    if t is None:
-        prev = out[i - 1][1] if i else 0.0
-        nxt = next((x[1] for x in out[i + 1:] if x[1] is not None), prev + .4)
-        out[i][1] = (prev + nxt) / 2
+# слова, яких не зіставило (найчастіше числа: розпізнавач пише "3499", а в тексті "три тисячі ..."):
+# розкладаємо всю групу за складами між початком нерозпізнаного фрагмента і наступним словом
+matched = set(amap.values()); starts = []; c = 0
+for i, (_, t0) in enumerate(aw):
+    starts.append((c, c + len(A[i]), t0)); c += len(A[i])
+free = [t0 for a0, a1, t0 in starts if a1 > a0 and not any(k in matched for k in range(a0, a1))]
+V = "аеєиіїоуюяaeiouy"
+syl = lambda w: max(1, sum(ch in V for ch in w.lower()))
+i = 0
+while i < len(out):
+    if out[i][1] is not None:
+        i += 1; continue
+    j = i
+    while j < len(out) and out[j][1] is None:
+        j += 1
+    prev = out[i - 1][1] if i else 0.0
+    nxt = out[j][1] if j < len(out) else prev + .4 * (j - i + 1)
+    cand = [t for t in free if prev < t < nxt]
+    a = cand[0] if cand else prev + (nxt - prev) / (j - i + 1)
+    b = nxt - .08 if nxt - .08 > a else nxt
+    ws = [syl(out[k][0]) for k in range(i, j)]; tot = sum(ws); acc = 0
+    for k in range(i, j):
+        out[k][1] = a + (b - a) * acc / tot; acc += ws[k - i]
+    i = j
 for i in range(1, len(out)):
     out[i][1] = max(out[i][1], out[i - 1][1] + .05)
 out[0][1] = min(out[0][1], .05)
