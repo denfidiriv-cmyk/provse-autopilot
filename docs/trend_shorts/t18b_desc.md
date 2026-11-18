@@ -16,20 +16,20 @@
 
 #сіцзіньпін #трамп #атес #китай #політика #shorts
 
-## gta → Все про економіку (UCuTHeI_iY8QAvXfVdJbyHQA)
-Назва: Скільки коштує GTA 6 в Україні #shorts
+## gta2 → Все про економіку (UCuTHeI_iY8QAvXfVdJbyHQA)
+Назва: 🔥 GTA 6 УЖЕ ВИЙШЛА! Коли в Україні і скільки коштує #shorts
 
-GTA 6 виходить у ніч на 19 листопада. В українському PlayStation Store стандартне видання коштує 3499 грн, Ultimate Edition 4299 грн (у світі $79,99 і $99,99). Гра виходить лише на PlayStation 5 та Xbox Series X|S, версію для ПК поки не анонсували. Бюджет розробки Rockstar і Take-Two не розкривають, тож популярні «2 млрд доларів» лише неофіційна оцінка.
+GTA 6 відкривається опівночі за місцевим часом у кожній країні, тому першою її отримала Нова Зеландія (о 13:00 за Києвом 18 листопада), і власники новозеландських акаунтів PlayStation уже грають. В Україні гра відкриється опівночі 19 листопада. В українському PlayStation Store стандартне видання коштує 3499 грн, Ultimate Edition 4299 грн (у світі $79,99 і $99,99). Грати можна лише на PlayStation 5 та Xbox Series X|S.
 
 Тема з Google Trends (Україна, 24 години): «гта 6» https://trends.google.com/trending?geo=UA&hours=24
 
 Джерела:
+Make Tech Easier: https://maketecheasier.com/gta-6-unlock-times-midnight-local/
+Windows Report: https://windowsreport.com/gta-6-officially-releases-in-new-zealand-ahead-of-the-world/
 Sport.ua: https://sport.ua/uk/news/926264-gta-6-v-ukraini-skilki-koshtuie-gra-ta-de-ii-pridbati
 Полеміка: https://polemika.com.ua/ekonomika/2026/11/18/164621/
-Tech Insider: https://tech-insider.org/gta-6-release-date-november-19-2026-confirmed/
-Rockstar Games: https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026
 
-Фото: Wikimedia Commons (PlayStation 5: Osh33m, CC BY-SA 4.0; Xbox Series X: Der. Bellemer, CC BY-SA 4.0; DualSense: Sergey Galyonkin, CC BY-SA 2.0). Відео: Pixabay. Музика: Kevin MacLeod (incompetech.com), CC BY.
+Фото: Wikimedia Commons (PlayStation 5: Osh33m, CC BY-SA 4.0; Xbox Series X: Der. Bellemer, CC BY-SA 4.0; DualSense: Sergey Galyonkin, CC BY-SA 2.0; Окленд, Sky Tower: Marco Klapper, CC BY 2.0; Київ, Поділ: spoilt.exile, CC BY-SA 2.0). Відео: Pixabay. Музика: Kevin MacLeod (incompetech.com), CC BY.
 
 #gta6 #gta #playstation #ігри #економіка #shorts
 

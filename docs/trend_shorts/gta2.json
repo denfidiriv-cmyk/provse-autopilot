@@ -1,0 +1,79 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "gta2",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/src/gta2",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/jobs/gta2",
+ "w1": 54,
+ "end_w": 50,
+ "bg": "#0f0a1f",
+ "bg2": "#3a1d5a",
+ "accent": "#ff4fd8",
+ "mood": "upbeat",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЕКОНОМІКУ"
+ ],
+ "end_acc": "ЕКОНОМІКУ",
+ "keywords": [
+  "вийшла!",
+  "зеландії,",
+  "грають.",
+  "опівночі.",
+  "гривень,",
+  "дев'ять.",
+  "лише"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:p05.jpg",
+   "GTA 6 УЖЕ ВИЙШЛА!",
+   "ВИЙШЛА"
+  ],
+  [
+   4,
+   "img:p17.jpg",
+   "ПЕРШОЮ НОВА ЗЕЛАНДІЯ",
+   "НОВА"
+  ],
+  [
+   10,
+   "vid:gamer_1.mp4",
+   "",
+   ""
+  ],
+  [
+   16,
+   "img:r06.jpg",
+   "В УКРАЇНІ О 00:00",
+   "00:00"
+  ],
+  [
+   22,
+   "vid:gamer_2.mp4",
+   "",
+   ""
+  ],
+  [
+   28,
+   "img:p07.jpg",
+   "СТАНДАРТ 3499 ГРН",
+   "3499"
+  ],
+  [
+   34,
+   "vid:pounds_1.mp4",
+   "ULTIMATE 4299 ГРН",
+   "4299"
+  ],
+  [
+   42,
+   "img:p06.jpg",
+   "ЛИШЕ PS5 І XBOX",
+   "ЛИШЕ"
+  ]
+ ]
+}
