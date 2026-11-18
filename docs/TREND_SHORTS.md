@@ -1,5 +1,12 @@
 # Трендові шорти «Все про …»: як робимо і що зараз заходить
 
+## Підготовка свіжої сесії
+- `pip install --break-system-packages sherpa-onnx numpy scipy pillow` (якщо бракує).
+- Модель для вирівнювання слів (у git її немає): `mkdir -p tools/asr && cd tools/asr && curl -sSL https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8.tar.bz2 | tar xj`.
+- Робочі файли (src, jobs, img, vid) тримати поза репо, наприклад у /tmp/trend/<дата>/. Шляхи в json-специфікаціях абсолютні.
+- Публікація через Chrome (YouTube Studio): youtube.com/channel_switcher → клік по «Все про …» (якщо Studio показує інший канал, повторити або «Змінити обліковий запис» на сторінці помилки) → studio.youtube.com/channel/<ID>/videos/upload?d=ud → file_upload з /mnt/user-data/uploads/out (≤10 МБ) → назва, опис, «не для дітей», Далі ×3, «Для всіх», «Опублікувати» (на вікні «Ми все ще перевіряємо» натиснути «Усе одно опублікувати»).
+- ID каналів: Політика UCsK3BvYW5XH5kc-OH9yB2tg, Економіка UCuTHeI_iY8QAvXfVdJbyHQA, Авто UCXTceH3zC-lkQeYMkUWMx8A, Їжа UCVCyipxXg5EKunmXv40rOqQ, Спорт UCf0J6E1J8g_gVcFCXKm9Vyw, Світ UCfakQTmDnhvMJrVGXUFUKTQ.
+
 ## Процес (одне відео)
 1. Тема: Google Trends (Україна, 24 год) https://trends.google.com/trending?geo=UA&hours=24 + тренди X (https://trends24.in/ukraine/) + швидкі українські Shorts (vidIQ trending, мова uk, recentVphEngaged). Тему беремо з Google Trends, X і YouTube лише підтверджують і дають формат.
 2. Факти з 2+ джерел, перевірити, що новина справді відповідає тренду. Одне джерело: «за даними …».
