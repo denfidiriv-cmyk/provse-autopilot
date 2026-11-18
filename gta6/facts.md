@@ -1,0 +1,5 @@
+- GTA 6 (Grand Theft Auto VI) released Thursday, Nov 19, 2026 on PS5 and Xbox Series X|S (Rockstar Newswire, Nov 6, 2025; reconfirmed in the launch trailer, Oct 15, 2026). No PC version announced.
+- It unlocked at midnight local time per region (PlayStation Store listings): New Zealand first (11:00 UTC Nov 18), mainland Europe 23:00 UTC Nov 18, UK 00:00 UTC Nov 19, US 00:00 ET Nov 19.
+- Digital preload opened Nov 12, 2026.
+- Setting: the state of Leonida, including Vice City; leads Jason Duval and Lucia Caminos (Rockstar).
+- Official screenshot categories on rockstargames.com/VI: Vice City, Leonida Keys, Port Gellhorn, Ambrosia, Grassrivers, Mount Kalaga National Park, characters (Jason, Lucia, Cal Hampton, Boobie Ike, DreQuan Priest, Real Dimez, Raul Bautista, Brian Heder), Ultimate Edition and Vintage Vice City Pack items (Grotti Cheetah, Vapid Stanier, Squalo, Stock 305, Electric Fang, Vapid Buggy, Wyman car collection).

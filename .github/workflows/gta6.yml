@@ -1,0 +1,114 @@
+name: GTA 6 Kiosk (тренди -> відео -> YouTube, файли для TikTok/X)
+
+on:
+  schedule:
+    - cron: "37 7,12,17 * * *"   # 09:37, 14:37, 19:37 за Києвом (взимку UTC+2)
+  workflow_dispatch:
+    inputs:
+      test:
+        description: "Тест: приватне завантаження, стан не записується"
+        type: boolean
+        default: false
+      no_upload:
+        description: "Не завантажувати на YouTube"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gta6
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v4
+        with: { persist-credentials: false }
+      - name: Скіли й музика з provse-private
+        uses: actions/checkout@v4
+        continue-on-error: true
+        with:
+          repository: ${{ github.repository_owner }}/provse-private
+          token: ${{ secrets.PRIVATE_TOKEN }}
+          path: private
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - name: Модель розпізнавання мови (точний час слів)
+        uses: actions/cache@v4
+        with:
+          path: tools/asr/sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8
+          key: asr-parakeet-v3-int8
+      - name: Залежності
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji > /dev/null
+          pip install -q numpy scipy pillow trafilatura sherpa-onnx
+          npm install -g @anthropic-ai/claude-code > /dev/null 2>&1 || echo "Claude Code не встановився"
+          if [ -d private/skills ]; then mkdir -p .claude/skills && cp -r private/skills/* .claude/skills/; fi
+          if [ -d private/music ]; then ln -sfn private/music music; fi
+          if [ ! -d tools/asr/sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8 ]; then
+            curl -sSL -o /tmp/asr.tar.bz2 https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8.tar.bz2 \
+              && tar -xjf /tmp/asr.tar.bz2 -C tools/asr/ || echo "ASR-модель не завантажилась, час слів буде за оцінкою"
+          fi
+      - name: GTA 6 Kiosk
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+          CC_MODEL: ${{ vars.CC_MODEL }}
+          CC_BUDGET_USD: ${{ vars.CC_BUDGET_USD }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_TTS_MODEL: ${{ vars.GEMINI_TTS_MODEL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_CLIENT_ID_GTA6KIOSK: ${{ secrets.YT_CLIENT_ID_GTA6KIOSK }}
+          YT_CLIENT_SECRET_GTA6KIOSK: ${{ secrets.YT_CLIENT_SECRET_GTA6KIOSK }}
+          YT_TOKEN_GTA6KIOSK: ${{ secrets.YT_TOKEN_GTA6KIOSK }}
+          GTA6_DAILY_MAX: ${{ vars.GTA6_DAILY_MAX }}
+          GTA6_PRIVACY: ${{ vars.GTA6_PRIVACY || 'public' }}
+          GTA6_VOICE: ${{ vars.GTA6_VOICE }}
+          TZ: Europe/Kyiv
+        run: |
+          export HF_BROWSER="$(which google-chrome || which chromium)"
+          export CHROME_PATH="$HF_BROWSER" PUPPETEER_EXECUTABLE_PATH="$HF_BROWSER" HYPERFRAMES_BROWSER_PATH="$HF_BROWSER"
+          npx -y hyperframes@0.8.216 --version > /dev/null 2>&1 || true
+          ARGS=""; [ "${{ inputs.test }}" = "true" ] && ARGS="--test"; [ "${{ inputs.no_upload }}" = "true" ] && ARGS="$ARGS --no-upload"
+          python gta6/run_gta6.py $ARGS
+      - name: Відео як артефакт (7 днів)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gta6-video
+          path: |
+            out/gta6_*.mp4
+            job/*.json
+            job/*.md
+            job/check*.jpg
+          retention-days: 7
+          if-no-files-found: ignore
+      - name: Зберегти стан і файли для TikTok/X
+        if: always()
+        run: |
+          git config user.name "provse-autopilot-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}"
+          git add -f state/gta6_*.json 2>/dev/null || true
+          git commit -m "стан GTA 6 Kiosk [skip ci]" || echo "без змін"
+          git pull --rebase -q && git push || echo "push пропущено"
+          # Гілка gta6-media: лише 6 найновіших роликів (історія не росте), звідси їх бере завдання Chrome для TikTok і X.
+          if ls gta6_media/*.mp4 > /dev/null 2>&1; then
+            rm -rf /tmp/media && mkdir /tmp/media
+            git fetch -q --depth 1 origin gta6-media && git --work-tree=/tmp/media checkout origin/gta6-media -- . 2>/dev/null || true
+            git reset -q
+            cp gta6_media/* /tmp/media/
+            cd /tmp/media && ls -1 gta6_*.mp4 | sort | head -n -6 | sed 's/\.mp4$//' | while read f; do rm -f "$f".*  "$f"_format.md; done
+            git init -q && git checkout -q -b gta6-media && git add -A && git -c user.name=provse-autopilot-bot -c user.email=actions@users.noreply.github.com commit -qm "GTA 6 Kiosk media"
+            git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" gta6-media
+          fi

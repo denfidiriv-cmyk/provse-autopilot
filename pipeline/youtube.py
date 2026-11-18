@@ -14,16 +14,18 @@ from pathlib import Path
 
 
 def access_token(channel: str) -> str:
-    data = urllib.parse.urlencode({"client_id": os.environ["YT_CLIENT_ID"], "client_secret": os.environ["YT_CLIENT_SECRET"],
+    ch = channel.upper()  # окремий OAuth-клієнт (окрема квота) для каналу, якщо задано YT_CLIENT_ID_<КАНАЛ>
+    data = urllib.parse.urlencode({"client_id": os.environ.get(f"YT_CLIENT_ID_{ch}") or os.environ["YT_CLIENT_ID"],
+                                   "client_secret": os.environ.get(f"YT_CLIENT_SECRET_{ch}") or os.environ["YT_CLIENT_SECRET"],
                                    "refresh_token": os.environ[f"YT_TOKEN_{channel.upper()}"], "grant_type": "refresh_token"}).encode()
     with urllib.request.urlopen("https://oauth2.googleapis.com/token", data=data, timeout=30) as r:
         return json.loads(r.read())["access_token"]
 
 
-def upload(channel: str, mp4: Path, title: str, description: str, tags: list[str], privacy: str = "public") -> str:
+def upload(channel: str, mp4: Path, title: str, description: str, tags: list[str], privacy: str = "public", lang: str = "uk") -> str:
     tok = access_token(channel)
     meta = {"snippet": {"title": title[:100], "description": description[:4900], "tags": tags[:15], "categoryId": "25",
-                        "defaultLanguage": "uk", "defaultAudioLanguage": "uk"},
+                        "defaultLanguage": lang, "defaultAudioLanguage": lang},
             "status": {"privacyStatus": privacy, "selfDeclaredMadeForKids": False, "containsSyntheticMedia": False}}
     init = urllib.request.Request("https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status",
                                   data=json.dumps(meta).encode(), method="POST",
