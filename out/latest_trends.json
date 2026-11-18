@@ -1,126 +1,98 @@
 {
- "ekonomika": [
-  {
-   "query": "нефть",
-   "traffic": 500,
-   "traffic_label": "500+",
-   "published": "2026-11-17T06:00:00-08:00",
-   "news": [
-    {
-     "title": "США продлили Словакии разрешение на закупку российской нефти",
-     "url": "https://korrespondent.net/business/economics/4929440-ssha-prodlyly-slovakyy-razreshenye-na-zakupku-rossyiskoi-nefty",
-     "source": "Korrespondent.net"
-    },
-    {
-     "title": "Словакии продлили исключение из санкций США ради нефти РФ",
-     "url": "https://finance.mail.ru/article/slovakii-prodlili-isklyuchenie-iz-sankcij-ssha-radi-nefti-rf-69237688/",
-     "source": "Финансы Mail"
-    },
-    {
-     "title": "Европейской стране снова разрешили покупать нефть у России",
-     "url": "https://lenta.news/news/2026/11/17/evropeyskoy-strane-snova-razreshili-pokupat-neft-u-rossii/",
-     "source": "Lenta News"
-    }
-   ],
-   "channel": "ekonomika",
-   "score": 1,
-   "matched": [
-    "евро"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 9
-  },
-  {
-   "query": "национальное антикоррупционное бюро украины",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-17T06:10:00-08:00",
-   "news": [
-    {
-     "title": "Главная подозреваемая по делу о \"яйцах по 17 грн\" получила новое подозрение от НАБУ",
-     "url": "https://biz.liga.net/fmcg/news/glavnaya-podozrevaemaya-po-delu-o-yaitsah-po-17-grn-poluchila-novoe-podozrenie-ot-nabu",
-     "source": "LIGA.net"
-    },
-    {
-     "title": "Фигуранты дела о «яйцах по 17 грн» получили новые подозрения",
-     "url": "https://zn.ua/anticorruption/fihurantam-dela-o-jajtsakh-po-17-hrn-predjavleny-novye-podozrenija.html",
-     "source": "Дзеркало тижня"
-    },
-    {
-     "title": "1,1 млн евро за преследование и розыск теневых средств: четырем лицам сообщили о подозрении",
-     "url": "https://ru.slovoidilo.ua/2026/11/17/novost/politika/11-mln-evro-presledovanie-i-rozysk-tenevyx-sredstv-chetyrem-liczam-soobshhili-podozrenii",
-     "source": "Слово и Дело"
-    }
-   ],
-   "channel": "ekonomika",
-   "score": 1,
-   "matched": [
-    "евро"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 6
-  },
-  {
-   "query": "сенат сша",
-   "traffic": 100,
-   "traffic_label": "100+",
-   "published": "2026-11-17T07:20:00-08:00",
-   "news": [
-    {
-     "title": "Республиканцы в Сенате предлагают выделить 300 млн долларов на противодействие влиянию РФ",
-     "url": "https://www.rbc.ua/ukr/news/respublikantsi-senati-proponuyut-300-mln-1794899522.html",
-     "source": "РБК-Україна"
-    },
-    {
-     "title": "Республиканцы в Сенате США предложили выделить $1,1 трлн на нужды Пентагона и разведки",
-     "url": "https://www.ng.ru/news/851047.html",
-     "source": "Независимая газета"
-    },
-    {
-     "title": "Республиканцы США представили план оборонных расходов на сумму 1.100 триллиона долларов.",
-     "url": "https://www.agenzianova.com/ru/news/%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0%D0%BD%D1%86%D1%8B-%D0%A1%D0%A8%D0%90-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D0%BB%D0%B8-%D0%BF%D0%BB%D0%B0%D0%BD-%D0%BE%D0%B1%D0%BE%D1%80%D0%BE%D0%BD%D0%BD%D1%8B%D1%85-%D1%80%D0%B0%D1%81%D1%85%D0%BE%D0%B4%D0%BE%D0%B2-%D0%BD%D0%B0-%D1%81%D1%83%D0%BC%D0%BC%D1%83-1-1-%D1%82%D1%80%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0-%D0%B4%D0%BE%D0%BB%D0%BB%D0%B0%D1%80%D0%BE%D0%B2./",
-     "source": "Agenzia Nova"
-    }
-   ],
-   "channel": "ekonomika",
-   "score": 1,
-   "matched": [
-    "доллар"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 10
-  }
- ],
  "polityka": [
   {
-   "query": "космонавт",
-   "traffic": 100,
-   "traffic_label": "100+",
-   "published": "2026-11-17T06:50:00-08:00",
+   "query": "steam",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-17T15:00:00-08:00",
    "news": [
     {
-     "title": "Российский космонавт описал быт на МКС словами «чувствуешь себя, как ребенок»",
-     "url": "https://lenta.news/news/2026/11/13/rossiyskiy-kosmonavt-opisal-byt-na-mks-slovami-chuvstvuesh-sebya-kak-rebenok/",
-     "source": "Lenta News"
+     "title": "Trump faces GOP pushback to his order to use steam to launch jets from aircraft carriers",
+     "url": "https://apnews.com/article/steam-catapult-aircraft-carrier-fighter-jet-trump-a749a935c16c83b2c541842d0ff35ad5",
+     "source": "AP News"
     },
     {
-     "title": "В Усольском районе школьники встретились с летчиком-космонавтом Сергеем Микаевым",
-     "url": "https://usolie.info/news/107459",
-     "source": "Usolie.Info"
+     "title": "Key Republican Rejects Trump Order on Steam-Driven Launch System",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/key-republican-rejects-trump-order-on-steam-driven-launch-system",
+     "source": "Bloomberg.com"
     },
     {
-     "title": "Космонавт Сергей Микаев встретился со школьниками Усольского района и побывал на Иркутском радаре некогерентного рассеяния",
-     "url": "https://baikal24.ru/text/16-11-2026/003/",
-     "source": "Байкал24"
+     "title": "Reverting Ford-class Carriers to Steam is ‘Non-Starter,’ Says SASC Chair Wicker",
+     "url": "https://news.usni.org/2026/11/17/reverting-ford-class-carriers-to-steam-is-non-starter-says-sasc-chair-wicker",
+     "source": "USNI News"
     }
    ],
    "channel": "polityka",
    "score": 1,
    "matched": [
-    "рада"
+    "trump"
    ],
    "skipped_reason": "",
-   "extra_sources": 10
+   "extra_sources": 7
+  }
+ ],
+ "ekonomika": [
+  {
+   "query": "стим",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-17T15:00:00-08:00",
+   "news": [
+    {
+     "title": "«Казахстанская лазейка» Steam: как налоговые рекорды Valve спровоцировали ответные меры российских регуляторов",
+     "url": "https://www.profinance.ru/live/2026-11-16/1000816-kazakhstanskaya-lazeyka-steam-kak-nalogovye-rekordy-valve",
+     "source": "ProFinance"
+    },
+    {
+     "title": "«Заявления дня»: сталкинг, новогодние подарки и платформа «Steam»",
+     "url": "https://vologda-poisk.ru/news/politika/zayavleniya-dnya-stalking-novogodnie-podarki-i-platforma-steam",
+     "source": "Vologda-poisk.ru"
+    },
+    {
+     "title": "Steam могут заблокировать в России: заявление Роскомнадзора",
+     "url": "https://www.rtvi.com/news/steam-mogut-zablokirovat-v-rossii-roskomnadzor-sdelal-zayavlenie/",
+     "source": "RTVI"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 1,
+   "matched": [
+    "налог"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 7
+  }
+ ],
+ "sport": [
+  {
+   "query": "аргентина – коста-рика",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-17T14:30:00-08:00",
+   "news": [
+    {
+     "title": "Товарищеские матчи: Аргентина – Коста-Рика, Чили – Колумбия, Уругвай – Доминиканская Республика",
+     "url": "https://ua.tribuna.com/football/1000000393338-tovaryski-matchi-arhentyna-kostarika-chyli-kolumbiya-uru/",
+     "source": "Tribuna.com"
+    },
+    {
+     "title": "Аргентина и Коста-Рика назвали стартовые составы на товарищеский матч",
+     "url": "https://sportsnews.kz/ru/futbol/1117440209-argentina-kosta-rika-startovye-sostavy-komand-na-match-tovarishheskix-",
+     "source": "https://sportsnews.kz/"
+    },
+    {
+     "title": "Прогноз на матч Аргентина — Коста-Рика, 18 ноября, 06:00: «Альбиселесте» стремятся вновь обрести радость жизни.",
+     "url": "https://www.vietnam.vn/ru/nhan-dinh-argentina-vs-costa-rica-06h00-ngay-18-11-albiceleste-tim-lai-nu-cuoi",
+     "source": "Vietnam.vn"
+    }
+   ],
+   "channel": "sport",
+   "score": 1,
+   "matched": [
+    "матч"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 6
   }
  ]
 }
