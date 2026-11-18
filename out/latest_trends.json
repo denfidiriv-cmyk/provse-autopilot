@@ -1,98 +1,66 @@
 {
- "polityka": [
-  {
-   "query": "steam",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-17T15:00:00-08:00",
-   "news": [
-    {
-     "title": "Trump faces GOP pushback to his order to use steam to launch jets from aircraft carriers",
-     "url": "https://apnews.com/article/steam-catapult-aircraft-carrier-fighter-jet-trump-a749a935c16c83b2c541842d0ff35ad5",
-     "source": "AP News"
-    },
-    {
-     "title": "Key Republican Rejects Trump Order on Steam-Driven Launch System",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-17/key-republican-rejects-trump-order-on-steam-driven-launch-system",
-     "source": "Bloomberg.com"
-    },
-    {
-     "title": "Reverting Ford-class Carriers to Steam is ‘Non-Starter,’ Says SASC Chair Wicker",
-     "url": "https://news.usni.org/2026/11/17/reverting-ford-class-carriers-to-steam-is-non-starter-says-sasc-chair-wicker",
-     "source": "USNI News"
-    }
-   ],
-   "channel": "polityka",
-   "score": 1,
-   "matched": [
-    "trump"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 7
-  }
- ],
  "ekonomika": [
   {
-   "query": "стим",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-17T15:00:00-08:00",
+   "query": "гта 5",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-18T03:00:00-08:00",
    "news": [
     {
-     "title": "«Казахстанская лазейка» Steam: как налоговые рекорды Valve спровоцировали ответные меры российских регуляторов",
-     "url": "https://www.profinance.ru/live/2026-11-16/1000816-kazakhstanskaya-lazeyka-steam-kak-nalogovye-rekordy-valve",
-     "source": "ProFinance"
+     "title": "На доработку системы смены персонажей в GTA 5 для PS3 и Xbox 360 ушло два года",
+     "url": "https://rus.egw.news/gaming/news/38528/gta-5-character-switching-took-two-years-to-fit-on-HKoLsHDB4",
+     "source": "EGW.News"
     },
     {
-     "title": "«Заявления дня»: сталкинг, новогодние подарки и платформа «Steam»",
-     "url": "https://vologda-poisk.ru/news/politika/zayavleniya-dnya-stalking-novogodnie-podarki-i-platforma-steam",
-     "source": "Vologda-poisk.ru"
+     "title": "Эффект SSD без SSD: как для GTA 5 делали переключение персонажей",
+     "url": "https://wtftime.ru/articles/170786/effekt-ssd-bez-ssd-kak-dlja-gta-5-delali-perekljuchenie-personazhej/",
+     "source": "WTFTime.ru"
     },
     {
-     "title": "Steam могут заблокировать в России: заявление Роскомнадзора",
-     "url": "https://www.rtvi.com/news/steam-mogut-zablokirovat-v-rossii-roskomnadzor-sdelal-zayavlenie/",
-     "source": "RTVI"
+     "title": "Эффект Netflix. GTA VI собрала более 1,4 миллиарда долларов по предзаказам",
+     "url": "https://techno.nv.ua/games/analitiki-nazvali-igry-kotorye-bolshe-vsego-postradayut-ot-vyhoda-gta-6-50660059.html",
+     "source": "NV Техно"
     }
    ],
    "channel": "ekonomika",
    "score": 1,
    "matched": [
-    "налог"
+    "доллар"
    ],
    "skipped_reason": "",
-   "extra_sources": 7
+   "extra_sources": 8
   }
  ],
- "sport": [
+ "polityka": [
   {
-   "query": "аргентина – коста-рика",
-   "traffic": 1000,
-   "traffic_label": "1000+",
-   "published": "2026-11-17T14:30:00-08:00",
+   "query": "мобилизация",
+   "traffic": 2000,
+   "traffic_label": "2000+",
+   "published": "2026-11-18T02:00:00-08:00",
    "news": [
     {
-     "title": "Товарищеские матчи: Аргентина – Коста-Рика, Чили – Колумбия, Уругвай – Доминиканская Республика",
-     "url": "https://ua.tribuna.com/football/1000000393338-tovaryski-matchi-arhentyna-kostarika-chyli-kolumbiya-uru/",
-     "source": "Tribuna.com"
+     "title": "Рассматривают ли в Раде изменение мобилизационного возраста: ответ Вениславского",
+     "url": "https://www.rbc.ua/ukr/news/chi-rozglyadayut-radi-zminu-mobilizatsiynogo-1794985896.html",
+     "source": "РБК-Україна"
     },
     {
-     "title": "Аргентина и Коста-Рика назвали стартовые составы на товарищеский матч",
-     "url": "https://sportsnews.kz/ru/futbol/1117440209-argentina-kosta-rika-startovye-sostavy-komand-na-match-tovarishheskix-",
-     "source": "https://sportsnews.kz/"
+     "title": "Будут ли изменять мобилизационный возраст в Украине: Вениславский дал окончательный ответ",
+     "url": "https://www.unian.net/society/izmenyat-li-mobilizacionnyy-vozrast-v-ukraine-v-rade-dali-okonchatelnyy-otvet-13563441.html",
+     "source": "УНИАН"
     },
     {
-     "title": "Прогноз на матч Аргентина — Коста-Рика, 18 ноября, 06:00: «Альбиселесте» стремятся вновь обрести радость жизни.",
-     "url": "https://www.vietnam.vn/ru/nhan-dinh-argentina-vs-costa-rica-06h00-ngay-18-11-albiceleste-tim-lai-nu-cuoi",
-     "source": "Vietnam.vn"
+     "title": "В Украине не планируют изменять мобилизационный возраст, но мужчин после 50 лет продолжат призывать, — Вениславский",
+     "url": "https://sud.ua/ru/news/ukraine/377947-v-ukraini-ne-planuiut-zminiuvaty-mobilizatsiinyi-vik-ale-cholovikiv-pislia-50-rokiv-prodovzhat-pryzyvaty-venislavskyi",
+     "source": "Судово-юридична газета"
     }
    ],
-   "channel": "sport",
-   "score": 1,
+   "channel": "polityka",
+   "score": 4,
    "matched": [
-    "матч"
+    "мобилизац"
    ],
    "skipped_reason": "",
-   "extra_sources": 6
+   "extra_sources": 9
   }
  ]
 }
