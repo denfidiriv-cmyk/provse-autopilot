@@ -1,0 +1,67 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "gta",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/src/gta",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/jobs/gta",
+ "w1": 59,
+ "end_w": 55,
+ "bg": "#0f0a1f",
+ "bg2": "#3a1d5a",
+ "accent": "#ff4fd8",
+ "mood": "upbeat",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЕКОНОМІКУ"
+ ],
+ "end_acc": "ЕКОНОМІКУ",
+ "keywords": [
+  "гривень.",
+  "gta",
+  "дорожче:",
+  "лише",
+  "немає.",
+  "мільярди",
+  "чутки."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:p05.jpg",
+   "GTA 6 КОШТУЄ 3499 ГРН",
+   "3499"
+  ],
+  [
+   9,
+   "vid:gamer_1.mp4",
+   "",
+   ""
+  ],
+  [
+   14,
+   "vid:gamer_2.mp4",
+   "У НІЧ НА 19 ЛИСТОПАДА",
+   "19"
+  ],
+  [
+   21,
+   "img:p07.jpg",
+   "4299 ГРН ЗА ULTIMATE",
+   "4299"
+  ],
+  [
+   30,
+   "img:p06.jpg",
+   "ЛИШЕ PS5 І XBOX",
+   "ЛИШЕ"
+  ],
+  [
+   43,
+   "vid:pounds_1.mp4",
+   "$2 МЛРД? ЧУТКИ",
+   "ЧУТКИ"
+  ]
+ ]
+}

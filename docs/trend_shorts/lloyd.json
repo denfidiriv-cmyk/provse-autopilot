@@ -1,0 +1,67 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "lloyd",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/src/lloyd",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/jobs/lloyd",
+ "w1": 50,
+ "end_w": 46,
+ "bg": "#0d1a2a",
+ "bg2": "#1d3a5a",
+ "accent": "#ffd23f",
+ "mood": "epic",
+ "end_text": [
+  "УСЕ ПРО",
+  "СПОРТ"
+ ],
+ "end_acc": "СПОРТ",
+ "keywords": [
+  "п'ять",
+  "марафон.",
+  "водолазному",
+  "шістдесят",
+  "воротар",
+  "мільйонів",
+  "фунтів."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:p09.jpg",
+   "5 ДНІВ НА ОДИН МАРАФОН",
+   "5"
+  ],
+  [
+   14,
+   "vid:runners_2.mp4",
+   "",
+   ""
+  ],
+  [
+   23,
+   "img:p08.jpg",
+   "КОСТЮМ МАЙЖЕ 60 КГ",
+   "60"
+  ],
+  [
+   28,
+   "img:p11.jpg",
+   "ВОРОТАР LEYTON ORIENT",
+   "ВОРОТАР"
+  ],
+  [
+   35,
+   "vid:pounds_2.mp4",
+   "£5 МЛН НА БЛАГОДІЙНІСТЬ",
+   "£5"
+  ],
+  [
+   39,
+   "vid:candle17.mp4",
+   "",
+   ""
+  ]
+ ]
+}

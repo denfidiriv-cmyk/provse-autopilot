@@ -1,0 +1,73 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "olkom",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/src/olkom",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/jobs/olkom",
+ "w1": 51,
+ "end_w": 47,
+ "bg": "#1f1608",
+ "bg2": "#5a3d12",
+ "accent": "#ffcc33",
+ "mood": "upbeat",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЇЖУ"
+ ],
+ "end_acc": "ЇЖУ",
+ "keywords": [
+  "майонез",
+  "«олком»",
+  "дев'яносто",
+  "сім",
+  "блекауту",
+  "борги",
+  "аверін."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:p15.jpg",
+   "«ОЛКОМ» ЗМІНИТЬ ВЛАСНИКА?",
+   "ОЛКОМ"
+  ],
+  [
+   8,
+   "vid:handshake_2.mp4",
+   "97% АКЦІЙ",
+   "97%"
+  ],
+  [
+   15,
+   "vid:factory_1.mp4",
+   "ПРАЦЮЄ З 1949",
+   "1949"
+  ],
+  [
+   23,
+   "vid:candle17.mp4",
+   "БЛЕКАУТ І ЗУПИНКА",
+   "БЛЕКАУТ"
+  ],
+  [
+   31,
+   "vid:pounds_1.mp4",
+   "",
+   ""
+  ],
+  [
+   34,
+   "img:p16.jpg",
+   "",
+   ""
+  ],
+  [
+   43,
+   "vid:bread_2.mp4",
+   "ЦІНУ НЕ РОЗКРИВАЮТЬ",
+   "ЦІНУ"
+  ]
+ ]
+}

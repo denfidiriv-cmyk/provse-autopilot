@@ -1,0 +1,68 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "shen",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/src/shen",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/jobs/shen",
+ "w1": 50,
+ "end_w": 46,
+ "bg": "#1a0d0d",
+ "bg2": "#4a1d1d",
+ "accent": "#ff5a4a",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "ПОЛІТИКУ"
+ ],
+ "end_acc": "ПОЛІТИКУ",
+ "keywords": [
+  "особисто",
+  "путіна",
+  "ні.",
+  "обійняв",
+  "протокол",
+  "лише",
+  "четвер",
+  "україну"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:p02.jpg",
+   "СІ ОСОБИСТО ЗУСТРІВ ТРАМПА",
+   "ОСОБИСТО"
+  ],
+  [
+   9,
+   "img:p01.jpg",
+   "САМІТ АТЕС У ШЕНЬЧЖЕНІ",
+   "АТЕС"
+  ],
+  [
+   16,
+   "vid:chinaflag_1.mp4",
+   "",
+   ""
+  ],
+  [
+   24,
+   "img:r10v.jpg",
+   "А ПУТІНА НІ",
+   "ПУТІНА"
+  ],
+  [
+   30,
+   "img:p04.jpg",
+   "19 ЛИСТОПАДА: УСІ ТРОЄ",
+   "19"
+  ],
+  [
+   37,
+   "vid:usaflag_2.mp4",
+   "А УКРАЇНА?",
+   "УКРАЇНА?"
+  ]
+ ]
+}

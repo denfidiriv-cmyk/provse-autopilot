@@ -1,0 +1,74 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "moldova",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/src/moldova",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/jobs/moldova",
+ "w1": 45,
+ "end_w": 41,
+ "bg": "#0d1630",
+ "bg2": "#22346a",
+ "accent": "#ffd200",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "СВІТ"
+ ],
+ "end_acc": "СВІТ",
+ "keywords": [
+  "сім",
+  "москалів",
+  "шахед,",
+  "кишиневом,",
+  "обмежила",
+  "п'ять",
+  "розбилися",
+  "цинізмом"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:q11.png",
+   "7 ДРОНІВ НАД МОЛДОВОЮ",
+   "7"
+  ],
+  [
+   9,
+   "img:p12.jpg",
+   "ШАХЕД НАД КИШИНЕВОМ",
+   "КИШИНЕВОМ"
+  ],
+  [
+   17,
+   "vid:departures_1.mp4",
+   "НЕБО ЗАКРИЛИ",
+   "ЗАКРИЛИ"
+  ],
+  [
+   21,
+   "vid:radar_1.mp4",
+   "",
+   ""
+  ],
+  [
+   25,
+   "img:p14.jpg",
+   "5 ДРОНІВ РОЗБИЛИСЯ",
+   "5"
+  ],
+  [
+   31,
+   "img:p13.jpg",
+   "",
+   ""
+  ],
+  [
+   36,
+   "img:r10v.jpg",
+   "«БЕЗМЕЖНИЙ ЦИНІЗМ»",
+   "ЦИНІЗМ"
+  ]
+ ]
+}
