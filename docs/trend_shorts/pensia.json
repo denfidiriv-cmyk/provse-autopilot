@@ -1,0 +1,74 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "pensia",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/src/pensia",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/jobs/pensia",
+ "w1": 50,
+ "end_w": 46,
+ "bg": "#14110a",
+ "bg2": "#3a2f12",
+ "accent": "#ffc83d",
+ "mood": "explain",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЕКОНОМІКУ"
+ ],
+ "end_acc": "ЕКОНОМІКУ",
+ "keywords": [
+  "тридцять",
+  "чотири",
+  "стажу.",
+  "шістдесят.",
+  "тридцяти",
+  "трьох.",
+  "п'ятнадцять.",
+  "нюанс:"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:r12.jpg",
+   "34 РОКИ СТАЖУ",
+   "34"
+  ],
+  [
+   7,
+   "vid:walk_1.mp4",
+   "",
+   ""
+  ],
+  [
+   17,
+   "img:r13.jpg",
+   "ЗАРАЗ ТРЕБА 33",
+   "33"
+  ],
+  [
+   22,
+   "vid:old_2.mp4",
+   "У 63: 24 РОКИ",
+   "24"
+  ],
+  [
+   29,
+   "vid:coins_1.mp4",
+   "У 65: 15 РОКІВ",
+   "15"
+  ],
+  [
+   33,
+   "vid:docs_2.mp4",
+   "",
+   ""
+  ],
+  [
+   38,
+   "vid:coins_2.mp4",
+   "СТАЖ НА ДАТУ 60-РІЧЧЯ",
+   "60-РІЧЧЯ"
+  ]
+ ]
+}

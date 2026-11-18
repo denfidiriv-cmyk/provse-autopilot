@@ -1,0 +1,70 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "sport",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/src/sport",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/jobs/sport",
+ "w1": 54,
+ "end_w": 50,
+ "bg": "#0b1a10",
+ "bg2": "#1d4a2a",
+ "accent": "#ffd500",
+ "mood": "epic",
+ "end_text": [
+  "УСЕ ПРО",
+  "СПОРТ"
+ ],
+ "end_acc": "СПОРТ",
+ "keywords": [
+  "гол!",
+  "сікан",
+  "один",
+  "нуль.",
+  "поперечину,",
+  "різник",
+  "сім",
+  "третє",
+  "лізі",
+  "бе."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:r01.jpg",
+   "1:0 НА ПЕРШІЙ ХВИЛИНІ",
+   "1:0"
+  ],
+  [
+   7,
+   "vid:kick_1.mp4",
+   "",
+   ""
+  ],
+  [
+   16,
+   "vid:stadium_1.mp4",
+   "",
+   ""
+  ],
+  [
+   24,
+   "img:r02.jpg",
+   "СУХИЙ МАТЧ РІЗНИКА",
+   "РІЗНИКА"
+  ],
+  [
+   28,
+   "vid:ukr_2.mp4",
+   "7 ОЧОК І ЛІГА B",
+   "7"
+  ],
+  [
+   40,
+   "vid:kick_2.mp4",
+   "",
+   ""
+  ]
+ ]
+}

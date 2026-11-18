@@ -1,0 +1,76 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "zemle",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/src/zemle",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/jobs/zemle",
+ "w1": 54,
+ "end_w": 50,
+ "bg": "#101a2a",
+ "bg2": "#283a5a",
+ "accent": "#ffb547",
+ "mood": "space",
+ "end_text": [
+  "УСЕ ПРО",
+  "СВІТ"
+ ],
+ "end_acc": "СВІТ",
+ "keywords": [
+  "п'ять",
+  "три",
+  "землетрус,",
+  "києві,",
+  "одесі",
+  "ізмаїлі.",
+  "вранча,",
+  "android",
+  "шести",
+  "найсильніший"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:r03.jpg",
+   "5,3 МАГНІТУДИ",
+   "5,3"
+  ],
+  [
+   8,
+   "vid:city_2.mp4",
+   "02:48 НОЧІ",
+   "02:48"
+  ],
+  [
+   16,
+   "img:r06.jpg",
+   "КИЇВ, ОДЕСА, ІЗМАЇЛ",
+   "КИЇВ"
+  ],
+  [
+   22,
+   "img:r07.jpg",
+   "ВРАНЧА, 140 КМ ВГЛИБ",
+   "140"
+  ],
+  [
+   31,
+   "vid:phone_1.mp4",
+   "ANDROID: ДО 6,5",
+   "6,5"
+  ],
+  [
+   40,
+   "img:r05.jpg",
+   "НАЙСИЛЬНІШИЙ ЗА РІК",
+   "НАЙСИЛЬНІШИЙ"
+  ],
+  [
+   47,
+   "img:r08.jpg",
+   "",
+   ""
+  ]
+ ]
+}

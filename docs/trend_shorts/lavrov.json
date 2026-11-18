@@ -1,0 +1,68 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "lavrov",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/src/lavrov",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t18/jobs/lavrov",
+ "w1": 51,
+ "end_w": 47,
+ "bg": "#0d1424",
+ "bg2": "#22304f",
+ "accent": "#ff5a5a",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "ПОЛІТИКУ"
+ ],
+ "end_acc": "ПОЛІТИКУ",
+ "keywords": [
+  "лавров",
+  "негайно",
+  "російськомовних,",
+  "торгу",
+  "стабілізаційних",
+  "європу,",
+  "москалі",
+  "ультиматуми."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:r09.jpg",
+   "«ЦІЛІ НЕ ЗМІНИЛИСЯ»",
+   "ЦІЛІ"
+  ],
+  [
+   10,
+   "vid:kremlin_1.mp4",
+   "",
+   ""
+  ],
+  [
+   17,
+   "vid:ukr_1.mp4",
+   "БЕЗ ТОРГУ",
+   "ТОРГУ"
+  ],
+  [
+   25,
+   "vid:ukr_2.mp4",
+   "",
+   ""
+  ],
+  [
+   33,
+   "vid:flag_1.mp4",
+   "ЄВРОПУ «ДОВЕДЕТЬСЯ ЗАЛУЧИТИ»",
+   "ЄВРОПУ"
+  ],
+  [
+   42,
+   "img:r10v.jpg",
+   "ЗНОВУ УЛЬТИМАТУМИ",
+   "УЛЬТИМАТУМИ"
+  ]
+ ]
+}
