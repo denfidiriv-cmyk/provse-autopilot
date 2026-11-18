@@ -1,66 +1,136 @@
 {
  "ekonomika": [
   {
-   "query": "гта 5",
+   "query": "марін ле пен",
    "traffic": 100,
    "traffic_label": "100+",
-   "published": "2026-11-18T03:00:00-08:00",
+   "published": "2026-11-18T11:30:00-08:00",
    "news": [
     {
-     "title": "На доработку системы смены персонажей в GTA 5 для PS3 и Xbox 360 ушло два года",
-     "url": "https://rus.egw.news/gaming/news/38528/gta-5-character-switching-took-two-years-to-fit-on-HKoLsHDB4",
-     "source": "EGW.News"
+     "title": "ЗМІ: Німеччина розробила план, як фінансувати Україну у разі приходу до влади Ле Пен",
+     "url": "https://www.eurointegration.com.ua/news/2026/11/18/7250301/",
+     "source": "Європейська правда"
     },
     {
-     "title": "Эффект SSD без SSD: как для GTA 5 делали переключение персонажей",
-     "url": "https://wtftime.ru/articles/170786/effekt-ssd-bez-ssd-kak-dlja-gta-5-delali-perekljuchenie-personazhej/",
-     "source": "WTFTime.ru"
+     "title": "Додаткові 45 млрд євро на 2027 рік: Єврокомісія оголосила про новий кредит для України",
+     "url": "https://www.pravda.com.ua/news/2026/11/18/8063426/",
+     "source": "Українська правда"
     },
     {
-     "title": "Эффект Netflix. GTA VI собрала более 1,4 миллиарда долларов по предзаказам",
-     "url": "https://techno.nv.ua/games/analitiki-nazvali-igry-kotorye-bolshe-vsego-postradayut-ot-vyhoda-gta-6-50660059.html",
-     "source": "NV Техно"
+     "title": "Новини 18 листопада: план ЄС на 45 мільярдів євро, обвал нафтопереробки РФ",
+     "url": "https://epravda.com.ua/finances/finansuvannya-yes-naftopererobka-rf-kurs-yevro-golovne-za-18-listopada-827793/",
+     "source": "Економічна правда"
     }
    ],
    "channel": "ekonomika",
-   "score": 1,
+   "score": 2,
    "matched": [
-    "доллар"
+    "кредит",
+    "євро"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  }
+ ],
+ "dim": [
+  {
+   "query": "19 листопада",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-18T11:20:00-08:00",
+   "news": [
+    {
+     "title": "Графіки погодинних вимкнень світла на Дніпропетровщині 18 листопада",
+     "url": "https://suspilne.media/dnipro/1454288-grafiki-pogodinnih-vimknen-svitla-na-dnipropetrovsini-18-listopada/",
+     "source": "Суспільне | Новини"
+    },
+    {
+     "title": "У ЦЕК змінили графік відключень для черг 1.1, 4.1 і 6.1 на 18 листопада",
+     "url": "https://www.dnipro.media/novyny-dnipro/grafiky-vidklyuchen-tsek-na-18-lystopada-2026-onovlennya-2346/",
+     "source": "Dnipro.media"
+    },
+    {
+     "title": "ДТЕК графік відключення світла в Дніпрі 18.11.2026: групи, час відключення - Дніпро Оперативний",
+     "url": "https://dnepr.express/ua/post/dtek-grafiki-vidklyuchennya-svitla-v-dnipri-18-listopada-2026-aktualna-informaciya",
+     "source": "Дніпро Оперативний"
+    }
+   ],
+   "channel": "dim",
+   "score": 4,
+   "matched": [
+    "відключен",
+    "графік",
+    "дтек",
+    "світл"
    ],
    "skipped_reason": "",
    "extra_sources": 8
   }
  ],
- "polityka": [
+ "sport": [
   {
-   "query": "мобилизация",
-   "traffic": 2000,
-   "traffic_label": "2000+",
-   "published": "2026-11-18T02:00:00-08:00",
+   "query": "глейкер мендоза",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-18T10:10:00-08:00",
    "news": [
     {
-     "title": "Рассматривают ли в Раде изменение мобилизационного возраста: ответ Вениславского",
-     "url": "https://www.rbc.ua/ukr/news/chi-rozglyadayut-radi-zminu-mobilizatsiynogo-1794985896.html",
-     "source": "РБК-Україна"
+     "title": "Шахтер потерял одного из лидеров до конца года: он досрочно вернулся из сборной",
+     "url": "https://www.ua-football.com/ukrainian/high/1795011076-shahterpoteryal-odnogo-iz-liderov-do-konca-goda-on-dosrochno-vernulsya-iz-sbornoy.html",
+     "source": "UA-Football"
     },
     {
-     "title": "Будут ли изменять мобилизационный возраст в Украине: Вениславский дал окончательный ответ",
-     "url": "https://www.unian.net/society/izmenyat-li-mobilizacionnyy-vozrast-v-ukraine-v-rade-dali-okonchatelnyy-otvet-13563441.html",
-     "source": "УНИАН"
+     "title": "Глейкер Мендоса получил серьезную травму в сборной – в этом году не сыграет – Футбол 24",
+     "url": "https://football24.ua/ru/news/lider-shahtera-vybyl-do-konca-goda-insajder-raskryl-podrobnosti-976994",
+     "source": "Футбол 24"
     },
     {
-     "title": "В Украине не планируют изменять мобилизационный возраст, но мужчин после 50 лет продолжат призывать, — Вениславский",
-     "url": "https://sud.ua/ru/news/ukraine/377947-v-ukraini-ne-planuiut-zminiuvaty-mobilizatsiinyi-vik-ale-cholovikiv-pislia-50-rokiv-prodovzhat-pryzyvaty-venislavskyi",
-     "source": "Судово-юридична газета"
+     "title": "Источник: Мендоса больше не сыграет за Шахтер в этом году",
+     "url": "https://terrikon.com/posts/592221",
+     "source": "Террикон"
     }
    ],
-   "channel": "polityka",
-   "score": 4,
+   "channel": "sport",
+   "score": 3,
    "matched": [
-    "мобилизац"
+    "сборн",
+    "футбол",
+    "шахтер"
    ],
    "skipped_reason": "",
-   "extra_sources": 9
+   "extra_sources": 10
+  },
+  {
+   "query": "деонтей вайлдер",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-18T10:10:00-08:00",
+   "news": [
+    {
+     "title": "Бій Вайлдера в андеркарді поєдинку Ф'юрі — Джошуа зірвався: американцю шукають суперника",
+     "url": "https://tsn.ua/prosport/biy-vayldera-v-anderkardi-poyedynku-fiuri-dzoshua-zirvavsia-amerykantsiu-shukaiut-supernyka-3220271.html",
+     "source": "ТСН"
+    },
+    {
+     "title": "«Йду зіпсувати вечірку». Непереможений чемпіон крузервейту не битиметься з Вайлдером і опублікував фото Усика",
+     "url": "https://suspilne.media/sport/1454536-jdu-zipsuvati-vecirku-neperemozenij-cempion-kruzervejtu-ne-bitimetsa-z-vajlderom-i-opublikuvav-foto-usika/",
+     "source": "Суспільне | Новини"
+    },
+    {
+     "title": "Бій Вайлдера та Опетаї зірвано: команда австралійця пояснила причину",
+     "url": "https://sport.rbc.ua/rus/boxing/biy-vayldera-ta-opetayi-zirvano-komanda-avstraliytsya-1794994819.html",
+     "source": "РБК-Україна"
+    }
+   ],
+   "channel": "sport",
+   "score": 3,
+   "matched": [
+    "=бій",
+    "усик",
+    "чемпіон"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 6
   }
  ]
 }
