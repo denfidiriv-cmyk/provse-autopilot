@@ -1,0 +1,66 @@
+{
+ "sport": [
+  {
+   "query": "фіфа",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-18T15:30:00-08:00",
+   "news": [
+    {
+     "title": "Україна зберегла позицію у світовому рейтингу ФІФА після заключних матчів Ліги націй",
+     "url": "https://suspilne.media/sport/1454617-ukraina-zberegla-poziciu-u-svitovomu-rejtingu-fifa-pisla-zaklucnih-matciv-ligi-nacij/",
+     "source": "Суспільне | Новини"
+    },
+    {
+     "title": "У рейтингу ФІФА Україна зберегла свої позиції",
+     "url": "https://ua.korrespondent.net/sport/football/4929986-u-reitynhu-fifa-ukraina-zberehla-svoi-pozytsii",
+     "source": "Korrespondent.net"
+    },
+    {
+     "title": "Збірна України дізналася своє місце в оновленому рейтингу ФІФА після матчів Ліги націй",
+     "url": "https://tsn.ua/prosport/zbirna-ukrayiny-diznalasia-svoye-mistse-v-onovlenomu-reytynhu-fifa-pislia-matchiv-lihy-natsiy-3220543.html",
+     "source": "ТСН"
+    }
+   ],
+   "channel": "sport",
+   "score": 6,
+   "matched": [
+    "збірн",
+    "матч",
+    "фіфа"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  },
+  {
+   "query": "михаил мудрик",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-18T13:00:00-08:00",
+   "news": [
+    {
+     "title": "Обвинил сборную Украины: Мудрик впервые признался, как допинг мог попасть в его организм",
+     "url": "https://champion.com.ua/rus/football/doping-mudrika-stalo-izvestno-popal-li-meldoniy-v-ego-organizm-vo-vremya-prebyvaniya-v-sbornoy-ukrainy-1091225/",
+     "source": "Champion.com.ua"
+    },
+    {
+     "title": "\"Покончить с собой\": Мудрик рассказал как он себя чувствовал после положительного результата допинг-теста",
+     "url": "https://24tv.ua/sporttopnews/ru/intervju-mihaila-mudrika-futbolist-rasskazal-o-svoem-samochuvstvii_n3183299",
+     "source": "24 Канал"
+    },
+    {
+     "title": "\"Боится критики\": Мудрик рассказал, помогала ли ему УАФ во время дисквалификации за допинг",
+     "url": "https://tsn.ua/ru/prosport/boitsya-kritiki-mudrik-rasskazal-pomogala-li-emu-uaf-vo-vremya-diskvalifikatsii-za-doping-3220667.html",
+     "source": "ТСН"
+    }
+   ],
+   "channel": "sport",
+   "score": 1,
+   "matched": [
+    "сборн"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 5
+  }
+ ]
+}

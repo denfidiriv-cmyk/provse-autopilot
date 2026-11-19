@@ -1,136 +1,66 @@
 {
- "ekonomika": [
+ "sport": [
   {
-   "query": "марін ле пен",
+   "query": "фіфа",
    "traffic": 100,
    "traffic_label": "100+",
-   "published": "2026-11-18T11:30:00-08:00",
+   "published": "2026-11-18T15:30:00-08:00",
    "news": [
     {
-     "title": "ЗМІ: Німеччина розробила план, як фінансувати Україну у разі приходу до влади Ле Пен",
-     "url": "https://www.eurointegration.com.ua/news/2026/11/18/7250301/",
-     "source": "Європейська правда"
-    },
-    {
-     "title": "Додаткові 45 млрд євро на 2027 рік: Єврокомісія оголосила про новий кредит для України",
-     "url": "https://www.pravda.com.ua/news/2026/11/18/8063426/",
-     "source": "Українська правда"
-    },
-    {
-     "title": "Новини 18 листопада: план ЄС на 45 мільярдів євро, обвал нафтопереробки РФ",
-     "url": "https://epravda.com.ua/finances/finansuvannya-yes-naftopererobka-rf-kurs-yevro-golovne-za-18-listopada-827793/",
-     "source": "Економічна правда"
-    }
-   ],
-   "channel": "ekonomika",
-   "score": 2,
-   "matched": [
-    "кредит",
-    "євро"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 9
-  }
- ],
- "dim": [
-  {
-   "query": "19 листопада",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-18T11:20:00-08:00",
-   "news": [
-    {
-     "title": "Графіки погодинних вимкнень світла на Дніпропетровщині 18 листопада",
-     "url": "https://suspilne.media/dnipro/1454288-grafiki-pogodinnih-vimknen-svitla-na-dnipropetrovsini-18-listopada/",
+     "title": "Україна зберегла позицію у світовому рейтингу ФІФА після заключних матчів Ліги націй",
+     "url": "https://suspilne.media/sport/1454617-ukraina-zberegla-poziciu-u-svitovomu-rejtingu-fifa-pisla-zaklucnih-matciv-ligi-nacij/",
      "source": "Суспільне | Новини"
     },
     {
-     "title": "У ЦЕК змінили графік відключень для черг 1.1, 4.1 і 6.1 на 18 листопада",
-     "url": "https://www.dnipro.media/novyny-dnipro/grafiky-vidklyuchen-tsek-na-18-lystopada-2026-onovlennya-2346/",
-     "source": "Dnipro.media"
+     "title": "У рейтингу ФІФА Україна зберегла свої позиції",
+     "url": "https://ua.korrespondent.net/sport/football/4929986-u-reitynhu-fifa-ukraina-zberehla-svoi-pozytsii",
+     "source": "Korrespondent.net"
     },
     {
-     "title": "ДТЕК графік відключення світла в Дніпрі 18.11.2026: групи, час відключення - Дніпро Оперативний",
-     "url": "https://dnepr.express/ua/post/dtek-grafiki-vidklyuchennya-svitla-v-dnipri-18-listopada-2026-aktualna-informaciya",
-     "source": "Дніпро Оперативний"
-    }
-   ],
-   "channel": "dim",
-   "score": 4,
-   "matched": [
-    "відключен",
-    "графік",
-    "дтек",
-    "світл"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 8
-  }
- ],
- "sport": [
-  {
-   "query": "глейкер мендоза",
-   "traffic": 100,
-   "traffic_label": "100+",
-   "published": "2026-11-18T10:10:00-08:00",
-   "news": [
-    {
-     "title": "Шахтер потерял одного из лидеров до конца года: он досрочно вернулся из сборной",
-     "url": "https://www.ua-football.com/ukrainian/high/1795011076-shahterpoteryal-odnogo-iz-liderov-do-konca-goda-on-dosrochno-vernulsya-iz-sbornoy.html",
-     "source": "UA-Football"
-    },
-    {
-     "title": "Глейкер Мендоса получил серьезную травму в сборной – в этом году не сыграет – Футбол 24",
-     "url": "https://football24.ua/ru/news/lider-shahtera-vybyl-do-konca-goda-insajder-raskryl-podrobnosti-976994",
-     "source": "Футбол 24"
-    },
-    {
-     "title": "Источник: Мендоса больше не сыграет за Шахтер в этом году",
-     "url": "https://terrikon.com/posts/592221",
-     "source": "Террикон"
+     "title": "Збірна України дізналася своє місце в оновленому рейтингу ФІФА після матчів Ліги націй",
+     "url": "https://tsn.ua/prosport/zbirna-ukrayiny-diznalasia-svoye-mistse-v-onovlenomu-reytynhu-fifa-pislia-matchiv-lihy-natsiy-3220543.html",
+     "source": "ТСН"
     }
    ],
    "channel": "sport",
-   "score": 3,
+   "score": 6,
    "matched": [
-    "сборн",
-    "футбол",
-    "шахтер"
+    "збірн",
+    "матч",
+    "фіфа"
    ],
    "skipped_reason": "",
    "extra_sources": 10
   },
   {
-   "query": "деонтей вайлдер",
+   "query": "михаил мудрик",
    "traffic": 100,
    "traffic_label": "100+",
-   "published": "2026-11-18T10:10:00-08:00",
+   "published": "2026-11-18T13:00:00-08:00",
    "news": [
     {
-     "title": "Бій Вайлдера в андеркарді поєдинку Ф'юрі — Джошуа зірвався: американцю шукають суперника",
-     "url": "https://tsn.ua/prosport/biy-vayldera-v-anderkardi-poyedynku-fiuri-dzoshua-zirvavsia-amerykantsiu-shukaiut-supernyka-3220271.html",
+     "title": "Обвинил сборную Украины: Мудрик впервые признался, как допинг мог попасть в его организм",
+     "url": "https://champion.com.ua/rus/football/doping-mudrika-stalo-izvestno-popal-li-meldoniy-v-ego-organizm-vo-vremya-prebyvaniya-v-sbornoy-ukrainy-1091225/",
+     "source": "Champion.com.ua"
+    },
+    {
+     "title": "\"Покончить с собой\": Мудрик рассказал как он себя чувствовал после положительного результата допинг-теста",
+     "url": "https://24tv.ua/sporttopnews/ru/intervju-mihaila-mudrika-futbolist-rasskazal-o-svoem-samochuvstvii_n3183299",
+     "source": "24 Канал"
+    },
+    {
+     "title": "\"Боится критики\": Мудрик рассказал, помогала ли ему УАФ во время дисквалификации за допинг",
+     "url": "https://tsn.ua/ru/prosport/boitsya-kritiki-mudrik-rasskazal-pomogala-li-emu-uaf-vo-vremya-diskvalifikatsii-za-doping-3220667.html",
      "source": "ТСН"
-    },
-    {
-     "title": "«Йду зіпсувати вечірку». Непереможений чемпіон крузервейту не битиметься з Вайлдером і опублікував фото Усика",
-     "url": "https://suspilne.media/sport/1454536-jdu-zipsuvati-vecirku-neperemozenij-cempion-kruzervejtu-ne-bitimetsa-z-vajlderom-i-opublikuvav-foto-usika/",
-     "source": "Суспільне | Новини"
-    },
-    {
-     "title": "Бій Вайлдера та Опетаї зірвано: команда австралійця пояснила причину",
-     "url": "https://sport.rbc.ua/rus/boxing/biy-vayldera-ta-opetayi-zirvano-komanda-avstraliytsya-1794994819.html",
-     "source": "РБК-Україна"
     }
    ],
    "channel": "sport",
-   "score": 3,
+   "score": 1,
    "matched": [
-    "=бій",
-    "усик",
-    "чемпіон"
+    "сборн"
    ],
    "skipped_reason": "",
-   "extra_sources": 6
+   "extra_sources": 5
   }
  ]
 }
