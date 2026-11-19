@@ -1,5 +1,7 @@
 # Трендові шорти 19.11.2026, вечір (основна сесія). Ці теми вже зроблені, не повторювати.
 
+Опубліковано 19.11 (усі публічні): kyiv https://youtube.com/shorts/on77BiZP8hg, euro https://youtube.com/shorts/E5epBOawJkI, fuel https://youtube.com/shorts/IptayQDYXmI, olia https://youtube.com/shorts/cb3zuX8OtxY, xi https://youtube.com/shorts/HVHKJ8NUusw. Також olkom з t18b (Їжа): https://youtube.com/shorts/IWhI7__AYXE.
+
 ## t19_kyiv → Все про політику (UCsK3BvYW5XH5kc-OH9yB2tg)
 Назва: 💥 Вибило ВІКНА Володимирського собору: Київ під ударом під час саміту #shorts
 
