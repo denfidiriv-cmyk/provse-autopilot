@@ -1,66 +1,130 @@
 {
- "sport": [
+ "dim": [
   {
-   "query": "фіфа",
-   "traffic": 100,
-   "traffic_label": "100+",
-   "published": "2026-11-18T15:30:00-08:00",
+   "query": "квартира",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-19T02:40:00-08:00",
    "news": [
     {
-     "title": "Україна зберегла позицію у світовому рейтингу ФІФА після заключних матчів Ліги націй",
-     "url": "https://suspilne.media/sport/1454617-ukraina-zberegla-poziciu-u-svitovomu-rejtingu-fifa-pisla-zaklucnih-matciv-ligi-nacij/",
-     "source": "Суспільне | Новини"
+     "title": "До 57 желающих на одну квартиру: где в Украине больше вырос спрос на аренду жилья",
+     "url": "https://minfin.com.ua/2026/11/19/185890102/",
+     "source": "Мінфін"
     },
     {
-     "title": "У рейтингу ФІФА Україна зберегла свої позиції",
-     "url": "https://ua.korrespondent.net/sport/football/4929986-u-reitynhu-fifa-ukraina-zberehla-svoi-pozytsii",
-     "source": "Korrespondent.net"
+     "title": "Аренда квартир на западе Украины за полгода подорожала до 44%: где цены выросли больше всего",
+     "url": "https://www.rbc.ua/ukr/news/orenda-kvartir-zahodi-ukrayini-piv-roku-podorozhchala-1795001220.html",
+     "source": "РБК-Україна"
     },
     {
-     "title": "Збірна України дізналася своє місце в оновленому рейтингу ФІФА після матчів Ліги націй",
-     "url": "https://tsn.ua/prosport/zbirna-ukrayiny-diznalasia-svoye-mistse-v-onovlenomu-reytynhu-fifa-pislia-matchiv-lihy-natsiy-3220543.html",
-     "source": "ТСН"
+     "title": "Планируют купить жилье, но денег не хватает даже на бытовую технику: что показал опрос",
+     "url": "https://24tv.ua/realestate24/ru/pokupka-i-arenda-zhilja-kakie-finansovye-vozmozhnosti-u-ukraincev-v-2026-godu_n3182954",
+     "source": "24 Канал"
     }
    ],
-   "channel": "sport",
-   "score": 6,
+   "channel": "dim",
+   "score": 4,
    "matched": [
-    "збірн",
-    "матч",
-    "фіфа"
+    "квартир"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  }
+ ],
+ "polityka": [
+  {
+   "query": "саміт",
+   "traffic": 5000,
+   "traffic_label": "5000+",
+   "published": "2026-11-19T02:20:00-08:00",
+   "news": [
+    {
+     "title": "Сі Цзіньпін на зустрічі з Трампом і Путіним зробив несподівану заяву про ядерну зброю",
+     "url": "https://tsn.ua/politika/si-tszinpin-na-zustrichi-z-trampom-i-putinym-zrobyv-nespodivanu-zaiavu-pro-iadernu-zbroiu-3221107.html",
+     "source": "ТСН"
+    },
+    {
+     "title": "У Кремлі стверджують, що Україна була головною темою зустрічі Путіна і Трампа",
+     "url": "https://www.pravda.com.ua/news/2026/11/19/8063570/",
+     "source": "Українська правда"
+    },
+    {
+     "title": "Тристороння зустріч у Шеньчжені: Трамп заявив про новий курс США, Сі Цзіньпін закликав знищити ядерну зброю, Путін говорив про війну — головне",
+     "url": "https://nv.ua/ukr/world/geopolitics/si-czinpin-tramp-i-putina-v-shenchzhene-klyuchevye-zayavleniya-o-yadernom-razoruzhenii-i-voyne-v-ukraine-50660568.html",
+     "source": "NV"
+    }
+   ],
+   "channel": "polityka",
+   "score": 4,
+   "matched": [
+    "саміт",
+    "трамп"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  },
+  {
+   "query": "міністр оборони",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-19T00:50:00-08:00",
+   "news": [
+    {
+     "title": "Заступник глави Пентагону покинув \"Рамштайн\" після критики України через удари по РФ",
+     "url": "https://www.pravda.com.ua/news/2026/11/19/8063565/",
+     "source": "Українська правда"
+    },
+    {
+     "title": "Топ з Пентагону покинув зустріч з НАТО після дорікання Україні - Telegraph",
+     "url": "https://unn.ua/news/strateh-pentahonu-pokynuv-zustrich-z-nato-pislia-krytyky-udariv-ukrainy-po-rf-telegraph",
+     "source": "Українські Національні Новини (УНН)"
+    },
+    {
+     "title": "«Фактично стали на бік Росії». Високопосадовець Пентагону розкритикував Україну за далекобійні удари і залишив Рамштайн — The Telegraph",
+     "url": "https://nv.ua/ukr/world/geopolitics/ssha-rozkritikuvali-udari-ukrajini-po-rosiji-oburennya-soyuznikiv-na-zustrichi-v-bryusseli-50660481.html",
+     "source": "NV"
+    }
+   ],
+   "channel": "polityka",
+   "score": 4,
+   "matched": [
+    "міністр",
+    "нато"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  }
+ ],
+ "ekonomika": [
+  {
+   "query": "демуринський гірничо-збагачувальний комбінат",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-19T01:40:00-08:00",
+   "news": [
+    {
+     "title": "«Один з найбільших в Європі». Україна знову спробує продати конфіскований у російського політика завод",
+     "url": "https://biz.nv.ua/ukr/markets/ukrajina-znovu-sprobuye-prodati-konfiskovaniy-u-politika-z-rf-odin-z-naybilshih-zavodiv-v-yevropi-50660590.html",
+     "source": "NV Бизнес"
+    },
+    {
+     "title": "Аукціон із продажу націоналізованого Демуринського ГЗК не відбувся й після зниження ціни вдвічі",
+     "url": "https://interfax.com.ua/news/economic/1238831.html",
+     "source": "Інтерфакс-Україна"
+    },
+    {
+     "title": "ДемГЗК і Мотордеталь-Конотоп виставили на аукціон з можливістю дисконту 99%",
+     "url": "https://biz.liga.net/ua/industry/news/demhzk-i-motordetal-konotop-vystavyly-na-auktsion-z-mozhlyvistiu-dyskontu-99",
+     "source": "LIGA.net"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 1,
+   "matched": [
+    "євро"
    ],
    "skipped_reason": "",
    "extra_sources": 10
-  },
-  {
-   "query": "михаил мудрик",
-   "traffic": 100,
-   "traffic_label": "100+",
-   "published": "2026-11-18T13:00:00-08:00",
-   "news": [
-    {
-     "title": "Обвинил сборную Украины: Мудрик впервые признался, как допинг мог попасть в его организм",
-     "url": "https://champion.com.ua/rus/football/doping-mudrika-stalo-izvestno-popal-li-meldoniy-v-ego-organizm-vo-vremya-prebyvaniya-v-sbornoy-ukrainy-1091225/",
-     "source": "Champion.com.ua"
-    },
-    {
-     "title": "\"Покончить с собой\": Мудрик рассказал как он себя чувствовал после положительного результата допинг-теста",
-     "url": "https://24tv.ua/sporttopnews/ru/intervju-mihaila-mudrika-futbolist-rasskazal-o-svoem-samochuvstvii_n3183299",
-     "source": "24 Канал"
-    },
-    {
-     "title": "\"Боится критики\": Мудрик рассказал, помогала ли ему УАФ во время дисквалификации за допинг",
-     "url": "https://tsn.ua/ru/prosport/boitsya-kritiki-mudrik-rasskazal-pomogala-li-emu-uaf-vo-vremya-diskvalifikatsii-za-doping-3220667.html",
-     "source": "ТСН"
-    }
-   ],
-   "channel": "sport",
-   "score": 1,
-   "matched": [
-    "сборн"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 5
   }
  ]
 }
