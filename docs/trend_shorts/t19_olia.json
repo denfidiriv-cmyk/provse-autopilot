@@ -1,0 +1,60 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t19/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t19/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "olia",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t19/src/olia",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t19/jobs/olia",
+ "w1": 49,
+ "end_w": 45,
+ "bg": "#1a1406",
+ "bg2": "#5a4a10",
+ "accent": "#ffd23f",
+ "mood": "explain",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЕКОНОМІКУ"
+ ],
+ "end_acc": "ЕКОНОМІКУ",
+ "keywords": [
+  "вісімнадцять",
+  "попит",
+  "москалів",
+  "двох",
+  "пляшок",
+  "дефіциту"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:o02.jpg",
+   "ПОПИТ НА ОЛІЮ У 18 РАЗІВ",
+   "18"
+  ],
+  [
+   9,
+   "vid:shop_1.mp4",
+   "",
+   ""
+  ],
+  [
+   19,
+   "img:o03.jpg",
+   "УДАРИ ПО ЗАВОДАХ",
+   "УДАРИ"
+  ],
+  [
+   25,
+   "img:o01.jpg",
+   "2 ПЛЯШКИ В ОДНІ РУКИ",
+   "2"
+  ],
+  [
+   37,
+   "vid:shop_2.mp4",
+   "«ДЕФІЦИТУ НЕ БУДЕ»",
+   "ДЕФІЦИТУ"
+  ]
+ ]
+}

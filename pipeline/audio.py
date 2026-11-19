@@ -84,7 +84,11 @@ def track(mood: str, dur: float) -> np.ndarray | None:
     except Exception:
         recent = []
     fresh = [f for f in alls if f.name not in recent[-max(1, len(alls) - 2):]] or alls
-    mood_fit = [f for f in fresh if any(f.name.startswith(t) for t in TRACKS.get(mood, []))]
+    fit = lambda f: any(f.name.startswith(t) for t in TRACKS.get(mood, []))
+    mood_fit = [f for f in fresh if fit(f)]
+    if not mood_fit and any(fit(f) for f in alls):  # усі треки настрою звучали нещодавно: беремо найдавніший з них, а не чужий за настроєм
+        last = lambda f: max([i for i, n in enumerate(recent) if n == f.name] or [-1])
+        mood_fit = [min((f for f in alls if fit(f)), key=last)]
     f = random.choice(mood_fit or fresh)
     try:
         hist_p.parent.mkdir(parents=True, exist_ok=True); hist_p.write_text(json.dumps((recent + [f.name])[-20:], ensure_ascii=False))
