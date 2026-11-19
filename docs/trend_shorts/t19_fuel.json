@@ -1,0 +1,60 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t19/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t19/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "fuel",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t19/src/fuel",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t19/jobs/fuel",
+ "w1": 41,
+ "end_w": 37,
+ "bg": "#1a1206",
+ "bg2": "#4a3210",
+ "accent": "#ffb000",
+ "mood": "upbeat",
+ "end_text": [
+  "УСЕ ПРО",
+  "АВТО"
+ ],
+ "end_acc": "АВТО",
+ "keywords": [
+  "мінус",
+  "подешевшав",
+  "бензин,",
+  "дизель",
+  "дешевше",
+  "сто"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:f01.jpg",
+   "-1,41 ГРН ЗА ЛІТР",
+   "-1,41"
+  ],
+  [
+   5,
+   "vid:gas_2.mp4",
+   "",
+   ""
+  ],
+  [
+   11,
+   "img:f02.jpg",
+   "",
+   ""
+  ],
+  [
+   17,
+   "vid:gas_1.mp4",
+   "А-95: 86,49 ГРН",
+   "86,49"
+  ],
+  [
+   23,
+   "vid:fuel_1.mp4",
+   "ДИЗЕЛЬ ДО 100 ГРН",
+   "100"
+  ]
+ ]
+}

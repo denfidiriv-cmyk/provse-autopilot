@@ -1,0 +1,60 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t19/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t19/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "kyiv",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t19/src/kyiv",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t19/jobs/kyiv",
+ "w1": 37,
+ "end_w": 33,
+ "bg": "#0d1424",
+ "bg2": "#22304f",
+ "accent": "#ffd23f",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "ПОЛІТИКУ"
+ ],
+ "end_acc": "ПОЛІТИКУ",
+ "keywords": [
+  "вибило",
+  "собору.",
+  "москалі",
+  "дрон",
+  "нідерландів.",
+  "загинув"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:k01.jpg",
+   "ВИБИТО ВІКНА СОБОРУ",
+   "ВИБИТО"
+  ],
+  [
+   8,
+   "vid:siren_1.mp4",
+   "",
+   ""
+  ],
+  [
+   14,
+   "img:p01.jpg",
+   "ПОКИ ТРИВАВ САМІТ",
+   "САМІТ"
+  ],
+  [
+   22,
+   "img:k03.jpg",
+   "ДРОН БІЛЯ ПОСОЛЬСТВА НІДЕРЛАНДІВ",
+   "ДРОН"
+  ],
+  [
+   27,
+   "vid:window_1.mp4",
+   "1 ЗАГИБЛИЙ, 4 ПОРАНЕНІ",
+   "1"
+  ]
+ ]
+}

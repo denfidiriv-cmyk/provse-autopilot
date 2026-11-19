@@ -1,0 +1,67 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t19/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t19/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "euro",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t19/src/euro",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t19/jobs/euro",
+ "w1": 43,
+ "end_w": 39,
+ "bg": "#0b1a10",
+ "bg2": "#1d4a2a",
+ "accent": "#ffd500",
+ "mood": "epic",
+ "end_text": [
+  "УСЕ ПРО",
+  "СПОРТ"
+ ],
+ "end_acc": "СПОРТ",
+ "keywords": [
+  "москалів",
+  "пустили",
+  "немає",
+  "третьому",
+  "англією,",
+  "францією",
+  "іспанією."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:r10v.jpg",
+   "МОСКАЛІВ НЕ ПУСТИЛИ НА ЄВРО-2028",
+   "МОСКАЛІВ"
+  ],
+  [
+   9,
+   "img:e01.jpg",
+   "54 КОМАНДИ БЕЗ НИХ",
+   "54"
+  ],
+  [
+   16,
+   "vid:ball_2.mp4",
+   "",
+   ""
+  ],
+  [
+   19,
+   "vid:crowd_2.mp4",
+   "УКРАЇНА В 3-МУ КОШИКУ",
+   "3-МУ"
+  ],
+  [
+   24,
+   "img:e03.jpg",
+   "АНГЛІЯ, ФРАНЦІЯ ЧИ ІСПАНІЯ?",
+   "ІСПАНІЯ?"
+  ],
+  [
+   34,
+   "img:e02.jpg",
+   "6 ГРУДНЯ, БЕЛФАСТ",
+   "6"
+  ]
+ ]
+}
