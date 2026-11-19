@@ -1,0 +1,99 @@
+{
+ "ekonomika": [
+  {
+   "query": "європейська комісія",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-19T11:30:00-08:00",
+   "news": [
+    {
+     "title": "Новини 18 листопада: план ЄС на 45 мільярдів євро, обвал нафтопереробки РФ",
+     "url": "https://epravda.com.ua/finances/finansuvannya-yes-naftopererobka-rf-kurs-yevro-golovne-za-18-listopada-827793/",
+     "source": "Економічна правда"
+    },
+    {
+     "title": "Пропозиція виділити Україні додаткові €45 мільярдів має широку підтримку в Європі - Мерц",
+     "url": "https://www.ukrinform.ua/rubric-economy/4186538-propozicia-vidiliti-ukraini-dodatkovi-45-milardiv-mae-siroku-pidtrimku-v-evropi-merc.html",
+     "source": "Укрінформ - актуальні новини України та світу"
+    },
+    {
+     "title": "Фон дер Ляєн переконана, що Угорщина, Словаччина, Болгарія та Чехія приєднаються до кредиту Україні",
+     "url": "https://www.pravda.com.ua/news/2026/11/18/8063467/",
+     "source": "Українська правда"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 5,
+   "matched": [
+    "кредит",
+    "євро"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  }
+ ],
+ "svit": [
+  {
+   "query": "радиационный пояс",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-19T09:30:00-08:00",
+   "news": [
+    {
+     "title": "После геомагнитной бури. В 2024 году вокруг Земли впервые зафиксировали четыре радиационных пояса",
+     "url": "https://techno.nv.ua/popscience/radiacionnye-poyasa-zemli-posle-buri-2024-goda-voznikli-chetyre-vmesto-dvuh-50660585.html",
+     "source": "NV Техно"
+    },
+    {
+     "title": "Землю окружили четыре радиационных пояса вместо двух: солнечная буря перестроила защиту планеты",
+     "url": "https://www.pravda.ru/news/science/2446005-earth-radiation-belts-anomaly/",
+     "source": "Правда.Ру"
+    },
+    {
+     "title": "Мощнейшая солнечная буря изменила радиационную защиту Земли: что обнаружили ученые",
+     "url": "https://bb.lv/statja/tehno/2026/11/19/moshhneisaia-solnecnaia-buria-izmenila-radiacionnuiu-zashhitu-zemli-cto-obnaruzili-ucenye",
+     "source": "BB.LV"
+    }
+   ],
+   "channel": "svit",
+   "score": 1,
+   "matched": [
+    "ученые"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 2
+  }
+ ],
+ "sport": [
+  {
+   "query": "рауль лосано",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-19T09:30:00-08:00",
+   "news": [
+    {
+     "title": "ТУПЧІЙ – про Барком, можливий трансфер, збірну України та слова Лосано",
+     "url": "https://sport.ua/uk/news/926241-tupchiy-o-barkome-vozmozhnom-transfere-sbornoy-ukrainy-i-slovah-losano",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Почав ненавидіти волейбол: лідер збірної України – про втрату ігрової практики, тривогу Лосано та можливий відхід",
+     "url": "https://football24.ua/sport/news/pochav-nenavydity-voleybol-lider-zbirnoyi-ukrayiny-pro-vtratu-ihrovoyi-praktyky-tryvohu-losano-ta-mozhlyvyy-vidkhid-976964",
+     "source": "Футбол 24"
+    },
+    {
+     "title": "Рауль Лосано про роль Плотницького в Перуджі та проблеми з Тупчієм у команді",
+     "url": "https://112.ua/raul-losano-pro-rol-plotnickogo-v-perudzi-ta-problemi-z-tupciem-u-komandi-198878",
+     "source": "112.ua"
+    }
+   ],
+   "channel": "sport",
+   "score": 1,
+   "matched": [
+    "збірн"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 5
+  }
+ ]
+}

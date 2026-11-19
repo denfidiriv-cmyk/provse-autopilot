@@ -1,130 +1,99 @@
 {
- "dim": [
-  {
-   "query": "квартира",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-19T02:40:00-08:00",
-   "news": [
-    {
-     "title": "До 57 желающих на одну квартиру: где в Украине больше вырос спрос на аренду жилья",
-     "url": "https://minfin.com.ua/2026/11/19/185890102/",
-     "source": "Мінфін"
-    },
-    {
-     "title": "Аренда квартир на западе Украины за полгода подорожала до 44%: где цены выросли больше всего",
-     "url": "https://www.rbc.ua/ukr/news/orenda-kvartir-zahodi-ukrayini-piv-roku-podorozhchala-1795001220.html",
-     "source": "РБК-Україна"
-    },
-    {
-     "title": "Планируют купить жилье, но денег не хватает даже на бытовую технику: что показал опрос",
-     "url": "https://24tv.ua/realestate24/ru/pokupka-i-arenda-zhilja-kakie-finansovye-vozmozhnosti-u-ukraincev-v-2026-godu_n3182954",
-     "source": "24 Канал"
-    }
-   ],
-   "channel": "dim",
-   "score": 4,
-   "matched": [
-    "квартир"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 9
-  }
- ],
- "polityka": [
-  {
-   "query": "саміт",
-   "traffic": 5000,
-   "traffic_label": "5000+",
-   "published": "2026-11-19T02:20:00-08:00",
-   "news": [
-    {
-     "title": "Сі Цзіньпін на зустрічі з Трампом і Путіним зробив несподівану заяву про ядерну зброю",
-     "url": "https://tsn.ua/politika/si-tszinpin-na-zustrichi-z-trampom-i-putinym-zrobyv-nespodivanu-zaiavu-pro-iadernu-zbroiu-3221107.html",
-     "source": "ТСН"
-    },
-    {
-     "title": "У Кремлі стверджують, що Україна була головною темою зустрічі Путіна і Трампа",
-     "url": "https://www.pravda.com.ua/news/2026/11/19/8063570/",
-     "source": "Українська правда"
-    },
-    {
-     "title": "Тристороння зустріч у Шеньчжені: Трамп заявив про новий курс США, Сі Цзіньпін закликав знищити ядерну зброю, Путін говорив про війну — головне",
-     "url": "https://nv.ua/ukr/world/geopolitics/si-czinpin-tramp-i-putina-v-shenchzhene-klyuchevye-zayavleniya-o-yadernom-razoruzhenii-i-voyne-v-ukraine-50660568.html",
-     "source": "NV"
-    }
-   ],
-   "channel": "polityka",
-   "score": 4,
-   "matched": [
-    "саміт",
-    "трамп"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 9
-  },
-  {
-   "query": "міністр оборони",
-   "traffic": 500,
-   "traffic_label": "500+",
-   "published": "2026-11-19T00:50:00-08:00",
-   "news": [
-    {
-     "title": "Заступник глави Пентагону покинув \"Рамштайн\" після критики України через удари по РФ",
-     "url": "https://www.pravda.com.ua/news/2026/11/19/8063565/",
-     "source": "Українська правда"
-    },
-    {
-     "title": "Топ з Пентагону покинув зустріч з НАТО після дорікання Україні - Telegraph",
-     "url": "https://unn.ua/news/strateh-pentahonu-pokynuv-zustrich-z-nato-pislia-krytyky-udariv-ukrainy-po-rf-telegraph",
-     "source": "Українські Національні Новини (УНН)"
-    },
-    {
-     "title": "«Фактично стали на бік Росії». Високопосадовець Пентагону розкритикував Україну за далекобійні удари і залишив Рамштайн — The Telegraph",
-     "url": "https://nv.ua/ukr/world/geopolitics/ssha-rozkritikuvali-udari-ukrajini-po-rosiji-oburennya-soyuznikiv-na-zustrichi-v-bryusseli-50660481.html",
-     "source": "NV"
-    }
-   ],
-   "channel": "polityka",
-   "score": 4,
-   "matched": [
-    "міністр",
-    "нато"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 8
-  }
- ],
  "ekonomika": [
   {
-   "query": "демуринський гірничо-збагачувальний комбінат",
+   "query": "європейська комісія",
    "traffic": 200,
    "traffic_label": "200+",
-   "published": "2026-11-19T01:40:00-08:00",
+   "published": "2026-11-19T11:30:00-08:00",
    "news": [
     {
-     "title": "«Один з найбільших в Європі». Україна знову спробує продати конфіскований у російського політика завод",
-     "url": "https://biz.nv.ua/ukr/markets/ukrajina-znovu-sprobuye-prodati-konfiskovaniy-u-politika-z-rf-odin-z-naybilshih-zavodiv-v-yevropi-50660590.html",
-     "source": "NV Бизнес"
+     "title": "Новини 18 листопада: план ЄС на 45 мільярдів євро, обвал нафтопереробки РФ",
+     "url": "https://epravda.com.ua/finances/finansuvannya-yes-naftopererobka-rf-kurs-yevro-golovne-za-18-listopada-827793/",
+     "source": "Економічна правда"
     },
     {
-     "title": "Аукціон із продажу націоналізованого Демуринського ГЗК не відбувся й після зниження ціни вдвічі",
-     "url": "https://interfax.com.ua/news/economic/1238831.html",
-     "source": "Інтерфакс-Україна"
+     "title": "Пропозиція виділити Україні додаткові €45 мільярдів має широку підтримку в Європі - Мерц",
+     "url": "https://www.ukrinform.ua/rubric-economy/4186538-propozicia-vidiliti-ukraini-dodatkovi-45-milardiv-mae-siroku-pidtrimku-v-evropi-merc.html",
+     "source": "Укрінформ - актуальні новини України та світу"
     },
     {
-     "title": "ДемГЗК і Мотордеталь-Конотоп виставили на аукціон з можливістю дисконту 99%",
-     "url": "https://biz.liga.net/ua/industry/news/demhzk-i-motordetal-konotop-vystavyly-na-auktsion-z-mozhlyvistiu-dyskontu-99",
-     "source": "LIGA.net"
+     "title": "Фон дер Ляєн переконана, що Угорщина, Словаччина, Болгарія та Чехія приєднаються до кредиту Україні",
+     "url": "https://www.pravda.com.ua/news/2026/11/18/8063467/",
+     "source": "Українська правда"
     }
    ],
    "channel": "ekonomika",
-   "score": 1,
+   "score": 5,
    "matched": [
+    "кредит",
     "євро"
    ],
    "skipped_reason": "",
    "extra_sources": 10
+  }
+ ],
+ "svit": [
+  {
+   "query": "радиационный пояс",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-19T09:30:00-08:00",
+   "news": [
+    {
+     "title": "После геомагнитной бури. В 2024 году вокруг Земли впервые зафиксировали четыре радиационных пояса",
+     "url": "https://techno.nv.ua/popscience/radiacionnye-poyasa-zemli-posle-buri-2024-goda-voznikli-chetyre-vmesto-dvuh-50660585.html",
+     "source": "NV Техно"
+    },
+    {
+     "title": "Землю окружили четыре радиационных пояса вместо двух: солнечная буря перестроила защиту планеты",
+     "url": "https://www.pravda.ru/news/science/2446005-earth-radiation-belts-anomaly/",
+     "source": "Правда.Ру"
+    },
+    {
+     "title": "Мощнейшая солнечная буря изменила радиационную защиту Земли: что обнаружили ученые",
+     "url": "https://bb.lv/statja/tehno/2026/11/19/moshhneisaia-solnecnaia-buria-izmenila-radiacionnuiu-zashhitu-zemli-cto-obnaruzili-ucenye",
+     "source": "BB.LV"
+    }
+   ],
+   "channel": "svit",
+   "score": 1,
+   "matched": [
+    "ученые"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 2
+  }
+ ],
+ "sport": [
+  {
+   "query": "рауль лосано",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-19T09:30:00-08:00",
+   "news": [
+    {
+     "title": "ТУПЧІЙ – про Барком, можливий трансфер, збірну України та слова Лосано",
+     "url": "https://sport.ua/uk/news/926241-tupchiy-o-barkome-vozmozhnom-transfere-sbornoy-ukrainy-i-slovah-losano",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Почав ненавидіти волейбол: лідер збірної України – про втрату ігрової практики, тривогу Лосано та можливий відхід",
+     "url": "https://football24.ua/sport/news/pochav-nenavydity-voleybol-lider-zbirnoyi-ukrayiny-pro-vtratu-ihrovoyi-praktyky-tryvohu-losano-ta-mozhlyvyy-vidkhid-976964",
+     "source": "Футбол 24"
+    },
+    {
+     "title": "Рауль Лосано про роль Плотницького в Перуджі та проблеми з Тупчієм у команді",
+     "url": "https://112.ua/raul-losano-pro-rol-plotnickogo-v-perudzi-ta-problemi-z-tupciem-u-komandi-198878",
+     "source": "112.ua"
+    }
+   ],
+   "channel": "sport",
+   "score": 1,
+   "matched": [
+    "збірн"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 5
   }
  ]
 }
