@@ -100,5 +100,11 @@
   "channel": "sport",
   "cost": 0.49733720000000003,
   "url": "https://youtube.com/shorts/3VzDvTsZflM"
+ },
+ {
+  "at": "2026-11-20T03:05:38.016723",
+  "query": "радар",
+  "channel": "polityka",
+  "cost": 0.0862015
  }
 ]
