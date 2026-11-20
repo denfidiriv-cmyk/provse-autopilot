@@ -1,0 +1,99 @@
+{
+ "ekonomika": [
+  {
+   "query": "біткоїн",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-20T01:50:00-08:00",
+   "news": [
+    {
+     "title": "Рекордний відтік із фонду BlackRock обвалив біткоїн нижче $62 000: інвестори забрали $541 млн за день",
+     "url": "https://minfin.com.ua/ua/2026/11/20/185996567/",
+     "source": "Мінфін"
+    },
+    {
+     "title": "Біткоїн подешевшав вдвічі від свого максимуму. Що робити тепер: докупити, зачекати чи продати?",
+     "url": "https://delo.ua/crypto/bitkoyin-podesevsav-vdvici-vid-svogo-maksimumu-shho-robiti-teper-dokupiti-zacekati-ci-prodati-476708/",
+     "source": "Delo.ua"
+    },
+    {
+     "title": "Біткоїн обвалився до $63 500",
+     "url": "https://ua.korrespondent.net/business/financial/4930089-bitkoin-obvalyvsia-do-63-500",
+     "source": "Korrespondent.net"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 4,
+   "matched": [
+    "біткоїн"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  }
+ ],
+ "dim": [
+  {
+   "query": "отключение света одесса",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-20T00:20:00-08:00",
+   "news": [
+    {
+     "title": "Одессу обесточивают до вечера: какие районы затронет ремонт сетей",
+     "url": "https://odesa.znaj.ua/ru/574504-odesu-znestrumlyuyut-do-vechora-yaki-rayoni-zachepit-remont-merezh",
+     "source": "Знай.ua"
+    },
+    {
+     "title": "Отключение света в Одессе 20 ноября | Графики отключений",
+     "url": "https://grad.ua/ru/blackout/106045-otkljuchenija-sveta-20-nojabrja-grafik-dlja-odessy-i-oblasti-po-gruppam.html",
+     "source": "Телерадіокомпанія «ГРАД"
+    },
+    {
+     "title": "Килия и еще две общины Измаильского района из-за ремонтных работ остались без света",
+     "url": "https://ru.bessarabiainform.com/2026/11/kiliya-ta-shhe-dvi-gromady-izmayilskogo-rajonu-cherez-remontni-roboty-zalyshylysya-bez-svitla/",
+     "source": "Бессарабия ИНФОРМ"
+    }
+   ],
+   "channel": "dim",
+   "score": 10,
+   "matched": [
+    "график",
+    "отключен",
+    "ремонт",
+    "свет"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  },
+  {
+   "query": "газовщик",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-20T00:20:00-08:00",
+   "news": [
+    {
+     "title": "Газовщики будут проверять газовые плиты и колонки по новым правилам",
+     "url": "https://www.banki.ru/news/lenta/?id=11029139",
+     "source": "Банки.ру"
+    },
+    {
+     "title": "Газовщики постучат дважды: Минстрой меняет правила проверки плит и колонок",
+     "url": "https://ngnovoros.ru/polza/84128",
+     "source": "Наша Газета Новороссийск"
+    },
+    {
+     "title": "Обновленные Правила пользования газом: главные изменения для жильцов и владельцев домов",
+     "url": "http://kushva-online.ru/archive/news/11324/",
+     "source": "Кушва-онлайн"
+    }
+   ],
+   "channel": "dim",
+   "score": 4,
+   "matched": [
+    "газов"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 4
+  }
+ ]
+}
