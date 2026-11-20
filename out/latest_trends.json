@@ -1,99 +1,162 @@
 {
- "ekonomika": [
+ "sport": [
   {
-   "query": "біткоїн",
-   "traffic": 100,
-   "traffic_label": "100+",
-   "published": "2026-11-20T01:50:00-08:00",
+   "query": "баварія – кельн",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-20T10:40:00-08:00",
    "news": [
     {
-     "title": "Рекордний відтік із фонду BlackRock обвалив біткоїн нижче $62 000: інвестори забрали $541 млн за день",
-     "url": "https://minfin.com.ua/ua/2026/11/20/185996567/",
-     "source": "Мінфін"
+     "title": "\"Баварія\" отримала підсилення перед \"Кельном\", але втратила одразу п'ятьох гравців",
+     "url": "https://sport.rbc.ua/rus/football/bavariya-otrimala-pidsilennya-pered-kelnom-1795200561.html",
+     "source": "РБК-Україна"
     },
     {
-     "title": "Біткоїн подешевшав вдвічі від свого максимуму. Що робити тепер: докупити, зачекати чи продати?",
-     "url": "https://delo.ua/crypto/bitkoyin-podesevsav-vdvici-vid-svogo-maksimumu-shho-robiti-teper-dokupiti-zacekati-ci-prodati-476708/",
-     "source": "Delo.ua"
+     "title": "Баварія – Кельн. Прогноз і анонс на матч 10-го туру Бундесліги",
+     "url": "https://sport.ua/uk/news/926214-bavariya-keln-prognoz-i-anons-na-match-10-go-turu-bundesligi",
+     "source": "Sport.ua"
     },
     {
-     "title": "Біткоїн обвалився до $63 500",
-     "url": "https://ua.korrespondent.net/business/financial/4930089-bitkoin-obvalyvsia-do-63-500",
-     "source": "Korrespondent.net"
+     "title": "Футбольний вікенд , Сергій Гусак, 19 ноября 2026 г.",
+     "url": "https://dynamo.kiev.ua/blog/743755-futbolnij-vkend-",
+     "source": "Динамо Киев от Шурика"
     }
    ],
-   "channel": "ekonomika",
-   "score": 4,
+   "channel": "sport",
+   "score": 2,
    "matched": [
-    "біткоїн"
+    "матч",
+    "футбол"
    ],
    "skipped_reason": "",
    "extra_sources": 8
-  }
- ],
- "dim": [
-  {
-   "query": "отключение света одесса",
-   "traffic": 500,
-   "traffic_label": "500+",
-   "published": "2026-11-20T00:20:00-08:00",
-   "news": [
-    {
-     "title": "Одессу обесточивают до вечера: какие районы затронет ремонт сетей",
-     "url": "https://odesa.znaj.ua/ru/574504-odesu-znestrumlyuyut-do-vechora-yaki-rayoni-zachepit-remont-merezh",
-     "source": "Знай.ua"
-    },
-    {
-     "title": "Отключение света в Одессе 20 ноября | Графики отключений",
-     "url": "https://grad.ua/ru/blackout/106045-otkljuchenija-sveta-20-nojabrja-grafik-dlja-odessy-i-oblasti-po-gruppam.html",
-     "source": "Телерадіокомпанія «ГРАД"
-    },
-    {
-     "title": "Килия и еще две общины Измаильского района из-за ремонтных работ остались без света",
-     "url": "https://ru.bessarabiainform.com/2026/11/kiliya-ta-shhe-dvi-gromady-izmayilskogo-rajonu-cherez-remontni-roboty-zalyshylysya-bez-svitla/",
-     "source": "Бессарабия ИНФОРМ"
-    }
-   ],
-   "channel": "dim",
-   "score": 10,
-   "matched": [
-    "график",
-    "отключен",
-    "ремонт",
-    "свет"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 9
   },
   {
-   "query": "газовщик",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-20T00:20:00-08:00",
+   "query": "бавария – кёльн",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-20T10:40:00-08:00",
    "news": [
     {
-     "title": "Газовщики будут проверять газовые плиты и колонки по новым правилам",
-     "url": "https://www.banki.ru/news/lenta/?id=11029139",
-     "source": "Банки.ру"
+     "title": "\"Бавария\" получила усиление перед \"Кельном\", но потеряла сразу пятерых игроков",
+     "url": "https://sport.rbc.ua/ukr/football/bavariya-otrimala-pidsilennya-pered-kelnom-1795200561.html",
+     "source": "РБК-Україна"
     },
     {
-     "title": "Газовщики постучат дважды: Минстрой меняет правила проверки плит и колонок",
-     "url": "https://ngnovoros.ru/polza/84128",
-     "source": "Наша Газета Новороссийск"
+     "title": "Чемпионат Германии: «Бавария» – «Кельн»",
+     "url": "https://ua.tribuna.com/football/1000000393958-chempionat-nimechchyny-bavariya-keln/",
+     "source": "Tribuna.com"
     },
     {
-     "title": "Обновленные Правила пользования газом: главные изменения для жильцов и владельцев домов",
-     "url": "http://kushva-online.ru/archive/news/11324/",
-     "source": "Кушва-онлайн"
+     "title": "«Крылья Советов» ещё не проигрывали на выезде 20.11.2026",
+     "url": "https://legalbet.ru/daily/787844",
+     "source": "legalbet.ru"
     }
    ],
-   "channel": "dim",
-   "score": 4,
+   "channel": "sport",
+   "score": 1,
    "matched": [
-    "газов"
+    "чемпион"
    ],
    "skipped_reason": "",
-   "extra_sources": 4
+   "extra_sources": 8
+  },
+  {
+   "query": "атлетік – еспаньйол",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-20T11:40:00-08:00",
+   "news": [
+    {
+     "title": "Баварія - Кельн: онлайн матчу, результат і статистика - Бундесліга, 20.11.2026",
+     "url": "https://sportnews.24tv.ua/match/253517-bavariya-keln/",
+     "source": "24 Канал"
+    },
+    {
+     "title": "Англія Хорватія – результат і огляд матчу 5 туру Ліги націй – Футбол 24",
+     "url": "https://football24.ua/news/anhliya-khorvatiya-rezultat-i-oglyad-matchu-5-turu-lihy-natsiy-975714",
+     "source": "Футбол 24"
+    },
+    {
+     "title": "Кейн – 6-й найкращий бомбардир в історії національних збірних",
+     "url": "https://sport.ua/uk/news/925425-keyn-6-y-naykrashchiy-bombardir-v-istorii-natsionalnih-zbirnih",
+     "source": "Sport.ua"
+    }
+   ],
+   "channel": "sport",
+   "score": 3,
+   "matched": [
+    "збірн",
+    "матч",
+    "футбол"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 7
+  }
+ ],
+ "yizha": [
+  {
+   "query": "кривий ріг",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-20T11:00:00-08:00",
+   "news": [
+    {
+     "title": "ЗСУ попереджали про балістику у напрямку Кривого Рогу. Влада повідомляє про постраждалих",
+     "url": "https://www.radiosvoboda.org/a/news-kryvyy-rih-udar-rf-postrazhdali/33902785.html",
+     "source": "Радіо Свобода"
+    },
+    {
+     "title": "Війська РФ завдали удару по Кривому Розі: відомо про щонайменше вісім постраждалих",
+     "url": "https://lb.ua/society/2026/11/20/782676_viyska_rf_zavdali_udaru_krivomu.html",
+     "source": "LB.ua"
+    },
+    {
+     "title": "Росія вдарила балістикою по центру Кривого Рогу: пошкоджено ресторан, 20 людей поранено",
+     "url": "https://nv.ua/ukr/ukraine/events/ataka-na-kriviy-rig-20-listopada-rosiya-vdarila-balistikoyu-po-centru-mista-novini-ukrajini-50661136.html",
+     "source": "NV"
+    }
+   ],
+   "channel": "yizha",
+   "score": 1,
+   "matched": [
+    "ресторан"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  }
+ ],
+ "polityka": [
+  {
+   "query": "сполучені штати америки",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-20T10:20:00-08:00",
+   "news": [
+    {
+     "title": "У декларації саміту Трампа, Сі та Путіна мав бути розділ про Україну, але США його вилучили – Стубб",
+     "url": "https://www.pravda.com.ua/news/2026/11/20/8063799/",
+     "source": "Українська правда"
+    },
+    {
+     "title": "Сі Цзіньпін переграв Трампа і принизив Путіна: що насправді вирішили на зустрічі в Китаї",
+     "url": "https://24tv.ua/geopolitics/zustrich-trampa-si-putina-kitayi-chomu-kreml-opinivsya-roli-tretogo_n3189433",
+     "source": "24 Канал"
+    },
+    {
+     "title": "США прибрали пункт про Україну з «мирної декларації» Трампа, Сі та путіна — Стубб",
+     "url": "https://hromadske.ua/viyna/274706-ssha-prybraly-punkt-pro-ukrayinu-z-myrnoyi-deklaratsiyi-trampa-si-ta-putina-stubb",
+     "source": "Hromadske"
+    }
+   ],
+   "channel": "polityka",
+   "score": 2,
+   "matched": [
+    "саміт",
+    "трамп"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 6
   }
  ]
 }
