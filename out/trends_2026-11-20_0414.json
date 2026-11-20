@@ -1,0 +1,66 @@
+{
+ "svit": [
+  {
+   "query": "погода львів",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-19T16:50:00-08:00",
+   "news": [
+    {
+     "title": "Без істотних опадів: якою буде погода у Львові та області 19 листопада",
+     "url": "https://suspilne.media/lviv/1454561-bez-istotnih-opadiv-akou-bude-pogoda-u-lvovi-ta-oblasti-19-listopada/",
+     "source": "Суспільне | Новини"
+    },
+    {
+     "title": "Погода у Львові та області 20 листопада: похолодання, прогноз – накриють сильні дощі, карта – ZAXID.NET",
+     "url": "https://zaxid.net/poholodannya_priyde_iz_silnimi_doshhami_yakoyu_bude_pogoda_u_lvovi_ta_oblasti_20_listopada_n1650529",
+     "source": "Zaxid.net"
+    },
+    {
+     "title": "Проливний дощ, пориви вітру і зниження температури: завтра на Львівщині прогнозують негоду",
+     "url": "https://leopolis.news/prolyvnyj-doshh-poryvy-vitru-i-znyzhennya-temperatury-zavtra-na-lvivshhyni-prognozuyut-negodu/",
+     "source": "Leopolis.news"
+    }
+   ],
+   "channel": "svit",
+   "score": 4,
+   "matched": [
+    "погод"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 7
+  }
+ ],
+ "ekonomika": [
+  {
+   "query": "banks",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-19T16:30:00-08:00",
+   "news": [
+    {
+     "title": "Deutsche Bank закривав низку рахунків компаній Ахметова через ризики фінзлочинів",
+     "url": "https://epravda.com.ua/finances/deutsche-bank-pripinyav-spivpracyu-z-deyakimi-kompaniyami-ahmetova-u-2019-roci-827839/",
+     "source": "Економічна правда"
+    },
+    {
+     "title": "Витік Deutsche Bank: Російська мережа з відмивання коштів могла використовувати банк соратників Віктора Орбана в Угорщині",
+     "url": "https://babel.ua/news/131869-vitik-deutsche-bank-rosiyska-merezha-z-vidmivannya-koshtiv-mogla-vikoristovuvati-bank-soratnikiv-viktora-orbana-v-ugorshchini",
+     "source": "Бабель"
+    },
+    {
+     "title": "Трамп, Епштейн та російські олігархи. Журналісти розкрили 15 мільйонів файлів Deutsche Bank",
+     "url": "https://hromadske.ua/svit/274536-tramp-epshteyn-ta-rosiyski-oliharkhy-zurnalisty-rozkryly-15-milyoniv-fayliv-deutsche-bank",
+     "source": "Hromadske"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 1,
+   "matched": [
+    "банк"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  }
+ ]
+}

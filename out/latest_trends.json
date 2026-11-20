@@ -1,99 +1,66 @@
 {
- "ekonomika": [
-  {
-   "query": "європейська комісія",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-19T11:30:00-08:00",
-   "news": [
-    {
-     "title": "Новини 18 листопада: план ЄС на 45 мільярдів євро, обвал нафтопереробки РФ",
-     "url": "https://epravda.com.ua/finances/finansuvannya-yes-naftopererobka-rf-kurs-yevro-golovne-za-18-listopada-827793/",
-     "source": "Економічна правда"
-    },
-    {
-     "title": "Пропозиція виділити Україні додаткові €45 мільярдів має широку підтримку в Європі - Мерц",
-     "url": "https://www.ukrinform.ua/rubric-economy/4186538-propozicia-vidiliti-ukraini-dodatkovi-45-milardiv-mae-siroku-pidtrimku-v-evropi-merc.html",
-     "source": "Укрінформ - актуальні новини України та світу"
-    },
-    {
-     "title": "Фон дер Ляєн переконана, що Угорщина, Словаччина, Болгарія та Чехія приєднаються до кредиту Україні",
-     "url": "https://www.pravda.com.ua/news/2026/11/18/8063467/",
-     "source": "Українська правда"
-    }
-   ],
-   "channel": "ekonomika",
-   "score": 5,
-   "matched": [
-    "кредит",
-    "євро"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 10
-  }
- ],
  "svit": [
   {
-   "query": "радиационный пояс",
-   "traffic": 1000,
-   "traffic_label": "1000+",
-   "published": "2026-11-19T09:30:00-08:00",
+   "query": "погода львів",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-19T16:50:00-08:00",
    "news": [
     {
-     "title": "После геомагнитной бури. В 2024 году вокруг Земли впервые зафиксировали четыре радиационных пояса",
-     "url": "https://techno.nv.ua/popscience/radiacionnye-poyasa-zemli-posle-buri-2024-goda-voznikli-chetyre-vmesto-dvuh-50660585.html",
-     "source": "NV Техно"
+     "title": "Без істотних опадів: якою буде погода у Львові та області 19 листопада",
+     "url": "https://suspilne.media/lviv/1454561-bez-istotnih-opadiv-akou-bude-pogoda-u-lvovi-ta-oblasti-19-listopada/",
+     "source": "Суспільне | Новини"
     },
     {
-     "title": "Землю окружили четыре радиационных пояса вместо двух: солнечная буря перестроила защиту планеты",
-     "url": "https://www.pravda.ru/news/science/2446005-earth-radiation-belts-anomaly/",
-     "source": "Правда.Ру"
+     "title": "Погода у Львові та області 20 листопада: похолодання, прогноз – накриють сильні дощі, карта – ZAXID.NET",
+     "url": "https://zaxid.net/poholodannya_priyde_iz_silnimi_doshhami_yakoyu_bude_pogoda_u_lvovi_ta_oblasti_20_listopada_n1650529",
+     "source": "Zaxid.net"
     },
     {
-     "title": "Мощнейшая солнечная буря изменила радиационную защиту Земли: что обнаружили ученые",
-     "url": "https://bb.lv/statja/tehno/2026/11/19/moshhneisaia-solnecnaia-buria-izmenila-radiacionnuiu-zashhitu-zemli-cto-obnaruzili-ucenye",
-     "source": "BB.LV"
+     "title": "Проливний дощ, пориви вітру і зниження температури: завтра на Львівщині прогнозують негоду",
+     "url": "https://leopolis.news/prolyvnyj-doshh-poryvy-vitru-i-znyzhennya-temperatury-zavtra-na-lvivshhyni-prognozuyut-negodu/",
+     "source": "Leopolis.news"
     }
    ],
    "channel": "svit",
-   "score": 1,
+   "score": 4,
    "matched": [
-    "ученые"
+    "погод"
    ],
    "skipped_reason": "",
-   "extra_sources": 2
+   "extra_sources": 7
   }
  ],
- "sport": [
+ "ekonomika": [
   {
-   "query": "рауль лосано",
+   "query": "banks",
    "traffic": 100,
    "traffic_label": "100+",
-   "published": "2026-11-19T09:30:00-08:00",
+   "published": "2026-11-19T16:30:00-08:00",
    "news": [
     {
-     "title": "ТУПЧІЙ – про Барком, можливий трансфер, збірну України та слова Лосано",
-     "url": "https://sport.ua/uk/news/926241-tupchiy-o-barkome-vozmozhnom-transfere-sbornoy-ukrainy-i-slovah-losano",
-     "source": "Sport.ua"
+     "title": "Deutsche Bank закривав низку рахунків компаній Ахметова через ризики фінзлочинів",
+     "url": "https://epravda.com.ua/finances/deutsche-bank-pripinyav-spivpracyu-z-deyakimi-kompaniyami-ahmetova-u-2019-roci-827839/",
+     "source": "Економічна правда"
     },
     {
-     "title": "Почав ненавидіти волейбол: лідер збірної України – про втрату ігрової практики, тривогу Лосано та можливий відхід",
-     "url": "https://football24.ua/sport/news/pochav-nenavydity-voleybol-lider-zbirnoyi-ukrayiny-pro-vtratu-ihrovoyi-praktyky-tryvohu-losano-ta-mozhlyvyy-vidkhid-976964",
-     "source": "Футбол 24"
+     "title": "Витік Deutsche Bank: Російська мережа з відмивання коштів могла використовувати банк соратників Віктора Орбана в Угорщині",
+     "url": "https://babel.ua/news/131869-vitik-deutsche-bank-rosiyska-merezha-z-vidmivannya-koshtiv-mogla-vikoristovuvati-bank-soratnikiv-viktora-orbana-v-ugorshchini",
+     "source": "Бабель"
     },
     {
-     "title": "Рауль Лосано про роль Плотницького в Перуджі та проблеми з Тупчієм у команді",
-     "url": "https://112.ua/raul-losano-pro-rol-plotnickogo-v-perudzi-ta-problemi-z-tupciem-u-komandi-198878",
-     "source": "112.ua"
+     "title": "Трамп, Епштейн та російські олігархи. Журналісти розкрили 15 мільйонів файлів Deutsche Bank",
+     "url": "https://hromadske.ua/svit/274536-tramp-epshteyn-ta-rosiyski-oliharkhy-zurnalisty-rozkryly-15-milyoniv-fayliv-deutsche-bank",
+     "source": "Hromadske"
     }
    ],
-   "channel": "sport",
+   "channel": "ekonomika",
    "score": 1,
    "matched": [
-    "збірн"
+    "банк"
    ],
    "skipped_reason": "",
-   "extra_sources": 5
+   "extra_sources": 8
   }
  ]
 }
