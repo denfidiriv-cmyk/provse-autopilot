@@ -1,0 +1,71 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t20/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t20/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "sumo",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t20/src/sumo",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t20/jobs/sumo",
+ "w1": 42,
+ "end_w": 38,
+ "bg": "#1a0909",
+ "bg2": "#5a1a1a",
+ "accent": "#ffd23f",
+ "mood": "upbeat",
+ "end_text": [
+  "УСЕ ПРО",
+  "СПОРТ"
+ ],
+ "end_acc": "СПОРТ",
+ "keywords": [
+  "поразок.",
+  "межі.",
+  "озекі,",
+  "обидві",
+  "чотири"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:s01.jpg",
+   "6 ПЕРЕМОГ, 7 ПОРАЗОК",
+   "ПОРАЗОК"
+  ],
+  [
+   4,
+   "img:s05.jpg",
+   "АОНІШІКІ НА МЕЖІ",
+   "МЕЖІ"
+  ],
+  [
+   8,
+   "vid:sumo_1.mp4",
+   "",
+   ""
+  ],
+  [
+   15,
+   "img:s04.jpg",
+   "ТРЕБА 2 ПЕРЕМОГИ З 2",
+   "2"
+  ],
+  [
+   21,
+   "vid:lantern_1.mp4",
+   "",
+   ""
+  ],
+  [
+   25,
+   "img:s02.jpg",
+   "СУБОТА: ВАКАМОТОХАРУ",
+   "СУБОТА"
+  ],
+  [
+   30,
+   "img:s03.jpg",
+   "4 ПЕРЕМОГИ З 5",
+   "4"
+  ]
+ ]
+}

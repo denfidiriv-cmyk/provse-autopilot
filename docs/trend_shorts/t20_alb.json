@@ -1,0 +1,59 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t20/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t20/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "alb",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t20/src/alb",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t20/jobs/alb",
+ "w1": 36,
+ "end_w": 32,
+ "bg": "#0a1020",
+ "bg2": "#13305a",
+ "accent": "#ffc400",
+ "mood": "epic",
+ "end_text": [
+  "УСЕ ПРО",
+  "ПОЛІТИКУ"
+ ],
+ "end_acc": "ПОЛІТИКУ",
+ "keywords": [
+  "війну.",
+  "негайно.",
+  "австралії",
+  "путіна",
+  "ціни"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:a01.jpg",
+   "«ЗУПИНІТЬ ВІЙНУ НЕГАЙНО»",
+   "НЕГАЙНО"
+  ],
+  [
+   5,
+   "img:a02.jpg",
+   "ПРЕМ'ЄР АВСТРАЛІЇ",
+   "АВСТРАЛІЇ"
+  ],
+  [
+   10,
+   "img:r10v.jpg",
+   "ПРЯМО ДО ПУТІНА",
+   "ПУТІНА"
+  ],
+  [
+   16,
+   "img:z04.jpg",
+   "САМІТ АТЕС У КИТАЇ",
+   "АТЕС"
+  ],
+  [
+   22,
+   "vid:ship_1.mp4",
+   "ВІЙНА РОЗГАНЯЄ ЦІНИ",
+   "ЦІНИ"
+  ]
+ ]
+}

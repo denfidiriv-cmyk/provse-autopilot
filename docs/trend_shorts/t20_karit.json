@@ -1,0 +1,71 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t20/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t20/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "karit",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t20/src/karit",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t20/jobs/karit",
+ "w1": 45,
+ "end_w": 41,
+ "bg": "#0b1a10",
+ "bg2": "#244a2c",
+ "accent": "#5dfc8d",
+ "mood": "warm",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЕКОНОМІКУ"
+ ],
+ "end_acc": "ЕКОНОМІКУ",
+ "keywords": [
+  "нюанс.",
+  "харкова",
+  "ходунки",
+  "інвалідністю",
+  "багатодітні,"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:c04.jpg",
+   "3000 ГРН ВІД КАРІТАСУ",
+   "3000"
+  ],
+  [
+   5,
+   "vid:money_1.mp4",
+   "АЛЕ Є НЮАНС",
+   "НЮАНС"
+  ],
+  [
+   11,
+   "img:c01.jpg",
+   "ЛИШЕ ДЛЯ ХАРКОВА",
+   "ХАРКОВА"
+  ],
+  [
+   18,
+   "img:c02.jpg",
+   "ХОДУНКИ, СЛУХОВІ АПАРАТИ",
+   "ХОДУНКИ"
+  ],
+  [
+   21,
+   "img:c03.jpg",
+   "",
+   ""
+  ],
+  [
+   26,
+   "vid:wheelchair_1.mp4",
+   "I-II ГРУПА ІНВАЛІДНОСТІ",
+   "I-II"
+  ],
+  [
+   33,
+   "vid:elderly_1.mp4",
+   "БАГАТОДІТНІ, ВАГІТНІ, 55+",
+   "55+"
+  ]
+ ]
+}

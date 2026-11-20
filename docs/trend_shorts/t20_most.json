@@ -1,0 +1,65 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t20/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t20/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "most",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t20/src/most",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t20/jobs/most",
+ "w1": 41,
+ "end_w": 37,
+ "bg": "#08131f",
+ "bg2": "#1f3b57",
+ "accent": "#4fd1ff",
+ "mood": "explain",
+ "end_text": [
+  "УСЕ ПРО",
+  "АВТО"
+ ],
+ "end_acc": "АВТО",
+ "keywords": [
+  "пошкоджені",
+  "проїхати.",
+  "лише",
+  "відкриті.",
+  "потреби"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:m01.jpg",
+   "3 МОСТИ ПОШКОДЖЕНІ",
+   "ПОШКОДЖЕНІ"
+  ],
+  [
+   7,
+   "img:m03.jpg",
+   "НА ЛІВИЙ БЕРЕГ НЕ ПРОЇХАТИ",
+   "ПРОЇХАТИ"
+  ],
+  [
+   12,
+   "img:m02.jpg",
+   "",
+   ""
+  ],
+  [
+   17,
+   "vid:bus_1.mp4",
+   "ПІВНІЧНИЙ: ЛИШЕ ГРОМАДСЬКИЙ",
+   "ЛИШЕ"
+  ],
+  [
+   22,
+   "img:m05.jpg",
+   "ДАРНИЦЬКИЙ, МЕТРО, ПАТОНА: ВІДКРИТО",
+   "ВІДКРИТО"
+  ],
+  [
+   29,
+   "vid:traffic_1.mp4",
+   "БЕЗ ПОТРЕБИ НЕ ЇДЬТЕ",
+   "ЇДЬТЕ"
+  ]
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t20/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t20/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "pol",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t20/src/pol",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t20/jobs/pol",
+ "w1": 35,
+ "end_w": 31,
+ "bg": "#140808",
+ "bg2": "#4a1418",
+ "accent": "#ffd23f",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "СВІТ"
+ ],
+ "end_acc": "СВІТ",
+ "keywords": [
+  "москалів",
+  "польщі.",
+  "постраждав.",
+  "випадкова:",
+  "коаліції"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:p01.jpg",
+   "2 РАКЕТИ МОСКАЛІВ У ПОЛЬЩІ",
+   "ПОЛЬЩІ"
+  ],
+  [
+   8,
+   "img:p02.jpg",
+   "Х-101",
+   "Х-101"
+  ],
+  [
+   14,
+   "img:p03.jpg",
+   "НІХТО НЕ ПОСТРАЖДАВ",
+   "НІХТО"
+  ],
+  [
+   21,
+   "img:p05.jpg",
+   "«ДАТА НЕ ВИПАДКОВА»",
+   "ВИПАДКОВА"
+  ],
+  [
+   28,
+   "img:p04.jpg",
+   "НАВЧАННЯ КОАЛІЦІЇ ОХОЧИХ",
+   "КОАЛІЦІЇ"
+  ]
+ ]
+}
