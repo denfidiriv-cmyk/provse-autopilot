@@ -113,5 +113,12 @@
   "channel": "dim",
   "cost": 0.4405721,
   "url": "https://youtube.com/shorts/CT8M3H1IV6Y"
+ },
+ {
+  "at": "2026-11-21T01:32:27.906787",
+  "query": "аль-ахли джидда – аль-наср турнирная таблица",
+  "channel": "sport",
+  "cost": 0.4636525,
+  "url": "https://youtube.com/shorts/zST_4ROFLPk"
  }
 ]
