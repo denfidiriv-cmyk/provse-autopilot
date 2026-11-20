@@ -106,5 +106,12 @@
   "query": "радар",
   "channel": "polityka",
   "cost": 0.0862015
+ },
+ {
+  "at": "2026-11-20T10:40:47.061134",
+  "query": "20 ноября",
+  "channel": "dim",
+  "cost": 0.4405721,
+  "url": "https://youtube.com/shorts/CT8M3H1IV6Y"
  }
 ]
