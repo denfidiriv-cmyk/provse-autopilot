@@ -45,7 +45,8 @@ jobs:
                       if v.get("duration", 0) < 4:
                           continue
                       vids = v.get("videos", {})
-                      f = next((vids[k] for k in ("medium", "small", "large") if vids.get(k, {}).get("url") and 1280 <= vids[k].get("width", 0) <= 1920), None)
+                      # довша сторона 1280-1920 (і для вертикальних кліпів) і не більше 60 МБ, бо GitHub не приймає файли >100 МБ
+                      f = next((vids[k] for k in ("medium", "small", "large") if vids.get(k, {}).get("url") and 1280 <= max(vids[k].get("width", 0), vids[k].get("height", 0)) <= 1920 and vids[k].get("size", 0) < 60_000_000), None)
                       if not f or (ori == "landscape" and f["width"] < f["height"]) or (ori == "portrait" and f["width"] > f["height"]):
                           continue
                       name = f"{slug}_{got + 1}.mp4"
