@@ -13,7 +13,7 @@ Google Trends (Україна, 24 год, за обсягом): «гипотез
 Scientific American: https://www.scientificamerican.com/article/the-ai-riemann-hypothesis-proof-is-almost-certainly-true-independent-mathematicians-attest/
 Межа: https://mezha.ua/news/claude-riemann-hypothesis-317442/
 
-Фото: Wikimedia Commons (дзета-функція на комплексній площині: Jan Homann, суспільне надбання; графік дзета-функції Рімана: Empetrisor, CC BY-SA 4.0; спіраль Улама: Marianoju, CC BY-SA 4.0). Відео: Pixabay (fspik_now, voltamax). Музика: Kevin MacLeod, «Call to Adventure» (incompetech.com), CC BY.
+Фото: Wikimedia Commons (дзета-функція на комплексній площині: Jan Homann, суспільне надбання; графік дзета-функції Рімана: Empetrisor, CC BY-SA 4.0; спіраль Улама: Marianoju, CC BY-SA 4.0). Відео: Pixabay (fspik_now, voltamax). Музика: Kevin MacLeod, «Super Power Cool Dude» (incompetech.com), CC BY.
 
 #гіпотезарімана #математика #claude #штучнийінтелект #наука #світ #shorts
 
@@ -59,7 +59,7 @@ Sport24: https://sport24.ua/uk/football/news/171443-man-siti-vchetverte-pospil-p
 Укрінформ: https://www.ukrinform.ua/rubric-world/4186887-pistorius-pereprosiv-za-te-so-nazvav-kritiku-ssa-ukrainskih-dalekobijnih-udariv-durniceu.html
 DW: https://www.dw.com/uk/pistorius-pereprosiv-u-kolbi-za-slova-pro-durnu-kritiku-udariv-ukraini-po-rf/a-80006601
 
-Фото: Wikimedia Commons (Пентагон: David B. Gleason, CC BY-SA 2.0; Бендлерблок, Міністерство оборони Німеччини: Jörg Zägel, CC BY-SA 3.0; Рейхстаг: Jörg Braukmann, CC BY-SA 4.0; прапори України, Німеччини і США: суспільне надбання). Музика: Kevin MacLeod, «Thinking Music» (incompetech.com), CC BY.
+Фото: Wikimedia Commons (Пентагон: David B. Gleason, CC BY-SA 2.0; Бендлерблок, Міністерство оборони Німеччини: Jörg Zägel, CC BY-SA 3.0; Рейхстаг: Jörg Braukmann, CC BY-SA 4.0; прапори України, Німеччини і США: суспільне надбання). Музика: Jason Shaw, «Dat Groove» (audionautix.com), CC BY 3.0.
 
 #пісторіус #німеччина #пентагон #колбі #світ #shorts
 
@@ -75,6 +75,6 @@ DW: https://www.dw.com/uk/pistorius-pereprosiv-u-kolbi-za-slova-pro-durnu-kritik
 Blik: https://blik.ua/automobile/51763-benzin-i-dizel-v-ukrayini-mozhut-podeshevshati-she-na-5-8-grn-l-do-kincya-listopada-prognoz-eksperta
 Главком: https://glavcom.ua/economics/personal-money/tsini-na-palne-21-listopada-2026-roku-skilki-koshtujut-benzin-dizel-ta-haz-na-azs-1157104.html
 
-Фото: Wikimedia Commons (АЗС у селі Сингаї: Камінський Валентин, суспільне надбання; прапор України: суспільне надбання). Відео: Pixabay (VariousPhotography, DesignScape). Інфографіка за даними консалтингової групи «А-95». Музика: Jason Shaw, «Feel Good» (audionautix.com), CC BY 3.0.
+Фото: Wikimedia Commons (АЗС у селі Сингаї: Камінський Валентин, суспільне надбання; прапор України: суспільне надбання). Відео: Pixabay (VariousPhotography, DesignScape). Інфографіка за даними консалтингової групи «А-95». Музика: Kevin MacLeod, «Upbeat Forever» (incompetech.com), CC BY.
 
 #пальне #бензин #дизель #ціни #авто #shorts

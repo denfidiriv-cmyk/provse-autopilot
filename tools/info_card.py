@@ -152,7 +152,9 @@ def person(c):
         shadow_text(im, (CX, y), c["name"], fn, (255, 255, 255), "ma")
         y = d.textbbox((CX, y), c["name"], font=fn, anchor="ma")[3] + 34
     else:
-        fn = font(OSW, 150)
+        fn = fit(d, c["name"], OSW, 150, MAXW, 120)  # коротке ім'я лишаємо в один рядок
+        if d.textlength(c["name"], font=fn) > MAXW:
+            fn = font(OSW, 150)
         for line in wrap(d, c["name"], fn, MAXW):
             shadow_text(im, (CX, y), line, fn, (255, 255, 255), "ma")
             y += 180
@@ -164,8 +166,12 @@ def person(c):
     for fact in c.get("facts", []):
         for line in wrap(d, fact, ff, MAXW):
             shadow_text(im, (CX, y), line, ff, (235, 238, 245), "ma")
+            bottom = d.textbbox((CX, y), line, font=ff, anchor="ma")[3]
             y += 66 if not has_photo else 56
         y += 10
+    bottom = locals().get("bottom", y)
+    if bottom > 1225:  # субтитри починаються приблизно з y 1240
+        print(f"УВАГА: картка {c['out']} заходить на субтитри (низ тексту y={bottom}), скороти факти", file=sys.stderr)
     return im
 
 
