@@ -1,0 +1,59 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21d/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21d/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "fuel",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21d/src/fuel",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21d/jobs/fuel",
+ "w1": 40,
+ "end_w": 36,
+ "bg": "#0a1208",
+ "bg2": "#24401a",
+ "accent": "#9dff7a",
+ "mood": "upbeat",
+ "end_text": [
+  "УСЕ ПРО",
+  "АВТО"
+ ],
+ "end_acc": "АВТО",
+ "keywords": [
+  "п'ять-вісім",
+  "куюн.",
+  "тринадцять",
+  "лише",
+  "вісім."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:f01.jpg",
+   "ЩЕ МІНУС 5-8 ГРН",
+   "5-8"
+  ],
+  [
+   7,
+   "vid:fuel_1.mp4",
+   "ДО КІНЦЯ ЛИСТОПАДА",
+   "ЛИСТОПАДА"
+  ],
+  [
+   12,
+   "img:card_kuyun.jpg",
+   "",
+   ""
+  ],
+  [
+   19,
+   "vid:road_2.mp4",
+   "ОПТОМ -13,70 ГРН",
+   "-13,70"
+  ],
+  [
+   28,
+   "img:card_fuel.jpg",
+   "",
+   ""
+  ]
+ ]
+}

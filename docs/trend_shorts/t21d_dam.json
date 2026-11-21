@@ -1,0 +1,59 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21d/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21d/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "dam",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21d/src/dam",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21d/jobs/dam",
+ "w1": 33,
+ "end_w": 29,
+ "bg": "#081410",
+ "bg2": "#1c3a2a",
+ "accent": "#ffd23f",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "АВТО"
+ ],
+ "end_acc": "АВТО",
+ "keywords": [
+  "проїхати.",
+  "москалів",
+  "об'їзд",
+  "немає,",
+  "постраждали."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:d01.jpg",
+   "ДАМБОЮ НЕ ПРОЇХАТИ",
+   "ПРОЇХАТИ"
+  ],
+  [
+   7,
+   "img:d02.jpg",
+   "РАКЕТНИЙ УДАР УНОЧІ",
+   "УДАР"
+  ],
+  [
+   12,
+   "img:d03.jpg",
+   "Т-21-11 ЗАКРИТА",
+   "ЗАКРИТА"
+  ],
+  [
+   16,
+   "img:card_detour.jpg",
+   "",
+   ""
+  ],
+  [
+   23,
+   "vid:road_1.mp4",
+   "ПІДТОПЛЕННЯ НЕМАЄ",
+   "НЕМАЄ"
+  ]
+ ]
+}

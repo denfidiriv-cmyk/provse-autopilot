@@ -1,0 +1,65 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21d/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21d/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "riemann",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21d/src/riemann",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21d/jobs/riemann",
+ "w1": 42,
+ "end_w": 38,
+ "bg": "#0b0a1a",
+ "bg2": "#2a1450",
+ "accent": "#c9a2ff",
+ "mood": "epic",
+ "end_text": [
+  "УСЕ ПРО",
+  "СВІТ"
+ ],
+ "end_acc": "СВІТ",
+ "keywords": [
+  "рімана.",
+  "anthropic",
+  "claude.",
+  "помилок",
+  "мільйон"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:r01.jpg",
+   "167 РОКІВ ЗАГАДКИ",
+   "167"
+  ],
+  [
+   5,
+   "vid:math_1.mp4",
+   "ГІПОТЕЗА РІМАНА",
+   "РІМАНА"
+  ],
+  [
+   10,
+   "img:card_alpoge.jpg",
+   "",
+   ""
+  ],
+  [
+   19,
+   "vid:code_1.mp4",
+   "РАЗОМ ІЗ CLAUDE",
+   "CLAUDE"
+  ],
+  [
+   22,
+   "img:r03.jpg",
+   "ПОМИЛОК ПОКИ НЕМАЄ",
+   "НЕМАЄ"
+  ],
+  [
+   31,
+   "img:card_mil.jpg",
+   "",
+   ""
+  ]
+ ]
+}

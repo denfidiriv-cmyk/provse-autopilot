@@ -1,0 +1,53 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21d/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21d/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "city",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21d/src/city",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21d/jobs/city",
+ "w1": 35,
+ "end_w": 31,
+ "bg": "#071420",
+ "bg2": "#0e3a5c",
+ "accent": "#6cc4ff",
+ "mood": "playful",
+ "end_text": [
+  "УСЕ ПРО",
+  "СПОРТ"
+ ],
+ "end_acc": "СПОРТ",
+ "keywords": [
+  "без",
+  "один-один",
+  "муніз",
+  "андерсон",
+  "арсенал"
+ ],
+ "scenes": [
+  [
+   0,
+   "vid:soccer_2.mp4",
+   "4 МАТЧІ БЕЗ ПЕРЕМОГ",
+   "4"
+  ],
+  [
+   8,
+   "vid:soccer_1.mp4",
+   "1:1 З ФУЛГЕМОМ",
+   "1:1"
+  ],
+  [
+   13,
+   "img:card_goals.jpg",
+   "",
+   ""
+  ],
+  [
+   23,
+   "img:card_epl.jpg",
+   "",
+   ""
+  ]
+ ]
+}

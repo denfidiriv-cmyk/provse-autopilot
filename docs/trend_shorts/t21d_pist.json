@@ -1,0 +1,65 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21d/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21d/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "pist",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21d/src/pist",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21d/jobs/pist",
+ "w1": 39,
+ "end_w": 35,
+ "bg": "#120c0a",
+ "bg2": "#3a2412",
+ "accent": "#ffcc33",
+ "mood": "explain",
+ "end_text": [
+  "УСЕ ПРО",
+  "СВІТ"
+ ],
+ "end_acc": "СВІТ",
+ "keywords": [
+  "перепросив",
+  "дурною",
+  "невдало",
+  "змінив:",
+  "підтримує."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:p01.jpg",
+   "ПЕРЕПРОСИВ У ПЕНТАГОНУ",
+   "ПЕРЕПРОСИВ"
+  ],
+  [
+   6,
+   "img:card_pistorius.jpg",
+   "",
+   ""
+  ],
+  [
+   10,
+   "img:card_colby.jpg",
+   "",
+   ""
+  ],
+  [
+   16,
+   "img:p02.jpg",
+   "НЕВДАЛО ДІБРАВ СЛОВА",
+   "СЛОВА"
+  ],
+  [
+   22,
+   "img:p03.jpg",
+   "ДУМКИ НЕ ЗМІНИВ",
+   "ЗМІНИВ"
+  ],
+  [
+   28,
+   "img:flag_ua.jpg",
+   "ПІДТРИМУЄ УДАРИ УКРАЇНИ",
+   "ПІДТРИМУЄ"
+  ]
+ ]
+}
