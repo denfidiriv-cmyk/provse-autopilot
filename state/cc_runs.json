@@ -120,5 +120,12 @@
   "channel": "sport",
   "cost": 0.4636525,
   "url": "https://youtube.com/shorts/zST_4ROFLPk"
+ },
+ {
+  "at": "2026-11-21T06:24:23.630550",
+  "query": "пенсия",
+  "channel": "ekonomika",
+  "cost": 0.3042053,
+  "url": "https://youtube.com/shorts/Jhldtdjv4kE"
  }
 ]
