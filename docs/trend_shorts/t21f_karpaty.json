@@ -1,0 +1,59 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21f/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21f/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "karpaty",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21f/src/karpaty",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21f/jobs/karpaty",
+ "w1": 40,
+ "end_w": 36,
+ "bg": "#06120a",
+ "bg2": "#0e3d1f",
+ "accent": "#3ddc84",
+ "mood": "upbeat",
+ "end_text": [
+  "УСЕ ПРО",
+  "СПОРТ"
+ ],
+ "end_acc": "СПОРТ",
+ "keywords": [
+  "вісімнадцять",
+  "нарешті!",
+  "один-нуль,",
+  "костенко,",
+  "офсайд."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:k01.jpg",
+   "18 МАТЧІВ БЕЗ ПЕРЕМОГИ",
+   "18"
+  ],
+  [
+   6,
+   "img:card_streak.jpg",
+   "",
+   ""
+  ],
+  [
+   10,
+   "img:card_kostenko.jpg",
+   "",
+   ""
+  ],
+  [
+   23,
+   "vid:soccer_1.mp4",
+   "ГОЛ ЗОРІ СКАСУВАЛИ",
+   "СКАСУВАЛИ"
+  ],
+  [
+   33,
+   "vid:soccer_2.mp4",
+   "КАРПАТИ ЧЕТВЕРТІ",
+   "ЧЕТВЕРТІ"
+  ]
+ ]
+}

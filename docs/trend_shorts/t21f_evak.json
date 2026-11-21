@@ -1,0 +1,59 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21f/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21f/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "evak",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21f/src/evak",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21f/jobs/evak",
+ "w1": 39,
+ "end_w": 35,
+ "bg": "#0b1020",
+ "bg2": "#22304f",
+ "accent": "#ffd84a",
+ "mood": "calm",
+ "end_text": [
+  "УСЕ ПРО",
+  "ПОЛІТИКУ"
+ ],
+ "end_acc": "ПОЛІТИКУ",
+ "keywords": [
+  "п'ятнадцять",
+  "олешках.",
+  "вісімсот",
+  "гола",
+  "оновлюватимуть."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:e04.jpg",
+   "15 МІСТ І СІЛ НА ЕВАКУАЦІЮ",
+   "15"
+  ],
+  [
+   7,
+   "img:card_map.jpg",
+   "",
+   ""
+  ],
+  [
+   16,
+   "img:e03.jpg",
+   "МАЙЖЕ 800 ЛЮДЕЙ З ОЛЕШОК",
+   "800"
+  ],
+  [
+   25,
+   "img:e02.jpg",
+   "ДАЛІ ГОЛА ПРИСТАНЬ",
+   "ПРИСТАНЬ"
+  ],
+  [
+   32,
+   "img:e05.jpg",
+   "СПИСОК ОНОВЛЯТЬ",
+   "ОНОВЛЯТЬ"
+  ]
+ ]
+}
