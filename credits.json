@@ -1,0 +1,50 @@
+{
+ "stock_1.mp4": {
+  "pixabay_id": 166289,
+  "author": "Dimitri_K",
+  "url": "https://pixabay.com/videos/id-166289/",
+  "duration": 20
+ },
+ "stock_2.mp4": {
+  "pixabay_id": 349089,
+  "author": "MuhammadAhmad10",
+  "url": "https://pixabay.com/videos/id-349089/",
+  "duration": 15
+ },
+ "money_1.mp4": {
+  "pixabay_id": 153460,
+  "author": "34168960",
+  "url": "https://pixabay.com/videos/id-153460/",
+  "duration": 9
+ },
+ "money_2.mp4": {
+  "pixabay_id": 11971,
+  "author": "chayka1270",
+  "url": "https://pixabay.com/videos/id-11971/",
+  "duration": 9
+ },
+ "grocery_1.mp4": {
+  "pixabay_id": 1735,
+  "author": "Buvrix27",
+  "url": "https://pixabay.com/videos/id-1735/",
+  "duration": 18
+ },
+ "grocery_2.mp4": {
+  "pixabay_id": 40572,
+  "author": "Mohamed_hassan",
+  "url": "https://pixabay.com/videos/id-40572/",
+  "duration": 13
+ },
+ "milk_1.mp4": {
+  "pixabay_id": 4315,
+  "author": "bottlein",
+  "url": "https://pixabay.com/videos/id-4315/",
+  "duration": 27
+ },
+ "milk_2.mp4": {
+  "pixabay_id": 129723,
+  "author": "Dx21",
+  "url": "https://pixabay.com/videos/id-129723/",
+  "duration": 21
+ }
+}
