@@ -1,0 +1,65 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21e/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21e/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "vtm",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21e/src/vtm",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21e/jobs/vtm",
+ "w1": 44,
+ "end_w": 40,
+ "bg": "#160b04",
+ "bg2": "#4a2408",
+ "accent": "#ffb03b",
+ "mood": "playful",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЇЖУ"
+ ],
+ "end_acc": "ЇЖУ",
+ "keywords": [
+  "сорок",
+  "шістдесяти.",
+  "форі,",
+  "чотирнадцять.",
+  "гречка"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:v05.jpg",
+   "МОЛОКО: 41 ГРН ПРОТИ 60",
+   "41"
+  ],
+  [
+   7,
+   "img:card_milk.jpg",
+   "",
+   ""
+  ],
+  [
+   12,
+   "img:v06.jpg",
+   "АТБ, ФОРА ЧИ СІЛЬПО?",
+   "ФОРА"
+  ],
+  [
+   16,
+   "vid:grocery_1.mp4",
+   "НАЙДЕШЕВШЕ У ФОРІ",
+   "ФОРІ"
+  ],
+  [
+   21,
+   "img:card_basket.jpg",
+   "",
+   ""
+  ],
+  [
+   32,
+   "img:card_grechka.jpg",
+   "",
+   ""
+  ]
+ ]
+}

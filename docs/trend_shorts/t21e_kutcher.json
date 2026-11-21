@@ -1,0 +1,59 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21e/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21e/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "kutcher",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21e/src/kutcher",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21e/jobs/kutcher",
+ "w1": 46,
+ "end_w": 42,
+ "bg": "#120f05",
+ "bg2": "#3d3008",
+ "accent": "#ffd34d",
+ "mood": "epic",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЕКОНОМІКУ"
+ ],
+ "end_acc": "ЕКОНОМІКУ",
+ "keywords": [
+  "шість",
+  "кутчера",
+  "anthropic",
+  "чотирнадцять",
+  "частину."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:k01.jpg",
+   "$435 МЛН СТАЛИ $6 МЛРД",
+   "$6"
+  ],
+  [
+   9,
+   "vid:stock_2.mp4",
+   "ВИГРАШ НА IPO",
+   "IPO"
+  ],
+  [
+   16,
+   "img:card_kutcher.jpg",
+   "",
+   ""
+  ],
+  [
+   26,
+   "img:card_ipo.jpg",
+   "",
+   ""
+  ],
+  [
+   36,
+   "img:k03.jpg",
+   "КУТЧЕРУ ЛИШЕ ЧАСТИНА",
+   "ЧАСТИНА"
+  ]
+ ]
+}
