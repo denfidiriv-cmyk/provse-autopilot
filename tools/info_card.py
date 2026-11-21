@@ -1,8 +1,9 @@
 """Кадри-картки 1080x1920 для трендових шортів (без фото людей).
 
 Два типи:
-  person: хто ця людина (прапор, посада, ім'я, 1-2 факти). Використовуємо замість фото
-          публічних осіб, яких не можна брати з інтернету.
+  person: хто ця людина (прапор, посада, ім'я, 1-2 факти). Фото публічних осіб з інтернету
+          самі не беремо; поле "photo" лише для фото, яке надав власник каналу з правом
+          використання (тоді прапор стає маленьким значком у куті фото).
   rows:   таблиця/порівняння (заголовок і рядки «назва | значення | підпис»), зі смужками.
 
 Уміст тримаємо в смузі y 300-1180, щоб не заважати субтитрам і інтерфейсу YouTube
@@ -94,27 +95,76 @@ def flag_badge(im, path, cx, cy, w=360):
     return cy + h // 2
 
 
+CX = W // 2 - 60          # центр картки людини (праві 120 px вільні)
+MAXW = 2 * (CX - X0)      # 780: текст у смузі x 90-870, телефон не обрізає краї
+
+
+def fit(d, text, path, size, maxw, min_size):
+    """Найбільший шрифт від size до min_size, з яким text вміщається в maxw."""
+    while size > min_size and d.textlength(text, font=font(path, size)) > maxw:
+        size -= 2
+    return font(path, size)
+
+
+def photo_badge(im, path, cx, top, w=380, h=460, flag=None):
+    """Фото людини (надав власник каналу, з правом використання) у рамці; прапор у куті."""
+    ph = Image.open(path).convert("RGB")
+    s = max(w / ph.width, h / ph.height)
+    ph = ph.resize((int(ph.width * s + 1), int(ph.height * s + 1)), Image.LANCZOS)
+    x0 = (ph.width - w) // 2
+    y0 = min(int(ph.height * 0.08), ph.height - h)  # обличчя зазвичай угорі кадру
+    ph = ph.crop((x0, y0, x0 + w, y0 + h))
+    m = Image.new("L", (w, h), 0)
+    ImageDraw.Draw(m).rounded_rectangle([0, 0, w - 1, h - 1], 34, fill=255)
+    sh = Image.new("RGBA", im.size, (0, 0, 0, 0))
+    ImageDraw.Draw(sh).rounded_rectangle([cx - w // 2, top + 16, cx + w // 2, top + h + 16], 34, fill=(0, 0, 0, 170))
+    sh = sh.filter(ImageFilter.GaussianBlur(20))
+    im.paste(sh, (0, 0), sh)
+    im.paste(ph, (cx - w // 2, top), m)
+    ImageDraw.Draw(im).rounded_rectangle([cx - w // 2, top, cx + w // 2, top + h], 34, outline=(255, 255, 255), width=6)
+    if flag:
+        fl = Image.open(flag).convert("RGB")
+        fw = 130
+        fh = int(fw * fl.height / fl.width)
+        fl = fl.resize((fw, fh), Image.LANCZOS)
+        fx, fy = cx + w // 2 - fw + 30, top + h - fh + 24
+        im.paste(fl, (fx, fy))
+        ImageDraw.Draw(im).rectangle([fx, fy, fx + fw, fy + fh], outline=(255, 255, 255), width=5)
+    return top + h
+
+
 def person(c):
     im = background(c["bg"], c["bg2"])
     d = ImageDraw.Draw(im)
     acc = hexrgb(c["accent"])
-    y = flag_badge(im, c["flag"], W // 2 - 60, 380) + 60
-    fr = font(INTER_SB, 46)
-    shadow_text(im, (W // 2 - 60, y), c["role"], fr, acc, "ma")
-    y += 80
-    fn = font(OSW, 150)
-    for line in wrap(d, c["name"], fn, X1 - X0):
-        shadow_text(im, (W // 2 - 60, y), line, fn, (255, 255, 255), "ma")
-        y += 180
-    y += 45
+    has_photo = bool(c.get("photo"))
+    if has_photo:
+        y = photo_badge(im, c["photo"], CX, 300, flag=c.get("flag")) + 50
+    else:
+        y = flag_badge(im, c["flag"], CX, 380) + 60
+    fr = fit(d, c["role"], INTER_SB, 46, MAXW, 36)
+    for line in wrap(d, c["role"], fr, MAXW):
+        shadow_text(im, (CX, y), line, fr, acc, "ma")
+        y += 58
+    y += 22
+    if has_photo:  # з фото ім'я в один рядок, щоб усе вмістилося до y 1180
+        fn = fit(d, c["name"], OSW, 116, MAXW, 76)
+        shadow_text(im, (CX, y), c["name"], fn, (255, 255, 255), "ma")
+        y = d.textbbox((CX, y), c["name"], font=fn, anchor="ma")[3] + 34
+    else:
+        fn = font(OSW, 150)
+        for line in wrap(d, c["name"], fn, MAXW):
+            shadow_text(im, (CX, y), line, fn, (255, 255, 255), "ma")
+            y += 180
+        y += 45
     d = ImageDraw.Draw(im)
-    d.rounded_rectangle([W // 2 - 60 - 70, y, W // 2 - 60 + 70, y + 10], 5, fill=acc)
-    y += 50
-    ff = font(INTER_B, 46)
+    d.rounded_rectangle([CX - 70, y, CX + 70, y + 10], 5, fill=acc)
+    y += 50 if not has_photo else 40
+    ff = font(INTER_B, 46 if not has_photo else 40)
     for fact in c.get("facts", []):
-        for line in wrap(d, fact, ff, X1 - X0 + 40):
-            shadow_text(im, (W // 2 - 60, y), line, ff, (235, 238, 245), "ma")
-            y += 66
+        for line in wrap(d, fact, ff, MAXW):
+            shadow_text(im, (CX, y), line, ff, (235, 238, 245), "ma")
+            y += 66 if not has_photo else 56
         y += 10
     return im
 
