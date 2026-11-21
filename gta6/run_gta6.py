@@ -57,6 +57,18 @@ def probe(mp4: Path) -> dict:
             "h": v[0]["height"] if v else 0, "audio": any(s.get("codec_type") == "audio" for s in j.get("streams", []))}
 
 
+def small_copy(src: Path, dst: Path, limit_mb: float = 3.4) -> None:
+    """Claude in Chrome uploads at most ~3.8 MB per file, so TikTok/X get an HEVC copy under 3.4 MB."""
+    if src.stat().st_size <= limit_mb * 1e6:
+        shutil.copy(src, dst); return
+    dur = probe(src)["dur"] or 20
+    vb = max(300, min(2500, int((limit_mb * 8e6 / dur - 96000) / 1000)))
+    base = ["ffmpeg", "-v", "error", "-y", "-i", str(src), "-c:v", "libx265", "-preset", "medium", "-b:v", f"{vb}k"]
+    subprocess.run(base + ["-x265-params", "pass=1:log-level=error", "-an", "-f", "null", "/dev/null"], check=True, cwd="/tmp")
+    subprocess.run(base + ["-x265-params", "pass=2:log-level=error", "-tag:v", "hvc1", "-c:a", "aac", "-b:a", "96k",
+                           "-movflags", "+faststart", str(dst)], check=True, cwd="/tmp")
+
+
 def notify(text: str) -> None:
     try:
         from pipeline import notify as tg
@@ -148,7 +160,7 @@ def main() -> int:
         record(entry)
     # Files for the Chrome task (TikTok/X cross-posting): the workflow pushes this folder to the gta6-media branch.
     MEDIA.mkdir(exist_ok=True)
-    shutil.copy(out, MEDIA / entry["file"])
+    small_copy(out, MEDIA / entry["file"])
     (MEDIA / f"gta6_{stamp}.json").write_text(json.dumps(entry, ensure_ascii=False, indent=1), encoding="utf-8")
     shutil.copy(JOB / "format.md", MEDIA / f"gta6_{stamp}_format.md") if (JOB / "format.md").exists() else None
     notify(f"🎮 GTA 6 Kiosk: {meta['title']}\n{url or '(без завантаження)'}\nФормат з: {entry['format_ref']}\n${cost:.2f}")
