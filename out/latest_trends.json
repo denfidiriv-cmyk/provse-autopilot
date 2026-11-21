@@ -1,162 +1,127 @@
 {
- "sport": [
-  {
-   "query": "баварія – кельн",
-   "traffic": 1000,
-   "traffic_label": "1000+",
-   "published": "2026-11-20T10:40:00-08:00",
-   "news": [
-    {
-     "title": "\"Баварія\" отримала підсилення перед \"Кельном\", але втратила одразу п'ятьох гравців",
-     "url": "https://sport.rbc.ua/rus/football/bavariya-otrimala-pidsilennya-pered-kelnom-1795200561.html",
-     "source": "РБК-Україна"
-    },
-    {
-     "title": "Баварія – Кельн. Прогноз і анонс на матч 10-го туру Бундесліги",
-     "url": "https://sport.ua/uk/news/926214-bavariya-keln-prognoz-i-anons-na-match-10-go-turu-bundesligi",
-     "source": "Sport.ua"
-    },
-    {
-     "title": "Футбольний вікенд , Сергій Гусак, 19 ноября 2026 г.",
-     "url": "https://dynamo.kiev.ua/blog/743755-futbolnij-vkend-",
-     "source": "Динамо Киев от Шурика"
-    }
-   ],
-   "channel": "sport",
-   "score": 2,
-   "matched": [
-    "матч",
-    "футбол"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 8
-  },
-  {
-   "query": "бавария – кёльн",
-   "traffic": 500,
-   "traffic_label": "500+",
-   "published": "2026-11-20T10:40:00-08:00",
-   "news": [
-    {
-     "title": "\"Бавария\" получила усиление перед \"Кельном\", но потеряла сразу пятерых игроков",
-     "url": "https://sport.rbc.ua/ukr/football/bavariya-otrimala-pidsilennya-pered-kelnom-1795200561.html",
-     "source": "РБК-Україна"
-    },
-    {
-     "title": "Чемпионат Германии: «Бавария» – «Кельн»",
-     "url": "https://ua.tribuna.com/football/1000000393958-chempionat-nimechchyny-bavariya-keln/",
-     "source": "Tribuna.com"
-    },
-    {
-     "title": "«Крылья Советов» ещё не проигрывали на выезде 20.11.2026",
-     "url": "https://legalbet.ru/daily/787844",
-     "source": "legalbet.ru"
-    }
-   ],
-   "channel": "sport",
-   "score": 1,
-   "matched": [
-    "чемпион"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 8
-  },
-  {
-   "query": "атлетік – еспаньйол",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-20T11:40:00-08:00",
-   "news": [
-    {
-     "title": "Баварія - Кельн: онлайн матчу, результат і статистика - Бундесліга, 20.11.2026",
-     "url": "https://sportnews.24tv.ua/match/253517-bavariya-keln/",
-     "source": "24 Канал"
-    },
-    {
-     "title": "Англія Хорватія – результат і огляд матчу 5 туру Ліги націй – Футбол 24",
-     "url": "https://football24.ua/news/anhliya-khorvatiya-rezultat-i-oglyad-matchu-5-turu-lihy-natsiy-975714",
-     "source": "Футбол 24"
-    },
-    {
-     "title": "Кейн – 6-й найкращий бомбардир в історії національних збірних",
-     "url": "https://sport.ua/uk/news/925425-keyn-6-y-naykrashchiy-bombardir-v-istorii-natsionalnih-zbirnih",
-     "source": "Sport.ua"
-    }
-   ],
-   "channel": "sport",
-   "score": 3,
-   "matched": [
-    "збірн",
-    "матч",
-    "футбол"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 7
-  }
- ],
- "yizha": [
-  {
-   "query": "кривий ріг",
-   "traffic": 500,
-   "traffic_label": "500+",
-   "published": "2026-11-20T11:00:00-08:00",
-   "news": [
-    {
-     "title": "ЗСУ попереджали про балістику у напрямку Кривого Рогу. Влада повідомляє про постраждалих",
-     "url": "https://www.radiosvoboda.org/a/news-kryvyy-rih-udar-rf-postrazhdali/33902785.html",
-     "source": "Радіо Свобода"
-    },
-    {
-     "title": "Війська РФ завдали удару по Кривому Розі: відомо про щонайменше вісім постраждалих",
-     "url": "https://lb.ua/society/2026/11/20/782676_viyska_rf_zavdali_udaru_krivomu.html",
-     "source": "LB.ua"
-    },
-    {
-     "title": "Росія вдарила балістикою по центру Кривого Рогу: пошкоджено ресторан, 20 людей поранено",
-     "url": "https://nv.ua/ukr/ukraine/events/ataka-na-kriviy-rig-20-listopada-rosiya-vdarila-balistikoyu-po-centru-mista-novini-ukrajini-50661136.html",
-     "source": "NV"
-    }
-   ],
-   "channel": "yizha",
-   "score": 1,
-   "matched": [
-    "ресторан"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 10
-  }
- ],
  "polityka": [
   {
-   "query": "сполучені штати америки",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-20T10:20:00-08:00",
+   "query": "владимир путин",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-20T17:20:00-08:00",
    "news": [
     {
-     "title": "У декларації саміту Трампа, Сі та Путіна мав бути розділ про Україну, але США його вилучили – Стубб",
-     "url": "https://www.pravda.com.ua/news/2026/11/20/8063799/",
-     "source": "Українська правда"
+     "title": "Результаты встречи Си Цзиньпина, Путина и Трампа",
+     "url": "https://nv.ua/opinion/vstrecha-v-shenchzhene-politolog-mariya-zolkina-o-narushennyh-planah-putina-50660776.html",
+     "source": "NV"
     },
     {
-     "title": "Сі Цзіньпін переграв Трампа і принизив Путіна: що насправді вирішили на зустрічі в Китаї",
-     "url": "https://24tv.ua/geopolitics/zustrich-trampa-si-putina-kitayi-chomu-kreml-opinivsya-roli-tretogo_n3189433",
-     "source": "24 Канал"
+     "title": "Чего хотел добиться Трамп от саммита в Китае и удалось ли Си \"унизить Путина\"",
+     "url": "https://www.eurointegration.com.ua/rus/news/2026/11/20/7250441/",
+     "source": "Європейська правда"
     },
     {
-     "title": "США прибрали пункт про Україну з «мирної декларації» Трампа, Сі та путіна — Стубб",
-     "url": "https://hromadske.ua/viyna/274706-ssha-prybraly-punkt-pro-ukrayinu-z-myrnoyi-deklaratsiyi-trampa-si-ta-putina-stubb",
-     "source": "Hromadske"
+     "title": "Трамп, Путин и Си оказались менее влиятельными, чем они сами считали: выводы The Times по итогам саммита",
+     "url": "https://zn.ua/POLITICS/tramp-putin-i-si-okazalis-menee-vlijatelnymi-chem-schitalos-vyvody-the-times-po-itoham-sammita.html",
+     "source": "Дзеркало тижня"
     }
    ],
    "channel": "polityka",
    "score": 2,
    "matched": [
-    "саміт",
+    "саммит",
     "трамп"
    ],
    "skipped_reason": "",
-   "extra_sources": 6
+   "extra_sources": 10
+  },
+  {
+   "query": "білий дім",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-20T17:30:00-08:00",
+   "news": [
+    {
+     "title": "ЗМІ: у журналістів в літаку Трампа забрали телефони",
+     "url": "https://www.eurointegration.com.ua/news/2026/11/19/7250388/",
+     "source": "Європейська правда"
+    },
+    {
+     "title": "У журналістів, які летіли з Трампом із Китаю, тимчасово забрали телефони. Це пояснили міркуваннями безпеки",
+     "url": "https://hromadske.ua/svit/274676-u-zurnalistiv-iaki-letily-z-trampom-iz-kytaiu-zabraly-telefony-tse-poiasnyly-mirkuvanniamy-bezpeky",
+     "source": "Hromadske"
+    },
+    {
+     "title": "У журналістів, які летіли з Трампом із Китаю, забрали телефони. У Білому домі пояснили це заходами безпеки",
+     "url": "https://babel.ua/news/131892-u-zhurnalistiv-yaki-letili-z-trampom-iz-kitayu-zabrali-telefoni-u-bilomu-domi-poyasnili-ce-zahodami-bezpeki",
+     "source": "Бабель"
+    }
+   ],
+   "channel": "polityka",
+   "score": 1,
+   "matched": [
+    "трамп"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  },
+  {
+   "query": "news",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-20T16:40:00-08:00",
+   "news": [
+    {
+     "title": "Poland asks NATO allies to help strengthen its air defences",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/20/8063846/",
+     "source": "Українська правда"
+    },
+    {
+     "title": "Ukrainian PM was in Poland when Russian missiles violated Polish airspace",
+     "url": "https://www.eurointegration.com.ua/eng/news/2026/11/20/7250476/",
+     "source": "Європейська правда"
+    },
+    {
+     "title": "Russian breach of Polish airspace proves Moscow threatens all of NATO — FM Sybiha",
+     "url": "https://english.nv.ua/nation/sybiha-speaks-out-after-russia-violates-polish-airspace-50660989.html",
+     "source": "The New Voice of Ukraine"
+    }
+   ],
+   "channel": "polityka",
+   "score": 1,
+   "matched": [
+    "nato"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  }
+ ],
+ "ekonomika": [
+  {
+   "query": "эштон кутчер",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-20T13:50:00-08:00",
+   "news": [
+    {
+     "title": "Эштон Кутчер зарабатывает миллиарды на Anthropic: кто еще из звезд Голливуда вкладывает деньги в ИИ и криптовалюты",
+     "url": "https://minfin.com.ua/2026/11/20/186002447/",
+     "source": "Мінфін"
+    },
+    {
+     "title": "Эштон Кутчер и участники его фонда вложили $435 млн в разработчика нейросети",
+     "url": "https://newsroom24.ru/spb/news/details/2026/news_378781/",
+     "source": "Newsroom24"
+    },
+    {
+     "title": "Эштон Кутчер мог заработать миллиарды на инвестициях в Anthropic - 20 ноября 2026",
+     "url": "https://theblueprint.ru/news/43131",
+     "source": "The Blueprint"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 1,
+   "matched": [
+    "крипт"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
   }
  ]
 }
