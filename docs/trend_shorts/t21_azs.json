@@ -1,0 +1,64 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "azs",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21/src/azs",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21/jobs/azs",
+ "w1": 43,
+ "end_w": 39,
+ "bg": "#140a08",
+ "bg2": "#4a2010",
+ "accent": "#ffb347",
+ "mood": "explain",
+ "end_text": [
+  "УСЕ ПРО",
+  "АВТО"
+ ],
+ "end_acc": "АВТО",
+ "keywords": [
+  "недоливають",
+  "два",
+  "п'ятдесят.",
+  "більше."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:z01.jpg",
+   "8 З 17 МЕРЕЖ НЕДОЛИВАЮТЬ",
+   "НЕДОЛИВАЮТЬ"
+  ],
+  [
+   7,
+   "vid:station_1.mp4",
+   "ПЕРЕВІРКА ЕКСПЕРТІВ",
+   "ПЕРЕВІРКА"
+  ],
+  [
+   13,
+   "img:z03.jpg",
+   "OVIS: -2%",
+   "-2%"
+  ],
+  [
+   19,
+   "img:card_azs_red1.jpg",
+   "",
+   ""
+  ],
+  [
+   24,
+   "img:card_azs_red.jpg",
+   "",
+   ""
+  ],
+  [
+   29,
+   "img:card_azs_green.jpg",
+   "",
+   ""
+  ]
+ ]
+}

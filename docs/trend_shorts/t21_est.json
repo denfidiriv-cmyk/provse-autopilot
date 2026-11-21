@@ -1,0 +1,59 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "est",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21/src/est",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21/jobs/est",
+ "w1": 39,
+ "end_w": 35,
+ "bg": "#081420",
+ "bg2": "#0f3a66",
+ "accent": "#5fb8ff",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "СВІТ"
+ ],
+ "end_acc": "СВІТ",
+ "keywords": [
+  "закриває",
+  "москалями.",
+  "пів",
+  "атаки",
+  "дронів."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:e01.jpg",
+   "ЕСТОНІЯ ЗАКРИВАЄ КОРДОН",
+   "КОРДОН"
+  ],
+  [
+   7,
+   "img:e03.jpg",
+   "5 ПУНКТІВ НА ПІВ РОКУ",
+   "ПІВ"
+  ],
+  [
+   16,
+   "img:card_michal.jpg",
+   "",
+   ""
+  ],
+  [
+   27,
+   "img:e05.jpg",
+   "14 ЛИСТОПАДА, ТАЛЛІНН",
+   "14"
+  ],
+  [
+   31,
+   "vid:drone_2.mp4",
+   "СПРОБА ПІДПАЛУ",
+   "ПІДПАЛУ"
+  ]
+ ]
+}

@@ -1,0 +1,165 @@
+"""Кадри-картки 1080x1920 для трендових шортів (без фото людей).
+
+Два типи:
+  person: хто ця людина (прапор, посада, ім'я, 1-2 факти). Використовуємо замість фото
+          публічних осіб, яких не можна брати з інтернету.
+  rows:   таблиця/порівняння (заголовок і рядки «назва | значення | підпис»), зі смужками.
+
+Уміст тримаємо в смузі y 300-1180, щоб не заважати субтитрам і інтерфейсу YouTube
+(низ 320 px, правий край 120 px, верх порожній).
+
+Запуск: python3 tools/info_card.py cards.json   (список карток або одна картка)
+"""
+import json
+import sys
+from pathlib import Path
+
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
+
+ROOT = Path(__file__).resolve().parents[1]
+OSW = ROOT / "work/hf/assets/fonts/Oswald-700.woff"
+INTER_B = "/usr/share/fonts/opentype/inter/Inter-Bold.otf"
+INTER_SB = "/usr/share/fonts/opentype/inter/Inter-SemiBold.otf"
+W, H = 1080, 1920
+X0, X1 = 90, 960  # праві 120 px вільні
+
+
+def font(path, size):
+    try:
+        return ImageFont.truetype(str(path), size)
+    except OSError:
+        return ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", size)
+
+
+def hexrgb(h):
+    h = h.lstrip("#")
+    return tuple(int(h[i:i + 2], 16) for i in (0, 2, 4))
+
+
+def background(bg, bg2):
+    a, b = hexrgb(bg), hexrgb(bg2)
+    im = Image.new("RGB", (W, H), a)
+    px = im.load()
+    for y in range(H):
+        for x in range(0, W, 4):
+            t = min(1, max(0, (0.55 * y / H + 0.45 * (1 - x / W))))
+            c = tuple(int(a[i] + (b[i] - a[i]) * t) for i in range(3))
+            for k in range(4):
+                if x + k < W:
+                    px[x + k, y] = c
+    d = ImageDraw.Draw(im, "RGBA")
+    for i in range(-H, W, 46):  # тонкі діагоналі, щоб фон не був пласким
+        d.line([(i, H), (i + H, 0)], fill=(255, 255, 255, 9), width=2)
+    return im
+
+
+def wrap(d, text, f, maxw):
+    words, lines, cur = text.split(), [], ""
+    for w in words:
+        t = (cur + " " + w).strip()
+        if d.textlength(t, font=f) <= maxw:
+            cur = t
+        else:
+            if cur:
+                lines.append(cur)
+            cur = w
+    if cur:
+        lines.append(cur)
+    return lines
+
+
+def shadow_text(im, xy, text, f, fill, anchor="la"):
+    sh = Image.new("RGBA", im.size, (0, 0, 0, 0))
+    ImageDraw.Draw(sh).text((xy[0], xy[1] + 6), text, font=f, fill=(0, 0, 0, 170), anchor=anchor)
+    sh = sh.filter(ImageFilter.GaussianBlur(10))
+    im.paste(sh, (0, 0), sh)
+    ImageDraw.Draw(im).text(xy, text, font=f, fill=fill, anchor=anchor)
+
+
+def flag_badge(im, path, cx, cy, w=360):
+    fl = Image.open(path).convert("RGB")
+    h = int(w * fl.height / fl.width)
+    if h > 260:
+        h = 260
+        w = int(h * fl.width / fl.height)
+    fl = fl.resize((w, h), Image.LANCZOS)
+    m = Image.new("L", (w, h), 0)
+    ImageDraw.Draw(m).rounded_rectangle([0, 0, w - 1, h - 1], 26, fill=255)
+    sh = Image.new("RGBA", im.size, (0, 0, 0, 0))
+    ImageDraw.Draw(sh).rounded_rectangle([cx - w // 2, cy - h // 2 + 14, cx + w // 2, cy + h // 2 + 14], 26, fill=(0, 0, 0, 150))
+    sh = sh.filter(ImageFilter.GaussianBlur(18))
+    im.paste(sh, (0, 0), sh)
+    im.paste(fl, (cx - w // 2, cy - h // 2), m)
+    ImageDraw.Draw(im).rounded_rectangle([cx - w // 2, cy - h // 2, cx + w // 2, cy + h // 2], 26, outline=(255, 255, 255), width=5)
+    return cy + h // 2
+
+
+def person(c):
+    im = background(c["bg"], c["bg2"])
+    d = ImageDraw.Draw(im)
+    acc = hexrgb(c["accent"])
+    y = flag_badge(im, c["flag"], W // 2 - 60, 380) + 60
+    fr = font(INTER_SB, 46)
+    shadow_text(im, (W // 2 - 60, y), c["role"], fr, acc, "ma")
+    y += 80
+    fn = font(OSW, 150)
+    for line in wrap(d, c["name"], fn, X1 - X0):
+        shadow_text(im, (W // 2 - 60, y), line, fn, (255, 255, 255), "ma")
+        y += 180
+    y += 45
+    d = ImageDraw.Draw(im)
+    d.rounded_rectangle([W // 2 - 60 - 70, y, W // 2 - 60 + 70, y + 10], 5, fill=acc)
+    y += 50
+    ff = font(INTER_B, 46)
+    for fact in c.get("facts", []):
+        for line in wrap(d, fact, ff, X1 - X0 + 40):
+            shadow_text(im, (W // 2 - 60, y), line, ff, (235, 238, 245), "ma")
+            y += 66
+        y += 10
+    return im
+
+
+def rows(c):
+    im = background(c["bg"], c["bg2"])
+    d = ImageDraw.Draw(im)
+    acc = hexrgb(c["accent"])
+    y = 340
+    ft = font(OSW, 104)
+    for line in wrap(d, c["title"], ft, X1 - X0):
+        shadow_text(im, (X0, y), line, ft, (255, 255, 255))
+        y += 150
+    if c.get("subtitle"):
+        shadow_text(im, (X0, y), c["subtitle"], font(INTER_SB, 42), acc)
+        y += 70
+    y += 40
+    fl, fv, fs = font(INTER_B, 52), font(OSW, 92), font(INTER_SB, 36)
+    vals = [abs(r.get("bar", 0)) for r in c["rows"]]
+    vmax = max(vals) if vals and max(vals) else 1
+    rh = min(175, int((1180 - y) / max(1, len(c["rows"]))))
+    for r in c["rows"]:
+        col = hexrgb(r.get("color", c["accent"]))
+        d = ImageDraw.Draw(im, "RGBA")
+        d.rounded_rectangle([X0 - 20, y - 8, X1, y + rh - 22], 22, fill=(0, 0, 0, 95))
+        if r.get("bar"):
+            bw = int((X1 - X0 - 40) * abs(r["bar"]) / vmax)
+            d.rounded_rectangle([X0 - 20, y + rh - 36, X0 - 20 + bw, y + rh - 22], 7, fill=col + (255,))
+        shadow_text(im, (X0 + 6, y + 10), r["label"], fl, (255, 255, 255))
+        if r.get("sub"):
+            shadow_text(im, (X0 + 8, y + 76), r["sub"], fs, (200, 205, 215))
+        shadow_text(im, (X1 - 24, y + rh // 2 - 18), r["value"], fv, col, "rm")
+        y += rh
+    if c.get("note"):
+        shadow_text(im, (X0, y + 20), c["note"], font(INTER_SB, 34), (200, 205, 215))
+    return im
+
+
+def main(path):
+    cards = json.load(open(path))
+    for c in cards if isinstance(cards, list) else [cards]:
+        im = person(c) if c["type"] == "person" else rows(c)
+        im.save(c["out"], quality=93)
+        print("ok", c["out"])
+
+
+if __name__ == "__main__":
+    main(sys.argv[1])

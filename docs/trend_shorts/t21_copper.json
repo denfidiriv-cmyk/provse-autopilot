@@ -1,0 +1,65 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "copper",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21/src/copper",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21/jobs/copper",
+ "w1": 43,
+ "end_w": 39,
+ "bg": "#140c08",
+ "bg2": "#5a2a12",
+ "accent": "#ffb070",
+ "mood": "space",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЕКОНОМІКУ"
+ ],
+ "end_acc": "ЕКОНОМІКУ",
+ "keywords": [
+  "найгірших",
+  "дев'ять",
+  "рекорд,",
+  "bloomberg,",
+  "міді."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:cu01.jpg",
+   "НАЙГІРШИЙ ТИЖДЕНЬ ЗА 10 РОКІВ",
+   "10"
+  ],
+  [
+   9,
+   "img:cu02.jpg",
+   "-9% ЗА ТИЖДЕНЬ",
+   "-9%"
+  ],
+  [
+   13,
+   "img:cu03.jpg",
+   "12 213 ДОЛАРІВ ЗА ТОННУ",
+   "12"
+  ],
+  [
+   20,
+   "img:card_cu.jpg",
+   "",
+   ""
+  ],
+  [
+   28,
+   "vid:datacenter_1.mp4",
+   "СУМНІВИ В ШІ",
+   "ШІ"
+  ],
+  [
+   33,
+   "vid:datacenter_2.mp4",
+   "",
+   ""
+  ]
+ ]
+}

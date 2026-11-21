@@ -1,0 +1,59 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "shakh",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21/src/shakh",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21/jobs/shakh",
+ "w1": 39,
+ "end_w": 35,
+ "bg": "#0c1208",
+ "bg2": "#2c4a12",
+ "accent": "#ff8a1f",
+ "mood": "upbeat",
+ "end_text": [
+  "УСЕ ПРО",
+  "СПОРТ"
+ ],
+ "end_acc": "СПОРТ",
+ "keywords": [
+  "втратив",
+  "воробчак",
+  "аліссон",
+  "друга",
+  "запасі."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:s02.jpg",
+   "ШАХТАР 1:1 ЛІВИЙ БЕРЕГ",
+   "1:1"
+  ],
+  [
+   8,
+   "vid:goal_1.mp4",
+   "ВОРОБЧАК, 19'",
+   "19'"
+  ],
+  [
+   12,
+   "vid:football_2.mp4",
+   "АЛІССОН, 61'",
+   "61'"
+  ],
+  [
+   17,
+   "img:s01.jpg",
+   "ДРУГА НІЧИЯ ПОСПІЛЬ",
+   "ДРУГА"
+  ],
+  [
+   21,
+   "img:card_upl.jpg",
+   "",
+   ""
+  ]
+ ]
+}

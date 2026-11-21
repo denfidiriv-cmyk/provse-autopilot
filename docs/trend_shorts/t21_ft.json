@@ -1,0 +1,65 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "ft",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21/src/ft",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t21/jobs/ft",
+ "w1": 41,
+ "end_w": 37,
+ "bg": "#0a1020",
+ "bg2": "#3a1420",
+ "accent": "#ffc400",
+ "mood": "epic",
+ "end_text": [
+  "УСЕ ПРО",
+  "ПОЛІТИКУ"
+ ],
+ "end_acc": "ПОЛІТИКУ",
+ "keywords": [
+  "січня.",
+  "поспішає,",
+  "конгрес.",
+  "поступок.",
+  "путін"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:f02.jpg",
+   "МИР ДО СІЧНЯ",
+   "СІЧНЯ"
+  ],
+  [
+   7,
+   "img:card_trump.jpg",
+   "",
+   ""
+  ],
+  [
+   14,
+   "img:f01.jpg",
+   "ДО НОВОГО КОНГРЕСУ",
+   "КОНГРЕСУ"
+  ],
+  [
+   22,
+   "img:f04.jpg",
+   "КИЇВ БОЇТЬСЯ ПОСТУПОК",
+   "ПОСТУПОК"
+  ],
+  [
+   30,
+   "vid:congress_2.mp4",
+   "«АМЕРИКАНЦІ ПОСПІШАЮТЬ»",
+   "ПОСПІШАЮТЬ"
+  ],
+  [
+   35,
+   "img:r10v.jpg",
+   "«ПУТІН НІ»",
+   "НІ"
+  ]
+ ]
+}
