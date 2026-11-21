@@ -1,222 +1,159 @@
 {
  "sport": [
   {
-   "query": "кривбас – кудрівка",
-   "traffic": 1000,
-   "traffic_label": "1000+",
-   "published": "2026-11-21T02:10:00-08:00",
+   "query": "ньюкасл юнайтед – арсенал",
+   "traffic": 5000,
+   "traffic_label": "5000+",
+   "published": "2026-11-21T08:40:00-08:00",
    "news": [
     {
-     "title": "Петраков та Протченко обрали стартові склади на матч Кривбас – Кудрівка",
-     "url": "https://sport.ua/uk/news/926222-petrakov-ta-protchenko-obrali-startovi-skladi-na-match-krivbas-kudrivka",
+     "title": "Ньюкасл – Арсенал. Смотреть онлайн. LIVE трансляция",
+     "url": "https://sport.ua/news/926941-nyukasl-arsenal-smotret-onlayn-live-translyatsiya",
      "source": "Sport.ua"
     },
     {
-     "title": "Кривбас - Кудрівка. Анонс і прогноз матчу УПЛ на 21.11.2026",
-     "url": "https://www.ua-football.com/ua/predictions/upl/1795179515-krivbas-kudrivka-anons-i-prognoz-matchu-upl-na-21-11-2026.html",
-     "source": "UA-Football"
+     "title": "Ньюкасл — Арсенал: анонс и котировки на матч чемпионата Англии",
+     "url": "https://sport.nv.ua/football/nyukasl-arsenal-gde-smotret-match-apl-i-shansy-na-pobedu-21-noyabrya-50660918.html",
+     "source": "NV Спорт"
     },
     {
-     "title": "Кривбас - Кудрівка: дивитися онлайн відеотрансляцію матчу УПЛ",
-     "url": "https://terrikon.com/uk/posts/592556",
-     "source": "Террикон"
+     "title": "Шовковский: Оборона Арсенала даст трещину на выезде против Ньюкасла",
+     "url": "https://www.ua-football.com/foreign/england/1795256087-shovkovskiy-oborona-arsenala-dast-treschinu-na-vyezde-protiv-nyukasla.html",
+     "source": "UA-Football"
     }
    ],
    "channel": "sport",
-   "score": 1,
+   "score": 6,
    "matched": [
-    "матч"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 7
-  },
-  {
-   "query": "кривбасс – кудровка",
-   "traffic": 500,
-   "traffic_label": "500+",
-   "published": "2026-11-21T02:10:00-08:00",
-   "news": [
-    {
-     "title": "Кривбасс – Кудровка. Смотреть онлайн LIVE прямую видеотрансляцию матча УПЛ",
-     "url": "https://www.ua-football.com/ukrainian/high/1795243797-krivbass-kudrovka-smotret-onlayn-live-pryamuyu-videotranslyaciyu-matcha-upl.html",
-     "source": "UA-Football"
-    },
-    {
-     "title": "Жуан МАШАДУ: «Добавляем агрессивности и интенсивности на тренировках»",
-     "url": "https://sport.ua/news/926732-zhuan-mashadu-dobavlyaem-agressivnosti-i-intensivnosti-na-trenirovkah",
-     "source": "Sport.ua"
-    },
-    {
-     "title": "Чемпионат Украины: «Кривбасс» – «Кудривка», начало в 13:00",
-     "url": "https://ua.tribuna.com/football/1000000394193-chempionat-ukrayiny-kryvbas-kudrivka-pochatok-o-1300/",
-     "source": "Tribuna.com"
-    }
-   ],
-   "channel": "sport",
-   "score": 2,
-   "matched": [
+    "арсенал",
     "матч",
     "чемпион"
    ],
    "skipped_reason": "",
-   "extra_sources": 4
+   "extra_sources": 6
   },
   {
-   "query": "колос ковалёвка – харьков",
-   "traffic": 500,
-   "traffic_label": "500+",
-   "published": "2026-11-21T02:30:00-08:00",
-   "news": [
-    {
-     "title": "Колос – Харьков. Смотреть онлайн LIVE прямую видеотрансляцию матча УПЛ",
-     "url": "https://www.ua-football.com/ukrainian/high/1795246208-kolos-harkov-smotret-onlayn-live-pryamuyu-videotranslyaciyu-matcha-upl.html",
-     "source": "UA-Football"
-    },
-    {
-     "title": "Колос – Харьков. Прогноз и анонс на матч чемпионата Украины",
-     "url": "https://sport.ua/news/926936-kolos-harkov-prognoz-i-anons-na-match-chempionata-ukrainy",
-     "source": "Sport.ua"
-    },
-    {
-     "title": "Прогноз редакции на матч Колос - Харьков 21 ноября 2026",
-     "url": "https://stavka.tv/matches/soccer/21-11-2026-kolos-metalist-1925-",
-     "source": "Ставка ТВ"
-    }
-   ],
-   "channel": "sport",
-   "score": 2,
-   "matched": [
-    "матч",
-    "чемпион"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 0
-  }
- ],
- "dim": [
-  {
-   "query": "шахрайство",
+   "query": "александр топурия",
    "traffic": 100,
    "traffic_label": "100+",
-   "published": "2026-11-21T02:00:00-08:00",
+   "published": "2026-11-21T10:10:00-08:00",
    "news": [
     {
-     "title": "Жінка в Івано-Франківську безкоштовно орендувала квартиру, їй віддавали гроші та одяг: що вона вигадала",
-     "url": "https://tsn.ua/exclusive/zinka-v-ivano-frankivsku-bezkoshtovno-orenduvala-kvartyru-yiy-viddavaly-hroshi-ta-odiah-shcho-vona-vyhadala-3220303.html",
-     "source": "ТСН"
+     "title": "Сантьяго Луна победил Александра Топурию на UFC в Дохе",
+     "url": "https://vringe.com/mma/news/205312-santyago-luna-pobedil-aleksandra-topuriyu.htm",
+     "source": "vRINGe.com"
     },
     {
-     "title": "В Івано-Франківську жінка обманула власника квартири та продавчинь магазинів",
-     "url": "https://mega.if.ua/v-ivano-frankivsku-zhinka-obmanula-vlasnyka-kvartyry-ta-prodavchyn-magazyniv/",
-     "source": "МЕГА.ІФ.ЮА"
+     "title": "Александр Топурия — Сантьяго Луна: прогноз (кэф 2.66) на 21 ноября 2026",
+     "url": "https://stavka.tv/matches/mma/21-11-2026-aleksandre-topuria-santiago-luna",
+     "source": "Ставка ТВ"
     },
     {
-     "title": "В Івано-Франківську викрили шахрайську схему щодо орендодавця та продавців",
-     "url": "https://mega.if.ua/v-ivano-frankivsku-vykryly-shahrajsku-shemu-shhodo-orendodavczya-ta-prodavcziv/",
-     "source": "МЕГА.ІФ.ЮА"
+     "title": "Топурия сделал вес перед боем на UFC Qatar",
+     "url": "https://prosports.kz/news/759357-topuriya-sdelal-ves-pered-boem-na-ufc-qatar/",
+     "source": "Prosports.kz"
     }
    ],
-   "channel": "dim",
+   "channel": "sport",
    "score": 1,
    "matched": [
-    "квартир"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 10
-  }
- ],
- "yizha": [
-  {
-   "query": "супермаркет",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-21T01:10:00-08:00",
-   "news": [
-    {
-     "title": "\"Посмотрите на это\": немец не поверил своим глазам, зайдя в украинский супермаркет",
-     "url": "https://focus.ua/lifestyle/775188-posmotrite-na-eto-nemec-ne-poveril-svoim-glazam-zaydya-v-ukrainskiy-supermarket",
-     "source": "ФОКУС"
-    },
-    {
-     "title": "Заводы стоят, подсолнечник минусует до 1500 грн/т: что будет с ценами на масло?",
-     "url": "https://agroportal.ua/ru/publishing/sobytiya/zavodi-stoyat-sonyashnik-minusuye-do-1500-grn-t-shcho-bude-z-cinami-na-oliyu",
-     "source": "AgroPortal.ua"
-    },
-    {
-     "title": "Из-за массовой остановки заводов. Спрос на растительное масло за неделю вырос в 18 раз — что известно",
-     "url": "https://biz.nv.ua/economics/spros-na-podsolnechnoe-maslo-na-prom-za-poslednyuyu-nedelyu-vyros-v-shest-raz-50660417.html",
-     "source": "NV Бизнес"
-    }
-   ],
-   "channel": "yizha",
-   "score": 2,
-   "matched": [
-    "масл",
-    "подсолнеч"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 10
-  }
- ],
- "ekonomika": [
-  {
-   "query": "государственное бюро расследований",
-   "traffic": 500,
-   "traffic_label": "500+",
-   "published": "2026-11-21T00:30:00-08:00",
-   "news": [
-    {
-     "title": "Лес вырубают, миллионы исчезают: масштабные махинации раскрыло ГБР в ходе спецоперации \"Зеленый щит\"",
-     "url": "https://24tv.ua/ru/gbr-raskryvaet-shemy-iz-za-kotoryh-gosudarstvo-terjaet-milliony_n3198713",
-     "source": "24 Канал"
-    },
-    {
-     "title": "Как Игорь Чебан, Иван Данко и Илья Дрищ сумели обнести ДП \"Ліси України\" на 267 миллионов",
-     "url": "https://nabludatel.od.ua/society/igor-cheban-ivan-danko-i-ilya-drishh/",
-     "source": "Наблюдатель"
-    },
-    {
-     "title": "Фирма со 100 гривнами капитала получила 93 млн от государства: кто охраняет \"Леса Украины\"",
-     "url": "https://news.telegraf.com.ua/ukraina/5956055-firma-zi-100-grivnyami-kapitalu-otrimala-93-mln-vid-derzhavi-khto-okhoronyae-lisi-ukraini",
-     "source": "News Telegraf"
-    }
-   ],
-   "channel": "ekonomika",
-   "score": 1,
-   "matched": [
-    "гривн"
+    "ufc"
    ],
    "skipped_reason": "",
    "extra_sources": 1
   }
  ],
- "polityka": [
+ "svit": [
   {
-   "query": "мошеннические колл-центры на украине",
+   "query": "погода кропивницький",
    "traffic": 100,
    "traffic_label": "100+",
-   "published": "2026-11-20T23:50:00-08:00",
+   "published": "2026-11-21T09:50:00-08:00",
    "news": [
     {
-     "title": "И.о. генпрокурора о мошеннических колл-центрах: Эффективность противодействия буду оценивать не по обысках",
-     "url": "https://www.pravda.com.ua/rus/news/2026/11/20/8063797/",
-     "source": "Українська правда"
+     "title": "У неділю стане прохолодніше: прогноз погоди на вихідні для Кіровоградщини",
+     "url": "https://suspilne.media/kropyvnytskiy/1455679-u-nedilu-stane-proholodnise-prognoz-pogodi-na-vihidni-dla-kirovogradsini/",
+     "source": "Суспільне | Новини"
     },
     {
-     "title": "Химпром на международном уровне. Прокуратура заявила о раскрытии сети колл-центров, участники которой обманывали граждан ЕС",
-     "url": "https://nv.ua/ukraine/events/narkosindikat-himprom-vikrittya-merezhi-kol-centriv-i-specoperaciya-connect-50661002.html",
+     "title": "Синоптики попереджають про ожеледь та мокрий сніг на Кіровоградщині",
+     "url": "https://dostyp.com.ua/novini/sinoptiki-poperedzhayut-pro-ozheled-ta-mokrij-snig-na-kirovogradshini/",
+     "source": "Доступ. Медіа"
+    },
+    {
+     "title": "Хмарно та з невеликим дощем: якою буде погода на Кіровоградщині 21 листопада",
+     "url": "https://zlatopil.com/all-news/hmarno-ta-z-nevelykym-doshhem-yakoyu-bude-pogoda-na-kirovogradshhyni-21-lystopada",
+     "source": "zlatopil.com"
+    }
+   ],
+   "channel": "svit",
+   "score": 5,
+   "matched": [
+    "погод",
+    "сніг"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 2
+  }
+ ],
+ "polityka": [
+  {
+   "query": "калининград",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-21T09:40:00-08:00",
+   "news": [
+    {
+     "title": "В Калининградской области РФ объявили воздушную тревогу и включили сирены, Стерненко заявил о прилете",
+     "url": "https://nv.ua/world/countries/vozdushnaya-trevoga-v-kaliningradskoy-oblasti-sternenko-zayavil-o-prilete-v-baltiyske-50661353.html",
      "source": "NV"
     },
     {
-     "title": "Нацполиция сообщила о пяти новых подозрениях по делу сети колл-центров, связанной с \"Химпромом\"",
-     "url": "https://ru.interfax.com.ua/news/general/1239828.html",
-     "source": "Інтерфакс-Україна"
+     "title": "В Калининграде завыли сирены воздушной тревоги",
+     "url": "https://korrespondent.net/world/russia/4930774-v-kalynynhrade-zavyly-syreny-vozdushnoi-trevohy",
+     "source": "Korrespondent.net"
+    },
+    {
+     "title": "В российском Калининграде завыли сирены: местные власти заявили о неизвестных целях со стороны НАТО",
+     "url": "https://tsn.ua/ru/svit/v-rossiyskom-kaliningrade-zavyli-sireny-mestnye-vlasti-zayavili-o-neizvestnyh-tselyah-so-storony-nato-3223239.html",
+     "source": "ТСН"
     }
    ],
    "channel": "polityka",
    "score": 1,
    "matched": [
-    "=ес"
+    "нато"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  },
+  {
+   "query": "g20",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-21T09:30:00-08:00",
+   "news": [
+    {
+     "title": "Зеленський готовий до зустрічі з Путіним на G20, якщо буде можливість",
+     "url": "https://www.pravda.com.ua/news/2026/11/21/8063948/",
+     "source": "Українська правда"
+    },
+    {
+     "title": "Чи буде на полях G20: Зеленський розповів про підготовку до нового саміту Україна – США – Росія",
+     "url": "https://24tv.ua/zelenskiy-dopustiv-tristoronnyu-zustrich-iz-trampom-putinim-samiti_n3212008",
+     "source": "24 Канал"
+    },
+    {
+     "title": "Офіційного запрошення від Америки не отримували. Зеленський розповів про ймовірну тристоронню зустріч на G20",
+     "url": "https://nv.ua/ukr/ukraine/events/zelenskiy-rozpoviv-pro-pidgotovku-do-mozhlivoji-tristoronnoji-zustrichi-y-dopustiv-jiji-na-samiti-g20-50661298.html",
+     "source": "NV"
+    }
+   ],
+   "channel": "polityka",
+   "score": 2,
+   "matched": [
+    "зеленськ",
+    "саміт"
    ],
    "skipped_reason": "",
    "extra_sources": 9
