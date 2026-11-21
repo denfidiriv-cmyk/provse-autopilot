@@ -1,0 +1,64 @@
+{
+ "img": "/tmp/trend/2026-11-21c/img",
+ "vid": "/tmp/trend/2026-11-21c/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "tennis",
+ "src": "/tmp/trend/2026-11-21c/src/tennis",
+ "job": "/tmp/trend/2026-11-21c/jobs/tennis",
+ "w1": 38,
+ "end_w": 34,
+ "bg": "#0b1a10",
+ "bg2": "#2f5d1e",
+ "accent": "#d7ff3c",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "СПОРТ"
+ ],
+ "end_acc": "СПОРТ",
+ "keywords": [
+  "Сіннера.",
+  "клостеболі.",
+  "навмисно",
+  "три"
+ ],
+ "scenes": [
+  [
+   0,
+   "vid:court_1.mp4",
+   "2 РОКИ БАНУ",
+   "2"
+  ],
+  [
+   3,
+   "vid:lab_1.mp4",
+   "ЯК У СІННЕРА",
+   "СІННЕРА"
+  ],
+  [
+   11,
+   "img:card_eud.jpg",
+   "",
+   ""
+  ],
+  [
+   16,
+   "vid:tball_2.mp4",
+   "",
+   ""
+  ],
+  [
+   18,
+   "vid:hammer_1.mp4",
+   "НЕ НАВМИСНО",
+   "НЕ"
+  ],
+  [
+   26,
+   "img:card_ban.jpg",
+   "",
+   ""
+  ]
+ ]
+}
