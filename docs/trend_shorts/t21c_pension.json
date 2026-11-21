@@ -1,0 +1,58 @@
+{
+ "img": "/tmp/trend/2026-11-21c/img",
+ "vid": "/tmp/trend/2026-11-21c/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "pension",
+ "src": "/tmp/trend/2026-11-21c/src/pension",
+ "job": "/tmp/trend/2026-11-21c/jobs/pension",
+ "w1": 38,
+ "end_w": 34,
+ "bg": "#08140f",
+ "bg2": "#1d4a35",
+ "accent": "#4ee6a0",
+ "mood": "explain",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЕКОНОМІКУ"
+ ],
+ "end_acc": "ЕКОНОМІКУ",
+ "keywords": [
+  "гривень.",
+  "стажу",
+  "п'ятнадцяти",
+  "Малозабезпеченим"
+ ],
+ "scenes": [
+  [
+   0,
+   "vid:granny_2.mp4",
+   "778 ГРН",
+   "778"
+  ],
+  [
+   4,
+   "vid:hands_2.mp4",
+   "",
+   ""
+  ],
+  [
+   10,
+   "img:card_stazh.jpg",
+   "",
+   ""
+  ],
+  [
+   18,
+   "img:pfu.jpg",
+   "З 65 РОКІВ",
+   "65"
+  ],
+  [
+   26,
+   "img:card_money.jpg",
+   "",
+   ""
+  ]
+ ]
+}
