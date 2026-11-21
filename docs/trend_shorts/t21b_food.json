@@ -1,0 +1,27 @@
+{
+ "img": "/tmp/trend/2026-11-21/img",
+ "vid": "/tmp/trend/2026-11-21/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "food",
+ "src": "/tmp/trend/2026-11-21/src/food",
+ "job": "/tmp/trend/2026-11-21/jobs/food",
+ "w1": 32,
+ "end_w": 28,
+ "bg": "#0b1410",
+ "bg2": "#1f4a2c",
+ "accent": "#ffb347",
+ "mood": "playful",
+ "end_text": ["УСЕ ПРО", "ЇЖУ"],
+ "end_acc": "ЇЖУ",
+ "keywords": ["двадцять", "чотири", "один.", "десять", "яйця:"],
+ "scenes": [
+  [0, "img:fish1.jpg", "РИБА +24%", "+24%"],
+  [5, "img:card_food_y.jpg", "", ""],
+  [9, "vid:bread_2.mp4", "ХЛІБ +21%", "+21%"],
+  [13, "img:veg.jpg", "ОВОЧІ +10%", "+10%"],
+  [18, "vid:market_2.mp4", "", ""],
+  [21, "img:eggs1.jpg", "ЯЙЦЯ −4,6%", "−4,6%"],
+  [25, "img:card_food_m.jpg", "", ""]
+ ]
+}
