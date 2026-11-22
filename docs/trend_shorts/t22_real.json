@@ -1,0 +1,74 @@
+{
+ "img": "/tmp/trend/2026-11-22/img",
+ "vid": "/tmp/trend/2026-11-22/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "real",
+ "src": "/tmp/trend/2026-11-22/src/real",
+ "job": "/tmp/trend/2026-11-22/jobs/real",
+ "w1": 45,
+ "end_w": 41,
+ "bg": "#071420",
+ "bg2": "#0e3a5c",
+ "accent": "#6cc4ff",
+ "mood": "epic",
+ "end_text": [
+  "УСЕ ПРО",
+  "СПОРТ"
+ ],
+ "end_acc": "СПОРТ",
+ "keywords": [
+  "шостої",
+  "пенальті.",
+  "беллінгем",
+  "еспі",
+  "два",
+  "один.",
+  "тридцять",
+  "три"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:r_pitch2.jpg",
+   "РЕАЛ ВИРВАВ 2:1",
+   "ВИРВАВ"
+  ],
+  [
+   5,
+   "img:r_pitch.jpg",
+   "",
+   ""
+  ],
+  [
+   10,
+   "img:r_ext.jpg",
+   "",
+   ""
+  ],
+  [
+   14,
+   "img:card_real.jpg",
+   "",
+   ""
+  ],
+  [
+   22,
+   "img:r_ext2.jpg",
+   "",
+   ""
+  ],
+  [
+   28,
+   "img:r_pitch2.jpg",
+   "",
+   ""
+  ],
+  [
+   31,
+   "img:r_ext.jpg",
+   "33 ОЧКИ",
+   "33"
+  ]
+ ]
+}
