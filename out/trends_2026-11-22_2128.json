@@ -1,0 +1,145 @@
+{
+ "sport": [
+  {
+   "query": "жирона – эйбар",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-22T09:00:00-08:00",
+   "news": [
+    {
+     "title": "Украинский дуэт зажег в матче Жироны: Ванат забил после передачи Пищура",
+     "url": "https://www.ua-football.com/ukrainian/ukrainians/1795371239-ukrainskiy-duyet-zazheg-v-matche-zhirony-vanat-zabil-posle-peredachi-pischura.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "Ванат и Пищур организовали гол Жироны в матче с Эйбаром",
+     "url": "https://champion.com.ua/rus/football/vanat-zabil-za-zhironu-posle-peredachi-pishchura-1091591/",
+     "source": "Champion.com.ua"
+    },
+    {
+     "title": "Дуэт украинских нападающих выйдет в старте на матч чемпионата Испании",
+     "url": "https://sport.ua/news/927436-duet-ukrainskih-napadayushchih-viydet-v-starte-na-match-chempionata-ispanii",
+     "source": "Sport.ua"
+    }
+   ],
+   "channel": "sport",
+   "score": 3,
+   "matched": [
+    "=гол",
+    "матч",
+    "чемпион"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 1
+  },
+  {
+   "query": "ліверпуль",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-22T08:50:00-08:00",
+   "news": [
+    {
+     "title": "Жахливий дебют Почеттіно. Ліверпуль розгромив МЮ у центральному матчі туру",
+     "url": "https://sport.ua/uk/news/927438-zhahliviy-debyut-pochettino-liverpul-rozgromiv-myu-u-tsentralnomu-matchi-turu",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "АПЛ. Із поверненням, Маурісіо: Ліверпуль виписує Юнайтед добрячого ляпаса на Енфілді",
+     "url": "https://www.ua-football.com/ua/foreign/england/1795369360-apl-iz-povernennyam-maurisio-liverpul-vipisuye-yunayted-dobryachogo-lyapasa-na-enfildi.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "Вогняний дебют Почеттіно: де і коли дивитися топ-битву АПЛ \"Ліверпуль\" – \"Манчестер Юнайтед\"",
+     "url": "https://sport.rbc.ua/rus/football/vognyaniy-debyut-pochettino-de-i-koli-divitisya-1795343121.html",
+     "source": "РБК-Україна"
+    }
+   ],
+   "channel": "sport",
+   "score": 6,
+   "matched": [
+    "ліверпуль",
+    "манчестер",
+    "матч"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 6
+  },
+  {
+   "query": "мацей кендзьорек",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-22T09:00:00-08:00",
+   "news": [
+    {
+     "title": "Мацей Кендзьорек оголосив про підсилення, яке отримало київське Динамо",
+     "url": "https://sport.ua/uk/news/927310-matsey-kendzyorek-ogolosiv-pro-pidsilennya-yake-otrimalo-kiivske-dinamo",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Кендзьорек: Динамо має зосередитися на маленьких кроках та короткострокових завданнях",
+     "url": "https://sportarena.ua/uk/footboll/upl/kendzorek-dinamo-maye-zosereditisya-na-malenkih-krokah/",
+     "source": "Sportarena.ua"
+    },
+    {
+     "title": "Кендзьорек: У тренерський штаб Динамо приєдналось двоє фахівців",
+     "url": "https://champion.com.ua/ukr/football/dinam-pidsilivsya-trenerskiy-shtab-dvoma-fahivcyami-1091575/",
+     "source": "Champion.com.ua"
+    }
+   ],
+   "channel": "sport",
+   "score": 1,
+   "matched": [
+    "динамо"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 4
+  }
+ ],
+ "svit": [
+  {
+   "query": "погода завтра",
+   "traffic": 50000,
+   "traffic_label": "50000+",
+   "published": "2026-11-22T10:50:00-08:00",
+   "news": [],
+   "channel": "svit",
+   "score": 3,
+   "matched": [
+    "погод"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  },
+  {
+   "query": "марс",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-22T09:50:00-08:00",
+   "news": [
+    {
+     "title": "Деревья без теней на полюсе Марса. Что на самом деле скрывает знаменитый оптический обман на снимке NASA",
+     "url": "https://techno.nv.ua/popscience/opticheskaya-illyuziya-na-marse-kak-suhoy-led-i-peschanye-laviny-sozdayut-siluety-derevev-na-dyunah-50660919.html",
+     "source": "NV Техно"
+    },
+    {
+     "title": "Марс сфотографировали так, будто на нем растут деревья: что создает этот эффект",
+     "url": "https://www.unian.net/science/les-na-marse-pochemu-na-poverhnosti-planety-vidny-figury-pohozhie-na-derevya-13567686.html",
+     "source": "УНИАН"
+    },
+    {
+     "title": "«Призрачный лес» на замерзших дюнах: орбитальный аппарат сделал впечатляющий снимок Марса",
+     "url": "https://zn.ua/TECHNOLOGIES/prizrachnyj-les-na-zamerzshikh-djunakh-orbitalnyj-apparat-sdelal-vpechatljajushchij-snimok-marsa.html",
+     "source": "Дзеркало тижня"
+    }
+   ],
+   "channel": "svit",
+   "score": 5,
+   "matched": [
+    "nasa",
+    "марс"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  }
+ ]
+}
