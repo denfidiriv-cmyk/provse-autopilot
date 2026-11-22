@@ -1,0 +1,65 @@
+{
+ "img": "/tmp/trend/2026-11-22b/img",
+ "vid": "/tmp/trend/2026-11-22b/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "t22b_ice",
+ "src": "/tmp/trend/2026-11-22b/src/ice",
+ "job": "/tmp/trend/2026-11-22b/jobs/ice",
+ "w1": 39,
+ "end_w": 35,
+ "bg": "#0b1a2a",
+ "bg2": "#1f4466",
+ "accent": "#7fd3ff",
+ "mood": "upbeat",
+ "end_text": [
+  "УСЕ ПРО",
+  "АВТО"
+ ],
+ "end_acc": "АВТО",
+ "keywords": [
+  "чотири-п'ять",
+  "ожеледиця",
+  "дистанцію,",
+  "плавно,",
+  "першими."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:i_icy.jpg",
+   "×4–5 ГАЛЬМІВНИЙ ШЛЯХ",
+   "×4–5"
+  ],
+  [
+   6,
+   "vid:skid_1.mp4",
+   "",
+   ""
+  ],
+  [
+   13,
+   "img:p_card_ice.jpg",
+   "",
+   ""
+  ],
+  [
+   21,
+   "vid:snowdrive_2.mp4",
+   "",
+   ""
+  ],
+  [
+   26,
+   "vid:wiper_1.mp4",
+   "",
+   ""
+  ],
+  [
+   30,
+   "img:i_stop.jpg",
+   "МОСТИ Й ЗУПИНКИ",
+   "ЗУПИНКИ"
+  ]
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "img": "/tmp/trend/2026-11-22b/img",
+ "vid": "/tmp/trend/2026-11-22b/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "t22b_dym",
+ "src": "/tmp/trend/2026-11-22b/src/dym",
+ "job": "/tmp/trend/2026-11-22b/jobs/dym",
+ "w1": 37,
+ "end_w": 33,
+ "bg": "#120c10",
+ "bg2": "#3a1f26",
+ "accent": "#ff5a4e",
+ "mood": "calm",
+ "end_text": [
+  "УСЕ ПРО",
+  "ПОЛІТИКУ"
+ ],
+ "end_acc": "ПОЛІТИКУ",
+ "keywords": [
+  "п'ятнадцять",
+  "дітей.",
+  "москалів",
+  "зруйнували",
+  "загиблі,"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:d_st.jpg",
+   "15 ЗНИКЛИХ БЕЗВІСТИ",
+   "15"
+  ],
+  [
+   8,
+   "img:p_map_dym.jpg",
+   "",
+   ""
+  ],
+  [
+   15,
+   "vid:firetruck_2.mp4",
+   "",
+   ""
+  ],
+  [
+   20,
+   "img:p_card_dym.jpg",
+   "",
+   ""
+  ],
+  [
+   28,
+   "vid:siren_2.mp4",
+   "",
+   ""
+  ]
+ ]
+}

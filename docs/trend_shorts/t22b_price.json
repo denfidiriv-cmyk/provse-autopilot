@@ -1,0 +1,65 @@
+{
+ "img": "/tmp/trend/2026-11-22b/img",
+ "vid": "/tmp/trend/2026-11-22b/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "t22b_price",
+ "src": "/tmp/trend/2026-11-22b/src/price",
+ "job": "/tmp/trend/2026-11-22b/jobs/price",
+ "w1": 48,
+ "end_w": 44,
+ "bg": "#14090c",
+ "bg2": "#4a1520",
+ "accent": "#ffd84a",
+ "mood": "epic",
+ "end_text": [
+  "УСЕ ПРО",
+  "СПОРТ"
+ ],
+ "end_acc": "СПОРТ",
+ "keywords": [
+  "розгромила",
+  "останній",
+  "чотири",
+  "перша",
+  "жодної"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:b_ring2.jpg",
+   "100:90 У ВСІХ СУДДІВ",
+   "100:90"
+  ],
+  [
+   7,
+   "img:p_card_price.jpg",
+   "",
+   ""
+  ],
+  [
+   15,
+   "img:p_card_price2.jpg",
+   "",
+   ""
+  ],
+  [
+   21,
+   "img:b_belt.jpg",
+   "ВСІ 4 ПОЯСИ",
+   "4"
+  ],
+  [
+   30,
+   "img:b_ring.jpg",
+   "ПЕРША В БРИТАНІЇ",
+   "ПЕРША"
+  ],
+  [
+   38,
+   "vid:gloves_3.mp4",
+   "11–0 БЕЗ ПОРАЗОК",
+   "11–0"
+  ]
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "img": "/tmp/trend/2026-11-22b/img",
+ "vid": "/tmp/trend/2026-11-22b/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "t22b_sparta",
+ "src": "/tmp/trend/2026-11-22b/src/sparta",
+ "job": "/tmp/trend/2026-11-22b/jobs/sparta",
+ "w1": 40,
+ "end_w": 36,
+ "bg": "#08131f",
+ "bg2": "#1b3550",
+ "accent": "#ffb340",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "СВІТ"
+ ],
+ "end_acc": "СВІТ",
+ "keywords": [
+  "горить",
+  "затонути,",
+  "москалів",
+  "дрони.",
+  "вертоліт,"
+ ],
+ "scenes": [
+  [
+   0,
+   "vid:burnship_3.mp4",
+   "SPARTA II ГОРИТЬ",
+   "ГОРИТЬ"
+  ],
+  [
+   7,
+   "img:s_ship.jpg",
+   "",
+   ""
+  ],
+  [
+   11,
+   "img:p_card_sparta.jpg",
+   "",
+   ""
+  ],
+  [
+   17,
+   "img:s_gulf.jpg",
+   "",
+   ""
+  ],
+  [
+   24,
+   "img:s_heli.jpg",
+   "",
+   ""
+  ],
+  [
+   30,
+   "img:s_lov.jpg",
+   "4,1 КМ УГЛИБ ФІНЛЯНДІЇ",
+   "4,1"
+  ]
+ ]
+}
