@@ -148,5 +148,12 @@
   "channel": "sport",
   "cost": 0.46399399999999996,
   "url": "https://youtube.com/shorts/I0WPZ5h0Wgg"
+ },
+ {
+  "at": "2026-11-22T17:48:55.787448",
+  "query": "снег",
+  "channel": "svit",
+  "cost": 0.5248936999999999,
+  "url": "https://youtube.com/shorts/UWjiPvgCbsw"
  }
 ]
