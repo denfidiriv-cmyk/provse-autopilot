@@ -1,0 +1,52 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22d/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22d/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "vysh",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22d/src/vysh",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22d/jobs/vysh",
+ "w1": 33,
+ "end_w": 29,
+ "bg": "#140808",
+ "bg2": "#3a1010",
+ "accent": "#ff6b5b",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "ПОЛІТИКУ"
+ ],
+ "end_acc": "ПОЛІТИКУ",
+ "keywords": [
+  "двісті",
+  "москалі",
+  "загинули,",
+  "дітей."
+ ],
+ "scenes": [
+  [
+   0,
+   "vid:siren.mp4",
+   "200 ЛЮДЕЙ У МАГАЗИНІ",
+   "200"
+  ],
+  [
+   8,
+   "img:map_kyiv.jpg",
+   "",
+   ""
+  ],
+  [
+   14,
+   "img:v01.jpg",
+   "ВИШНЕВЕ, КИЇВЩИНА",
+   "ВИШНЕВЕ"
+  ],
+  [
+   19,
+   "img:card_vysh.jpg",
+   "",
+   ""
+  ]
+ ]
+}

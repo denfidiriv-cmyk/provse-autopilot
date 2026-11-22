@@ -1,0 +1,58 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22d/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22d/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "merk",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22d/src/merk",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22d/jobs/merk",
+ "w1": 33,
+ "end_w": 29,
+ "bg": "#04101c",
+ "bg2": "#0b2d4a",
+ "accent": "#4fc3ff",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "СВІТ"
+ ],
+ "end_acc": "СВІТ",
+ "keywords": [
+  "вибухнув",
+  "дрони",
+  "«меркурій»,",
+  "затонув."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:m02.jpg",
+   "КОРВЕТ МОСКАЛІВ ВИБУХНУВ",
+   "ВИБУХНУВ"
+  ],
+  [
+   5,
+   "img:m03.jpg",
+   "ПОРТ БЕНГАЗІ, ЛІВІЯ",
+   "БЕНГАЗІ"
+  ],
+  [
+   13,
+   "img:card_merk.jpg",
+   "",
+   ""
+  ],
+  [
+   20,
+   "img:m01.jpg",
+   "КЛАС «СТЕРЕГУЩИЙ»",
+   "«СТЕРЕГУЩИЙ»"
+  ],
+  [
+   24,
+   "vid:waves.mp4",
+   "ЗАТОНУВ",
+   "ЗАТОНУВ"
+  ]
+ ]
+}

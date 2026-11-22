@@ -1,0 +1,64 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22d/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22d/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "oliya",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22d/src/oliya",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22d/jobs/oliya",
+ "w1": 39,
+ "end_w": 35,
+ "bg": "#161004",
+ "bg2": "#4a3608",
+ "accent": "#ffc93c",
+ "mood": "explain",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЇЖУ"
+ ],
+ "end_acc": "ЇЖУ",
+ "keywords": [
+  "п'ятнадцять",
+  "устенко.",
+  "половини",
+  "песимістичний"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:o02.jpg",
+   "ОЛІЯ ПО 115 ГРН?",
+   "115"
+  ],
+  [
+   7,
+   "img:card_ust.jpg",
+   "",
+   ""
+  ],
+  [
+   12,
+   "img:o03.jpg",
+   "УДАРИ ПО ЗАВОДАХ",
+   "ЗАВОДАХ"
+  ],
+  [
+   18,
+   "img:o01.jpg",
+   "ПОЛОВИНА СВІТОВОЇ ОЛІЇ",
+   "ПОЛОВИНА"
+  ],
+  [
+   24,
+   "img:card_oil.jpg",
+   "",
+   ""
+  ],
+  [
+   30,
+   "vid:oil.mp4",
+   "БАЗОВИЙ СЦЕНАРІЙ",
+   "БАЗОВИЙ"
+  ]
+ ]
+}

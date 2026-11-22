@@ -22,7 +22,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from info_card import INTER_B, INTER_SB, OSW, W, X0, X1, background, font, hexrgb, shadow_text, wrap  # noqa: E402
+from info_card import INTER_B, INTER_SB, OSW, W, X0, X1, background, font, make_bg, hexrgb, shadow_text, wrap  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -32,7 +32,7 @@ def load_regions():
 
 
 def card(c):
-    im = background(c["bg"], c["bg2"])
+    im = make_bg(c)
     d = ImageDraw.Draw(im)
     acc = hexrgb(c["accent"])
     y = 330

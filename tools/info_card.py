@@ -54,6 +54,28 @@ def background(bg, bg2):
     return im
 
 
+def make_bg(c):
+    """Фон картки: градієнт або (якщо є "bg_photo") справжнє фото, розмите й притемнене, з матовою панеллю."""
+    if not c.get("bg_photo"):
+        return background(c["bg"], c["bg2"])
+    from PIL import ImageFilter
+    ph = Image.open(c["bg_photo"]).convert("RGB")
+    s = max(W / ph.width, H / ph.height)
+    ph = ph.resize((int(ph.width * s) + 1, int(ph.height * s) + 1))
+    l, t = (ph.width - W) // 2, (ph.height - H) // 2
+    im = ph.crop((l, t, l + W, t + H)).filter(ImageFilter.GaussianBlur(14))
+    tint = Image.new("RGB", (W, H), hexrgb(c.get("bg", "#000000")))
+    im = Image.blend(im, tint, 0.35)
+    shade = Image.new("L", (W, H))
+    sp = ImageDraw.Draw(shade)
+    for y in range(H):
+        sp.line([(0, y), (W, y)], fill=int(110 + 70 * abs(y - H * 0.4) / H))
+    im = Image.composite(Image.new("RGB", (W, H), (0, 0, 0)), im, shade)
+    d = ImageDraw.Draw(im, "RGBA")
+    d.rounded_rectangle([X0 - 40, 270, X1, 1215], 44, fill=(255, 255, 255, 30), outline=(255, 255, 255, 70), width=2)
+    return im
+
+
 def wrap(d, text, f, maxw):
     words, lines, cur = text.split(), [], ""
     for w in words:
@@ -134,7 +156,7 @@ def photo_badge(im, path, cx, top, w=380, h=460, flag=None):
 
 
 def person(c):
-    im = background(c["bg"], c["bg2"])
+    im = make_bg(c)
     d = ImageDraw.Draw(im)
     acc = hexrgb(c["accent"])
     has_photo = bool(c.get("photo"))
@@ -176,7 +198,7 @@ def person(c):
 
 
 def rows(c):
-    im = background(c["bg"], c["bg2"])
+    im = make_bg(c)
     d = ImageDraw.Draw(im)
     acc = hexrgb(c["accent"])
     y = 340
@@ -195,7 +217,7 @@ def rows(c):
     for r in c["rows"]:
         col = hexrgb(r.get("color", c["accent"]))
         d = ImageDraw.Draw(im, "RGBA")
-        d.rounded_rectangle([X0 - 20, y - 8, X1, y + rh - 22], 22, fill=(0, 0, 0, 95))
+        d.rounded_rectangle([X0 - 20, y - 8, X1, y + rh - 22], 22, fill=(255, 255, 255, 26) if c.get("bg_photo") else (0, 0, 0, 95))
         if r.get("bar"):
             bw = int((X1 - X0 - 40) * abs(r["bar"]) / vmax)
             d.rounded_rectangle([X0 - 20, y + rh - 36, X0 - 20 + bw, y + rh - 22], 7, fill=col + (255,))

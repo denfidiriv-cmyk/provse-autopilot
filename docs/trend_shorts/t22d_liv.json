@@ -1,0 +1,64 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22d/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22d/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "liv",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22d/src/liv",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22d/jobs/liv",
+ "w1": 32,
+ "end_w": 28,
+ "bg": "#140606",
+ "bg2": "#4a0d12",
+ "accent": "#ff4d5e",
+ "mood": "epic",
+ "end_text": [
+  "УСЕ ПРО",
+  "СПОРТ"
+ ],
+ "end_acc": "СПОРТ",
+ "keywords": [
+  "чотири-нуль!",
+  "кошмар.",
+  "вилучили,",
+  "вильоту."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:l01.jpg",
+   "ЛІВЕРПУЛЬ 4:0 МЮ",
+   "4:0"
+  ],
+  [
+   1,
+   "img:card_poch.jpg",
+   "",
+   ""
+  ],
+  [
+   9,
+   "img:l02.jpg",
+   "ЙОРО ВИЛУЧЕНО НА 8'",
+   "8'"
+  ],
+  [
+   15,
+   "img:card_goals.jpg",
+   "",
+   ""
+  ],
+  [
+   22,
+   "img:card_table.jpg",
+   "",
+   ""
+  ],
+  [
+   25,
+   "img:l03.jpg",
+   "19 МІСЦЕ",
+   "19"
+  ]
+ ]
+}
