@@ -1,0 +1,59 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22c/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22c/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "salo",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22c/src/salo",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22c/jobs/salo",
+ "w1": 43,
+ "end_w": 39,
+ "bg": "#1a0a0a",
+ "bg2": "#4a1a1a",
+ "accent": "#ff8a80",
+ "mood": "warm",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЇЖУ"
+ ],
+ "end_acc": "ЇЖУ",
+ "keywords": [
+  "двісті",
+  "держстату,",
+  "десять.",
+  "липень,",
+  "росте."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:s01.jpg",
+   "САЛО 227 ГРН ЗА КГ",
+   "227"
+  ],
+  [
+   8,
+   "img:card_salo.jpg",
+   "",
+   ""
+  ],
+  [
+   18,
+   "img:card_growth.jpg",
+   "",
+   ""
+  ],
+  [
+   27,
+   "img:s03c.jpg",
+   "ДЕШЕВШАЛО ЛИШЕ ДО ЛИПНЯ",
+   "ЛИПНЯ"
+  ],
+  [
+   34,
+   "img:s02.jpg",
+   "З СЕРПНЯ ЗНОВУ РОСТЕ",
+   "РОСТЕ"
+  ]
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22c/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22c/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "hryvnia",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22c/src/hryvnia",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t22c/jobs/hryvnia",
+ "w1": 46,
+ "end_w": 42,
+ "bg": "#04140f",
+ "bg2": "#0b3a30",
+ "accent": "#4be3b0",
+ "mood": "explain",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЕКОНОМІКУ"
+ ],
+ "end_acc": "ЕКОНОМІКУ",
+ "keywords": [
+  "сорок",
+  "п'ятдесят",
+  "найбільше",
+  "податках:",
+  "дно."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:h02.jpg",
+   "ДОЛАР ПО 45",
+   "45"
+  ],
+  [
+   11,
+   "img:card_nbu.jpg",
+   "",
+   ""
+  ],
+  [
+   19,
+   "img:card_shev.jpg",
+   "",
+   ""
+  ],
+  [
+   24,
+   "img:card_why.jpg",
+   "",
+   ""
+  ],
+  [
+   35,
+   "vid:money_1.mp4",
+   "ЦЕ ВЖЕ ДНО?",
+   "ДНО"
+  ]
+ ]
+}
