@@ -1,6 +1,6 @@
 # Трендові шорти 21.11.2026, вечір (основна сесія). Ці теми вже зроблені, не повторювати.
 
-Опубліковано 21.11: city https://youtube.com/shorts/uryJ-pyqh3s. Світ і Авто 21.11 о 19:00 вперлися в денний ліміт YouTube, тому riemann, pist (Світ), dam, fuel (Авто) чекають на 22.11 (готові файли в /mnt/user-data/uploads/out/short_t21d_*.mp4).
+Опубліковано (усі публічні): city https://youtube.com/shorts/uryJ-pyqh3s (21.11); 22.11 після денного ліміту: riemann https://youtube.com/shorts/4nIXnmHGIdE, pist https://youtube.com/shorts/arK5c6DDcWc, dam https://youtube.com/shorts/f1e2Sse7yK0, fuel https://youtube.com/shorts/0UlPAccYR-w.
 
 Google Trends (Україна, 24 год, за обсягом): «гипотеза римана», «дамба», «манчестер сіті – фулгем», «борис писториус», «пальне».
 
