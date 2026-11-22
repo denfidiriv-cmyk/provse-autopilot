@@ -1,0 +1,68 @@
+{
+ "svit": [
+  {
+   "query": "день сына",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-22T02:20:00-08:00",
+   "news": [
+    {
+     "title": "С Днем сына 2026 – милых открыток и поздравлений своими словами",
+     "url": "https://24tv.ua/traditions24/ru/pozdravlenija-s-dnem-syna-2026-krasivye-kartinki-i-proza-chtoby-podarit-horoshee-nastroenie_n3212118",
+     "source": "24 Канал"
+    },
+    {
+     "title": "День сыновей 2026: история праздника, открытки и готовые поздравления",
+     "url": "https://inkazan.ru/news/2026-11-20/den-synovey-2026-istoriya-prazdnika-otkrytki-i-gotovye-pozdravleniya-5736771",
+     "source": "inkazan.ru"
+    },
+    {
+     "title": "22 ноября — какой сегодня праздник? Что отмечают в этот день в России и мире, приметы и события истории",
+     "url": "https://www.gazeta.press/social/2026/11/22/22056620.shtml",
+     "source": "Газета"
+    }
+   ],
+   "channel": "svit",
+   "score": 2,
+   "matched": [
+    "праздник",
+    "примет"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  }
+ ],
+ "sport": [
+  {
+   "query": "верес – буковина",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-22T02:10:00-08:00",
+   "news": [
+    {
+     "title": "Верес – Буковина. Прогноз і анонс на матч чемпіонату України",
+     "url": "https://sport.ua/uk/news/927124-veres-bukovina-prognoz-i-anons-na-match-chempionatu-ukraini",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Верес - Буковина. Анонс і прогноз матчу УПЛ на 22.11.2026",
+     "url": "https://www.ua-football.com/ua/predictions/upl/1795272483-veres-bukovina-anons-i-prognoz-matchu-upl-na-22-11-2026.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "Чемпіонат України: «Верес» – «Буковина», початок о 13.00",
+     "url": "https://ua.tribuna.com/uk/football/1000000394424-chempionat-ukrayiny-veres-bukovyna-pochatok-o-1300/",
+     "source": "Tribuna.com"
+    }
+   ],
+   "channel": "sport",
+   "score": 2,
+   "matched": [
+    "матч",
+    "чемпіон"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 5
+  }
+ ]
+}
