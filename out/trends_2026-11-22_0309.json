@@ -1,0 +1,134 @@
+{
+ "sport": [
+  {
+   "query": "реал мадрид – сельта",
+   "traffic": 10000,
+   "traffic_label": "10000+",
+   "published": "2026-11-21T11:20:00-08:00",
+   "news": [
+    {
+     "title": "\"Реал\" с камбэком одолел \"Сельту\" и догнал \"Барселону\" на вершине Ла Лиги",
+     "url": "https://tsn.ua/ru/prosport/real-s-kambekom-odolel-seltu-i-dognal-barselonu-na-vershine-la-ligi-3223299.html",
+     "source": "ТСН"
+    },
+    {
+     "title": "\"Реал\" пропустил быстрый гол и не забил пенальти: чем завершилась битва с \"Сельтой\"",
+     "url": "https://sport.rbc.ua/ukr/football/real-propustiv-shvidkiy-gol-i-zmarnuvav-penalti-1795299563.html",
+     "source": "РБК-Україна"
+    },
+    {
+     "title": "Реал – Сельта: Лунин в заявке мадридцев, Мбаппе готов продолжить голевую серию",
+     "url": "https://www.ua-football.com/foreign/spain/1795286893-real-selta-lunin-v-zayavke-madridcev-mbappe-gotov-prodolzhit-golevuyu-seriyu.html",
+     "source": "UA-Football"
+    }
+   ],
+   "channel": "sport",
+   "score": 6,
+   "matched": [
+    "=гол",
+    "=реал",
+    "барселон"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 6
+  },
+  {
+   "query": "ньюкасл юнайтед – арсенал турнирная таблица",
+   "traffic": 5000,
+   "traffic_label": "5000+",
+   "published": "2026-11-21T11:40:00-08:00",
+   "news": [
+    {
+     "title": "Гимарайнс против бывших, Эдегор с повязкой: объявлены составы на матч Ньюкасл – Арсенал",
+     "url": "https://fc-arsenal.com/ru/gimarayns-protiv-byvshih-edegor-s-povyazkoy-obyavleny-sostavy-na-match-nyukasl-arsenal/",
+     "source": "fc-arsenal.com"
+    },
+    {
+     "title": "\"Арсенал\" спасся от поражения с \"Ньюкаслом\", но упустил шанс оторваться от \"Манчестер Сити\"",
+     "url": "https://sport.rbc.ua/ukr/football/arsenal-vryatuvavsya-vid-porazki-nyukaslom-1795290720.html",
+     "source": "РБК-Україна"
+    },
+    {
+     "title": "Ньюкасл — Арсенал: анонс и котировки на матч чемпионата Англии",
+     "url": "https://sport.nv.ua/football/nyukasl-arsenal-gde-smotret-match-apl-i-shansy-na-pobedu-21-noyabrya-50660918.html",
+     "source": "NV Спорт"
+    }
+   ],
+   "channel": "sport",
+   "score": 7,
+   "matched": [
+    "арсенал",
+    "манчестер",
+    "матч",
+    "чемпион"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 6
+  },
+  {
+   "query": "ницца (футбольный клуб) – псж турнирная таблица",
+   "traffic": 5000,
+   "traffic_label": "5000+",
+   "published": "2026-11-21T10:30:00-08:00",
+   "news": [
+    {
+     "title": "ПСЖ с Забарным одержал волевую победу в матче чемпионата Франции",
+     "url": "https://tsn.ua/ru/prosport/pszh-s-zabarnym-oderzhal-volevuyu-pobedu-v-matche-chempionata-frantsii-3223295.html",
+     "source": "ТСН"
+    },
+    {
+     "title": "Камбек за две минуты: ПСЖ с Забарным изменил ход матча против \"Ниццы\"",
+     "url": "https://sport.rbc.ua/ukr/football/kambek-dvi-hvilini-pszh-iz-zabarnim-zminiv-1795286622.html",
+     "source": "РБК-Україна"
+    },
+    {
+     "title": "ПСЖ с Забарным в стартовом составе обыграл Ниццу в 11-м туре Лиги 1",
+     "url": "https://champion.com.ua/rus/football/pszh-obygral-niccu-i-drugie-matchi-11-go-tura-francuzskoy-ligi-1-1091499/",
+     "source": "Champion.com.ua"
+    }
+   ],
+   "channel": "sport",
+   "score": 5,
+   "matched": [
+    "матч",
+    "футбол",
+    "чемпион"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  }
+ ],
+ "polityka": [
+  {
+   "query": "міністр закордонних справ ірану",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-21T12:00:00-08:00",
+   "news": [
+    {
+     "title": "Голова МЗС Ірану назвав обґрунтованими заклики в країні до зміни ядерної доктрини",
+     "url": "https://www.radiosvoboda.org/a/news-holova-mzs-iran-pro-zaklyky-do-zmin-iderna-doktryna/33903164.html",
+     "source": "Радіо Свобода"
+    },
+    {
+     "title": "Трамп хоче укласти з Іраном \"постійну\" угоду щодо ядерної зброї",
+     "url": "https://lb.ua/world/2026/11/21/782824_tramp_hoche_uklasti_z_iranom.html",
+     "source": "LB.ua"
+    },
+    {
+     "title": "Трамп має намір укласти з Іраном безстрокову угоду",
+     "url": "https://interfax.com.ua/news/general/1240334.html",
+     "source": "Інтерфакс-Україна"
+    }
+   ],
+   "channel": "polityka",
+   "score": 4,
+   "matched": [
+    "міністр",
+    "трамп"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  }
+ ]
+}

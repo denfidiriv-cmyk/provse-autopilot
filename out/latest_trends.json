@@ -1,31 +1,64 @@
 {
  "sport": [
   {
-   "query": "ньюкасл юнайтед – арсенал",
-   "traffic": 5000,
-   "traffic_label": "5000+",
-   "published": "2026-11-21T08:40:00-08:00",
+   "query": "реал мадрид – сельта",
+   "traffic": 10000,
+   "traffic_label": "10000+",
+   "published": "2026-11-21T11:20:00-08:00",
    "news": [
     {
-     "title": "Ньюкасл – Арсенал. Смотреть онлайн. LIVE трансляция",
-     "url": "https://sport.ua/news/926941-nyukasl-arsenal-smotret-onlayn-live-translyatsiya",
-     "source": "Sport.ua"
+     "title": "\"Реал\" с камбэком одолел \"Сельту\" и догнал \"Барселону\" на вершине Ла Лиги",
+     "url": "https://tsn.ua/ru/prosport/real-s-kambekom-odolel-seltu-i-dognal-barselonu-na-vershine-la-ligi-3223299.html",
+     "source": "ТСН"
     },
     {
-     "title": "Ньюкасл — Арсенал: анонс и котировки на матч чемпионата Англии",
-     "url": "https://sport.nv.ua/football/nyukasl-arsenal-gde-smotret-match-apl-i-shansy-na-pobedu-21-noyabrya-50660918.html",
-     "source": "NV Спорт"
+     "title": "\"Реал\" пропустил быстрый гол и не забил пенальти: чем завершилась битва с \"Сельтой\"",
+     "url": "https://sport.rbc.ua/ukr/football/real-propustiv-shvidkiy-gol-i-zmarnuvav-penalti-1795299563.html",
+     "source": "РБК-Україна"
     },
     {
-     "title": "Шовковский: Оборона Арсенала даст трещину на выезде против Ньюкасла",
-     "url": "https://www.ua-football.com/foreign/england/1795256087-shovkovskiy-oborona-arsenala-dast-treschinu-na-vyezde-protiv-nyukasla.html",
+     "title": "Реал – Сельта: Лунин в заявке мадридцев, Мбаппе готов продолжить голевую серию",
+     "url": "https://www.ua-football.com/foreign/spain/1795286893-real-selta-lunin-v-zayavke-madridcev-mbappe-gotov-prodolzhit-golevuyu-seriyu.html",
      "source": "UA-Football"
     }
    ],
    "channel": "sport",
    "score": 6,
    "matched": [
+    "=гол",
+    "=реал",
+    "барселон"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 6
+  },
+  {
+   "query": "ньюкасл юнайтед – арсенал турнирная таблица",
+   "traffic": 5000,
+   "traffic_label": "5000+",
+   "published": "2026-11-21T11:40:00-08:00",
+   "news": [
+    {
+     "title": "Гимарайнс против бывших, Эдегор с повязкой: объявлены составы на матч Ньюкасл – Арсенал",
+     "url": "https://fc-arsenal.com/ru/gimarayns-protiv-byvshih-edegor-s-povyazkoy-obyavleny-sostavy-na-match-nyukasl-arsenal/",
+     "source": "fc-arsenal.com"
+    },
+    {
+     "title": "\"Арсенал\" спасся от поражения с \"Ньюкаслом\", но упустил шанс оторваться от \"Манчестер Сити\"",
+     "url": "https://sport.rbc.ua/ukr/football/arsenal-vryatuvavsya-vid-porazki-nyukaslom-1795290720.html",
+     "source": "РБК-Україна"
+    },
+    {
+     "title": "Ньюкасл — Арсенал: анонс и котировки на матч чемпионата Англии",
+     "url": "https://sport.nv.ua/football/nyukasl-arsenal-gde-smotret-match-apl-i-shansy-na-pobedu-21-noyabrya-50660918.html",
+     "source": "NV Спорт"
+    }
+   ],
+   "channel": "sport",
+   "score": 7,
+   "matched": [
     "арсенал",
+    "манчестер",
     "матч",
     "чемпион"
    ],
@@ -33,127 +66,66 @@
    "extra_sources": 6
   },
   {
-   "query": "александр топурия",
-   "traffic": 100,
-   "traffic_label": "100+",
-   "published": "2026-11-21T10:10:00-08:00",
+   "query": "ницца (футбольный клуб) – псж турнирная таблица",
+   "traffic": 5000,
+   "traffic_label": "5000+",
+   "published": "2026-11-21T10:30:00-08:00",
    "news": [
     {
-     "title": "Сантьяго Луна победил Александра Топурию на UFC в Дохе",
-     "url": "https://vringe.com/mma/news/205312-santyago-luna-pobedil-aleksandra-topuriyu.htm",
-     "source": "vRINGe.com"
+     "title": "ПСЖ с Забарным одержал волевую победу в матче чемпионата Франции",
+     "url": "https://tsn.ua/ru/prosport/pszh-s-zabarnym-oderzhal-volevuyu-pobedu-v-matche-chempionata-frantsii-3223295.html",
+     "source": "ТСН"
     },
     {
-     "title": "Александр Топурия — Сантьяго Луна: прогноз (кэф 2.66) на 21 ноября 2026",
-     "url": "https://stavka.tv/matches/mma/21-11-2026-aleksandre-topuria-santiago-luna",
-     "source": "Ставка ТВ"
+     "title": "Камбек за две минуты: ПСЖ с Забарным изменил ход матча против \"Ниццы\"",
+     "url": "https://sport.rbc.ua/ukr/football/kambek-dvi-hvilini-pszh-iz-zabarnim-zminiv-1795286622.html",
+     "source": "РБК-Україна"
     },
     {
-     "title": "Топурия сделал вес перед боем на UFC Qatar",
-     "url": "https://prosports.kz/news/759357-topuriya-sdelal-ves-pered-boem-na-ufc-qatar/",
-     "source": "Prosports.kz"
+     "title": "ПСЖ с Забарным в стартовом составе обыграл Ниццу в 11-м туре Лиги 1",
+     "url": "https://champion.com.ua/rus/football/pszh-obygral-niccu-i-drugie-matchi-11-go-tura-francuzskoy-ligi-1-1091499/",
+     "source": "Champion.com.ua"
     }
    ],
    "channel": "sport",
-   "score": 1,
-   "matched": [
-    "ufc"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 1
-  }
- ],
- "svit": [
-  {
-   "query": "погода кропивницький",
-   "traffic": 100,
-   "traffic_label": "100+",
-   "published": "2026-11-21T09:50:00-08:00",
-   "news": [
-    {
-     "title": "У неділю стане прохолодніше: прогноз погоди на вихідні для Кіровоградщини",
-     "url": "https://suspilne.media/kropyvnytskiy/1455679-u-nedilu-stane-proholodnise-prognoz-pogodi-na-vihidni-dla-kirovogradsini/",
-     "source": "Суспільне | Новини"
-    },
-    {
-     "title": "Синоптики попереджають про ожеледь та мокрий сніг на Кіровоградщині",
-     "url": "https://dostyp.com.ua/novini/sinoptiki-poperedzhayut-pro-ozheled-ta-mokrij-snig-na-kirovogradshini/",
-     "source": "Доступ. Медіа"
-    },
-    {
-     "title": "Хмарно та з невеликим дощем: якою буде погода на Кіровоградщині 21 листопада",
-     "url": "https://zlatopil.com/all-news/hmarno-ta-z-nevelykym-doshhem-yakoyu-bude-pogoda-na-kirovogradshhyni-21-lystopada",
-     "source": "zlatopil.com"
-    }
-   ],
-   "channel": "svit",
    "score": 5,
    "matched": [
-    "погод",
-    "сніг"
+    "матч",
+    "футбол",
+    "чемпион"
    ],
    "skipped_reason": "",
-   "extra_sources": 2
+   "extra_sources": 8
   }
  ],
  "polityka": [
   {
-   "query": "калининград",
-   "traffic": 1000,
-   "traffic_label": "1000+",
-   "published": "2026-11-21T09:40:00-08:00",
-   "news": [
-    {
-     "title": "В Калининградской области РФ объявили воздушную тревогу и включили сирены, Стерненко заявил о прилете",
-     "url": "https://nv.ua/world/countries/vozdushnaya-trevoga-v-kaliningradskoy-oblasti-sternenko-zayavil-o-prilete-v-baltiyske-50661353.html",
-     "source": "NV"
-    },
-    {
-     "title": "В Калининграде завыли сирены воздушной тревоги",
-     "url": "https://korrespondent.net/world/russia/4930774-v-kalynynhrade-zavyly-syreny-vozdushnoi-trevohy",
-     "source": "Korrespondent.net"
-    },
-    {
-     "title": "В российском Калининграде завыли сирены: местные власти заявили о неизвестных целях со стороны НАТО",
-     "url": "https://tsn.ua/ru/svit/v-rossiyskom-kaliningrade-zavyli-sireny-mestnye-vlasti-zayavili-o-neizvestnyh-tselyah-so-storony-nato-3223239.html",
-     "source": "ТСН"
-    }
-   ],
-   "channel": "polityka",
-   "score": 1,
-   "matched": [
-    "нато"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 8
-  },
-  {
-   "query": "g20",
+   "query": "міністр закордонних справ ірану",
    "traffic": 200,
    "traffic_label": "200+",
-   "published": "2026-11-21T09:30:00-08:00",
+   "published": "2026-11-21T12:00:00-08:00",
    "news": [
     {
-     "title": "Зеленський готовий до зустрічі з Путіним на G20, якщо буде можливість",
-     "url": "https://www.pravda.com.ua/news/2026/11/21/8063948/",
-     "source": "Українська правда"
+     "title": "Голова МЗС Ірану назвав обґрунтованими заклики в країні до зміни ядерної доктрини",
+     "url": "https://www.radiosvoboda.org/a/news-holova-mzs-iran-pro-zaklyky-do-zmin-iderna-doktryna/33903164.html",
+     "source": "Радіо Свобода"
     },
     {
-     "title": "Чи буде на полях G20: Зеленський розповів про підготовку до нового саміту Україна – США – Росія",
-     "url": "https://24tv.ua/zelenskiy-dopustiv-tristoronnyu-zustrich-iz-trampom-putinim-samiti_n3212008",
-     "source": "24 Канал"
+     "title": "Трамп хоче укласти з Іраном \"постійну\" угоду щодо ядерної зброї",
+     "url": "https://lb.ua/world/2026/11/21/782824_tramp_hoche_uklasti_z_iranom.html",
+     "source": "LB.ua"
     },
     {
-     "title": "Офіційного запрошення від Америки не отримували. Зеленський розповів про ймовірну тристоронню зустріч на G20",
-     "url": "https://nv.ua/ukr/ukraine/events/zelenskiy-rozpoviv-pro-pidgotovku-do-mozhlivoji-tristoronnoji-zustrichi-y-dopustiv-jiji-na-samiti-g20-50661298.html",
-     "source": "NV"
+     "title": "Трамп має намір укласти з Іраном безстрокову угоду",
+     "url": "https://interfax.com.ua/news/general/1240334.html",
+     "source": "Інтерфакс-Україна"
     }
    ],
    "channel": "polityka",
-   "score": 2,
+   "score": 4,
    "matched": [
-    "зеленськ",
-    "саміт"
+    "міністр",
+    "трамп"
    ],
    "skipped_reason": "",
    "extra_sources": 9
