@@ -1,145 +1,131 @@
 {
  "sport": [
   {
-   "query": "жирона – эйбар",
-   "traffic": 1000,
-   "traffic_label": "1000+",
-   "published": "2026-11-22T09:00:00-08:00",
+   "query": "ливерпуль – манчестер юнайтед турнирная таблица",
+   "traffic": 10000,
+   "traffic_label": "10000+",
+   "published": "2026-11-22T10:40:00-08:00",
    "news": [
     {
-     "title": "Украинский дуэт зажег в матче Жироны: Ванат забил после передачи Пищура",
-     "url": "https://www.ua-football.com/ukrainian/ukrainians/1795371239-ukrainskiy-duyet-zazheg-v-matche-zhirony-vanat-zabil-posle-peredachi-pischura.html",
+     "title": "Дебют Почеттино превратился в кошмар: \"Ливерпуль\" не оставил шансов МЮ",
+     "url": "https://sport.rbc.ua/ukr/football/debyut-pochettino-peretvorivsya-koshmar-liverpul-1795373524.html",
+     "source": "РБК-Україна"
+    },
+    {
+     "title": "\"Ливерпуль\" в большинстве разгромил \"Манчестер Юнайтед\" в АПЛ",
+     "url": "https://tsn.ua/ru/prosport/liverpul-v-bolshinstve-razgromil-manchester-yunayted-v-apl-3223715.html",
+     "source": "ТСН"
+    },
+    {
+     "title": "АПЛ. С возвращением, Маурисио: Ливерпуль выписывает Юнайтед добротную пощечину на Энфилде",
+     "url": "https://www.ua-football.com/foreign/england/1795369360-apl-s-vozvrascheniem-maurisio-liverpul-vypisyvaet-yunayted-dobrotnuyu-poschechinu-na-yenfilde.html",
      "source": "UA-Football"
-    },
-    {
-     "title": "Ванат и Пищур организовали гол Жироны в матче с Эйбаром",
-     "url": "https://champion.com.ua/rus/football/vanat-zabil-za-zhironu-posle-peredachi-pishchura-1091591/",
-     "source": "Champion.com.ua"
-    },
-    {
-     "title": "Дуэт украинских нападающих выйдет в старте на матч чемпионата Испании",
-     "url": "https://sport.ua/news/927436-duet-ukrainskih-napadayushchih-viydet-v-starte-na-match-chempionata-ispanii",
-     "source": "Sport.ua"
     }
    ],
    "channel": "sport",
-   "score": 3,
+   "score": 4,
    "matched": [
-    "=гол",
-    "матч",
-    "чемпион"
+    "манчестер"
    ],
    "skipped_reason": "",
-   "extra_sources": 1
+   "extra_sources": 7
   },
   {
-   "query": "ліверпуль",
-   "traffic": 500,
-   "traffic_label": "500+",
-   "published": "2026-11-22T08:50:00-08:00",
+   "query": "хетафе – атлетіко мадрид",
+   "traffic": 2000,
+   "traffic_label": "2000+",
+   "published": "2026-11-22T11:30:00-08:00",
    "news": [
     {
-     "title": "Жахливий дебют Почеттіно. Ліверпуль розгромив МЮ у центральному матчі туру",
-     "url": "https://sport.ua/uk/news/927438-zhahliviy-debyut-pochettino-liverpul-rozgromiv-myu-u-tsentralnomu-matchi-turu",
-     "source": "Sport.ua"
-    },
-    {
-     "title": "АПЛ. Із поверненням, Маурісіо: Ліверпуль виписує Юнайтед добрячого ляпаса на Енфілді",
-     "url": "https://www.ua-football.com/ua/foreign/england/1795369360-apl-iz-povernennyam-maurisio-liverpul-vipisuye-yunayted-dobryachogo-lyapasa-na-enfildi.html",
+     "title": "Ла Лига. Три гола и красная карточка: Атлетико не оставил шансов Хетафе",
+     "url": "https://www.ua-football.com/foreign/spain/1795383880-la-liga-tri-gola-i-krasnaya-kartochka-atletiko-ne-ostavil-shansov-hetafe.html",
      "source": "UA-Football"
     },
     {
-     "title": "Вогняний дебют Почеттіно: де і коли дивитися топ-битву АПЛ \"Ліверпуль\" – \"Манчестер Юнайтед\"",
-     "url": "https://sport.rbc.ua/rus/football/vognyaniy-debyut-pochettino-de-i-koli-divitisya-1795343121.html",
-     "source": "РБК-Україна"
+     "title": "«Атлетико» обыграл «Хетафе» в матче 13-го тура Ла Лиги",
+     "url": "https://legalbet.ru/news/62021132-432005-atletiko-obygral-hetafe-v-matche-13-go-tura-la-lig/",
+     "source": "legalbet.ru"
+    },
+    {
+     "title": "Баэна: «Мы должны идти своим путём, не обращая внимания на то, что делают «Барселона» и «Реал»",
+     "url": "https://www.euro-football.ru/article/35/1006425616_baena_myi_doljnyi_idti_svoim_putem_ne_obraschaya_vnimaniya_na_to_chto_delayut_barselona_i_real",
+     "source": "Евро-Футбол"
     }
    ],
    "channel": "sport",
-   "score": 6,
+   "score": 4,
    "matched": [
-    "ліверпуль",
-    "манчестер",
+    "=реал",
+    "барселон",
+    "лига",
     "матч"
    ],
    "skipped_reason": "",
-   "extra_sources": 6
+   "extra_sources": 5
   },
   {
-   "query": "мацей кендзьорек",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-22T09:00:00-08:00",
+   "query": "аталанта – інтер",
+   "traffic": 2000,
+   "traffic_label": "2000+",
+   "published": "2026-11-22T11:00:00-08:00",
    "news": [
     {
-     "title": "Мацей Кендзьорек оголосив про підсилення, яке отримало київське Динамо",
-     "url": "https://sport.ua/uk/news/927310-matsey-kendzyorek-ogolosiv-pro-pidsilennya-yake-otrimalo-kiivske-dinamo",
+     "title": "Трилер в Італії. Аталанта та Інтер видали шоу з вісьмома голами",
+     "url": "https://sport.ua/uk/news/927539-triler-v-italii-atalanta-ta-inter-vidali-shou-iz-vosmimi-golami",
      "source": "Sport.ua"
     },
     {
-     "title": "Кендзьорек: Динамо має зосередитися на маленьких кроках та короткострокових завданнях",
-     "url": "https://sportarena.ua/uk/footboll/upl/kendzorek-dinamo-maye-zosereditisya-na-malenkih-krokah/",
-     "source": "Sportarena.ua"
+     "title": "\"Аталанта\" врятувала матч з \"Інтером\" на останніх хвилинах: хет-трик Еспозіто не допоміг міланцям",
+     "url": "https://sport.rbc.ua/rus/football/atalanta-vryatuvala-match-interom-ostannih-1795384912.html",
+     "source": "РБК-Україна"
     },
     {
-     "title": "Кендзьорек: У тренерський штаб Динамо приєдналось двоє фахівців",
-     "url": "https://champion.com.ua/ukr/football/dinam-pidsilivsya-trenerskiy-shtab-dvoma-fahivcyami-1091575/",
-     "source": "Champion.com.ua"
+     "title": "Аталанта – Інтер. Дивитись онлайн LIVE пряму відеотрансляцію матчу Серії А",
+     "url": "https://www.ua-football.com/ua/foreign/italy/1795358476-atalanta-inter-divitis-onlayn-live-pryamu-videotranslyaciyu-matchu-seriyi-a.html",
+     "source": "UA-Football"
     }
    ],
    "channel": "sport",
    "score": 1,
    "matched": [
-    "динамо"
+    "матч"
    ],
    "skipped_reason": "",
-   "extra_sources": 4
+   "extra_sources": 8
   }
  ],
- "svit": [
+ "dim": [
   {
-   "query": "погода завтра",
-   "traffic": 50000,
-   "traffic_label": "50000+",
-   "published": "2026-11-22T10:50:00-08:00",
-   "news": [],
-   "channel": "svit",
-   "score": 3,
-   "matched": [
-    "погод"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 10
-  },
-  {
-   "query": "марс",
+   "query": "графік відключення світла хмельницький",
    "traffic": 200,
    "traffic_label": "200+",
-   "published": "2026-11-22T09:50:00-08:00",
+   "published": "2026-11-22T10:20:00-08:00",
    "news": [
     {
-     "title": "Деревья без теней на полюсе Марса. Что на самом деле скрывает знаменитый оптический обман на снимке NASA",
-     "url": "https://techno.nv.ua/popscience/opticheskaya-illyuziya-na-marse-kak-suhoy-led-i-peschanye-laviny-sozdayut-siluety-derevev-na-dyunah-50660919.html",
-     "source": "NV Техно"
+     "title": "Відключення світла на Хмельниччині: повідомили графік на 23 листопада",
+     "url": "https://suspilne.media/khmelnytskiy/1456067-vidklucenna-svitla-na-hmelniccini-povidomili-grafik-na-23-listopada/",
+     "source": "Суспільне | Новини"
     },
     {
-     "title": "Марс сфотографировали так, будто на нем растут деревья: что создает этот эффект",
-     "url": "https://www.unian.net/science/les-na-marse-pochemu-na-poverhnosti-planety-vidny-figury-pohozhie-na-derevya-13567686.html",
-     "source": "УНИАН"
+     "title": "Планові відключення світла в Хмельницькому 23 листопада: адреси",
+     "url": "https://vsim.ua/Podii/planovi-vidklyuchennya-svitla-v-hmelnitskomu-23-listopada-adresi-12013415.html",
+     "source": "Всім - Новини Хмельницького"
     },
     {
-     "title": "«Призрачный лес» на замерзших дюнах: орбитальный аппарат сделал впечатляющий снимок Марса",
-     "url": "https://zn.ua/TECHNOLOGIES/prizrachnyj-les-na-zamerzshikh-djunakh-orbitalnyj-apparat-sdelal-vpechatljajushchij-snimok-marsa.html",
-     "source": "Дзеркало тижня"
+     "title": "Де не буде світла у Хмельницькому 23 листопада",
+     "url": "https://podillyanews.com/2026/11/22/de-ne-bude-svitla-u-hmelnytskomu-23-lystopada/",
+     "source": "Поділля News"
     }
    ],
-   "channel": "svit",
-   "score": 5,
+   "channel": "dim",
+   "score": 12,
    "matched": [
-    "nasa",
-    "марс"
+    "відключен",
+    "графік",
+    "світл"
    ],
    "skipped_reason": "",
-   "extra_sources": 9
+   "extra_sources": 3
   }
  ]
 }
