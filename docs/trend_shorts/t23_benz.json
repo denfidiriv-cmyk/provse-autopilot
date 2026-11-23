@@ -1,0 +1,52 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t23/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t23/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "benz",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t23/src/benz",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t23/jobs/benz",
+ "w1": 39,
+ "end_w": 35,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#7ee0a1",
+ "mood": "upbeat",
+ "end_text": [
+  "УСЕ ПРО",
+  "АВТО"
+ ],
+ "end_acc": "АВТО",
+ "keywords": [
+  "подешевшав",
+  "шість",
+  "дизель",
+  "«укрнафті»:"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:b01.jpg",
+   "БЕНЗИН −6 ГРН",
+   "−6"
+  ],
+  [
+   7,
+   "img:card_benz.jpg",
+   "",
+   ""
+  ],
+  [
+   25,
+   "img:card_azs.jpg",
+   "",
+   ""
+  ],
+  [
+   32,
+   "vid:fuel.mp4",
+   "79,90 ЗА ЛІТР",
+   "79,90"
+  ]
+ ]
+}

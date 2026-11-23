@@ -1,0 +1,58 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t23/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t23/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "kosmos",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t23/src/kosmos",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t23/jobs/kosmos",
+ "w1": 41,
+ "end_w": 37,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#8fdcff",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "ПОЛІТИКУ"
+ ],
+ "end_acc": "ПОЛІТИКУ",
+ "keywords": [
+  "ядерна",
+  "супутник",
+  "gps,",
+  "шокуючими."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:c02.jpg",
+   "ЯДЕРНА БОМБА НА ОРБІТІ?",
+   "ЯДЕРНА"
+  ],
+  [
+   8,
+   "img:card_sat.jpg",
+   "",
+   ""
+  ],
+  [
+   18,
+   "img:c01.jpg",
+   "GPS, ЗВ'ЯЗОК, БАНКИ",
+   "GPS"
+  ],
+  [
+   29,
+   "img:card_merz.jpg",
+   "",
+   ""
+  ],
+  [
+   33,
+   "vid:earth.mp4",
+   "«ШОКУЮЧІ» ПЛАНИ",
+   "«ШОКУЮЧІ»"
+  ]
+ ]
+}

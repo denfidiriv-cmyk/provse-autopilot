@@ -1,0 +1,58 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t23/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t23/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "karabah",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t23/src/karabah",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t23/jobs/karabah",
+ "w1": 39,
+ "end_w": 35,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#ffb347",
+ "mood": "explain",
+ "end_text": [
+  "УСЕ ПРО",
+  "СВІТ"
+ ],
+ "end_acc": "СВІТ",
+ "keywords": [
+  "карабах",
+  "пашинян",
+  "декларацію,",
+  "азербайджан"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:k03.jpg",
+   "КАРАБАХ ЗНИКАЄ З КОНСТИТУЦІЇ",
+   "КАРАБАХ"
+  ],
+  [
+   5,
+   "img:card_pash.jpg",
+   "",
+   ""
+  ],
+  [
+   14,
+   "img:k02.jpg",
+   "БЕЗ ДЕКЛАРАЦІЇ 1990",
+   "1990"
+  ],
+  [
+   28,
+   "img:card_aliev.jpg",
+   "",
+   ""
+  ],
+  [
+   32,
+   "img:k01.jpg",
+   "МИР З АЗЕРБАЙДЖАНОМ?",
+   "МИР"
+  ]
+ ]
+}
