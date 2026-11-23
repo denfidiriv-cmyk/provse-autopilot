@@ -1,0 +1,58 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t23/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t23/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "svitlo2",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t23/src/svitlo2",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t23/jobs/svitlo2",
+ "w1": 44,
+ "end_w": 40,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#ffd166",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЕКОНОМІКУ"
+ ],
+ "end_acc": "ЕКОНОМІКУ",
+ "keywords": [
+  "чотирнадцяти",
+  "графіки",
+  "чотири",
+  "москалів"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:s01.jpg",
+   "ДО 14 ГОДИН БЕЗ СВІТЛА",
+   "14"
+  ],
+  [
+   5,
+   "img:card_svitlo.jpg",
+   "",
+   ""
+  ],
+  [
+   14,
+   "img:s05.jpg",
+   "ДО 3,5 ЧЕРГИ",
+   "3,5"
+  ],
+  [
+   22,
+   "img:s03.jpg",
+   "1 ЧЕРГА ≈ 4 ГОДИНИ",
+   "4"
+  ],
+  [
+   32,
+   "img:s04.jpg",
+   "УДАРИ ПО ЕНЕРГЕТИЦІ",
+   "ЕНЕРГЕТИЦІ"
+  ]
+ ]
+}
