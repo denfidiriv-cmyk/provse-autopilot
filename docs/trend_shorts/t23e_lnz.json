@@ -1,0 +1,52 @@
+{
+ "img": "/tmp/trend/2026-11-23e/img",
+ "vid": "/tmp/trend/2026-11-23e/vid2",
+ "outro": null,
+ "w0": 0,
+ "name": "t23e_lnz",
+ "src": "/tmp/trend/2026-11-23e/src/lnz",
+ "job": "/tmp/trend/2026-11-23e/jobs/lnz",
+ "w1": 36,
+ "end_w": 32,
+ "bg": "#04140a",
+ "bg2": "#0b4a22",
+ "accent": "#3dff8a",
+ "mood": "upbeat",
+ "end_text": [
+  "УСЕ ПРО",
+  "СПОРТ"
+ ],
+ "end_acc": "СПОРТ",
+ "keywords": [
+  "Один-один,",
+  "Велетень",
+  "штрафного.",
+  "Шахтаря."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:l_st2.jpg",
+   "1:1 У ЧЕРКАСАХ",
+   "1:1"
+  ],
+  [
+   5,
+   "vid:ball_1.mp4",
+   "6' ГОЛ ЛНЗ",
+   "6'"
+  ],
+  [
+   13,
+   "img:l_net2.jpg",
+   "56' З-ЗА ШТРАФНОГО",
+   "56'"
+  ],
+  [
+   21,
+   "img:card_tab.jpg",
+   "",
+   ""
+  ]
+ ]
+}
