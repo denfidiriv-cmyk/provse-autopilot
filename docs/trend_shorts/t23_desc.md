@@ -1,7 +1,7 @@
 # Трендові шорти 23.11.2026, вечір (основна сесія). Ці теми вже зроблені, не повторювати.
 
 Google Trends (Україна, 24 год, о 21:10): «нікол пашинян», «ядерна зброя», «міг-29», «лнз – полісся», «переговори» по 10 тис.+; «24 листопада» (графіки відключень), «меркурий», «армия» по 5 тис.+; «дизельное топливо» 1 тис.+. Автопілот уже зробив «лнз – полісся».
-Опубліковано 23.11 (публічні): karabah https://youtube.com/shorts/2bwfBPnU4zs, kosmos https://youtube.com/shorts/VznV5yOj6GY, benz https://youtube.com/shorts/X9M_f1ZdzHs. svitlo чекає: канал «Все про дім» (@Fox_films_ff) тепер Attic Files (довгі англомовні відео).
+Опубліковано 23.11 (публічні): karabah https://youtube.com/shorts/2bwfBPnU4zs, kosmos https://youtube.com/shorts/VznV5yOj6GY, benz https://youtube.com/shorts/X9M_f1ZdzHs. svitlo переозвучено й опубліковано на «Все про економіку» https://youtube.com/shorts/NvwTnH3pZYg (канал «Все про дім» @Fox_films_ff тепер Attic Files, довгі англомовні відео). На «Економіці» лишилися дві приватні чернетки: «short t23 svitlo» (стара версія) і «short t22c hryvnia».
 
 ## t23_svitlo → Все про економіку (UCuTHeI_iY8QAvXfVdJbyHQA), переозвучено (t23_svitlo2, голос Charon)
 Назва: 💡 До 14 ГОДИН без світла: графіки на 24 листопада #shorts
