@@ -1,0 +1,170 @@
+{
+ "avto": [
+  {
+   "query": "дизельное топливо",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-23T04:00:00-08:00",
+   "news": [
+    {
+     "title": "В Украине упали цены на топливо в ряде сетей АЗС",
+     "url": "https://epravda.com.ua/rus/energetika/ceny-na-toplivo-v-ukraine-snizilis-v-neskolkih-setyah-azs-827918/",
+     "source": "Економічна правда"
+    },
+    {
+     "title": "В Украине подешевели бензин и дизтопливо — сравнение цен в крупнейших сетях АЗС",
+     "url": "https://biz.nv.ua/markets/v-ukraine-podesheveli-benzin-i-dizel-sravnenie-cen-v-krupneyshih-setyah-azs-50661641.html",
+     "source": "NV Бизнес"
+    },
+    {
+     "title": "Украинские АЗС снизили цены на топливо",
+     "url": "https://korrespondent.net/business/economics/4931123-ukraynskye-azs-snyzyly-tseny-na-toplyvo",
+     "source": "Korrespondent.net"
+    }
+   ],
+   "channel": "avto",
+   "score": 9,
+   "matched": [
+    "азс",
+    "бензин",
+    "дизел",
+    "топлив"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  }
+ ],
+ "ekonomika": [
+  {
+   "query": "міністр закордонних та європейських справ словаччини",
+   "traffic": 5000,
+   "traffic_label": "5000+",
+   "published": "2026-11-23T03:10:00-08:00",
+   "news": [
+    {
+     "title": "Глава МЗС Словаччини натякнув, що за вторгненням у Чехословаччину стояли українці",
+     "url": "https://www.pravda.com.ua/news/2026/11/22/8064057/",
+     "source": "Українська правда"
+    },
+    {
+     "title": "Очільник МЗС Словаччини заявив, що за радянським вторгненням до Чехословаччини у 1968 році «стояли українці»",
+     "url": "https://nv.ua/ukr/world/countries/slovachchina-ochilnik-mzs-yuray-blanar-zayaviv-shcho-za-vtorgnennyam-srsr-u-1968-roci-stoyali-ukrajinci-50661461.html",
+     "source": "NV"
+    },
+    {
+     "title": "Очільник МЗС Словаччини назвав Брежнєва українцем і згадав про «український полк» під час вторгнення 1968 року",
+     "url": "https://zn.ua/ukr/europe/ochilnik-mzs-slovachchini-nazvav-brezhnjeva-ukrajintsem-i-zhadav-pro-ukrajinskij-polk-pid-chas-vtorhnennja-1968-roku.html",
+     "source": "Дзеркало тижня"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 3,
+   "matched": [
+    "євро"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  },
+  {
+   "query": "украинская гривна",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-23T02:50:00-08:00",
+   "news": [
+    {
+     "title": "Гривна прошла пик укрепления: почему доллар и евро могут снова подорожать",
+     "url": "https://minfin.com.ua/2026/11/23/186231037/",
+     "source": "Мінфін"
+    },
+    {
+     "title": "Доллар и евро дешевеют в банках: курс валют на 23 ноября",
+     "url": "https://www.rbc.ua/ukr/news/dolar-i-evro-deshevshayut-bankah-kurs-valyut-1795421559.html",
+     "source": "РБК-Україна"
+    },
+    {
+     "title": "Курс валют НБУ. Гривна укрепилась",
+     "url": "https://biz.nv.ua/finance/kurs-dollara-kak-izmenilsya-kurs-valyut-nbu-23-noyabrya-novosti-ukrainy-50661535.html",
+     "source": "NV Бизнес"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 9,
+   "matched": [
+    "банк",
+    "гривн",
+    "доллар",
+    "евро",
+    "курс",
+    "нбу"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  }
+ ],
+ "sport": [
+  {
+   "query": "зоря",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-23T03:00:00-08:00",
+   "news": [
+    {
+     "title": "Франсіско Фернандес: “Задоволений роботою команди”",
+     "url": "https://fckarpaty.org.ua/news/fransisko-fernandes-zadovoleniii-robotoiu-komandi/",
+     "source": "ФК \"Карпати\" Львів"
+    },
+    {
+     "title": "Ян КОСТЕНКО: «Не міг ступити на ногу, все у крові. Виглядає не дуже»",
+     "url": "https://sport.ua/uk/news/927256-yan-kostenko-ne-mig-stupiti-na-nogu-vse-u-krovi-viglyadaie-ne-duzhe",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "«Карпати» обіграли «Зорю» у матчі чемпіонату України з футболу",
+     "url": "https://www.ukrinform.ua/rubric-sports/4187235-karpati-obigrali-zoru-u-matci-cempionatu-ukraini-z-futbolu.html",
+     "source": "Ukrinform.ua"
+    }
+   ],
+   "channel": "sport",
+   "score": 3,
+   "matched": [
+    "матч",
+    "футбол",
+    "чемпіон"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  }
+ ],
+ "polityka": [
+  {
+   "query": "меланія трамп",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-23T02:40:00-08:00",
+   "news": [
+    {
+     "title": "Харлан закликала дружину Трампа допомогти цивільним на Кінбурнській косі",
+     "url": "https://champion.com.ua/ukr/fencing/olga-harlan-zaklikala-melaniyu-tramp-dopomogti-zhitelyam-kinburnskoji-kosi-1091630/",
+     "source": "Champion.com.ua"
+    },
+    {
+     "title": "Фехтувальниця Харлан закликала Меланію Трамп допомогти визволити цивільних із Кінбурнської коси. ФОТО",
+     "url": "https://censor.net/ua/news/4035128/fekhtuvalnytsia-kharlan-zaklykala-melaniiu-tramp-dopomohty-vyzvolyty-tsyvilnykh-iz-kinburnskoi-kosy",
+     "source": "Цензор.НЕТ"
+    },
+    {
+     "title": "Харлан звернулася до Меланії Трамп: що заявила українська олімпійська чемпіонка",
+     "url": "https://www.obozrevatel.com/ukr/section-sport-oboz/news-kharlan-zvernulasya-do-melaniyi-tramp-shcho-zayavyla-ukrayinska-olimpiyska-chempionka-23-11-2026.html",
+     "source": "OBOZ.UA"
+    }
+   ],
+   "channel": "polityka",
+   "score": 4,
+   "matched": [
+    "трамп"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  }
+ ]
+}

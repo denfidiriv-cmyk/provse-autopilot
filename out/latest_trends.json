@@ -1,131 +1,170 @@
 {
- "sport": [
+ "avto": [
   {
-   "query": "ливерпуль – манчестер юнайтед турнирная таблица",
-   "traffic": 10000,
-   "traffic_label": "10000+",
-   "published": "2026-11-22T10:40:00-08:00",
+   "query": "дизельное топливо",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-23T04:00:00-08:00",
    "news": [
     {
-     "title": "Дебют Почеттино превратился в кошмар: \"Ливерпуль\" не оставил шансов МЮ",
-     "url": "https://sport.rbc.ua/ukr/football/debyut-pochettino-peretvorivsya-koshmar-liverpul-1795373524.html",
+     "title": "В Украине упали цены на топливо в ряде сетей АЗС",
+     "url": "https://epravda.com.ua/rus/energetika/ceny-na-toplivo-v-ukraine-snizilis-v-neskolkih-setyah-azs-827918/",
+     "source": "Економічна правда"
+    },
+    {
+     "title": "В Украине подешевели бензин и дизтопливо — сравнение цен в крупнейших сетях АЗС",
+     "url": "https://biz.nv.ua/markets/v-ukraine-podesheveli-benzin-i-dizel-sravnenie-cen-v-krupneyshih-setyah-azs-50661641.html",
+     "source": "NV Бизнес"
+    },
+    {
+     "title": "Украинские АЗС снизили цены на топливо",
+     "url": "https://korrespondent.net/business/economics/4931123-ukraynskye-azs-snyzyly-tseny-na-toplyvo",
+     "source": "Korrespondent.net"
+    }
+   ],
+   "channel": "avto",
+   "score": 9,
+   "matched": [
+    "азс",
+    "бензин",
+    "дизел",
+    "топлив"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  }
+ ],
+ "ekonomika": [
+  {
+   "query": "міністр закордонних та європейських справ словаччини",
+   "traffic": 5000,
+   "traffic_label": "5000+",
+   "published": "2026-11-23T03:10:00-08:00",
+   "news": [
+    {
+     "title": "Глава МЗС Словаччини натякнув, що за вторгненням у Чехословаччину стояли українці",
+     "url": "https://www.pravda.com.ua/news/2026/11/22/8064057/",
+     "source": "Українська правда"
+    },
+    {
+     "title": "Очільник МЗС Словаччини заявив, що за радянським вторгненням до Чехословаччини у 1968 році «стояли українці»",
+     "url": "https://nv.ua/ukr/world/countries/slovachchina-ochilnik-mzs-yuray-blanar-zayaviv-shcho-za-vtorgnennyam-srsr-u-1968-roci-stoyali-ukrajinci-50661461.html",
+     "source": "NV"
+    },
+    {
+     "title": "Очільник МЗС Словаччини назвав Брежнєва українцем і згадав про «український полк» під час вторгнення 1968 року",
+     "url": "https://zn.ua/ukr/europe/ochilnik-mzs-slovachchini-nazvav-brezhnjeva-ukrajintsem-i-zhadav-pro-ukrajinskij-polk-pid-chas-vtorhnennja-1968-roku.html",
+     "source": "Дзеркало тижня"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 3,
+   "matched": [
+    "євро"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  },
+  {
+   "query": "украинская гривна",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-23T02:50:00-08:00",
+   "news": [
+    {
+     "title": "Гривна прошла пик укрепления: почему доллар и евро могут снова подорожать",
+     "url": "https://minfin.com.ua/2026/11/23/186231037/",
+     "source": "Мінфін"
+    },
+    {
+     "title": "Доллар и евро дешевеют в банках: курс валют на 23 ноября",
+     "url": "https://www.rbc.ua/ukr/news/dolar-i-evro-deshevshayut-bankah-kurs-valyut-1795421559.html",
      "source": "РБК-Україна"
     },
     {
-     "title": "\"Ливерпуль\" в большинстве разгромил \"Манчестер Юнайтед\" в АПЛ",
-     "url": "https://tsn.ua/ru/prosport/liverpul-v-bolshinstve-razgromil-manchester-yunayted-v-apl-3223715.html",
-     "source": "ТСН"
-    },
-    {
-     "title": "АПЛ. С возвращением, Маурисио: Ливерпуль выписывает Юнайтед добротную пощечину на Энфилде",
-     "url": "https://www.ua-football.com/foreign/england/1795369360-apl-s-vozvrascheniem-maurisio-liverpul-vypisyvaet-yunayted-dobrotnuyu-poschechinu-na-yenfilde.html",
-     "source": "UA-Football"
+     "title": "Курс валют НБУ. Гривна укрепилась",
+     "url": "https://biz.nv.ua/finance/kurs-dollara-kak-izmenilsya-kurs-valyut-nbu-23-noyabrya-novosti-ukrainy-50661535.html",
+     "source": "NV Бизнес"
     }
    ],
-   "channel": "sport",
-   "score": 4,
+   "channel": "ekonomika",
+   "score": 9,
    "matched": [
-    "манчестер"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 7
-  },
-  {
-   "query": "хетафе – атлетіко мадрид",
-   "traffic": 2000,
-   "traffic_label": "2000+",
-   "published": "2026-11-22T11:30:00-08:00",
-   "news": [
-    {
-     "title": "Ла Лига. Три гола и красная карточка: Атлетико не оставил шансов Хетафе",
-     "url": "https://www.ua-football.com/foreign/spain/1795383880-la-liga-tri-gola-i-krasnaya-kartochka-atletiko-ne-ostavil-shansov-hetafe.html",
-     "source": "UA-Football"
-    },
-    {
-     "title": "«Атлетико» обыграл «Хетафе» в матче 13-го тура Ла Лиги",
-     "url": "https://legalbet.ru/news/62021132-432005-atletiko-obygral-hetafe-v-matche-13-go-tura-la-lig/",
-     "source": "legalbet.ru"
-    },
-    {
-     "title": "Баэна: «Мы должны идти своим путём, не обращая внимания на то, что делают «Барселона» и «Реал»",
-     "url": "https://www.euro-football.ru/article/35/1006425616_baena_myi_doljnyi_idti_svoim_putem_ne_obraschaya_vnimaniya_na_to_chto_delayut_barselona_i_real",
-     "source": "Евро-Футбол"
-    }
-   ],
-   "channel": "sport",
-   "score": 4,
-   "matched": [
-    "=реал",
-    "барселон",
-    "лига",
-    "матч"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 5
-  },
-  {
-   "query": "аталанта – інтер",
-   "traffic": 2000,
-   "traffic_label": "2000+",
-   "published": "2026-11-22T11:00:00-08:00",
-   "news": [
-    {
-     "title": "Трилер в Італії. Аталанта та Інтер видали шоу з вісьмома голами",
-     "url": "https://sport.ua/uk/news/927539-triler-v-italii-atalanta-ta-inter-vidali-shou-iz-vosmimi-golami",
-     "source": "Sport.ua"
-    },
-    {
-     "title": "\"Аталанта\" врятувала матч з \"Інтером\" на останніх хвилинах: хет-трик Еспозіто не допоміг міланцям",
-     "url": "https://sport.rbc.ua/rus/football/atalanta-vryatuvala-match-interom-ostannih-1795384912.html",
-     "source": "РБК-Україна"
-    },
-    {
-     "title": "Аталанта – Інтер. Дивитись онлайн LIVE пряму відеотрансляцію матчу Серії А",
-     "url": "https://www.ua-football.com/ua/foreign/italy/1795358476-atalanta-inter-divitis-onlayn-live-pryamu-videotranslyaciyu-matchu-seriyi-a.html",
-     "source": "UA-Football"
-    }
-   ],
-   "channel": "sport",
-   "score": 1,
-   "matched": [
-    "матч"
+    "банк",
+    "гривн",
+    "доллар",
+    "евро",
+    "курс",
+    "нбу"
    ],
    "skipped_reason": "",
    "extra_sources": 8
   }
  ],
- "dim": [
+ "sport": [
   {
-   "query": "графік відключення світла хмельницький",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-22T10:20:00-08:00",
+   "query": "зоря",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-23T03:00:00-08:00",
    "news": [
     {
-     "title": "Відключення світла на Хмельниччині: повідомили графік на 23 листопада",
-     "url": "https://suspilne.media/khmelnytskiy/1456067-vidklucenna-svitla-na-hmelniccini-povidomili-grafik-na-23-listopada/",
-     "source": "Суспільне | Новини"
+     "title": "Франсіско Фернандес: “Задоволений роботою команди”",
+     "url": "https://fckarpaty.org.ua/news/fransisko-fernandes-zadovoleniii-robotoiu-komandi/",
+     "source": "ФК \"Карпати\" Львів"
     },
     {
-     "title": "Планові відключення світла в Хмельницькому 23 листопада: адреси",
-     "url": "https://vsim.ua/Podii/planovi-vidklyuchennya-svitla-v-hmelnitskomu-23-listopada-adresi-12013415.html",
-     "source": "Всім - Новини Хмельницького"
+     "title": "Ян КОСТЕНКО: «Не міг ступити на ногу, все у крові. Виглядає не дуже»",
+     "url": "https://sport.ua/uk/news/927256-yan-kostenko-ne-mig-stupiti-na-nogu-vse-u-krovi-viglyadaie-ne-duzhe",
+     "source": "Sport.ua"
     },
     {
-     "title": "Де не буде світла у Хмельницькому 23 листопада",
-     "url": "https://podillyanews.com/2026/11/22/de-ne-bude-svitla-u-hmelnytskomu-23-lystopada/",
-     "source": "Поділля News"
+     "title": "«Карпати» обіграли «Зорю» у матчі чемпіонату України з футболу",
+     "url": "https://www.ukrinform.ua/rubric-sports/4187235-karpati-obigrali-zoru-u-matci-cempionatu-ukraini-z-futbolu.html",
+     "source": "Ukrinform.ua"
     }
    ],
-   "channel": "dim",
-   "score": 12,
+   "channel": "sport",
+   "score": 3,
    "matched": [
-    "відключен",
-    "графік",
-    "світл"
+    "матч",
+    "футбол",
+    "чемпіон"
    ],
    "skipped_reason": "",
-   "extra_sources": 3
+   "extra_sources": 8
+  }
+ ],
+ "polityka": [
+  {
+   "query": "меланія трамп",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-23T02:40:00-08:00",
+   "news": [
+    {
+     "title": "Харлан закликала дружину Трампа допомогти цивільним на Кінбурнській косі",
+     "url": "https://champion.com.ua/ukr/fencing/olga-harlan-zaklikala-melaniyu-tramp-dopomogti-zhitelyam-kinburnskoji-kosi-1091630/",
+     "source": "Champion.com.ua"
+    },
+    {
+     "title": "Фехтувальниця Харлан закликала Меланію Трамп допомогти визволити цивільних із Кінбурнської коси. ФОТО",
+     "url": "https://censor.net/ua/news/4035128/fekhtuvalnytsia-kharlan-zaklykala-melaniiu-tramp-dopomohty-vyzvolyty-tsyvilnykh-iz-kinburnskoi-kosy",
+     "source": "Цензор.НЕТ"
+    },
+    {
+     "title": "Харлан звернулася до Меланії Трамп: що заявила українська олімпійська чемпіонка",
+     "url": "https://www.obozrevatel.com/ukr/section-sport-oboz/news-kharlan-zvernulasya-do-melaniyi-tramp-shcho-zayavyla-ukrayinska-olimpiyska-chempionka-23-11-2026.html",
+     "source": "OBOZ.UA"
+    }
+   ],
+   "channel": "polityka",
+   "score": 4,
+   "matched": [
+    "трамп"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
   }
  ]
 }
