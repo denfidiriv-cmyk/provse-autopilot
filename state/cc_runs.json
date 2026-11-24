@@ -190,5 +190,12 @@
   "channel": "dim",
   "cost": 0.48373370000000004,
   "url": "https://youtube.com/shorts/1985XqYb9V8"
+ },
+ {
+  "at": "2026-11-24T19:52:55.025609",
+  "query": "мирна угода",
+  "channel": "polityka",
+  "cost": 0.44171710000000003,
+  "url": "https://youtube.com/shorts/ro-muvlQSSI"
  }
 ]
