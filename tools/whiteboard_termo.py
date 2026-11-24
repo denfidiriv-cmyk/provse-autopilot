@@ -1,4 +1,4 @@
-# Whiteboard explainer: hand draws line-art scenes, radiator colour fills, overlays, word captions.
+# Whiteboard explainer: pencil draws line-art scenes, radiator colour fills, overlays, word captions.
 import json, math, subprocess, sys
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
@@ -29,18 +29,26 @@ def art_xy(x, y):  # 572x850 coords -> frame coords
 
 ART = {n: load_art(n) for n in ['sc1.png', 'sc2.png', 'sc4.png', 'sc5.png', 'sc6.png', 'sc7.png']}
 
-# hand sprite: white -> transparent, hide marker brand text
-h = np.asarray(Image.open(f'{S}/img/hand_raw.png').convert('RGB'), float)
-r, g, b = h[..., 0], h[..., 1], h[..., 2]
-logo = (r > 150) & (np.abs(r - b) < 30) & (np.abs(r - g) < 30)
-yy, xx = np.mgrid[0:h.shape[0], 0:h.shape[1]]
-inlogo = logo & (xx > 395) & (xx < 560) & (yy > 125) & (yy < 185)
-h[inlogo] = [25, 25, 28]
-white = np.minimum(np.minimum(r, g), b)
-alpha = np.clip((250 - white) * 6, 0, 255); alpha[inlogo] = 255
-hand = Image.fromarray(np.dstack([h, alpha]).astype('uint8'), 'RGBA')
-HS = 0.75; hand = hand.resize((int(hand.width * HS), int(hand.height * HS)), Image.LANCZOS)
-TIP = (290 * HS, 133 * HS)
+# pencil sprite (code-drawn): tip at lower-left, body going up-right
+def make_pencil(L=420, Wd=46):
+    big = Image.new('RGBA', (L + 40, Wd + 40), (0, 0, 0, 0)); d = ImageDraw.Draw(big)
+    y0, y1, cy = 20, 20 + Wd, 20 + Wd / 2
+    tipx, cone, ferr = 20, 95, 40
+    d.polygon([(tipx, cy), (tipx + cone, y0), (tipx + cone, y1)], fill=(236, 200, 150), outline=INKC)  # wood cone
+    d.polygon([(tipx, cy), (tipx + 30, cy - 7), (tipx + 30, cy + 7)], fill=(40, 40, 45))  # graphite
+    bx0, bx1 = tipx + cone, L - ferr - 30
+    d.rectangle([bx0, y0, bx1, y1], fill=(250, 196, 40), outline=INKC, width=3)  # yellow body
+    d.line([(bx0, cy - 8), (bx1, cy - 8)], fill=(255, 220, 110), width=4); d.line([(bx0, cy + 9), (bx1, cy + 9)], fill=(215, 160, 20), width=4)
+    d.rectangle([bx1, y0 - 2, bx1 + ferr, y1 + 2], fill=(190, 190, 198), outline=INKC, width=3)  # ferrule
+    for k in range(3): d.line([(bx1 + 10 + k * 10, y0), (bx1 + 10 + k * 10, y1)], fill=(140, 140, 150), width=2)
+    d.rounded_rectangle([bx1 + ferr, y0, bx1 + ferr + 30, y1], 10, fill=(240, 130, 150), outline=INKC, width=3)  # eraser
+    rot = big.rotate(35, expand=True, resample=Image.BICUBIC)  # tilt: tip lower-left
+    # find tip position after rotation
+    a = np.asarray(rot)[..., 3]; ys, xs = np.nonzero(a > 10)
+    i = np.argmin(xs - ys * 0.0 + (-ys) * -1.0 * 0 + xs * 0)  # leftmost point
+    k = np.argmax(ys - xs)  # bottom-left extreme
+    return rot, (xs[k], ys[k])
+hand, TIP = make_pencil()
 
 # ---------- helpers ----------
 def ease(t): t = max(0., min(1., t)); return t * t * (3 - 2 * t)
