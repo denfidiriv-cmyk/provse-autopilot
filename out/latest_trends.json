@@ -1,101 +1,61 @@
 {
- "avto": [
+ "polityka": [
   {
-   "query": "дизельное топливо",
+   "query": "эстония",
    "traffic": 200,
    "traffic_label": "200+",
-   "published": "2026-11-23T04:00:00-08:00",
+   "published": "2026-11-23T11:50:00-08:00",
    "news": [
     {
-     "title": "В Украине упали цены на топливо в ряде сетей АЗС",
-     "url": "https://epravda.com.ua/rus/energetika/ceny-na-toplivo-v-ukraine-snizilis-v-neskolkih-setyah-azs-827918/",
-     "source": "Економічна правда"
+     "title": "В МИД России возмутились решением Эстонии закрыть границу",
+     "url": "https://www.eurointegration.com.ua/rus/news/2026/11/23/7250619/",
+     "source": "Європейська правда"
     },
     {
-     "title": "В Украине подешевели бензин и дизтопливо — сравнение цен в крупнейших сетях АЗС",
-     "url": "https://biz.nv.ua/markets/v-ukraine-podesheveli-benzin-i-dizel-sravnenie-cen-v-krupneyshih-setyah-azs-50661641.html",
-     "source": "NV Бизнес"
+     "title": "Министр Эстонии отреагировал на петицию против закрытия границы с Россией",
+     "url": "https://24tv.ua/ru/peticija-protiv-zakrytija-granicy-jestonii-s-rossiej-chto-otvetil-ministr-taro_n3213199",
+     "source": "24 Канал"
     },
     {
-     "title": "Украинские АЗС снизили цены на топливо",
-     "url": "https://korrespondent.net/business/economics/4931123-ukraynskye-azs-snyzyly-tseny-na-toplyvo",
-     "source": "Korrespondent.net"
-    }
-   ],
-   "channel": "avto",
-   "score": 9,
-   "matched": [
-    "азс",
-    "бензин",
-    "дизел",
-    "топлив"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 9
-  }
- ],
- "ekonomika": [
-  {
-   "query": "міністр закордонних та європейських справ словаччини",
-   "traffic": 5000,
-   "traffic_label": "5000+",
-   "published": "2026-11-23T03:10:00-08:00",
-   "news": [
-    {
-     "title": "Глава МЗС Словаччини натякнув, що за вторгненням у Чехословаччину стояли українці",
-     "url": "https://www.pravda.com.ua/news/2026/11/22/8064057/",
-     "source": "Українська правда"
-    },
-    {
-     "title": "Очільник МЗС Словаччини заявив, що за радянським вторгненням до Чехословаччини у 1968 році «стояли українці»",
-     "url": "https://nv.ua/ukr/world/countries/slovachchina-ochilnik-mzs-yuray-blanar-zayaviv-shcho-za-vtorgnennyam-srsr-u-1968-roci-stoyali-ukrajinci-50661461.html",
-     "source": "NV"
-    },
-    {
-     "title": "Очільник МЗС Словаччини назвав Брежнєва українцем і згадав про «український полк» під час вторгнення 1968 року",
-     "url": "https://zn.ua/ukr/europe/ochilnik-mzs-slovachchini-nazvav-brezhnjeva-ukrajintsem-i-zhadav-pro-ukrajinskij-polk-pid-chas-vtorhnennja-1968-roku.html",
+     "title": "«На грани открытой войны»: Россия пригрозила Эстонии из-за закрытия границы",
+     "url": "https://zn.ua/europe/na-hrani-otkrytoj-vojny-rossija-prihrozila-estonii-iz-za-zakrytija-hranitsy.html",
      "source": "Дзеркало тижня"
     }
    ],
-   "channel": "ekonomika",
-   "score": 3,
+   "channel": "polityka",
+   "score": 1,
    "matched": [
-    "євро"
+    "министр"
    ],
    "skipped_reason": "",
-   "extra_sources": 10
+   "extra_sources": 8
   },
   {
-   "query": "украинская гривна",
-   "traffic": 1000,
-   "traffic_label": "1000+",
-   "published": "2026-11-23T02:50:00-08:00",
+   "query": "banks",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-23T17:10:00-08:00",
    "news": [
     {
-     "title": "Гривна прошла пик укрепления: почему доллар и евро могут снова подорожать",
-     "url": "https://minfin.com.ua/2026/11/23/186231037/",
-     "source": "Мінфін"
+     "title": "US imposes sanctions on dozens linked to Iran's shadow banking networks",
+     "url": "https://www.reuters.com/business/finance/us-imposes-sanctions-dozens-linked-irans-shadow-banking-networks-2026-11-23/",
+     "source": "Reuters"
     },
     {
-     "title": "Доллар и евро дешевеют в банках: курс валют на 23 ноября",
-     "url": "https://www.rbc.ua/ukr/news/dolar-i-evro-deshevshayut-bankah-kurs-valyut-1795421559.html",
-     "source": "РБК-Україна"
+     "title": "Trump admin announces sweeping measure to cut Iran’s ‘last financial lifeline’",
+     "url": "https://www.foxnews.com/politics/trump-admin-announces-sweeping-measure-cut-iran-last-financial-lifeline",
+     "source": "Fox News"
     },
     {
-     "title": "Курс валют НБУ. Гривна укрепилась",
-     "url": "https://biz.nv.ua/finance/kurs-dollara-kak-izmenilsya-kurs-valyut-nbu-23-noyabrya-novosti-ukrainy-50661535.html",
-     "source": "NV Бизнес"
+     "title": "Treasury uncovers nearly $15B in possible Iranian shadow banking networks",
+     "url": "https://nypost.com/2026/11/23/us-news/treasury-uncovers-nearly-15-billion-in-possible-iranian-shadow-banking-networks/",
+     "source": "New York Post"
     }
    ],
-   "channel": "ekonomika",
-   "score": 9,
+   "channel": "polityka",
+   "score": 1,
    "matched": [
-    "банк",
-    "гривн",
-    "доллар",
-    "евро",
-    "курс",
-    "нбу"
+    "trump"
    ],
    "skipped_reason": "",
    "extra_sources": 8
@@ -103,29 +63,29 @@
  ],
  "sport": [
   {
-   "query": "зоря",
-   "traffic": 100,
-   "traffic_label": "100+",
-   "published": "2026-11-23T03:00:00-08:00",
+   "query": "чемпіонат",
+   "traffic": 5000,
+   "traffic_label": "5000+",
+   "published": "2026-11-23T13:20:00-08:00",
    "news": [
     {
-     "title": "Франсіско Фернандес: “Задоволений роботою команди”",
-     "url": "https://fckarpaty.org.ua/news/fransisko-fernandes-zadovoleniii-robotoiu-komandi/",
-     "source": "ФК \"Карпати\" Львів"
-    },
-    {
-     "title": "Ян КОСТЕНКО: «Не міг ступити на ногу, все у крові. Виглядає не дуже»",
-     "url": "https://sport.ua/uk/news/927256-yan-kostenko-ne-mig-stupiti-na-nogu-vse-u-krovi-viglyadaie-ne-duzhe",
+     "title": "Знаковий гравець клубу УПЛ натякнув на відхід: «Можливо, це остання гра»",
+     "url": "https://sport.ua/uk/news/927694-znakoviy-gravets-klubu-upl-natyaknuv-na-vidhid-mozhlivo-tse-ostannya-gra",
      "source": "Sport.ua"
     },
     {
-     "title": "«Карпати» обіграли «Зорю» у матчі чемпіонату України з футболу",
-     "url": "https://www.ukrinform.ua/rubric-sports/4187235-karpati-obigrali-zoru-u-matci-cempionatu-ukraini-z-futbolu.html",
+     "title": "В Одесі та Черкасах сьогодні відбудуться матчі футбольної Прем'єр-ліги",
+     "url": "https://www.ukrinform.ua/rubric-sports/4187489-v-odesi-ta-cerkasah-sogodni-vidbudutsa-matci-futbolnoi-premerligi.html",
      "source": "Ukrinform.ua"
+    },
+    {
+     "title": "Епіцентр на виїзді обіграв Чорноморець у 13 турі УПЛ",
+     "url": "https://champion.com.ua/ukr/football/chornomorec-prograv-epicentru-v-13-turi-upl-1091638/",
+     "source": "Champion.com.ua"
     }
    ],
    "channel": "sport",
-   "score": 3,
+   "score": 5,
    "matched": [
     "матч",
     "футбол",
@@ -133,38 +93,92 @@
    ],
    "skipped_reason": "",
    "extra_sources": 8
-  }
- ],
- "polityka": [
+  },
   {
-   "query": "меланія трамп",
-   "traffic": 500,
-   "traffic_label": "500+",
-   "published": "2026-11-23T02:40:00-08:00",
+   "query": "брентфорд – евертон",
+   "traffic": 2000,
+   "traffic_label": "2000+",
+   "published": "2026-11-23T11:30:00-08:00",
    "news": [
     {
-     "title": "Харлан закликала дружину Трампа допомогти цивільним на Кінбурнській косі",
-     "url": "https://champion.com.ua/ukr/fencing/olga-harlan-zaklikala-melaniyu-tramp-dopomogti-zhitelyam-kinburnskoji-kosi-1091630/",
+     "title": "Украинское дерби в АПЛ: \"Брентфорд\" с Ярмолюком уничтожил \"Эвертон\" с Миколенко",
+     "url": "https://tsn.ua/ru/prosport/ukrainskoe-derbi-v-apl-brentford-s-yarmolyukom-unichtozhil-everton-s-mikolenko-3224799.html",
+     "source": "ТСН"
+    },
+    {
+     "title": "Брентфорд с Ярмолюком одержал разгромную победу над Эвертоном с Миколенко в 11-м туре АПЛ",
+     "url": "https://champion.com.ua/rus/football/brentford-everton-komanda-yarmolyuka-razgromila-klub-mikolenko-v-apl-1091684/",
      "source": "Champion.com.ua"
     },
     {
-     "title": "Фехтувальниця Харлан закликала Меланію Трамп допомогти визволити цивільних із Кінбурнської коси. ФОТО",
-     "url": "https://censor.net/ua/news/4035128/fekhtuvalnytsia-kharlan-zaklykala-melaniiu-tramp-dopomohty-vyzvolyty-tsyvilnykh-iz-kinburnskoi-kosy",
-     "source": "Цензор.НЕТ"
-    },
-    {
-     "title": "Харлан звернулася до Меланії Трамп: що заявила українська олімпійська чемпіонка",
-     "url": "https://www.obozrevatel.com/ukr/section-sport-oboz/news-kharlan-zvernulasya-do-melaniyi-tramp-shcho-zayavyla-ukrayinska-olimpiyska-chempionka-23-11-2026.html",
-     "source": "OBOZ.UA"
+     "title": "Усик посетил матч английской Премьер-лиги с участием двух футболистов сборной Украины — фото",
+     "url": "https://sport.nv.ua/boxing/aleksandr-usik-posetil-match-brentford-everton-v-chempionate-anglii-foto-50661897.html",
+     "source": "NV Спорт"
     }
    ],
-   "channel": "polityka",
+   "channel": "sport",
    "score": 4,
    "matched": [
-    "трамп"
+    "матч",
+    "сборн",
+    "усик",
+    "футбол"
    ],
    "skipped_reason": "",
-   "extra_sources": 10
+   "extra_sources": 7
+  },
+  {
+   "query": "монца – фіорентіна",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-23T11:20:00-08:00",
+   "news": [
+    {
+     "title": "Монца – Фіорентіна. Прогноз і анонс на матч 12-го туру Серії А",
+     "url": "https://sport.ua/uk/news/927540-montsa-fiorentina-prognoz-i-anons-na-match-12-go-turu-serii-a",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Дубль Варели та гол Робінсона принесли Монці перемогу над Фіорентиною в 12 турі Серії А",
+     "url": "https://champion.com.ua/ukr/football/dubl-vareli-ta-gol-robinsona-monca-rozgromila-fiorentinu-u-12-mu-turi-seriji-a-1091686/",
+     "source": "Champion.com.ua"
+    },
+    {
+     "title": "Серія А. Фіорентина як у Хрещеному Батькoві III - знову затягнута у боротьбу за виживання",
+     "url": "https://www.ua-football.com/ua/foreign/italy/1795469943-seriya-a-fiorentina-yak-u-hreschenomu-batku-znovu-zatyagnuta-u-borotbu-proti-vilotu.html",
+     "source": "UA-Football"
+    }
+   ],
+   "channel": "sport",
+   "score": 2,
+   "matched": [
+    "=гол",
+    "матч"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  }
+ ],
+ "ekonomika": [
+  {
+   "query": "курськ",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-23T10:10:00-08:00",
+   "news": [
+    {
+     "title": "The Ukrainian Armed Forces may have taken control of Novyi Put in the Kurshchyna region",
+     "url": "https://ukrmedia.news/en/viyna/zsu-novyi-put-kurska-oblast/",
+     "source": "UkrMedia News"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 3,
+   "matched": [
+    "курс"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
   }
  ]
 }

@@ -1,0 +1,184 @@
+{
+ "polityka": [
+  {
+   "query": "эстония",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-23T11:50:00-08:00",
+   "news": [
+    {
+     "title": "В МИД России возмутились решением Эстонии закрыть границу",
+     "url": "https://www.eurointegration.com.ua/rus/news/2026/11/23/7250619/",
+     "source": "Європейська правда"
+    },
+    {
+     "title": "Министр Эстонии отреагировал на петицию против закрытия границы с Россией",
+     "url": "https://24tv.ua/ru/peticija-protiv-zakrytija-granicy-jestonii-s-rossiej-chto-otvetil-ministr-taro_n3213199",
+     "source": "24 Канал"
+    },
+    {
+     "title": "«На грани открытой войны»: Россия пригрозила Эстонии из-за закрытия границы",
+     "url": "https://zn.ua/europe/na-hrani-otkrytoj-vojny-rossija-prihrozila-estonii-iz-za-zakrytija-hranitsy.html",
+     "source": "Дзеркало тижня"
+    }
+   ],
+   "channel": "polityka",
+   "score": 1,
+   "matched": [
+    "министр"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  },
+  {
+   "query": "banks",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-23T17:10:00-08:00",
+   "news": [
+    {
+     "title": "US imposes sanctions on dozens linked to Iran's shadow banking networks",
+     "url": "https://www.reuters.com/business/finance/us-imposes-sanctions-dozens-linked-irans-shadow-banking-networks-2026-11-23/",
+     "source": "Reuters"
+    },
+    {
+     "title": "Trump admin announces sweeping measure to cut Iran’s ‘last financial lifeline’",
+     "url": "https://www.foxnews.com/politics/trump-admin-announces-sweeping-measure-cut-iran-last-financial-lifeline",
+     "source": "Fox News"
+    },
+    {
+     "title": "Treasury uncovers nearly $15B in possible Iranian shadow banking networks",
+     "url": "https://nypost.com/2026/11/23/us-news/treasury-uncovers-nearly-15-billion-in-possible-iranian-shadow-banking-networks/",
+     "source": "New York Post"
+    }
+   ],
+   "channel": "polityka",
+   "score": 1,
+   "matched": [
+    "trump"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  }
+ ],
+ "sport": [
+  {
+   "query": "чемпіонат",
+   "traffic": 5000,
+   "traffic_label": "5000+",
+   "published": "2026-11-23T13:20:00-08:00",
+   "news": [
+    {
+     "title": "Знаковий гравець клубу УПЛ натякнув на відхід: «Можливо, це остання гра»",
+     "url": "https://sport.ua/uk/news/927694-znakoviy-gravets-klubu-upl-natyaknuv-na-vidhid-mozhlivo-tse-ostannya-gra",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "В Одесі та Черкасах сьогодні відбудуться матчі футбольної Прем'єр-ліги",
+     "url": "https://www.ukrinform.ua/rubric-sports/4187489-v-odesi-ta-cerkasah-sogodni-vidbudutsa-matci-futbolnoi-premerligi.html",
+     "source": "Ukrinform.ua"
+    },
+    {
+     "title": "Епіцентр на виїзді обіграв Чорноморець у 13 турі УПЛ",
+     "url": "https://champion.com.ua/ukr/football/chornomorec-prograv-epicentru-v-13-turi-upl-1091638/",
+     "source": "Champion.com.ua"
+    }
+   ],
+   "channel": "sport",
+   "score": 5,
+   "matched": [
+    "матч",
+    "футбол",
+    "чемпіон"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  },
+  {
+   "query": "брентфорд – евертон",
+   "traffic": 2000,
+   "traffic_label": "2000+",
+   "published": "2026-11-23T11:30:00-08:00",
+   "news": [
+    {
+     "title": "Украинское дерби в АПЛ: \"Брентфорд\" с Ярмолюком уничтожил \"Эвертон\" с Миколенко",
+     "url": "https://tsn.ua/ru/prosport/ukrainskoe-derbi-v-apl-brentford-s-yarmolyukom-unichtozhil-everton-s-mikolenko-3224799.html",
+     "source": "ТСН"
+    },
+    {
+     "title": "Брентфорд с Ярмолюком одержал разгромную победу над Эвертоном с Миколенко в 11-м туре АПЛ",
+     "url": "https://champion.com.ua/rus/football/brentford-everton-komanda-yarmolyuka-razgromila-klub-mikolenko-v-apl-1091684/",
+     "source": "Champion.com.ua"
+    },
+    {
+     "title": "Усик посетил матч английской Премьер-лиги с участием двух футболистов сборной Украины — фото",
+     "url": "https://sport.nv.ua/boxing/aleksandr-usik-posetil-match-brentford-everton-v-chempionate-anglii-foto-50661897.html",
+     "source": "NV Спорт"
+    }
+   ],
+   "channel": "sport",
+   "score": 4,
+   "matched": [
+    "матч",
+    "сборн",
+    "усик",
+    "футбол"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 7
+  },
+  {
+   "query": "монца – фіорентіна",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-23T11:20:00-08:00",
+   "news": [
+    {
+     "title": "Монца – Фіорентіна. Прогноз і анонс на матч 12-го туру Серії А",
+     "url": "https://sport.ua/uk/news/927540-montsa-fiorentina-prognoz-i-anons-na-match-12-go-turu-serii-a",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Дубль Варели та гол Робінсона принесли Монці перемогу над Фіорентиною в 12 турі Серії А",
+     "url": "https://champion.com.ua/ukr/football/dubl-vareli-ta-gol-robinsona-monca-rozgromila-fiorentinu-u-12-mu-turi-seriji-a-1091686/",
+     "source": "Champion.com.ua"
+    },
+    {
+     "title": "Серія А. Фіорентина як у Хрещеному Батькoві III - знову затягнута у боротьбу за виживання",
+     "url": "https://www.ua-football.com/ua/foreign/italy/1795469943-seriya-a-fiorentina-yak-u-hreschenomu-batku-znovu-zatyagnuta-u-borotbu-proti-vilotu.html",
+     "source": "UA-Football"
+    }
+   ],
+   "channel": "sport",
+   "score": 2,
+   "matched": [
+    "=гол",
+    "матч"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  }
+ ],
+ "ekonomika": [
+  {
+   "query": "курськ",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-23T10:10:00-08:00",
+   "news": [
+    {
+     "title": "The Ukrainian Armed Forces may have taken control of Novyi Put in the Kurshchyna region",
+     "url": "https://ukrmedia.news/en/viyna/zsu-novyi-put-kurska-oblast/",
+     "source": "UkrMedia News"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 3,
+   "matched": [
+    "курс"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  }
+ ]
+}
