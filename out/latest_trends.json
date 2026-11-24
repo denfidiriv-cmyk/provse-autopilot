@@ -1,181 +1,193 @@
 {
- "polityka": [
+ "ekonomika": [
   {
-   "query": "эстония",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-23T11:50:00-08:00",
+   "query": "пенсійний фонд",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-24T04:50:00-08:00",
    "news": [
     {
-     "title": "В МИД России возмутились решением Эстонии закрыть границу",
-     "url": "https://www.eurointegration.com.ua/rus/news/2026/11/23/7250619/",
+     "title": "ПФУ знову ввімкнув «режим економії»: після скасування постанови 821 пенсіонери знову судяться за виплати",
+     "url": "https://sud.ua/uk/news/publication/378424-pfu-znovu-vvimknuv-rezhym-ekonomii-pislia-skasuvannia-postanovy-821-pensionery-znovu-sudiatsia-za-vyplaty",
+     "source": "Судово-юридична газета"
+    },
+    {
+     "title": "Спір щодо виконання судового рішення має розглядатися в порядку судового контролю: позиція Верховного Суду",
+     "url": "https://kstati.dp.ua/uk/obschestvo/spir-schodo-vikonannya-sudovogo-rishennya-mae-rozglyadatisya-v-poryadku-sudovogo",
+     "source": "| Кstati+"
+    },
+    {
+     "title": "ПФУ переписує виплати після суду: хто ризикує не дочекатися грошей",
+     "url": "https://znaj.ua/vyplaty/575038-pfu-perepisuye-viplati-pislya-sudu-hto-rizikuye-ne-dochekatisya-groshey",
+     "source": "Знай.ua"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 5,
+   "matched": [
+    "виплат",
+    "пенсі"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  },
+  {
+   "query": "дельта",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-24T03:30:00-08:00",
+   "news": [
+    {
+     "title": "В ФРГ будут производить украинские разведывательные БПЛА для Киева - Берлин выделяет на это 34 млн евро",
+     "url": "https://www.dw.com/ru/v-frg-budut-proizvodit-ukrainskie-razvedyvatelnye-bpla-dla-kieva/a-80027240",
+     "source": "DW.com"
+    },
+    {
+     "title": "Германия первой из партнеров Украины сможет использовать систему DELTA для своих вооруженных сил",
+     "url": "https://www.pravda.com.ua/rus/news/2026/11/24/8064350/",
+     "source": "Українська правда"
+    },
+    {
+     "title": "Германия станет первой страной, которой Украина предоставит доступ к боевой системе DELTA — Минобороны",
+     "url": "https://nv.ua/world/geopolitics/sistema-delta-germaniya-pervoy-poluchit-dostup-k-ukrainskoy-boevoy-platforme-50662039.html",
+     "source": "NV"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 1,
+   "matched": [
+    "евро"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  }
+ ],
+ "polityka": [
+  {
+   "query": "президент україни",
+   "traffic": 2000,
+   "traffic_label": "2000+",
+   "published": "2026-11-24T04:40:00-08:00",
+   "news": [
+    {
+     "title": "Зеленський: Україна фіксує обмеження на використання Starshield",
+     "url": "https://www.eurointegration.com.ua/news/2026/11/24/7250694/",
      "source": "Європейська правда"
     },
     {
-     "title": "Министр Эстонии отреагировал на петицию против закрытия границы с Россией",
-     "url": "https://24tv.ua/ru/peticija-protiv-zakrytija-granicy-jestonii-s-rossiej-chto-otvetil-ministr-taro_n3213199",
-     "source": "24 Канал"
+     "title": "«Ставлять себе в незручне становище». Зеленський розкритикував США за дії щодо України",
+     "url": "https://nv.ua/ukr/world/geopolitics/volodimir-zelenskiy-rozkritikuvav-ssha-za-diji-shchodo-ukrajini-u-chomu-prichina-50662130.html",
+     "source": "NV"
     },
     {
-     "title": "«На грани открытой войны»: Россия пригрозила Эстонии из-за закрытия границы",
-     "url": "https://zn.ua/europe/na-hrani-otkrytoj-vojny-rossija-prihrozila-estonii-iz-za-zakrytija-hranitsy.html",
-     "source": "Дзеркало тижня"
+     "title": "\"Це серйозно підірвало довіру\": міністр оборони Британії хоче з'ясувати, що сталося зі Starlink і Starshield в Україні",
+     "url": "https://www.obozrevatel.com/ukr/section-politics-news/news-tse-seryozno-pidirvalo-doviru-ministr-oborony-brytaniyi-khoche-zyasuvaty-shcho-stalosya-zi-starlink-i-starshield-v-ukrayini-24-11-2026.html",
+     "source": "OBOZ.UA"
     }
    ],
    "channel": "polityka",
-   "score": 1,
+   "score": 5,
    "matched": [
-    "министр"
+    "зеленськ",
+    "міністр",
+    "президент"
    ],
    "skipped_reason": "",
-   "extra_sources": 8
+   "extra_sources": 9
   },
   {
-   "query": "banks",
-   "traffic": 100,
-   "traffic_label": "100+",
-   "published": "2026-11-23T17:10:00-08:00",
+   "query": "саммит",
+   "traffic": 2000,
+   "traffic_label": "2000+",
+   "published": "2026-11-24T02:50:00-08:00",
    "news": [
     {
-     "title": "US imposes sanctions on dozens linked to Iran's shadow banking networks",
-     "url": "https://www.reuters.com/business/finance/us-imposes-sanctions-dozens-linked-irans-shadow-banking-networks-2026-11-23/",
-     "source": "Reuters"
+     "title": "Премьер Венгрии выступил против привязки бюджета ЕС к финансированию Украины",
+     "url": "https://www.pravda.com.ua/rus/news/2026/11/23/8064225/",
+     "source": "Українська правда"
     },
     {
-     "title": "Trump admin announces sweeping measure to cut Iran’s ‘last financial lifeline’",
-     "url": "https://www.foxnews.com/politics/trump-admin-announces-sweeping-measure-cut-iran-last-financial-lifeline",
-     "source": "Fox News"
+     "title": "Премьер Чехии Бабиш отверг 100 млрд евро для Украины и раскритиковал проект бюджета ЕС",
+     "url": "https://www.dw.com/ru/premer-cehii-babis-nazval-nepriemlemymi-100-mlrd-evro-es-dla-ukrainy/a-80017872",
+     "source": "DW.com"
     },
     {
-     "title": "Treasury uncovers nearly $15B in possible Iranian shadow banking networks",
-     "url": "https://nypost.com/2026/11/23/us-news/treasury-uncovers-nearly-15-billion-in-possible-iranian-shadow-banking-networks/",
-     "source": "New York Post"
+     "title": "Мадьяр выступил против привязки бюджета ЕС к финансированию Украины",
+     "url": "https://uatv.ua/madyar-vystupil-protiv-privyazki-byudzheta-es-k-finansirovaniyu-ukrainy/",
+     "source": "uatv.ua"
     }
    ],
    "channel": "polityka",
-   "score": 1,
+   "score": 4,
    "matched": [
-    "trump"
+    "=ес",
+    "саммит"
    ],
    "skipped_reason": "",
-   "extra_sources": 8
+   "extra_sources": 10
   }
  ],
  "sport": [
   {
-   "query": "чемпіонат",
-   "traffic": 5000,
-   "traffic_label": "5000+",
-   "published": "2026-11-23T13:20:00-08:00",
+   "query": "віктор леоненко",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-24T04:10:00-08:00",
    "news": [
     {
-     "title": "Знаковий гравець клубу УПЛ натякнув на відхід: «Можливо, це остання гра»",
-     "url": "https://sport.ua/uk/news/927694-znakoviy-gravets-klubu-upl-natyaknuv-na-vidhid-mozhlivo-tse-ostannya-gra",
+     "title": "Віктор Леоненко знайшов головного героя у збірній України",
+     "url": "https://sport.ua/uk/news/926846-viktor-leonenko-znayshov-golovnogo-geroya-u-zbirniy-ukraini",
      "source": "Sport.ua"
     },
     {
-     "title": "В Одесі та Черкасах сьогодні відбудуться матчі футбольної Прем'єр-ліги",
-     "url": "https://www.ukrinform.ua/rubric-sports/4187489-v-odesi-ta-cerkasah-sogodni-vidbudutsa-matci-futbolnoi-premerligi.html",
-     "source": "Ukrinform.ua"
+     "title": "Леоненко різко пройшовся по гравцях збірної України після Ліги націй: \"Звели себе до рангу зірок\"",
+     "url": "https://sport24.ua/uk/football/news/171419-leonenko-rizko-proyshovsya-po-gravtsyah-zbirnoyi-ukrayini-pislya-ligi-natsiy-zveli-sebe-do-rangu-zirok",
+     "source": "Спорт 24"
     },
     {
-     "title": "Епіцентр на виїзді обіграв Чорноморець у 13 турі УПЛ",
-     "url": "https://champion.com.ua/ukr/football/chornomorec-prograv-epicentru-v-13-turi-upl-1091638/",
-     "source": "Champion.com.ua"
+     "title": "Мальдері – нуль: Леоненко знайшов неочікуваного нового тренера для збірної України",
+     "url": "https://football24.ua/news/malderi-nul-leonenko-znayshov-neochikuvanoho-novoho-trenera-dlya-zbirnoyi-ukrayiny-977090",
+     "source": "Футбол 24"
     }
    ],
    "channel": "sport",
-   "score": 5,
+   "score": 1,
    "matched": [
-    "матч",
-    "футбол",
-    "чемпіон"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 8
-  },
-  {
-   "query": "брентфорд – евертон",
-   "traffic": 2000,
-   "traffic_label": "2000+",
-   "published": "2026-11-23T11:30:00-08:00",
-   "news": [
-    {
-     "title": "Украинское дерби в АПЛ: \"Брентфорд\" с Ярмолюком уничтожил \"Эвертон\" с Миколенко",
-     "url": "https://tsn.ua/ru/prosport/ukrainskoe-derbi-v-apl-brentford-s-yarmolyukom-unichtozhil-everton-s-mikolenko-3224799.html",
-     "source": "ТСН"
-    },
-    {
-     "title": "Брентфорд с Ярмолюком одержал разгромную победу над Эвертоном с Миколенко в 11-м туре АПЛ",
-     "url": "https://champion.com.ua/rus/football/brentford-everton-komanda-yarmolyuka-razgromila-klub-mikolenko-v-apl-1091684/",
-     "source": "Champion.com.ua"
-    },
-    {
-     "title": "Усик посетил матч английской Премьер-лиги с участием двух футболистов сборной Украины — фото",
-     "url": "https://sport.nv.ua/boxing/aleksandr-usik-posetil-match-brentford-everton-v-chempionate-anglii-foto-50661897.html",
-     "source": "NV Спорт"
-    }
-   ],
-   "channel": "sport",
-   "score": 4,
-   "matched": [
-    "матч",
-    "сборн",
-    "усик",
-    "футбол"
+    "збірн"
    ],
    "skipped_reason": "",
    "extra_sources": 7
-  },
-  {
-   "query": "монца – фіорентіна",
-   "traffic": 500,
-   "traffic_label": "500+",
-   "published": "2026-11-23T11:20:00-08:00",
-   "news": [
-    {
-     "title": "Монца – Фіорентіна. Прогноз і анонс на матч 12-го туру Серії А",
-     "url": "https://sport.ua/uk/news/927540-montsa-fiorentina-prognoz-i-anons-na-match-12-go-turu-serii-a",
-     "source": "Sport.ua"
-    },
-    {
-     "title": "Дубль Варели та гол Робінсона принесли Монці перемогу над Фіорентиною в 12 турі Серії А",
-     "url": "https://champion.com.ua/ukr/football/dubl-vareli-ta-gol-robinsona-monca-rozgromila-fiorentinu-u-12-mu-turi-seriji-a-1091686/",
-     "source": "Champion.com.ua"
-    },
-    {
-     "title": "Серія А. Фіорентина як у Хрещеному Батькoві III - знову затягнута у боротьбу за виживання",
-     "url": "https://www.ua-football.com/ua/foreign/italy/1795469943-seriya-a-fiorentina-yak-u-hreschenomu-batku-znovu-zatyagnuta-u-borotbu-proti-vilotu.html",
-     "source": "UA-Football"
-    }
-   ],
-   "channel": "sport",
-   "score": 2,
-   "matched": [
-    "=гол",
-    "матч"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 8
   }
  ],
- "ekonomika": [
+ "yizha": [
   {
-   "query": "курськ",
-   "traffic": 1000,
-   "traffic_label": "1000+",
-   "published": "2026-11-23T10:10:00-08:00",
+   "query": "олія",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-24T03:50:00-08:00",
    "news": [
     {
-     "title": "The Ukrainian Armed Forces may have taken control of Novyi Put in the Kurshchyna region",
-     "url": "https://ukrmedia.news/en/viyna/zsu-novyi-put-kurska-oblast/",
-     "source": "UkrMedia News"
+     "title": "Заводы останавливаются. Украина теряет позиции на мировом рынке растительного масла — как к этому причастны российские агрессоры",
+     "url": "https://biz.nv.ua/economics/maslozhirovaya-promyshlennost-ukrainy-ostanovka-zavodov-i-rost-cen-na-rastitelnoe-maslo-50660596.html",
+     "source": "NV Бизнес"
+    },
+    {
+     "title": "Стоит ли скупать подсолнечное масло после остановки заводов: экономисты объяснили",
+     "url": "https://tsn.ua/ru/exclusive/stoit-li-skupat-podsolnechnoe-maslo-posle-ostanovki-zavodov-ekonomisty-obyasnili-3223851.html",
+     "source": "ТСН"
+    },
+    {
+     "title": "Подсолнечное масло подорожает, но дефицита не будет: эксперты оценили, как вырастут цены",
+     "url": "https://www.unian.net/economics/agro/podsolnechnoe-maslo-mozhet-rezko-podorozhat-eksperty-ozvuchili-novye-prognozy-13569657.html",
+     "source": "УНИАН"
     }
    ],
-   "channel": "ekonomika",
-   "score": 3,
+   "channel": "yizha",
+   "score": 5,
    "matched": [
-    "курс"
+    "масл",
+    "олія",
+    "подсолнеч"
    ],
    "skipped_reason": "",
    "extra_sources": 9

@@ -1,0 +1,196 @@
+{
+ "ekonomika": [
+  {
+   "query": "пенсійний фонд",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-24T04:50:00-08:00",
+   "news": [
+    {
+     "title": "ПФУ знову ввімкнув «режим економії»: після скасування постанови 821 пенсіонери знову судяться за виплати",
+     "url": "https://sud.ua/uk/news/publication/378424-pfu-znovu-vvimknuv-rezhym-ekonomii-pislia-skasuvannia-postanovy-821-pensionery-znovu-sudiatsia-za-vyplaty",
+     "source": "Судово-юридична газета"
+    },
+    {
+     "title": "Спір щодо виконання судового рішення має розглядатися в порядку судового контролю: позиція Верховного Суду",
+     "url": "https://kstati.dp.ua/uk/obschestvo/spir-schodo-vikonannya-sudovogo-rishennya-mae-rozglyadatisya-v-poryadku-sudovogo",
+     "source": "| Кstati+"
+    },
+    {
+     "title": "ПФУ переписує виплати після суду: хто ризикує не дочекатися грошей",
+     "url": "https://znaj.ua/vyplaty/575038-pfu-perepisuye-viplati-pislya-sudu-hto-rizikuye-ne-dochekatisya-groshey",
+     "source": "Знай.ua"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 5,
+   "matched": [
+    "виплат",
+    "пенсі"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  },
+  {
+   "query": "дельта",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-24T03:30:00-08:00",
+   "news": [
+    {
+     "title": "В ФРГ будут производить украинские разведывательные БПЛА для Киева - Берлин выделяет на это 34 млн евро",
+     "url": "https://www.dw.com/ru/v-frg-budut-proizvodit-ukrainskie-razvedyvatelnye-bpla-dla-kieva/a-80027240",
+     "source": "DW.com"
+    },
+    {
+     "title": "Германия первой из партнеров Украины сможет использовать систему DELTA для своих вооруженных сил",
+     "url": "https://www.pravda.com.ua/rus/news/2026/11/24/8064350/",
+     "source": "Українська правда"
+    },
+    {
+     "title": "Германия станет первой страной, которой Украина предоставит доступ к боевой системе DELTA — Минобороны",
+     "url": "https://nv.ua/world/geopolitics/sistema-delta-germaniya-pervoy-poluchit-dostup-k-ukrainskoy-boevoy-platforme-50662039.html",
+     "source": "NV"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 1,
+   "matched": [
+    "евро"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  }
+ ],
+ "polityka": [
+  {
+   "query": "президент україни",
+   "traffic": 2000,
+   "traffic_label": "2000+",
+   "published": "2026-11-24T04:40:00-08:00",
+   "news": [
+    {
+     "title": "Зеленський: Україна фіксує обмеження на використання Starshield",
+     "url": "https://www.eurointegration.com.ua/news/2026/11/24/7250694/",
+     "source": "Європейська правда"
+    },
+    {
+     "title": "«Ставлять себе в незручне становище». Зеленський розкритикував США за дії щодо України",
+     "url": "https://nv.ua/ukr/world/geopolitics/volodimir-zelenskiy-rozkritikuvav-ssha-za-diji-shchodo-ukrajini-u-chomu-prichina-50662130.html",
+     "source": "NV"
+    },
+    {
+     "title": "\"Це серйозно підірвало довіру\": міністр оборони Британії хоче з'ясувати, що сталося зі Starlink і Starshield в Україні",
+     "url": "https://www.obozrevatel.com/ukr/section-politics-news/news-tse-seryozno-pidirvalo-doviru-ministr-oborony-brytaniyi-khoche-zyasuvaty-shcho-stalosya-zi-starlink-i-starshield-v-ukrayini-24-11-2026.html",
+     "source": "OBOZ.UA"
+    }
+   ],
+   "channel": "polityka",
+   "score": 5,
+   "matched": [
+    "зеленськ",
+    "міністр",
+    "президент"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  },
+  {
+   "query": "саммит",
+   "traffic": 2000,
+   "traffic_label": "2000+",
+   "published": "2026-11-24T02:50:00-08:00",
+   "news": [
+    {
+     "title": "Премьер Венгрии выступил против привязки бюджета ЕС к финансированию Украины",
+     "url": "https://www.pravda.com.ua/rus/news/2026/11/23/8064225/",
+     "source": "Українська правда"
+    },
+    {
+     "title": "Премьер Чехии Бабиш отверг 100 млрд евро для Украины и раскритиковал проект бюджета ЕС",
+     "url": "https://www.dw.com/ru/premer-cehii-babis-nazval-nepriemlemymi-100-mlrd-evro-es-dla-ukrainy/a-80017872",
+     "source": "DW.com"
+    },
+    {
+     "title": "Мадьяр выступил против привязки бюджета ЕС к финансированию Украины",
+     "url": "https://uatv.ua/madyar-vystupil-protiv-privyazki-byudzheta-es-k-finansirovaniyu-ukrainy/",
+     "source": "uatv.ua"
+    }
+   ],
+   "channel": "polityka",
+   "score": 4,
+   "matched": [
+    "=ес",
+    "саммит"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  }
+ ],
+ "sport": [
+  {
+   "query": "віктор леоненко",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-24T04:10:00-08:00",
+   "news": [
+    {
+     "title": "Віктор Леоненко знайшов головного героя у збірній України",
+     "url": "https://sport.ua/uk/news/926846-viktor-leonenko-znayshov-golovnogo-geroya-u-zbirniy-ukraini",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Леоненко різко пройшовся по гравцях збірної України після Ліги націй: \"Звели себе до рангу зірок\"",
+     "url": "https://sport24.ua/uk/football/news/171419-leonenko-rizko-proyshovsya-po-gravtsyah-zbirnoyi-ukrayini-pislya-ligi-natsiy-zveli-sebe-do-rangu-zirok",
+     "source": "Спорт 24"
+    },
+    {
+     "title": "Мальдері – нуль: Леоненко знайшов неочікуваного нового тренера для збірної України",
+     "url": "https://football24.ua/news/malderi-nul-leonenko-znayshov-neochikuvanoho-novoho-trenera-dlya-zbirnoyi-ukrayiny-977090",
+     "source": "Футбол 24"
+    }
+   ],
+   "channel": "sport",
+   "score": 1,
+   "matched": [
+    "збірн"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 7
+  }
+ ],
+ "yizha": [
+  {
+   "query": "олія",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-24T03:50:00-08:00",
+   "news": [
+    {
+     "title": "Заводы останавливаются. Украина теряет позиции на мировом рынке растительного масла — как к этому причастны российские агрессоры",
+     "url": "https://biz.nv.ua/economics/maslozhirovaya-promyshlennost-ukrainy-ostanovka-zavodov-i-rost-cen-na-rastitelnoe-maslo-50660596.html",
+     "source": "NV Бизнес"
+    },
+    {
+     "title": "Стоит ли скупать подсолнечное масло после остановки заводов: экономисты объяснили",
+     "url": "https://tsn.ua/ru/exclusive/stoit-li-skupat-podsolnechnoe-maslo-posle-ostanovki-zavodov-ekonomisty-obyasnili-3223851.html",
+     "source": "ТСН"
+    },
+    {
+     "title": "Подсолнечное масло подорожает, но дефицита не будет: эксперты оценили, как вырастут цены",
+     "url": "https://www.unian.net/economics/agro/podsolnechnoe-maslo-mozhet-rezko-podorozhat-eksperty-ozvuchili-novye-prognozy-13569657.html",
+     "source": "УНИАН"
+    }
+   ],
+   "channel": "yizha",
+   "score": 5,
+   "matched": [
+    "масл",
+    "олія",
+    "подсолнеч"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  }
+ ]
+}
