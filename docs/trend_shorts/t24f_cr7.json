@@ -1,0 +1,55 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24f/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24f/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "cr7",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24f/src/cr7",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24f/jobs/cr7",
+ "w1": 40,
+ "end_w": 35,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#ffd23f",
+ "mood": "upbeat",
+ "end_text": [
+  "УСЕ ПРО",
+  "СПОРТ"
+ ],
+ "end_acc": "СПОРТ",
+ "keywords": [
+  "Дев'ятсот",
+  "вісімдесят",
+  "сім!",
+  "пенальті",
+  "тринадцять,",
+  "сорок",
+  "сезону?"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:r_stad.jpg",
+   "987 ГОЛІВ",
+   "987"
+  ],
+  [
+   7,
+   "img:card_cr7.jpg",
+   "",
+   ""
+  ],
+  [
+   16,
+   "img:r_in.jpg",
+   "ПЕНАЛЬТІ НА 13-Й ХВИЛИНІ",
+   "13-Й"
+  ],
+  [
+   20,
+   "img:card_1000.jpg",
+   "",
+   ""
+  ]
+ ]
+}
