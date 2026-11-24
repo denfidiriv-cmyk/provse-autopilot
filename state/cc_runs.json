@@ -183,5 +183,12 @@
   "channel": "sport",
   "cost": 0.3925840000000001,
   "url": "https://youtube.com/shorts/LFWoxqqTTKU"
+ },
+ {
+  "at": "2026-11-24T08:17:23.438022",
+  "query": "графік відключення світла на 24 листопада",
+  "channel": "dim",
+  "cost": 0.48373370000000004,
+  "url": "https://youtube.com/shorts/1985XqYb9V8"
  }
 ]
