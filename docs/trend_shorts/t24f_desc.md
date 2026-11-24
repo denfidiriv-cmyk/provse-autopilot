@@ -51,8 +51,7 @@ ZAXID.NET: https://zaxid.net/volodimir_zelenskiy_zustrivsya_z_premyerom_ugorshhi
 ## t24f_cr7 → Все про спорт (UCf0J6E1J8g_gVcFCXKm9Vyw)
 Назва: ⚽ Роналду: 987 ГОЛІВ, до тисячі лишилось 13 #shorts
 
-24 листопада в матчі азійської Ліги чемпіонів Еліт «Аль-Наср» проти катарського «Аль-Садда» 41-річний Кріштіану Роналду реалізував пенальті на 13-й хвилині. Це 987-й гол у його кар'єрі: до тисячі лишилось 13. Другий гол «Аль-Насра» забив Жоау Фелікс ударом через себе на 52-й хвилині.
-(Перед публікацією додати фінальний рахунок: о 22:15 було 2:1 на 90-й хвилині.)
+24 листопада в матчі азійської Ліги чемпіонів Еліт «Аль-Наср» проти катарського «Аль-Садда» 41-річний Кріштіану Роналду реалізував пенальті на 13-й хвилині. Це 987-й гол у його кар'єрі: до тисячі лишилось 13. «Аль-Наср» переміг 2:1, переможний гол на 52-й хвилині забив Жоау Фелікс.
 
 Тема з Google Trends (Україна, 24 години): «аль-наср – садд» https://trends.google.com/trending?geo=UA&hours=24
 
@@ -63,3 +62,9 @@ Sports.ru: https://www.sports.ru/football/1117447515-ronaldu-zabil-987-j-gol-v-k
 Фото: Wikimedia Commons (стадіон «Аль-Авваль Парк»: Alawaalpark stadium, CC BY-SA 4.0; трибуни стадіону: Alina.chiorean, CC BY-SA 4.0; прапор Португалії: суспільне надбання). Музика: Rafael Krux, «Inspiring Advertising» (filmmusic.io), CC BY 4.0.
 
 #роналду #кріштіануроналду #альнаср #футбол #лігачемпіонів #спорт #shorts
+
+## Опубліковано 24.11, ~22:20-22:35
+- tarif (Економіка): https://youtube.com/shorts/4vMUYJtUtpY
+- myr (Політика): https://youtube.com/shorts/z0dbUEzVDzg
+- madyar (Світ): https://youtube.com/shorts/r0cJjBbGouk
+- cr7 (Спорт): https://youtube.com/shorts/PdywQBpegc4
