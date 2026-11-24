@@ -1,0 +1,52 @@
+{
+ "img": "/tmp/trend/2026-11-24e/img",
+ "vid": "/tmp/trend/2026-11-24e/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "quake",
+ "src": "/tmp/trend/2026-11-24e/src/quake",
+ "job": "/tmp/trend/2026-11-24e/jobs/quake",
+ "w1": 39,
+ "end_w": 35,
+ "bg": "#101a2a",
+ "bg2": "#283a5a",
+ "accent": "#ffb547",
+ "mood": "space",
+ "end_text": [
+  "УСЕ ПРО",
+  "СВІТ"
+ ],
+ "end_acc": "СВІТ",
+ "keywords": [
+  "вдруге",
+  "один",
+  "чотири",
+  "сильніше:"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:q_gram.jpg",
+   "ЗЕМЛЕТРУС 1,4",
+   "1,4"
+  ],
+  [
+   7,
+   "img:q_city.jpg",
+   "ЧЕРНІВЕЧЧИНА, 00:09",
+   "00:09"
+  ],
+  [
+   17,
+   "img:q_seis.jpg",
+   "ГЛИБИНА 7 КМ",
+   "7"
+  ],
+  [
+   25,
+   "img:card_q.jpg",
+   "",
+   ""
+  ]
+ ]
+}
