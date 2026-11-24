@@ -6,7 +6,7 @@
 
 | Канал | ID | Хендл | Голос Gemini TTS | Що публікуємо |
 |---|---|---|---|---|
-| Все про дім (Short Films Gray) | UCckPSxt48pjgDWtm-nMv6og | @Fox_films_ff | Kore | дім, побут, комуналка (не здоров'я) |
+| Все про ОСББ (раніше Все про дім / Attic Files) | UCckPSxt48pjgDWtm-nMv6og | @Fox_films_ff | Kore | ОСББ, опалення, комуналка, будинок (не здоров'я) |
 | Все про економіку | UCuTHeI_iY8QAvXfVdJbyHQA | @provse.ekonomika.production | Charon | як працюють гроші й економіки; загальна інформація, без фінансових порад |
 | Все про авто | UCXTceH3zC-lkQeYMkUWMx8A | @provse.avto.production | Iapetus | авто, пальне, закони для водіїв; реальні впізнавані моделі |
 | Все про їжу | UCVCyipxXg5EKunmXv40rOqQ | @provse.food.production | Aoede | їжа, ціни на продукти, кухня |

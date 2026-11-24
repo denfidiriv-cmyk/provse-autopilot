@@ -1,0 +1,59 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24f/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24f/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "madyar",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24f/src/madyar",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24f/jobs/madyar",
+ "w1": 43,
+ "end_w": 38,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#9be7c4",
+ "mood": "upbeat",
+ "end_text": [
+  "УСЕ ПРО",
+  "СВІТ"
+ ],
+ "end_acc": "СВІТ",
+ "keywords": [
+  "вперше",
+  "Ужгороді",
+  "газ",
+  "дизель",
+  "потяги"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:h_castle.jpg",
+   "ВПЕРШЕ В УКРАЇНІ",
+   "ВПЕРШЕ"
+  ],
+  [
+   6,
+   "img:card_madyar.jpg",
+   "",
+   ""
+  ],
+  [
+   13,
+   "img:h_hill.jpg",
+   "ПАГОРБ СЛАВИ",
+   "СЛАВИ"
+  ],
+  [
+   20,
+   "img:card_deal.jpg",
+   "",
+   ""
+  ],
+  [
+   33,
+   "img:h_chop.jpg",
+   "ПРЯМІ ПОТЯГИ",
+   "ПОТЯГИ"
+  ]
+ ]
+}

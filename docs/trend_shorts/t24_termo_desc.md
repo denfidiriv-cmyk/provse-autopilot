@@ -14,3 +14,7 @@
 Ілюстрації згенеровано ШІ (Google Gemini). Музика: Kevin MacLeod, «Early Riser» (incompetech.com), CC BY 3.0.
 
 #термоголовка #батарея #опалення #осбб #економія #економіка #shorts
+
+## Опубліковано
+- Все про економіку: https://youtube.com/shorts/vR9peMH0vtk (24.11, 21:35)
+- Все про ОСББ (колишній Attic Files, перейменовано 24.11 на прохання власника): https://youtube.com/shorts/-RL5luOIpGg (24.11, ~22:10)

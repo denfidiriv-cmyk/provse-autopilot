@@ -1,0 +1,60 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24f/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24f/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "myr",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24f/src/myr",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24f/jobs/myr",
+ "w1": 46,
+ "end_w": 41,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#ff9a8a",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "ПОЛІТИКУ"
+ ],
+ "end_acc": "ПОЛІТИКУ",
+ "keywords": [
+  "січня?",
+  "якнайшвидше.",
+  "не",
+  "України»,",
+  "зброї",
+  "санкцій."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:m_wh.jpg",
+   "МИР ДО СІЧНЯ?",
+   "СІЧНЯ?"
+  ],
+  [
+   6,
+   "img:card_envoys.jpg",
+   "",
+   ""
+  ],
+  [
+   15,
+   "img:card_zel.jpg",
+   "",
+   ""
+  ],
+  [
+   25,
+   "img:m_bank.jpg",
+   "ІНТЕРВ'Ю BLOOMBERG",
+   "BLOOMBERG"
+  ],
+  [
+   30,
+   "img:m_cap.jpg",
+   "ПЛАН Б: ЗБРОЯ І САНКЦІЇ",
+   "ПЛАН Б:"
+  ]
+ ]
+}

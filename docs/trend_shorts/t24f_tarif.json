@@ -1,0 +1,66 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24f/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24f/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "tarif",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24f/src/tarif",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24f/jobs/tarif",
+ "w1": 47,
+ "end_w": 42,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#ffd166",
+ "mood": "explain",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЕКОНОМІКУ"
+ ],
+ "end_acc": "ЕКОНОМІКУ",
+ "keywords": [
+  "дев'ять",
+  "двадцять",
+  "МВФ.",
+  "сорок",
+  "не",
+  "підвищать."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:t_power.jpg",
+   "СВІТЛО 9,67 ГРН?",
+   "9,67"
+  ],
+  [
+   5,
+   "img:t_gas.jpg",
+   "ГАЗ 22 ГРН?",
+   "22"
+  ],
+  [
+   11,
+   "img:card_tarif.jpg",
+   "",
+   ""
+  ],
+  [
+   18,
+   "img:t_meter.jpg",
+   "ТАРИФ НЕ ПОКРИВАЄ ВАРТІСТЬ",
+   "НЕ"
+  ],
+  [
+   22,
+   "img:card_cover.jpg",
+   "",
+   ""
+  ],
+  [
+   32,
+   "vid:power.mp4",
+   "МОРАТОРІЙ ДО КІНЦЯ ВОЄННОГО СТАНУ",
+   "МОРАТОРІЙ"
+  ]
+ ]
+}
