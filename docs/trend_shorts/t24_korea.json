@@ -1,0 +1,52 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "korea",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24/src/korea",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24/jobs/korea",
+ "w1": 38,
+ "end_w": 34,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#8fdcff",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "СВІТ"
+ ],
+ "end_acc": "СВІТ",
+ "keywords": [
+  "сирени",
+  "москалів.",
+  "винищувачі,",
+  "скасували."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:k01.jpg",
+   "СИРЕНИ НА ОСТРОВІ",
+   "СИРЕНИ"
+  ],
+  [
+   9,
+   "vid:jet.mp4",
+   "ЗОНА ППО КОРЕЇ",
+   "ППО"
+  ],
+  [
+   22,
+   "img:k03.jpg",
+   "КОРЕЯ ПІДНЯЛА ВИНИЩУВАЧІ",
+   "ВИНИЩУВАЧІ"
+  ],
+  [
+   29,
+   "img:card_ull.jpg",
+   "",
+   ""
+  ]
+ ]
+}

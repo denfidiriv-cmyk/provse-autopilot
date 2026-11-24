@@ -1,0 +1,52 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "streeting",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24/src/streeting",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24/jobs/streeting",
+ "w1": 42,
+ "end_w": 38,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#ff9a8a",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "ПОЛІТИКУ"
+ ],
+ "end_acc": "ПОЛІТИКУ",
+ "keywords": [
+  "вибух",
+  "москалі",
+  "вчасно».",
+  "п'ятсот"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:s02.jpg",
+   "ВИБУХ ПІД ЧАС ПРОМОВИ",
+   "ВИБУХ"
+  ],
+  [
+   5,
+   "img:s01.jpg",
+   "ПОСОЛЬСТВО В КИЄВІ",
+   "КИЄВІ"
+  ],
+  [
+   16,
+   "img:card_streeting.jpg",
+   "",
+   ""
+  ],
+  [
+   25,
+   "img:card_pack.jpg",
+   "",
+   ""
+  ]
+ ]
+}

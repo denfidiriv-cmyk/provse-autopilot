@@ -1,0 +1,58 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "chelsea",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24/src/chelsea",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24/jobs/chelsea",
+ "w1": 37,
+ "end_w": 33,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#7fb2ff",
+ "mood": "epic",
+ "end_text": [
+  "УСЕ ПРО",
+  "СПОРТ"
+ ],
+ "end_acc": "СПОРТ",
+ "keywords": [
+  "чотири",
+  "звільняють!",
+  "один-чотири.",
+  "восьмий"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:c01.jpg",
+   "4 ПОРАЗКИ З 5",
+   "4"
+  ],
+  [
+   6,
+   "vid:pitch.mp4",
+   "АЛОНСО ЛИШАЄТЬСЯ",
+   "АЛОНСО"
+  ],
+  [
+   10,
+   "img:card_cfc.jpg",
+   "",
+   ""
+  ],
+  [
+   18,
+   "img:card_alonso.jpg",
+   "",
+   ""
+  ],
+  [
+   27,
+   "img:c02.jpg",
+   "8 МІСЦЕ В АПЛ",
+   "8"
+  ]
+ ]
+}

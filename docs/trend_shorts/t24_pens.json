@@ -1,0 +1,52 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "pens",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24/src/pens",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t24/jobs/pens",
+ "w1": 46,
+ "end_w": 42,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#ffd166",
+ "mood": "explain",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЕКОНОМІКУ"
+ ],
+ "end_acc": "ЕКОНОМІКУ",
+ "keywords": [
+  "зупинити",
+  "тридцять",
+  "кордоном,",
+  "дія.підпис,"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:p02.jpg",
+   "З 1 СІЧНЯ БЕЗ ПЕНСІЇ?",
+   "1"
+  ],
+  [
+   7,
+   "img:card_who.jpg",
+   "",
+   ""
+  ],
+  [
+   18,
+   "img:p01.jpg",
+   "183 ДНІ ЗА КОРДОНОМ",
+   "183"
+  ],
+  [
+   33,
+   "img:card_how.jpg",
+   "",
+   ""
+  ]
+ ]
+}
