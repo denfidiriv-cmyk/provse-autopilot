@@ -109,9 +109,11 @@ for i, (w, a, b) in enumerate(words):
     if len(cur) >= 3 or w.endswith(('.', ',', '?', ':', '!')): groups.append(cur); cur = []
 if cur: groups.append(cur)
 def caption(d, t):
-    g = next((g for g in groups if wt(g[0]) - 0.05 <= t < (words[g[-1]][2] + 0.25)), None)
+    LEAD = 0.25
+    if (wt(10) - 0.05 <= t < wt(25) - 0.05) or t >= wt(77) - 0.05: return  # dial scene and end card carry their own text
+    g = next((g for g in groups if wt(g[0]) - LEAD <= t < (words[g[-1]][2] - 0.05)), None)
     if not g: return
-    shown = [i for i in g if wt(i) - 0.05 <= t]
+    shown = [i for i in g if wt(i) - LEAD <= t]
     if not shown: return
     fnt = F(72); parts = [(words[i][0], RED if words[i][0].lower() in KEY else INKC) for i in shown]
     tw = sum(d.textlength(p + ' ', font=fnt) for p, _ in parts); x = (W - tw) / 2; y = 1430
