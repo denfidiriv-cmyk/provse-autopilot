@@ -1,0 +1,71 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "krypta",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26/src/krypta",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26/jobs/krypta",
+ "w1": 48,
+ "end_w": 43,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#ff5a36",
+ "mood": "explain",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЕКОНОМІКУ"
+ ],
+ "end_acc": "ЕКОНОМІКУ",
+ "keywords": [
+  "легалізували.",
+  "двісті",
+  "двадцять",
+  "десять.",
+  "не"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:c_coin.jpg",
+   "КРИПТУ ЛЕГАЛІЗУВАЛИ",
+   "КРИПТУ"
+  ],
+  [
+   4,
+   "img:c_rada.jpg",
+   "РАДА УХВАЛИЛА ЗАКОН",
+   "ЗАКОН"
+  ],
+  [
+   7,
+   "img:k_271.jpg",
+   "",
+   ""
+  ],
+  [
+   14,
+   "img:c_hand.jpg",
+   "ПОДАТОК З ПРИБУТКУ",
+   "ПОДАТОК"
+  ],
+  [
+   19,
+   "img:k_23.jpg",
+   "",
+   ""
+  ],
+  [
+   22,
+   "img:k_10.jpg",
+   "",
+   ""
+  ],
+  [
+   36,
+   "img:k_0.jpg",
+   "",
+   ""
+  ]
+ ]
+}

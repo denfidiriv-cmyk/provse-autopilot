@@ -1,0 +1,60 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "barca",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26/src/barca",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26/jobs/barca",
+ "w1": 36,
+ "end_w": 31,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#ffe66d",
+ "mood": "upbeat",
+ "end_text": [
+  "УСЕ ПРО",
+  "СПОРТ"
+ ],
+ "end_acc": "СПОРТ",
+ "keywords": [
+  "Баку",
+  "чотири",
+  "голи!",
+  "дубль,",
+  "Жезус.",
+  "четверта"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:b_baku.jpg",
+   "ПЕРШИЙ ВІЗИТ У БАКУ",
+   "БАКУ"
+  ],
+  [
+   6,
+   "img:b_41.jpg",
+   "",
+   ""
+  ],
+  [
+   16,
+   "img:b_g2.jpg",
+   "",
+   ""
+  ],
+  [
+   20,
+   "img:b_aj.jpg",
+   "",
+   ""
+  ],
+  [
+   26,
+   "img:b_4.jpg",
+   "",
+   ""
+  ]
+ ]
+}

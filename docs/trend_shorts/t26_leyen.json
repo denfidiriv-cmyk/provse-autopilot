@@ -1,0 +1,60 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "leyen",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26/src/leyen",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26/jobs/leyen",
+ "w1": 45,
+ "end_w": 40,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#e9c46a",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "СВІТ"
+ ],
+ "end_acc": "СВІТ",
+ "keywords": [
+  "Зимове",
+  "перемир'я",
+  "москалів",
+  "коридор",
+  "серйозно",
+  "Європи."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:l_ep.jpg",
+   "ЗИМОВЕ ПЕРЕМИР'Я ДЛЯ ЕНЕРГЕТИКИ",
+   "ПЕРЕМИР'Я"
+  ],
+  [
+   4,
+   "img:l_vdl.jpg",
+   "",
+   ""
+  ],
+  [
+   12,
+   "img:l_grain.jpg",
+   "",
+   ""
+  ],
+  [
+   21,
+   "img:l_test.jpg",
+   "",
+   ""
+  ],
+  [
+   32,
+   "img:l_eu.jpg",
+   "",
+   ""
+  ]
+ ]
+}

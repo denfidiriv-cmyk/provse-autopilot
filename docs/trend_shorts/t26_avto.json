@@ -1,0 +1,72 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "avto",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26/src/avto",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26/jobs/avto",
+ "w1": 51,
+ "end_w": 46,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#f77f00",
+ "mood": "explain",
+ "end_text": [
+  "УСЕ ПРО",
+  "АВТО"
+ ],
+ "end_acc": "АВТО",
+ "keywords": [
+  "Двадцять",
+  "три",
+  "сто",
+  "чверть",
+  "без",
+  "січня."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:v_23.jpg",
+   "",
+   ""
+  ],
+  [
+   8,
+   "img:a_rada.jpg",
+   "РАДА УХВАЛИЛА ЗАКОН",
+   "ЗАКОН"
+  ],
+  [
+   11,
+   "img:a_lot.jpg",
+   "ПРОДАЄТЕ МАШИНУ?",
+   "МАШИНУ?"
+  ],
+  [
+   16,
+   "img:v_183.jpg",
+   "",
+   ""
+  ],
+  [
+   23,
+   "img:v_q.jpg",
+   "",
+   ""
+  ],
+  [
+   28,
+   "img:v_0.jpg",
+   "",
+   ""
+  ],
+  [
+   37,
+   "img:v_date.jpg",
+   "",
+   ""
+  ]
+ ]
+}
