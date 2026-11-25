@@ -1,0 +1,54 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "johnson",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25/src/johnson",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25/jobs/johnson",
+ "w1": 46,
+ "end_w": 41,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#9ec5ff",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "ПОЛІТИКУ"
+ ],
+ "end_acc": "ПОЛІТИКУ",
+ "keywords": [
+  "Війська",
+  "зараз?",
+  "до",
+  "тил,",
+  "заморожені",
+  "«Челсі»,"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:j_down.jpg",
+   "ВІЙСЬКА ЄВРОПИ В УКРАЇНУ?",
+   "ВІЙСЬКА"
+  ],
+  [
+   6,
+   "img:card_bj.jpg",
+   "",
+   ""
+  ],
+  [
+   18,
+   "img:card_plan.jpg",
+   "",
+   ""
+  ],
+  [
+   30,
+   "img:j_patriot.jpg",
+   "ГРОШІ ЗА «ЧЕЛСІ» УКРАЇНІ",
+   "«ЧЕЛСІ»"
+  ]
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "kstar",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25/src/kstar",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25/jobs/kstar",
+ "w1": 46,
+ "end_w": 41,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#7fd1ff",
+ "mood": "explain",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЕКОНОМІКУ"
+ ],
+ "end_acc": "ЕКОНОМІКУ",
+ "keywords": [
+  "Тридцять",
+  "гривень",
+  "безлімітний",
+  "закінчились",
+  "лише",
+  "триста"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:k_phone.jpg",
+   "30 ГРН НА ДЕНЬ",
+   "30 ГРН"
+  ],
+  [
+   9,
+   "img:k_shop.jpg",
+   "З 24 ЛИСТОПАДА",
+   "24"
+  ],
+  [
+   19,
+   "img:card_k.jpg",
+   "",
+   ""
+  ],
+  [
+   32,
+   "img:k_tower.jpg",
+   "10 ДНІВ = 300 ГРН",
+   "300"
+  ]
+ ]
+}

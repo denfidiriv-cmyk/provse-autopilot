@@ -1,0 +1,54 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "real",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25/src/real",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25/jobs/real",
+ "w1": 36,
+ "end_w": 31,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#ffffff",
+ "mood": "upbeat",
+ "end_text": [
+  "УСЕ ПРО",
+  "СПОРТ"
+ ],
+ "end_acc": "СПОРТ",
+ "keywords": [
+  "П'ять",
+  "один",
+  "поразки",
+  "п'ять",
+  "тридцять",
+  "Мбаппе,"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:r_field.jpg",
+   "5:1",
+   "5:1"
+  ],
+  [
+   7,
+   "img:r_psv3.jpg",
+   "0:1 ПІСЛЯ ТАЙМУ",
+   "0:1"
+  ],
+  [
+   13,
+   "img:r_bern.jpg",
+   "5 ГОЛІВ ЗА 37 ХВИЛИН",
+   "37"
+  ],
+  [
+   24,
+   "img:card_goals.jpg",
+   "",
+   ""
+  ]
+ ]
+}

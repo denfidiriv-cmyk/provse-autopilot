@@ -1,0 +1,60 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "senegal",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25/src/senegal",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25/jobs/senegal",
+ "w1": 43,
+ "end_w": 38,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#7ee08a",
+ "mood": "upbeat",
+ "end_text": [
+  "УСЕ ПРО",
+  "СВІТ"
+ ],
+ "end_acc": "СВІТ",
+ "keywords": [
+  "суд.",
+  "Сенегалу.",
+  "один",
+  "нуль,",
+  "технічну",
+  "арбітр."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:s_cas.jpg",
+   "ЧЕМПІОНА ЗМІНИВ СУД",
+   "СУД"
+  ],
+  [
+   8,
+   "img:card_sn.jpg",
+   "",
+   ""
+  ],
+  [
+   13,
+   "img:s_stad.jpg",
+   "ФІНАЛ: СЕНЕГАЛ 1:0 МАРОККО",
+   "1:0"
+  ],
+  [
+   20,
+   "img:card_ma.jpg",
+   "",
+   ""
+  ],
+  [
+   31,
+   "img:s_fans.jpg",
+   "ВІДНОВИТИ ГРУ МІГ ЛИШЕ АРБІТР",
+   "АРБІТР"
+  ]
+ ]
+}
