@@ -69,3 +69,9 @@ Sport.ua: https://sport.ua/uk/news/928418-dubl-gordona-u-baku-barselona-rozibral
 Фото: Wikimedia Commons (зала Європарламенту в Страсбурзі: Diliff, CC BY-SA 3.0). Музика: Kevin MacLeod, «Ouroboros» (incompetech.com), CC BY 4.0.
 
 #фондерляєн #євросоюз #перемирʼя #енергетика #світ #shorts
+
+## Опубліковано 26.11, ~00:25-00:40
+- avto (Авто): https://youtube.com/shorts/ux8SFkYY_tE
+- krypta (Економіка): https://youtube.com/shorts/9wUn-g7cO78
+- barca (Спорт): https://youtube.com/shorts/zL0IHqRNNDo
+- leyen (Світ): https://youtube.com/shorts/MaxiuM3lXMg
