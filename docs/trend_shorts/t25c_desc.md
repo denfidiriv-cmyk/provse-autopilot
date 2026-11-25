@@ -30,7 +30,7 @@ Google Trends (Україна, 24 год, о 20:31): «верховная рад
 Eauto (ІДА): https://eauto.org.ua/news/101294-rada-uhvalila-pravilo-183-dniv-dlya-prodazhu-avto-hto-mozhe-zaplatiti-23-1
 Дзеркало тижня: https://zn.ua/ukr/ECONOMICS/rada-ukhvalila-zakon-pro-23-podatku-na-shvidkij-prodazh-avto.html
 
-Фото: Wikimedia Commons (авто на продаж: John Lloyd, CC BY 2.0). Відео: Pixabay (xat-ch, slava_film). Музика: Loyalty Freak Music, «No Cadillac», CC0.
+Фото: Wikimedia Commons (авто на продаж: John Lloyd, CC BY 2.0). Відео: Pixabay (xat-ch, slava_film). Музика: Kevin MacLeod, «Funkorama» (incompetech.com), CC BY 3.0.
 
 #авто #податок #продажавто #водії #закон #2027 #shorts
 
