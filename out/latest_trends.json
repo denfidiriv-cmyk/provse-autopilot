@@ -1,138 +1,225 @@
 {
  "sport": [
   {
-   "query": "манчестер сити – наполи турнирная таблица",
-   "traffic": 2000,
-   "traffic_label": "2000+",
-   "published": "2026-11-24T14:30:00-08:00",
+   "query": "шахтар фенербахче",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-24T22:50:00-08:00",
    "news": [
     {
-     "title": "Прибытие \"Наполи\" на матч с \"Сити\"",
-     "url": "https://ru.uefa.com/uefachampionsleague/video/02ab-22264ba11a02-cb7b69455b56-1000--%D0%BF%D1%80%D0%B8%D0%B1%D1%8B%D1%82%D0%B8%D0%B5-%D0%BD/",
-     "source": "UEFA.com"
+     "title": "Боротьба за плейоф ЛЧ: де і коли дивитись матч \"Шахтар\" - \"Фенербахче\"",
+     "url": "https://sport.rbc.ua/rus/football/borotba-pleyof-lch-de-i-koli-divitis-match-1795585745.html",
+     "source": "РБК-Україна"
     },
     {
-     "title": "Мареска – о ситуации \"Манчестер Сити\" в АПЛ: Это позор| Футбол",
-     "url": "https://champion.com.ua/rus/football/mareska-o-situacii-manchester-siti-v-apl-eto-pozor-1091709/",
-     "source": "Champion.com.ua"
+     "title": "Легенда Шахтаря дав прогноз на матч гірників у Лізі чемпіонів",
+     "url": "https://sport.ua/uk/news/928080-legenda-shahtarya-dav-prognoz-na-match-girnikiv-u-lizi-chempioniv",
+     "source": "Sport.ua"
     },
     {
-     "title": "Де Брюйне возвращается к \"Манчестер Сити\": назван фаворит одного из главных матчей ЛЧ",
-     "url": "https://finance.obozrevatel.com/section-gaming-news/news-de-bryuyne-povertayetsya-do-manchester-siti-nazvano-favoryta-odnoho-z-holovnykh-matchiv-lch-23-11-2026.html",
-     "source": "OBOZ.UA"
+     "title": "«Шахтар» сьогодні зіграє з «Фенербахче» у Лізі чемпіонів УЄФА",
+     "url": "https://www.ukrinform.ua/rubric-sports/4188138-sahtar-sogodni-zigrae-z-fenerbahce-u-lizi-cempioniv-uefa.html",
+     "source": "Ukrinform.ua"
     }
    ],
    "channel": "sport",
    "score": 6,
    "matched": [
-    "манчестер",
     "матч",
-    "футбол"
+    "чемпіон",
+    "шахтар"
    ],
    "skipped_reason": "",
-   "extra_sources": 5
+   "extra_sources": 9
   },
   {
-   "query": "лига чемпионов уефа турнирная таблица",
-   "traffic": 100,
-   "traffic_label": "100+",
-   "published": "2026-11-24T13:50:00-08:00",
+   "query": "бруну фернандеш",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-24T23:00:00-08:00",
    "news": [
     {
-     "title": "Турнирная таблица Лиги чемпионов 2026/27: ПСЖ и Реал на вершине, Шахтер выше Наполи, кошмар команды украинцев",
-     "url": "https://football24.ua/ru/news/turnirnaja-tablica-ligi-chempionov-202627-pszh-i-real-na-vershine-napoli-dognal-shahter-koshmar-dlja-ukrainskoj-komandy-970565",
-     "source": "Футбол 24"
+     "title": "Сейчас не подходящий момент для переговоров: Фернандеш – о продлении контракта с МЮ",
+     "url": "https://champion.com.ua/rus/football/fernandesh-obyasnil-pochemu-otlozhil-peregovory-o-kontrakte-s-manchester-yunayted-1091532/",
+     "source": "Champion.com.ua"
     },
     {
-     "title": "Лига Чемпионов Обзоры Матчей",
-     "url": "https://max.ru/channel_leage/AaHfubiUWzc",
-     "source": "MAX"
-    },
-    {
-     "title": "За три тура до конца этапа лиги: в ЛЧ определился первый клуб, гарантировавший себе плей-офф",
-     "url": "https://www.ua-football.com/foreign/champions_league/1795560330-za-tri-tura-do-konca-yetapa-ligi-v-lch-opredelilsya-pervyy-klub-garantirovavshiy-sebe-pley-off.html",
+     "title": "Бруну Фернандеш объяснил, почему он до сих пор не продлил контракт с Манчестер Юнайтед",
+     "url": "https://www.ua-football.com/foreign/england/1795590585-brunu-fernandesh-obyasnil-pochemu-on-do-sih-por-ne-prodlil-kontrakt-s-manchester-yunayted.html",
      "source": "UA-Football"
+    },
+    {
+     "title": "«Милан» следит за ситуацией вокруг Бруну Фернандеша в «Манчестер Юнайтед»",
+     "url": "https://ua.tribuna.com/football/1000000394703-milan-stezhyt-za-sytuatsiyeyu-navkolo-brunu-fernandesha/",
+     "source": "Tribuna.com"
     }
    ],
    "channel": "sport",
-   "score": 14,
+   "score": 1,
    "matched": [
-    "=реал",
-    "лига",
-    "матч",
-    "уефа",
-    "чемпион",
-    "шахтер"
+    "манчестер"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 4
+  },
+  {
+   "query": "жорже жезуш",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-25T00:00:00-08:00",
+   "news": [
+    {
+     "title": "Жезуш прилетел к Роналду и провел встречу. Принято решение",
+     "url": "https://sport.ua/news/927557-zhezush-priletel-k-ronaldu-i-provel-vstrechu-prinyato-reshenie",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "\"Он заслуживает особого уважения\". Гвардиола высказался о скандальном уходе Роналду из сборной Португалии",
+     "url": "https://www.ua-football.com/foreign/newscommon/1795591614-on-zasluzhivaet-osobogo-uvazheniya-gvardiola-vyskazalsya-o-skandalnom-uhode-ronaldu-iz-sbornoy-portugalii.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "«Это зверь»: Гвардиола раскрыл мнение о Роналду",
+     "url": "https://www.euro-football.ru/article/1004974409/1006427041_eto_zver_gvardiola_raskryil_mnenie_o_ronaldu",
+     "source": "Евро-Футбол"
+    }
+   ],
+   "channel": "sport",
+   "score": 1,
+   "matched": [
+    "сборн"
    ],
    "skipped_reason": "",
    "extra_sources": 7
   }
  ],
- "dim": [
+ "yizha": [
   {
-   "query": "25 листопада",
-   "traffic": 2000,
-   "traffic_label": "2000+",
-   "published": "2026-11-24T13:30:00-08:00",
+   "query": "rockstar games",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-24T22:40:00-08:00",
    "news": [
     {
-     "title": "У середу світла в українців може не бути до 12 годин",
-     "url": "https://epravda.com.ua/energetika/vidklyuchennya-svitla-25-listopada-diyatimut-grafiki-do-3-cherg-827999/",
-     "source": "Економічна правда"
+     "title": "All GTA 6 Radio Stations And Songs",
+     "url": "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+     "source": "GameSpot"
     },
     {
-     "title": "Графік відключення світла діятиме на Хмельниччині 25 листопада",
-     "url": "https://suspilne.media/khmelnytskiy/1161724-grafik-vidklucenna-svitla-diatime-na-hmelniccini-na-25-listopada/",
-     "source": "Суспільне | Новини"
+     "title": "‘Grand Theft Auto VI’ Album’s Secret Weapon? The ‘Barbie’ Soundtrack Creator",
+     "url": "https://www.hollywoodreporter.com/music/music-industry-news/grand-theft-auto-vi-soundtrack-atlantic-records-1236762366/",
+     "source": "The Hollywood Reporter"
     },
     {
-     "title": "Інформація щодо обмеження споживання електроенергії на 25.11.2026 (середа)",
-     "url": "https://energy.volyn.ua/pro-tovarystvo/novyny/26/11/23/",
-     "source": "Волиньобленерго"
+     "title": "“To us, he’s up there with Brian Wilson, Paul McCartney and Prince”: Justice say that “one-take man” Michael McDonald lived up to the legend when they collaborated with him on their GTA VI song, Starting From Zero",
+     "url": "https://www.musicradar.com/artists/to-us-hes-up-there-with-brian-wilson-paul-mccartney-and-prince-justice-say-that-one-take-man-michael-mcdonald-lived-up-to-the-legend-when-they-collaborated-with-him-on-their-gta-vi-song-starting-from-zero",
+     "source": "MusicRadar"
     }
    ],
-   "channel": "dim",
+   "channel": "yizha",
+   "score": 1,
+   "matched": [
+    "mcdonald"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  }
+ ],
+ "svit": [
+  {
+   "query": "25 листопада свято",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-24T22:10:00-08:00",
+   "news": [
+    {
+     "title": "Яке церковне свято в Україні 25 листопада",
+     "url": "https://tsn.ua/other/iake-tserkovne-sviato-v-ukrayini-25-lystopada-3214555.html",
+     "source": "ТСН"
+    },
+    {
+     "title": "25 листопада – яке церковне свято: хто сьогодні відзначає День ангела",
+     "url": "https://24tv.ua/traditions24/svyato-25-listopada-yake-sogodni-tserkovne-svyato-kogo-imenini_n3213405",
+     "source": "24 Канал"
+    },
+    {
+     "title": "Свята 25 листопада 2026 року: історія, традиції",
+     "url": "https://ua.korrespondent.net/lifestyle/4931581-sviata-25-lystopada-2026-roku-istoriia-tradytsii",
+     "source": "Korrespondent.net"
+    }
+   ],
+   "channel": "svit",
    "score": 4,
    "matched": [
-    "відключен",
-    "графік",
-    "електроенерг",
-    "світл"
+    "свято"
    ],
    "skipped_reason": "",
    "extra_sources": 9
   }
  ],
- "polityka": [
+ "ekonomika": [
   {
-   "query": "косово",
-   "traffic": 100,
-   "traffic_label": "100+",
-   "published": "2026-11-24T12:50:00-08:00",
+   "query": "борис джонсон",
+   "traffic": 2000,
+   "traffic_label": "2000+",
+   "published": "2026-11-24T22:00:00-08:00",
    "news": [
     {
-     "title": "Косовский вопрос: почему Украине сейчас не время менять свою позицию",
-     "url": "https://zn.ua/POLITICS/kosovskij-vopros-pochemu-ukraine-sejchas-ne-vremja-menjat-svoju-pozitsiju.html",
+     "title": "Джонсон предложил отправить войска Европы в Украину еще в мир с Россией: что задумал",
+     "url": "https://tsn.ua/ru/politika/dzhonson-predlozhil-otpravit-voyska-evropy-v-ukrainu-esche-v-mir-s-rossiey-chto-zadumal-3225907.html",
+     "source": "ТСН"
+    },
+    {
+     "title": "«Мы сами даем Путину надежду»: Джонсон предложил отправить войска в Украину, не дожидаясь перемирия",
+     "url": "https://zn.ua/POLITICS/my-sami-daem-putinu-nadezhdu-dzhonson-predlozhil-otpravit-vojska-v-ukrainu-ne-dozhidajas-peremirija.html",
      "source": "Дзеркало тижня"
     },
     {
-     "title": "\"Крым – это Украина, а Косово – это Косово\". Премьер страны обратился к Зеленскому с призывом признать независимость",
-     "url": "https://gordonua.com/section-politics/news-krym-tse-ukrayina-a-kosovo-tse-kosovo-premyer-krayiny-zvernuvsya-do-zelenskoho-iz-zaklykom-vyznaty-nezalezhnist-24-11-2026.html",
-     "source": "Гордон"
-    },
-    {
-     "title": "Подарок Москве, или Почему признание Косово может обернуться стратегической ошибкой Киева",
-     "url": "https://zn.ua/europe/podarok-moskve-ili-pochemu-priznanie-kosovo-mozhet-obernutsja-stratehicheskoj-oshibkoj-kieva.html",
-     "source": "Дзеркало тижня"
+     "title": "Борис Джонсон назвал препятствия для мира на Украине",
+     "url": "https://www.gazeta.press/politics/news/2026/11/25/29823199.shtml",
+     "source": "Газета"
     }
    ],
-   "channel": "polityka",
+   "channel": "ekonomika",
    "score": 1,
    "matched": [
-    "зеленск"
+    "евро"
    ],
    "skipped_reason": "",
-   "extra_sources": 10
+   "extra_sources": 9
+  }
+ ],
+ "avto": [
+  {
+   "query": "турул",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-24T22:00:00-08:00",
+   "news": [
+    {
+     "title": "Мадьяр заявил, что на Мукачевский замок, с которого сняли тризуб, нужно вернуть венгерского турула",
+     "url": "https://www.pravda.com.ua/rus/news/2026/11/24/8064512/",
+     "source": "Українська правда"
+    },
+    {
+     "title": "Венгрия рассматривает возможность закупки кукурузы у Украины и продажи дизельного топлива",
+     "url": "https://epravda.com.ua/rus/power/import-ukrainskoy-kukuruzy-i-sotrudnichestvo-v-energeticheskoy-sfere-reshenie-vengrii-828009/",
+     "source": "Економічна правда"
+    },
+    {
+     "title": "Энергетика, торговля, гумподдержка: Зеленский подвел итоги встречи с Мадьяром",
+     "url": "https://www.eurointegration.com.ua/rus/news/2026/11/24/7250736/",
+     "source": "Європейська правда"
+    }
+   ],
+   "channel": "avto",
+   "score": 2,
+   "matched": [
+    "дизел",
+    "топлив"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
   }
  ]
 }

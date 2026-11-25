@@ -1,0 +1,225 @@
+{
+ "sport": [
+  {
+   "query": "шахтар фенербахче",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-24T22:50:00-08:00",
+   "news": [
+    {
+     "title": "Боротьба за плейоф ЛЧ: де і коли дивитись матч \"Шахтар\" - \"Фенербахче\"",
+     "url": "https://sport.rbc.ua/rus/football/borotba-pleyof-lch-de-i-koli-divitis-match-1795585745.html",
+     "source": "РБК-Україна"
+    },
+    {
+     "title": "Легенда Шахтаря дав прогноз на матч гірників у Лізі чемпіонів",
+     "url": "https://sport.ua/uk/news/928080-legenda-shahtarya-dav-prognoz-na-match-girnikiv-u-lizi-chempioniv",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "«Шахтар» сьогодні зіграє з «Фенербахче» у Лізі чемпіонів УЄФА",
+     "url": "https://www.ukrinform.ua/rubric-sports/4188138-sahtar-sogodni-zigrae-z-fenerbahce-u-lizi-cempioniv-uefa.html",
+     "source": "Ukrinform.ua"
+    }
+   ],
+   "channel": "sport",
+   "score": 6,
+   "matched": [
+    "матч",
+    "чемпіон",
+    "шахтар"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  },
+  {
+   "query": "бруну фернандеш",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-24T23:00:00-08:00",
+   "news": [
+    {
+     "title": "Сейчас не подходящий момент для переговоров: Фернандеш – о продлении контракта с МЮ",
+     "url": "https://champion.com.ua/rus/football/fernandesh-obyasnil-pochemu-otlozhil-peregovory-o-kontrakte-s-manchester-yunayted-1091532/",
+     "source": "Champion.com.ua"
+    },
+    {
+     "title": "Бруну Фернандеш объяснил, почему он до сих пор не продлил контракт с Манчестер Юнайтед",
+     "url": "https://www.ua-football.com/foreign/england/1795590585-brunu-fernandesh-obyasnil-pochemu-on-do-sih-por-ne-prodlil-kontrakt-s-manchester-yunayted.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "«Милан» следит за ситуацией вокруг Бруну Фернандеша в «Манчестер Юнайтед»",
+     "url": "https://ua.tribuna.com/football/1000000394703-milan-stezhyt-za-sytuatsiyeyu-navkolo-brunu-fernandesha/",
+     "source": "Tribuna.com"
+    }
+   ],
+   "channel": "sport",
+   "score": 1,
+   "matched": [
+    "манчестер"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 4
+  },
+  {
+   "query": "жорже жезуш",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-25T00:00:00-08:00",
+   "news": [
+    {
+     "title": "Жезуш прилетел к Роналду и провел встречу. Принято решение",
+     "url": "https://sport.ua/news/927557-zhezush-priletel-k-ronaldu-i-provel-vstrechu-prinyato-reshenie",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "\"Он заслуживает особого уважения\". Гвардиола высказался о скандальном уходе Роналду из сборной Португалии",
+     "url": "https://www.ua-football.com/foreign/newscommon/1795591614-on-zasluzhivaet-osobogo-uvazheniya-gvardiola-vyskazalsya-o-skandalnom-uhode-ronaldu-iz-sbornoy-portugalii.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "«Это зверь»: Гвардиола раскрыл мнение о Роналду",
+     "url": "https://www.euro-football.ru/article/1004974409/1006427041_eto_zver_gvardiola_raskryil_mnenie_o_ronaldu",
+     "source": "Евро-Футбол"
+    }
+   ],
+   "channel": "sport",
+   "score": 1,
+   "matched": [
+    "сборн"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 7
+  }
+ ],
+ "yizha": [
+  {
+   "query": "rockstar games",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-24T22:40:00-08:00",
+   "news": [
+    {
+     "title": "All GTA 6 Radio Stations And Songs",
+     "url": "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
+     "source": "GameSpot"
+    },
+    {
+     "title": "‘Grand Theft Auto VI’ Album’s Secret Weapon? The ‘Barbie’ Soundtrack Creator",
+     "url": "https://www.hollywoodreporter.com/music/music-industry-news/grand-theft-auto-vi-soundtrack-atlantic-records-1236762366/",
+     "source": "The Hollywood Reporter"
+    },
+    {
+     "title": "“To us, he’s up there with Brian Wilson, Paul McCartney and Prince”: Justice say that “one-take man” Michael McDonald lived up to the legend when they collaborated with him on their GTA VI song, Starting From Zero",
+     "url": "https://www.musicradar.com/artists/to-us-hes-up-there-with-brian-wilson-paul-mccartney-and-prince-justice-say-that-one-take-man-michael-mcdonald-lived-up-to-the-legend-when-they-collaborated-with-him-on-their-gta-vi-song-starting-from-zero",
+     "source": "MusicRadar"
+    }
+   ],
+   "channel": "yizha",
+   "score": 1,
+   "matched": [
+    "mcdonald"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  }
+ ],
+ "svit": [
+  {
+   "query": "25 листопада свято",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-24T22:10:00-08:00",
+   "news": [
+    {
+     "title": "Яке церковне свято в Україні 25 листопада",
+     "url": "https://tsn.ua/other/iake-tserkovne-sviato-v-ukrayini-25-lystopada-3214555.html",
+     "source": "ТСН"
+    },
+    {
+     "title": "25 листопада – яке церковне свято: хто сьогодні відзначає День ангела",
+     "url": "https://24tv.ua/traditions24/svyato-25-listopada-yake-sogodni-tserkovne-svyato-kogo-imenini_n3213405",
+     "source": "24 Канал"
+    },
+    {
+     "title": "Свята 25 листопада 2026 року: історія, традиції",
+     "url": "https://ua.korrespondent.net/lifestyle/4931581-sviata-25-lystopada-2026-roku-istoriia-tradytsii",
+     "source": "Korrespondent.net"
+    }
+   ],
+   "channel": "svit",
+   "score": 4,
+   "matched": [
+    "свято"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  }
+ ],
+ "ekonomika": [
+  {
+   "query": "борис джонсон",
+   "traffic": 2000,
+   "traffic_label": "2000+",
+   "published": "2026-11-24T22:00:00-08:00",
+   "news": [
+    {
+     "title": "Джонсон предложил отправить войска Европы в Украину еще в мир с Россией: что задумал",
+     "url": "https://tsn.ua/ru/politika/dzhonson-predlozhil-otpravit-voyska-evropy-v-ukrainu-esche-v-mir-s-rossiey-chto-zadumal-3225907.html",
+     "source": "ТСН"
+    },
+    {
+     "title": "«Мы сами даем Путину надежду»: Джонсон предложил отправить войска в Украину, не дожидаясь перемирия",
+     "url": "https://zn.ua/POLITICS/my-sami-daem-putinu-nadezhdu-dzhonson-predlozhil-otpravit-vojska-v-ukrainu-ne-dozhidajas-peremirija.html",
+     "source": "Дзеркало тижня"
+    },
+    {
+     "title": "Борис Джонсон назвал препятствия для мира на Украине",
+     "url": "https://www.gazeta.press/politics/news/2026/11/25/29823199.shtml",
+     "source": "Газета"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 1,
+   "matched": [
+    "евро"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  }
+ ],
+ "avto": [
+  {
+   "query": "турул",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-24T22:00:00-08:00",
+   "news": [
+    {
+     "title": "Мадьяр заявил, что на Мукачевский замок, с которого сняли тризуб, нужно вернуть венгерского турула",
+     "url": "https://www.pravda.com.ua/rus/news/2026/11/24/8064512/",
+     "source": "Українська правда"
+    },
+    {
+     "title": "Венгрия рассматривает возможность закупки кукурузы у Украины и продажи дизельного топлива",
+     "url": "https://epravda.com.ua/rus/power/import-ukrainskoy-kukuruzy-i-sotrudnichestvo-v-energeticheskoy-sfere-reshenie-vengrii-828009/",
+     "source": "Економічна правда"
+    },
+    {
+     "title": "Энергетика, торговля, гумподдержка: Зеленский подвел итоги встречи с Мадьяром",
+     "url": "https://www.eurointegration.com.ua/rus/news/2026/11/24/7250736/",
+     "source": "Європейська правда"
+    }
+   ],
+   "channel": "avto",
+   "score": 2,
+   "matched": [
+    "дизел",
+    "топлив"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  }
+ ]
+}
