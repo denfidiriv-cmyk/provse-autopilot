@@ -71,3 +71,4 @@ Sport.ua: https://sport.ua/uk/news/928086-krivbas-harkiv-video-goliv-ta-oglyad-m
 Фото: Wikimedia Commons (стадіон шахти «Жовтнева», Кривий Ріг: Miavl і SmRitual, CC BY-SA 3.0). Музика: Rafael Krux, «Inspiring Advertising» (filmmusic.io), CC BY 4.0.
 
 #кривбас #харків #упл #футбол #кривийріг #спорт #shorts
+- kryv (Спорт): https://youtube.com/shorts/QpOx1Tc4s5I (25.11, ~17:20)
