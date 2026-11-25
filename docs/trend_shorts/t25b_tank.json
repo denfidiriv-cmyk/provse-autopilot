@@ -1,0 +1,66 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25b/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25b/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "tank",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25b/src/tank",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25b/jobs/tank",
+ "w1": 43,
+ "end_w": 38,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#ffd60a",
+ "mood": "explain",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЕКОНОМІКУ"
+ ],
+ "end_acc": "ЕКОНОМІКУ",
+ "keywords": [
+  "Тридцять",
+  "п'ять",
+  "чотирнадцять",
+  "два",
+  "дванадцять",
+  "тридцяти"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:b_35.jpg",
+   "",
+   ""
+  ],
+  [
+   6,
+   "img:t_t80.jpg",
+   "14 ТАНКІВ ЗА ДОБУ",
+   "14"
+  ],
+  [
+   11,
+   "img:t_exh.jpg",
+   "ЗНИЩЕНІ ТАНКИ МОСКАЛІВ",
+   "МОСКАЛІВ"
+  ],
+  [
+   17,
+   "img:b_25.jpg",
+   "",
+   ""
+  ],
+  [
+   24,
+   "img:t_money.jpg",
+   "ВСЬОГО ПОНАД 12 500",
+   "12 500"
+  ],
+  [
+   33,
+   "img:b_31.jpg",
+   "",
+   ""
+  ]
+ ]
+}

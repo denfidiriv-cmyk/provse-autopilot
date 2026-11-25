@@ -1,0 +1,66 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25b/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25b/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "saval",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25b/src/saval",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25b/jobs/saval",
+ "w1": 36,
+ "end_w": 31,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#ffd166",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "ПОЛІТИКУ"
+ ],
+ "end_acc": "ПОЛІТИКУ",
+ "keywords": [
+  "П'ять",
+  "літаків",
+  "«Саваслейка»",
+  "три",
+  "два",
+  "«Ремонтуйте»."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:b_5.jpg",
+   "",
+   ""
+  ],
+  [
+   4,
+   "img:a_mig.jpg",
+   "СИЛИ ОБОРОНИ І СБУ",
+   "СБУ"
+  ],
+  [
+   10,
+   "img:b_place.jpg",
+   "",
+   ""
+  ],
+  [
+   18,
+   "img:b_mig.jpg",
+   "",
+   ""
+  ],
+  [
+   23,
+   "img:b_su.jpg",
+   "",
+   ""
+  ],
+  [
+   26,
+   "img:b_rem.jpg",
+   "",
+   ""
+  ]
+ ]
+}

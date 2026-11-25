@@ -1,0 +1,72 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25b/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25b/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "tck",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25b/src/tck",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25b/jobs/tck",
+ "w1": 42,
+ "end_w": 37,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#fca311",
+ "mood": "explain",
+ "end_text": [
+  "УСЕ ПРО",
+  "ПОЛІТИКУ"
+ ],
+ "end_acc": "ПОЛІТИКУ",
+ "keywords": [
+  "ТЦК?",
+  "права",
+  "Телефон",
+  "рідним.",
+  "адвоката,",
+  "поліція."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:c_police.jpg",
+   "ВАС ПРИВЕЗЛИ В ТЦК?",
+   "ТЦК?"
+  ],
+  [
+   4,
+   "img:c_themis.jpg",
+   "ВАШІ ПРАВА",
+   "ПРАВА"
+  ],
+  [
+   8,
+   "img:b_423.jpg",
+   "",
+   ""
+  ],
+  [
+   14,
+   "img:c_phone.jpg",
+   "ТЕЛЕФОН НЕ ЗАБИРАЮТЬ",
+   "НЕ"
+  ],
+  [
+   23,
+   "vid:phone.mp4",
+   "ЧЕРГОВИЙ ДЗВОНИТЬ РІДНИМ",
+   "РІДНИМ"
+  ],
+  [
+   28,
+   "img:b_law.jpg",
+   "",
+   ""
+  ],
+  [
+   32,
+   "img:b_pol.jpg",
+   "",
+   ""
+  ]
+ ]
+}
