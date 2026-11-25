@@ -204,5 +204,12 @@
   "channel": "sport",
   "cost": 0.41591960000000006,
   "url": "https://youtube.com/shorts/KYKueumJWz8"
+ },
+ {
+  "at": "2026-11-25T12:38:29.540503",
+  "query": "президент",
+  "channel": "polityka",
+  "cost": 0.47691079999999997,
+  "url": "https://youtube.com/shorts/aATOUTEOpx4"
  }
 ]
