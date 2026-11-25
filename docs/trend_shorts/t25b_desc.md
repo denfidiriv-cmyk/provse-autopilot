@@ -50,3 +50,8 @@ Novyny.LIVE: https://novyny.live/tck-uk/ttsk-zaboroniat-vikoristannia-telefoniv-
 Фото: Wikimedia Commons (знищений Т-80У на Хрещатику: spoilt.exile, CC BY-SA 4.0; виставка знищеної техніки: Сергій Лемеха / АрміяInform, CC BY 4.0; долари: суспільне надбання). Музика: Kevin MacLeod, «Digital Lemonade» (incompetech.com), CC BY 4.0.
 
 #танки #втративорога #долари #економікавійни #генштаб #економіка #shorts
+
+## Опубліковано 25.11, ~15:45
+- saval (Політика): https://youtube.com/shorts/h7ghBJ9W-bQ
+- tck (Політика): https://youtube.com/shorts/EHT5Ue0fFdE
+- tank (Економіка): https://youtube.com/shorts/74tYvRWRvhM
