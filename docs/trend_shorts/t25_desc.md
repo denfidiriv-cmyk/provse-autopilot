@@ -62,3 +62,9 @@ Sport.ua: https://sport.ua/uk/news/928151-real-psv-5-1-dubl-mbappe-myach-vini-sh
 Фото: Wikimedia Commons (стадіон «Сантьяго Бернабеу»: Mervat, CC BY-SA 4.0, і Carlos Delgado, CC BY-SA 3.0; «Філіпс Стадіон»: TaraO, CC BY 2.5). Музика: Loyalty Freak Music, «No Cadillac», CC0.
 
 #реал #псв #мбаппе #лігачемпіонів #футбол #спорт #shorts
+
+## Опубліковано 25.11, ~10:25-10:40
+- kstar (Економіка): https://youtube.com/shorts/5Q51ArphJ0w
+- johnson (Політика): https://youtube.com/shorts/8YKejJkYeV4
+- senegal (Світ): https://youtube.com/shorts/MtMiMcxQiac
+- real (Спорт): https://youtube.com/shorts/BYRvMIALs3M
