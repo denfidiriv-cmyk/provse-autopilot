@@ -1,0 +1,66 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25b/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25b/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "kryv",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25b/src/kryv",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t25b/jobs/kryv",
+ "w1": 39,
+ "end_w": 35,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#ffe66d",
+ "mood": "upbeat",
+ "end_text": [
+  "УСЕ ПРО",
+  "СПОРТ"
+ ],
+ "end_acc": "СПОРТ",
+ "keywords": [
+  "першій",
+  "перемога!",
+  "два",
+  "нуль.",
+  "десятій.",
+  "сьомий"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:k_1.jpg",
+   "",
+   ""
+  ],
+  [
+   6,
+   "img:k_stad.jpg",
+   "ХАРКІВ ПЕРЕМІГ",
+   "ХАРКІВ"
+  ],
+  [
+   12,
+   "img:k_02.jpg",
+   "",
+   ""
+  ],
+  [
+   17,
+   "img:k_stad9.jpg",
+   "КРУПСЬКИЙ ЗАБИВ",
+   "КРУПСЬКИЙ"
+  ],
+  [
+   21,
+   "img:k_10.jpg",
+   "",
+   ""
+  ],
+  [
+   26,
+   "img:k_7.jpg",
+   "",
+   ""
+  ]
+ ]
+}

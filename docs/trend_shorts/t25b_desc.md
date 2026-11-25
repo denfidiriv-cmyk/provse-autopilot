@@ -55,3 +55,19 @@ Novyny.LIVE: https://novyny.live/tck-uk/ttsk-zaboroniat-vikoristannia-telefoniv-
 - saval (Політика): https://youtube.com/shorts/h7ghBJ9W-bQ
 - tck (Політика): https://youtube.com/shorts/EHT5Ue0fFdE
 - tank (Економіка): https://youtube.com/shorts/74tYvRWRvhM
+
+## t25b_kryv → Все про спорт (UCf0J6E1J8g_gVcFCXKm9Vyw)
+Назва: ⚽ Гол на 1-й ХВИЛИНІ: Харків обіграв Кривбас 2:0 #shorts
+
+У перенесеному матчі 6-го туру УПЛ «Харків» переміг «Кривбас» у Кривому Розі з рахунком 2:0. Ілля Крупський відкрив рахунок уже на першій хвилині, а Ермір Рашиця подвоїв перевагу на 10-й. Для «Кривбаса» це сьомий домашній матч у чемпіонаті поспіль без перемоги. Початок і другий тайм матчу затримувалися.
+
+Тема з Google Trends (Україна, 24 години): «кривбас – харків» https://trends.google.com/trending?geo=UA&hours=24
+
+Джерела:
+UA-Футбол: https://www.ua-football.com/ua/ukrainian/high/1795609367-harkiv-dvichi-pokarav-krivbas-za-10-hvilin-pershiy-gol-uzhe-na-28-y-sekundi.html
+Kryvbass.city: https://krivbass.city/news/view/shist-domashnih-matchiv-bez-peremog-krivbas-prijmae-pyatu-komandu-upl-u-krivomu-rozi
+Sport.ua: https://sport.ua/uk/news/928086-krivbas-harkiv-video-goliv-ta-oglyad-matchu-onovlyuietsya
+
+Фото: Wikimedia Commons (стадіон шахти «Жовтнева», Кривий Ріг: Miavl і SmRitual, CC BY-SA 3.0). Музика: Rafael Krux, «Inspiring Advertising» (filmmusic.io), CC BY 4.0.
+
+#кривбас #харків #упл #футбол #кривийріг #спорт #shorts
