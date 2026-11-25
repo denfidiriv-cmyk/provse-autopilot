@@ -1,225 +1,161 @@
 {
- "sport": [
+ "avto": [
   {
-   "query": "шахтар фенербахче",
-   "traffic": 500,
-   "traffic_label": "500+",
-   "published": "2026-11-24T22:50:00-08:00",
+   "query": "выдворение",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-25T10:20:00-08:00",
    "news": [
     {
-     "title": "Боротьба за плейоф ЛЧ: де і коли дивитись матч \"Шахтар\" - \"Фенербахче\"",
-     "url": "https://sport.rbc.ua/rus/football/borotba-pleyof-lch-de-i-koli-divitis-match-1795585745.html",
-     "source": "РБК-Україна"
+     "title": "Задержанному в Москве за нарушение ПДД мигранту-нелегалу на электроскутере назначено выдворение",
+     "url": "https://mvdmedia.ru/news/operativnye-novosti/zaderzhannomu-v-moskve-za-narushenie-pdd-migrantu-nelegalu-na-elektroskutere-naznacheno-vydvorenie/",
+     "source": "МВД Медиа"
     },
     {
-     "title": "Легенда Шахтаря дав прогноз на матч гірників у Лізі чемпіонів",
-     "url": "https://sport.ua/uk/news/928080-legenda-shahtarya-dav-prognoz-na-match-girnikiv-u-lizi-chempioniv",
+     "title": "В стиле GTA: на видео попала напряженная погоня мотобата за мигрантом-курьером",
+     "url": "https://www.gazeta.press/auto/news/2026/11/25/29825665.shtml",
+     "source": "Газета"
+    },
+    {
+     "title": "Курьер на электроскутере пытался скрыться от полицейских на юго-западе Москвы",
+     "url": "https://newsroom24.ru/moskva/news/criminal/2026/news_381048/",
+     "source": "Newsroom24"
+    }
+   ],
+   "channel": "avto",
+   "score": 1,
+   "matched": [
+    "пдд"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  }
+ ],
+ "sport": [
+  {
+   "query": "славія прага – вільярреал",
+   "traffic": 2000,
+   "traffic_label": "2000+",
+   "published": "2026-11-25T09:00:00-08:00",
+   "news": [
+    {
+     "title": "Славия – Вильярреал. Смотреть онлайн LIVE прямую видеотрансляцию матча Лиги чемпионов",
+     "url": "https://www.ua-football.com/foreign/champions_league/1795591541-slaviya-vilyarreal-smotret-onlayn-live-pryamuyu-videotranslyaciyu-matcha-ligi-chempionov.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "Славия Прага – Вильярреал. Прогноз и анонс на матч 5-го тура ЛЧ",
+     "url": "https://sport.ua/news/927966-slaviya-praga-vilyarreal-prognoz-i-anons-na-match-5-go-tura-lch",
      "source": "Sport.ua"
     },
     {
-     "title": "«Шахтар» сьогодні зіграє з «Фенербахче» у Лізі чемпіонів УЄФА",
-     "url": "https://www.ukrinform.ua/rubric-sports/4188138-sahtar-sogodni-zigrae-z-fenerbahce-u-lizi-cempioniv-uefa.html",
-     "source": "Ukrinform.ua"
+     "title": "Домчак в запасе «Славии» на матч с «Вильярреалом»",
+     "url": "https://ua.tribuna.com/football/1000000395363-domchak-u-zapasi-slaviyi-na-match-z-vilyarrealom/",
+     "source": "Tribuna.com"
+    }
+   ],
+   "channel": "sport",
+   "score": 2,
+   "matched": [
+    "матч",
+    "чемпион"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 7
+  },
+  {
+   "query": "шахтер фенербахче",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-25T09:30:00-08:00",
+   "news": [
+    {
+     "title": "Борьба за плей-офф ЛЧ: где и когда смотреть матч \"Шахтер\" - \"Фенербахче\"",
+     "url": "https://sport.rbc.ua/ukr/football/borotba-pleyof-lch-de-i-koli-divitis-match-1795585745.html",
+     "source": "РБК-Україна"
+    },
+    {
+     "title": "«Нет равноценного состава»: Федорчук назвал главную проблему Шахтера перед матчем с Фенербахче",
+     "url": "https://sport.nv.ua/football/shahter-fenerbahche-v-lige-chempionov-oleg-fedorchuk-sprognoziroval-rezultat-matcha-50662340.html",
+     "source": "NV Спорт"
+    },
+    {
+     "title": "\"Шахтер\" сразится с \"Фенербахче\": букмекеры назвали фаворита игры Лиги Чемпионов",
+     "url": "https://finance.obozrevatel.com/section-gaming-news/news-shakhtar-zihraye-z-fenerbakhche-bukmekery-nazvaly-favoryta-matchu-lihy-chempioniv-25-11-2026.html",
+     "source": "OBOZ.UA"
     }
    ],
    "channel": "sport",
    "score": 6,
    "matched": [
     "матч",
-    "чемпіон",
-    "шахтар"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 9
-  },
-  {
-   "query": "бруну фернандеш",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-24T23:00:00-08:00",
-   "news": [
-    {
-     "title": "Сейчас не подходящий момент для переговоров: Фернандеш – о продлении контракта с МЮ",
-     "url": "https://champion.com.ua/rus/football/fernandesh-obyasnil-pochemu-otlozhil-peregovory-o-kontrakte-s-manchester-yunayted-1091532/",
-     "source": "Champion.com.ua"
-    },
-    {
-     "title": "Бруну Фернандеш объяснил, почему он до сих пор не продлил контракт с Манчестер Юнайтед",
-     "url": "https://www.ua-football.com/foreign/england/1795590585-brunu-fernandesh-obyasnil-pochemu-on-do-sih-por-ne-prodlil-kontrakt-s-manchester-yunayted.html",
-     "source": "UA-Football"
-    },
-    {
-     "title": "«Милан» следит за ситуацией вокруг Бруну Фернандеша в «Манчестер Юнайтед»",
-     "url": "https://ua.tribuna.com/football/1000000394703-milan-stezhyt-za-sytuatsiyeyu-navkolo-brunu-fernandesha/",
-     "source": "Tribuna.com"
-    }
-   ],
-   "channel": "sport",
-   "score": 1,
-   "matched": [
-    "манчестер"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 4
-  },
-  {
-   "query": "жорже жезуш",
-   "traffic": 100,
-   "traffic_label": "100+",
-   "published": "2026-11-25T00:00:00-08:00",
-   "news": [
-    {
-     "title": "Жезуш прилетел к Роналду и провел встречу. Принято решение",
-     "url": "https://sport.ua/news/927557-zhezush-priletel-k-ronaldu-i-provel-vstrechu-prinyato-reshenie",
-     "source": "Sport.ua"
-    },
-    {
-     "title": "\"Он заслуживает особого уважения\". Гвардиола высказался о скандальном уходе Роналду из сборной Португалии",
-     "url": "https://www.ua-football.com/foreign/newscommon/1795591614-on-zasluzhivaet-osobogo-uvazheniya-gvardiola-vyskazalsya-o-skandalnom-uhode-ronaldu-iz-sbornoy-portugalii.html",
-     "source": "UA-Football"
-    },
-    {
-     "title": "«Это зверь»: Гвардиола раскрыл мнение о Роналду",
-     "url": "https://www.euro-football.ru/article/1004974409/1006427041_eto_zver_gvardiola_raskryil_mnenie_o_ronaldu",
-     "source": "Евро-Футбол"
-    }
-   ],
-   "channel": "sport",
-   "score": 1,
-   "matched": [
-    "сборн"
+    "чемпион",
+    "шахтер"
    ],
    "skipped_reason": "",
    "extra_sources": 7
-  }
- ],
- "yizha": [
+  },
   {
-   "query": "rockstar games",
+   "query": "sabah vs barcelona",
    "traffic": 100,
    "traffic_label": "100+",
-   "published": "2026-11-24T22:40:00-08:00",
+   "published": "2026-11-25T10:00:00-08:00",
    "news": [
     {
-     "title": "All GTA 6 Radio Stations And Songs",
-     "url": "https://www.gamespot.com/articles/all-gta-6-radio-stations-and-songs/",
-     "source": "GameSpot"
+     "title": "Sabah - FC Barcelona, en directo, el partido de la Champions League en vivo | Gordon amplia la ventaja para el Barça",
+     "url": "https://elpais.com/deportes/futbol/2026-11-25/sabah-fc-barcelona-en-directo-el-partido-de-la-champions-league-en-vivo.html",
+     "source": "EL PAÍS"
     },
     {
-     "title": "‘Grand Theft Auto VI’ Album’s Secret Weapon? The ‘Barbie’ Soundtrack Creator",
-     "url": "https://www.hollywoodreporter.com/music/music-industry-news/grand-theft-auto-vi-soundtrack-atlantic-records-1236762366/",
-     "source": "The Hollywood Reporter"
+     "title": "El Barça viaja a los confines de la UEFA para enfrentarse al Sabah en Champions",
+     "url": "https://www.rfi.fr/es/m%C3%A1s-noticias/20261125-el-bar%C3%A7a-viaja-a-los-confines-de-la-uefa-para-enfrentarse-al-sabah-en-champions",
+     "source": "RFI"
     },
     {
-     "title": "“To us, he’s up there with Brian Wilson, Paul McCartney and Prince”: Justice say that “one-take man” Michael McDonald lived up to the legend when they collaborated with him on their GTA VI song, Starting From Zero",
-     "url": "https://www.musicradar.com/artists/to-us-hes-up-there-with-brian-wilson-paul-mccartney-and-prince-justice-say-that-one-take-man-michael-mcdonald-lived-up-to-the-legend-when-they-collaborated-with-him-on-their-gta-vi-song-starting-from-zero",
-     "source": "MusicRadar"
+     "title": "Gordon despierta al Barça con un gol y otro anulado",
+     "url": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261125/1004255508/gordon-despierta-barca-gol-killer.html",
+     "source": "Mundo Deportivo"
     }
    ],
-   "channel": "yizha",
+   "channel": "sport",
    "score": 1,
    "matched": [
-    "mcdonald"
+    "uefa"
    ],
    "skipped_reason": "",
-   "extra_sources": 10
+   "extra_sources": 1
   }
  ],
- "svit": [
+ "polityka": [
   {
-   "query": "25 листопада свято",
+   "query": "сєнкевич олександр",
    "traffic": 100,
    "traffic_label": "100+",
-   "published": "2026-11-24T22:10:00-08:00",
+   "published": "2026-11-25T09:50:00-08:00",
    "news": [
     {
-     "title": "Яке церковне свято в Україні 25 листопада",
-     "url": "https://tsn.ua/other/iake-tserkovne-sviato-v-ukrayini-25-lystopada-3214555.html",
-     "source": "ТСН"
+     "title": "У галузі культури Миколаєва склалася критична ситуація через брак коштів - мер",
+     "url": "https://www.ukrinform.ua/rubric-culture/4187934-u-galuzi-kulturi-mikolaeva-sklalasa-kriticna-situacia-cerez-brak-kostiv-mer.html",
+     "source": "Ukrinform.ua"
     },
     {
-     "title": "25 листопада – яке церковне свято: хто сьогодні відзначає День ангела",
-     "url": "https://24tv.ua/traditions24/svyato-25-listopada-yake-sogodni-tserkovne-svyato-kogo-imenini_n3213405",
-     "source": "24 Канал"
+     "title": "Миколаєву бракує коштів на культуру: мер звернувся до Зеленського",
+     "url": "https://intent.press/news/economy/2026/mikolaievu-brakuie-koshtiv-navit-na-kulturu-mer-zvernuvsia-do-zelenskogo/",
+     "source": "Інтент"
     },
     {
-     "title": "Свята 25 листопада 2026 року: історія, традиції",
-     "url": "https://ua.korrespondent.net/lifestyle/4931581-sviata-25-lystopada-2026-roku-istoriia-tradytsii",
-     "source": "Korrespondent.net"
+     "title": "Культура державі потрібна, а гроші на неї шукайте самі: відповідь міністерства Миколаєву",
+     "url": "https://korabelov.info/2026/11/640003/mykolaiv-prosyt-hroshej-na-kulturu-minkult-nahaduie-pro-optymizatsiiu/",
+     "source": "Корабелов.ІНФО"
     }
    ],
-   "channel": "svit",
-   "score": 4,
-   "matched": [
-    "свято"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 9
-  }
- ],
- "ekonomika": [
-  {
-   "query": "борис джонсон",
-   "traffic": 2000,
-   "traffic_label": "2000+",
-   "published": "2026-11-24T22:00:00-08:00",
-   "news": [
-    {
-     "title": "Джонсон предложил отправить войска Европы в Украину еще в мир с Россией: что задумал",
-     "url": "https://tsn.ua/ru/politika/dzhonson-predlozhil-otpravit-voyska-evropy-v-ukrainu-esche-v-mir-s-rossiey-chto-zadumal-3225907.html",
-     "source": "ТСН"
-    },
-    {
-     "title": "«Мы сами даем Путину надежду»: Джонсон предложил отправить войска в Украину, не дожидаясь перемирия",
-     "url": "https://zn.ua/POLITICS/my-sami-daem-putinu-nadezhdu-dzhonson-predlozhil-otpravit-vojska-v-ukrainu-ne-dozhidajas-peremirija.html",
-     "source": "Дзеркало тижня"
-    },
-    {
-     "title": "Борис Джонсон назвал препятствия для мира на Украине",
-     "url": "https://www.gazeta.press/politics/news/2026/11/25/29823199.shtml",
-     "source": "Газета"
-    }
-   ],
-   "channel": "ekonomika",
+   "channel": "polityka",
    "score": 1,
    "matched": [
-    "евро"
+    "зеленськ"
    ],
    "skipped_reason": "",
-   "extra_sources": 9
-  }
- ],
- "avto": [
-  {
-   "query": "турул",
-   "traffic": 500,
-   "traffic_label": "500+",
-   "published": "2026-11-24T22:00:00-08:00",
-   "news": [
-    {
-     "title": "Мадьяр заявил, что на Мукачевский замок, с которого сняли тризуб, нужно вернуть венгерского турула",
-     "url": "https://www.pravda.com.ua/rus/news/2026/11/24/8064512/",
-     "source": "Українська правда"
-    },
-    {
-     "title": "Венгрия рассматривает возможность закупки кукурузы у Украины и продажи дизельного топлива",
-     "url": "https://epravda.com.ua/rus/power/import-ukrainskoy-kukuruzy-i-sotrudnichestvo-v-energeticheskoy-sfere-reshenie-vengrii-828009/",
-     "source": "Економічна правда"
-    },
-    {
-     "title": "Энергетика, торговля, гумподдержка: Зеленский подвел итоги встречи с Мадьяром",
-     "url": "https://www.eurointegration.com.ua/rus/news/2026/11/24/7250736/",
-     "source": "Європейська правда"
-    }
-   ],
-   "channel": "avto",
-   "score": 2,
-   "matched": [
-    "дизел",
-    "топлив"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 9
+   "extra_sources": 4
   }
  ]
 }
