@@ -232,5 +232,17 @@
   "channel": "svit",
   "cost": 0.36185719999999993,
   "url": "https://youtube.com/shorts/kNS_kvZiiKk"
+ },
+ {
+  "at": "2026-11-27T00:01:53.845807",
+  "query": "цска софія – трабзонспор",
+  "channel": "sport",
+  "cost": 0.1589988
+ },
+ {
+  "at": "2026-11-27T00:02:20.211143",
+  "query": "ювентус – омонія",
+  "channel": "ekonomika",
+  "cost": 0.0618634
  }
 ]
