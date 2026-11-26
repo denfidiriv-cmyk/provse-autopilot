@@ -10,7 +10,6 @@ Google Trends (Україна, 24 год, о 10:25): «псж – рома» 10 
 Тема з Google Trends (Україна, 24 години): «псж – рома» https://trends.google.com/trending?geo=UA&hours=24
 
 Джерела:
-Sport.ua: https://sport.ua/uk/news/928475-pszh-ta-roma-vidali-vognyanu-nichiyu-u-matchi-lch-z-golom-zabarnogo
 Збірна.com: https://zbirna.com/post/pszh-ne-peregrav-romu-zabarnii-zabiv-debyutnii-gol-u-lizi-chempioniv-video
 Чемпіонат: https://www.championat.com/football/article-6714260-pszh-roma-2-2-obzor-matcha-goly-ermoso-zabarnyj-dembele-malen-25-noyabrya-2026-goda-liga-chempionov.html
 
@@ -28,7 +27,6 @@ Sport.ua: https://sport.ua/uk/news/928475-pszh-ta-roma-vidali-vognyanu-nichiyu-u
 Джерела:
 УНІАН: https://www.unian.ua/economics/energetics/cina-na-gaz-v-ukrajini-z-1-grudnya-2026-roku-skilki-dovedetsya-platiti-za-kubometr-13547733.html
 ТСН: https://tsn.ua/groshi/skilky-koshtuvatyme-haz-vid-1-hrudnia-u-naftohazi-nazvaly-tsinu-za-kubometr-3212475.html
-Мінфін (тарифи на газ): https://index.minfin.com.ua/ua/tariff/gas/
 
 Фото: Wikimedia Commons (газовий пальник: Federico Cardoner, CC BY 2.0; газові лічильники: Downtowngal, CC BY-SA 4.0). Музика: Kevin MacLeod, «Digital Lemonade» (incompetech.com), CC BY 4.0.
 
@@ -59,7 +57,6 @@ Sport.ua: https://sport.ua/uk/news/928475-pszh-ta-roma-vidali-vognyanu-nichiyu-u
 Джерела:
 Європейська правда: https://www.eurointegration.com.ua/news/2026/11/26/7250832/
 LB.ua: https://lb.ua/society/2026/11/26/783790_dzhared_kushner_nazvav_putina.html
-Українська правда: https://www.pravda.com.ua/news/2026/11/26/8064710/
 
 Фото: Wikimedia Commons (Абу-Дабі: Wadiia, CC BY-SA 4.0; Білий дім: Nishkid64, суспільне надбання). Музика: Loyalty Freak Music, «Monarch of the Street», CC0.
 
