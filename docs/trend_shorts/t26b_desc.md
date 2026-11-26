@@ -77,3 +77,10 @@ LB.ua: https://lb.ua/world/2026/11/26/783824_gur_kndr_prizupinila_viyskovu.html
 Фото: Wikimedia Commons (Пхеньян: Jan Engelhardt, CC BY-SA 4.0; балістична ракета на параді: Stefan Krasowski, CC BY 2.0). Музика: Kevin MacLeod, «RetroFuture Dirty» (incompetech.com), CC BY 4.0.
 
 #кндр #кімченин #гур #балістика #світ #shorts
+
+## Опубліковано 26.11.2026
+zab (Спорт): https://youtube.com/shorts/PV1jf4xf7L8
+gaz (ОСББ): https://youtube.com/shorts/f49Utntza3o
+teach (Економіка): https://youtube.com/shorts/So7XpAtOZQw
+kush (Політика): https://youtube.com/shorts/awJtTsytoG4
+kim (Світ): https://youtube.com/shorts/5d3p78meBE4
