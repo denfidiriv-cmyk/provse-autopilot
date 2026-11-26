@@ -1,4 +1,5 @@
 import React from "react";
+import { BoardBg, BoardCard, BoardPhoto, KineticCard, KineticPhoto, Media, PaperBg, PaperCard, PaperPhoto, RadarBg, RadarCard, RadarPhoto, subLook, SubLook } from "./Styles";
 import {
   AbsoluteFill,
   Audio,
@@ -29,6 +30,7 @@ export type Scene = {
   title?: string; // big text over the photo (then no subtitles here)
   titleAcc?: string;
   card?: Card;
+  video?: string; // stock clip path inside public/ (replaces src)
 };
 export type Word = { text: string; start: number; end: number };
 export type ShortProps = {
@@ -39,6 +41,8 @@ export type ShortProps = {
   scenes: Scene[];
   words: Word[];
   outro: { top: string; acc: string; bg: string; bg2: string; start: number };
+  style?: "cards" | "paper" | "kinetic" | "board" | "radar";
+  bgSrc?: string; // radar backdrop
 };
 
 const W = 1080;
@@ -49,6 +53,11 @@ const fontFaces = `
 @font-face{font-family:'InterX';src:url(${staticFile("fonts/Inter-ExtraBold.otf")});}
 @font-face{font-family:'InterS';src:url(${staticFile("fonts/Inter-SemiBold.otf")});}
 @font-face{font-family:'Osw';src:url(${staticFile("fonts/Oswald-700.woff")});}
+@font-face{font-family:'Lora';font-weight:700;src:url(${staticFile("fonts/Lora-Bold.ttf")});}
+@font-face{font-family:'PlexSerif';src:url(${staticFile("fonts/IBMPlexSerif-Bold.ttf")});}
+@font-face{font-family:'Tektur';src:url(${staticFile("fonts/Tektur-Medium.ttf")});}
+@font-face{font-family:'Geist';src:url(${staticFile("fonts/GeistMono-Bold.ttf")});}
+@font-face{font-family:'JBMono';src:url(${staticFile("fonts/JetBrainsMono-Bold.ttf")});}
 `;
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
@@ -114,8 +123,8 @@ const PhotoScene: React.FC<{ s: Scene; dur: number; idx: number; accent: string;
   const cut = s.cutout ? spring({ frame: f - 4, fps, config: { damping: 12, stiffness: 120 } }) : 0;
   return (
     <AbsoluteFill style={{ background: "#000", overflow: "hidden" }}>
-      <Img
-        src={staticFile(s.src!)}
+      <Media
+        s={s}
         style={{
           width: W, height: H, objectFit: "cover",
           transform: `scale(${drift + punch * 0.14}) translateX(${dir * interpolate(f, [0, dur], [-14, 14])}px)`,
@@ -227,29 +236,33 @@ const makePages = (ws: Word[]): Page[] => {
   return pages;
 };
 
-const Subtitles: React.FC<{ pages: Page[]; accent: string; keywords: Set<string> }> = ({ pages, accent, keywords }) => {
+const Subtitles: React.FC<{ pages: Page[]; look: SubLook; keywords: Set<string> }> = ({ pages, look, keywords }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = f / fps;
   const page = pages.find((p) => t >= p.start - 0.05 && t < p.end + 0.12);
   if (!page) return null;
   return (
-    <div style={{ position: "absolute", top: 1130, left: 80, width: W - 200, display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "0 22px" }}>
+    <div style={{ position: "absolute", top: look.top, left: 80, width: W - 200, display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "10px 18px" }}>
       {page.words.map((w, i) => {
         const p = spring({ frame: f - Math.round(w.start * fps), fps, config: { damping: 12, stiffness: 220, mass: 0.5 } });
         if (t < w.start - 0.02) return null;
         const active = t >= w.start && t < w.end;
         const key = keywords.has(norm(w.text));
+        const boxed = !!look.box;
         return (
           <span
             key={i}
             style={{
-              fontFamily: "Osw", fontSize: 96, textTransform: "uppercase", lineHeight: 1.05,
-              color: key ? "#ff3b30" : active ? accent : "#fff",
-              transform: `scale(${interpolate(p, [0, 1], [0.55, 1]) * (active ? 1.06 : 1)})`,
+              fontFamily: look.font, fontSize: look.size, textTransform: "uppercase", lineHeight: 1.05,
+              color: key && !boxed ? "#ff3b30" : active ? look.active : look.color,
+              background: boxed ? (active && look.box !== look.active ? look.box : look.box) : undefined,
+              padding: boxed ? "4px 16px" : undefined,
+              boxShadow: boxed && key ? "inset 0 -10px 0 #ff3b30" : undefined,
+              transform: `scale(${interpolate(p, [0, 1], [0.55, 1]) * (active ? 1.06 : 1)}) rotate(${boxed ? (i % 2 ? 1.2 : -1.2) : 0}deg)`,
               opacity: interpolate(p, [0, 0.3], [0, 1], clamp),
-              WebkitTextStroke: "12px #000", paintOrder: "stroke fill",
-              textShadow: "0 6px 18px rgba(0,0,0,.6)",
+              WebkitTextStroke: look.stroke, paintOrder: "stroke fill",
+              textShadow: look.stroke ? "0 6px 18px rgba(0,0,0,.6)" : undefined,
             }}
           >
             {w.text.replace(/[,:;.]$/, "")}
@@ -261,17 +274,24 @@ const Subtitles: React.FC<{ pages: Page[]; accent: string; keywords: Set<string>
 };
 
 // ---- outro ----------------------------------------------------------------
-const Outro: React.FC<{ o: ShortProps["outro"]; accent: string }> = ({ o, accent }) => {
+const Outro: React.FC<{ o: ShortProps["outro"]; accent: string; style: string; bgSrc?: string }> = ({ o, accent, style, bgSrc }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const p = spring({ frame: f - 8, fps, config: { damping: 11, stiffness: 150 } });
+  const bg =
+    style === "paper" ? <PaperBg seed={42} /> : style === "board" ? <BoardBg seed={5} /> : style === "radar" ? <RadarBg src={bgSrc} accent={accent} /> : style === "kinetic" ? <AbsoluteFill style={{ background: "#0b0b0b" }} /> : <AbsoluteFill style={{ background: `linear-gradient(180deg, ${o.bg}, ${o.bg2})` }} />;
+  const font = style === "paper" ? "Lora" : style === "board" ? "Tektur" : style === "radar" ? "Geist" : style === "kinetic" ? "InterB" : "Osw";
+  const ink = style === "paper" ? "#16130f" : "#fff";
+  const acc = style === "paper" ? "#c8211b" : accent;
   return (
-    <AbsoluteFill style={{ background: `linear-gradient(180deg, ${o.bg}, ${o.bg2})`, alignItems: "center", justifyContent: "flex-start", paddingTop: 640 }}>
-      <Slam text={o.top} color="#fff" accColor={accent} size={130} />
-      <div style={{ fontFamily: "Osw", fontSize: 170, color: accent, textTransform: "uppercase", transform: `scale(${interpolate(p, [0, 1], [0.3, 1])})`, opacity: p, textShadow: "0 10px 40px rgba(0,0,0,.5)" }}>
-        {o.acc}
-      </div>
-      <Grain seed={99} />
+    <AbsoluteFill>
+      {bg}
+      <AbsoluteFill style={{ alignItems: "center", justifyContent: "flex-start", paddingTop: 640 }}>
+        <div style={{ fontFamily: font, fontWeight: 700, fontSize: 110, color: ink, opacity: interpolate(f, [0, 6], [0, 1], clamp) }}>{o.top}</div>
+        <div style={{ fontFamily: font, fontWeight: 700, fontSize: Math.min(170, Math.floor(920 / (o.acc.length * 0.72))), color: acc, textTransform: "uppercase", transform: `scale(${interpolate(p, [0, 1], [0.3, 1])})`, opacity: p, textShadow: style === "paper" ? undefined : "0 10px 40px rgba(0,0,0,.5)" }}>
+          {o.acc}
+        </div>
+      </AbsoluteFill>
     </AbsoluteFill>
   );
 };
@@ -292,8 +312,22 @@ export const Short: React.FC<ShortProps> = (props) => {
   const kw = new Set(props.keywords.map(norm));
   const loopFrames = 10;
   const total = fr(props.duration);
-  const renderScene = (s: Scene, i: number, dur: number, first: boolean) =>
-    s.kind === "card" ? <CardScene c={s.card!} dur={dur} idx={i} first={first} /> : <PhotoScene s={s} dur={dur} idx={i} accent={props.accent} first={first} />;
+  const st = props.style ?? "cards";
+  const renderScene = (s: Scene, i: number, dur: number, first: boolean) => {
+    const a = { idx: i, first, dur, accent: props.accent };
+    if (s.kind === "card") {
+      if (st === "paper") return <PaperCard c={s.card!} {...a} />;
+      if (st === "kinetic") return <KineticCard c={s.card!} {...a} />;
+      if (st === "board") return <BoardCard c={s.card!} {...a} />;
+      if (st === "radar") return <RadarCard c={s.card!} {...a} bgSrc={props.bgSrc} />;
+      return <CardScene c={s.card!} dur={dur} idx={i} first={first} />;
+    }
+    if (st === "paper") return <PaperPhoto s={s} {...a} />;
+    if (st === "kinetic") return <KineticPhoto s={s} {...a} />;
+    if (st === "board") return <BoardPhoto s={s} {...a} />;
+    if (st === "radar") return <RadarPhoto s={s} {...a} bgSrc={props.bgSrc} />;
+    return <PhotoScene s={s} dur={dur} idx={i} accent={props.accent} first={first} />;
+  };
   return (
     <AbsoluteFill style={{ background: "#000" }}>
       <style>{fontFaces}</style>
@@ -307,13 +341,13 @@ export const Short: React.FC<ShortProps> = (props) => {
         );
       })}
       <Sequence from={fr(props.outro.start)} durationInFrames={total - loopFrames - fr(props.outro.start)}>
-        <Outro o={props.outro} accent={props.accent} />
+        <Outro o={props.outro} accent={props.accent} style={st} bgSrc={props.bgSrc} />
       </Sequence>
       {/* loop back to the first frame so the short replays seamlessly */}
       <Sequence from={total - loopFrames} durationInFrames={loopFrames}>
         {renderScene(props.scenes[0], 0, loopFrames, true)}
       </Sequence>
-      <Subtitles pages={pages} accent={props.accent} keywords={kw} />
+      <Subtitles pages={pages} look={subLook(st, props.accent)} keywords={kw} />
       <Audio src={staticFile(props.audio)} />
     </AbsoluteFill>
   );

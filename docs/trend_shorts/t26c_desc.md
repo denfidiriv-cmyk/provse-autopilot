@@ -1,4 +1,4 @@
-# Трендові шорти 26.11.2026, вечір (сесія 20:30 Київ). Зібрано в Remotion (remotion_short, tools/remotion_props.py): анімовані картки, субтитри лише там, де на екрані немає іншого тексту, вирізані предмети (rembg). Ці теми вже зроблені, не повторювати.
+# Трендові шорти 26.11.2026, вечір (сесія 20:30 Київ). Зібрано в Remotion (remotion_short, tools/remotion_props.py; стилі: bia board, chub kinetic, grek paper, cyc radar, dtek cards): анімовані картки, субтитри лише там, де на екрані немає іншого тексту, вирізані предмети (rembg). Ці теми вже зроблені, не повторювати.
 
 Google Trends (Україна, 24 год, о 20:30): «біатлон» 2 тис.+; «економіка росії» 2 тис.+; «полковник» 2 тис.+; «дтэк» 5 тис.+; «циклон» 2 тис.+.
 
@@ -76,6 +76,6 @@ Dnepr.Express: https://dnepr.express/ua/post/elektromerezhi-ne-vitrimuyut-navant
 ТСН: https://tsn.ua/svit/doshch-snih-i-viter-do-160-kmhod-nablyzayetsia-potuznyy-tsyklon-de-naysylnyshe-vyruvatyme-shtorm-3227659.html
 УНІАН: https://www.unian.net/pogoda/news/shtorm-v-evrope-paralizuet-aeroporty-kakie-strany-postradayut-13572084.html
 
-Фото: Wikimedia Commons (Рейк'явік: Christian Bickel, CC BY-SA 2.0 DE; аеропорт Кефлавік: Hansueli Krapf, CC BY-SA 3.0; архівний супутниковий знімок циклону над Ісландією: NASA, суспільне надбання). Музика: Kevin MacLeod, «Call to Adventure», CC BY 3.0.
+Відео: Pixabay (штормове море: Kanenori, ліцензія Pixabay). Фото: Wikimedia Commons (аеропорт Кефлавік: Hansueli Krapf, CC BY-SA 3.0; архівний супутниковий знімок циклону над Ісландією: NASA, суспільне надбання). Музика: Kevin MacLeod, «Call to Adventure», CC BY 3.0.
 
 #циклон #ісландія #шторм #погода #світ #shorts

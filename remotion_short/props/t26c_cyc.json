@@ -29,7 +29,8 @@
    "kind": "photo",
    "src": "media/t26c_cyc/p_rey.jpg",
    "title": "ШТОРМ НАД ІСЛАНДІЄЮ",
-   "titleAcc": "ІСЛАНДІЄЮ"
+   "titleAcc": "ІСЛАНДІЄЮ",
+   "video": "media/t26c_cyc/stormsea.mp4"
   },
   {
    "start": 4.32,
@@ -285,5 +286,7 @@
   "bg": "#0b1a22",
   "bg2": "#14303b",
   "start": 15.28
- }
+ },
+ "style": "radar",
+ "bgSrc": "media/t26c_cyc/p_sat.jpg"
 }
