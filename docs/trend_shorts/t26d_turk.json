@@ -1,0 +1,16 @@
+{
+ "img": "/tmp/trend/2026-11-26/img", "vid": "/tmp/trend/2026-11-26/vid", "outro": null, "w0": 0, "name": "turk",
+ "src": "/tmp/trend/2026-11-26/src/turk", "job": "/tmp/trend/2026-11-26/jobs/turk", "w1": 45, "end_w": 41,
+ "bg": "#1a0f05", "bg2": "#3a2210", "accent": "#ff8c42", "mood": "upbeat",
+ "end_text": ["УСЕ ПРО", "ЇЖУ"], "end_acc": "ЇЖУ",
+ "keywords": ["десять", "відсотків!", "п'ятдесят", "вісім", "шість", "рекорду", "шістдесят", "чотири"],
+ "scenes": [
+  [0, "img:k_10.jpg", "", ""],
+  [5, "img:k_roast.jpg", "ДЕНЬ ПОДЯКИ", "ПОДЯКИ"],
+  [11, "img:k_58.jpg", "", ""],
+  [19, "img:k_6.jpg", "", ""],
+  [25, "img:k_table.jpg", "", ""],
+  [31, "img:k_64.jpg", "", ""],
+  [39, "img:k_wild.jpg", "", ""]
+ ]
+}
