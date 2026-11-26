@@ -159,40 +159,77 @@ export const PaperPhoto: React.FC<{ s: Scene; idx: number; first: boolean; dur: 
 // =====================================================================================
 // KINETIC: bold typography on black / accent, photos in an expanding circle
 // =====================================================================================
+const KPAL = (accent: string) => [
+  { bg: "#0b0b0b", fg: "#ffffff", ac: accent },
+  { bg: accent, fg: "#0b0b0b", ac: "#e63946" },
+  { bg: "#e63946", fg: "#ffffff", ac: "#0b0b0b" },
+  { bg: "#0d1b3d", fg: "#ffffff", ac: accent },
+];
+// jagged "market" line that sags to the right; seed changes the shape per card
+const chartPts = (seed: number) => {
+  const pts: Array<[number, number]> = [];
+  let y = 0.25 + (seed % 3) * 0.05;
+  for (let i = 0; i <= 24; i++) {
+    y += (Math.sin(i * 2.7 + seed * 1.9) * 0.07 + (i > 8 ? 0.018 : -0.004));
+    pts.push([i / 24, Math.min(0.92, Math.max(0.05, y))]);
+  }
+  return pts;
+};
+
 export const KineticCard: React.FC<{ c: Card; idx: number; first: boolean; dur: number; accent: string }> = ({ c, idx, first, accent }) => {
   const f0 = useCurrentFrame();
   const f = first ? f0 + 40 : f0;
   const { fps } = useVideoConfig();
-  const inv = idx % 2 === 1;
-  const bg = inv ? accent : "#0b0b0b";
-  const fg = inv ? "#0b0b0b" : "#ffffff";
-  const ac = inv ? "#ffffff" : accent;
-  const wipe = interpolate(f, [0, 9], [0, 100], { ...clamp, easing: (t) => 1 - Math.pow(1 - t, 3) });
-  const pBig = spring({ frame: f - 3, fps, config: { damping: 15, stiffness: 140 } });
+  const pal = KPAL(accent)[(idx + Math.floor(idx / 4)) % 4];
+  const layout = idx % 2;
+  const land = spring({ frame: f - 2, fps, config: { damping: 13, stiffness: 170 } });
+  const shake = f > 8 && f < 16 ? Math.sin(f * 9) * (16 - f) * 2.2 : 0;
   const pBar = spring({ frame: f - 9, fps, config: { damping: 16, stiffness: 150 } });
   const typed = Math.floor(interpolate(f, [14, 14 + (c.label?.length ?? 0) * 0.9], [0, c.label?.length ?? 0], clamp));
   const big = useCount(c.big, f - 3);
-  const bigSize = Math.min(380, Math.floor(1000 / Math.max(2, c.big.length * 0.7)));
+  const bigSize = Math.min(400, Math.floor(980 / Math.max(2, c.big.length * 0.72)));
+  // chart in the lower half
+  const pts = chartPts(idx + 3);
+  const draw = interpolate(f0, [0, 40], [0, 1], { ...clamp, easing: (t) => 1 - Math.pow(1 - t, 2) });
+  const cw = W, ch = 620, cy = 1180;
+  const path = pts.map(([x, y], i) => `${i ? "L" : "M"}${x * cw},${y * ch}`).join(" ");
+  const head = pts[Math.min(pts.length - 1, Math.floor(draw * (pts.length - 1)))];
+  const marquee = ((c.unit || c.big) + "   ▼   ").repeat(8);
   return (
-    <AbsoluteFill style={{ background: inv ? "#0b0b0b" : accent }}>
-      <AbsoluteFill style={{ background: bg, clipPath: `polygon(0 0, ${wipe * 1.4}% 0, ${wipe * 1.4 - 40}% 100%, 0 100%)` }} />
-      <div style={{ position: "absolute", left: 60, top: 600, width: W - 120 }}>
-        <div style={{ fontFamily: "InterB", fontSize: bigSize, lineHeight: 0.92, color: fg, letterSpacing: -bigSize * 0.05, transform: `translateX(${interpolate(pBig, [0, 1], [700, 0])}px) skewX(${interpolate(pBig, [0, 1], [-18, 0])}deg)`, whiteSpace: "nowrap" }}>
+    <AbsoluteFill style={{ background: pal.bg, overflow: "hidden", transform: `translate(${shake}px, ${-shake * 0.6}px)` }}>
+      {/* rotating ring + stripes */}
+      <div style={{ position: "absolute", left: layout ? -260 : 520, top: 140, width: 820, height: 820, borderRadius: "50%", border: `40px solid ${pal.ac}`, opacity: 0.14, transform: `rotate(${f0 * 1.5}deg) scale(${interpolate(land, [0, 1], [0.6, 1])})`, borderRightColor: "transparent" }} />
+      <AbsoluteFill style={{ background: `repeating-linear-gradient(-35deg, ${pal.fg}0d 0 18px, transparent 18px 60px)`, transform: `translateX(${(f0 * 2) % 60}px)` }} />
+      {/* market chart */}
+      <svg width={cw} height={ch} style={{ position: "absolute", left: 0, top: cy }}>
+        {[0.25, 0.5, 0.75].map((g) => (
+          <line key={g} x1={0} x2={cw} y1={g * ch} y2={g * ch} stroke={pal.fg} strokeOpacity={0.12} strokeWidth={2} />
+        ))}
+        <path d={path + ` L${cw},${ch} L0,${ch} Z`} fill={pal.ac} opacity={0.12 * draw} />
+        <path d={path} fill="none" stroke={pal.ac} strokeWidth={10} strokeLinejoin="round" pathLength={1} strokeDasharray="1" strokeDashoffset={1 - draw} />
+        <circle cx={head[0] * cw} cy={head[1] * ch} r={16 + Math.sin(f0 / 3) * 5} fill={pal.ac} />
+        <circle cx={head[0] * cw} cy={head[1] * ch} r={30 + ((f0 * 2) % 30)} fill="none" stroke={pal.ac} strokeWidth={4} opacity={1 - ((f0 * 2) % 30) / 30} />
+      </svg>
+      {/* number + unit + typed label */}
+      <div style={{ position: "absolute", left: 60, top: layout ? 420 : 520, width: W - 120, textAlign: layout ? "center" : "left" }}>
+        <div style={{ fontFamily: "InterB", fontSize: bigSize, lineHeight: 0.92, color: pal.fg, letterSpacing: -bigSize * 0.05, whiteSpace: "nowrap", transform: `scale(${interpolate(land, [0, 1], [2.6, 1])})`, transformOrigin: layout ? "center" : "left center", opacity: interpolate(land, [0, 0.25], [0, 1], clamp), filter: `blur(${interpolate(land, [0, 0.6], [14, 0], clamp)}px)` }}>
           {big}
         </div>
         {c.unit ? (
-          <div style={{ display: "inline-block", marginTop: 26, padding: "10px 24px", background: ac, color: bg, fontFamily: "InterB", fontSize: Math.min(70, Math.floor(1600 / Math.max(10, c.unit.length))), transform: `translateX(${interpolate(pBar, [0, 1], [-900, 0])}px)` }}>
+          <div style={{ display: "inline-block", marginTop: 26, padding: "10px 24px", background: pal.ac, color: pal.bg, fontFamily: "InterB", fontSize: Math.min(70, Math.floor(1600 / Math.max(10, c.unit.length))), transform: `translateX(${interpolate(pBar, [0, 1], [layout ? 0 : -900, 0])}px) scale(${layout ? interpolate(pBar, [0, 1], [0, 1]) : 1}) rotate(-2deg)` }}>
             {c.unit}
           </div>
         ) : null}
         {c.label ? (
-          <div style={{ marginTop: 34, fontFamily: "JBMono", fontSize: 44, color: fg }}>
+          <div style={{ marginTop: 30, fontFamily: "JBMono", fontSize: 46, color: pal.fg }}>
             {c.label.slice(0, typed)}
-            <span style={{ opacity: Math.floor(f0 / 8) % 2 ? 1 : 0, color: ac }}>▍</span>
+            <span style={{ opacity: Math.floor(f0 / 8) % 2 ? 1 : 0, color: pal.ac }}>▍</span>
           </div>
         ) : null}
       </div>
-      <Noise seed={idx + 30} opacity={0.12} blend="overlay" />
+      {/* ticker strip */}
+      <div style={{ position: "absolute", left: 0, top: 1820 - 330, width: W * 3, padding: "10px 0", background: pal.fg, color: pal.bg, fontFamily: "InterB", fontSize: 40, whiteSpace: "nowrap", transform: `translateX(${-((f0 * 6) % 900)}px)` }}>{marquee}</div>
+      <Noise seed={idx + 30} opacity={0.1} blend="overlay" />
     </AbsoluteFill>
   );
 };
@@ -230,6 +267,16 @@ export const KineticPhoto: React.FC<{ s: Scene; idx: number; first: boolean; dur
 // =====================================================================================
 // BOARD: stadium scoreboard, split-flap characters
 // =====================================================================================
+const BPAL = [
+  { bg: "#071a12", ac: "#ffe66d", tx: "#ffe9a8" },
+  { bg: "#0a1530", ac: "#4cc9f0", tx: "#e6f6ff" },
+  { bg: "#2a0710", ac: "#ff6b6b", tx: "#ffe3e3" },
+  { bg: "#1a0b2e", ac: "#c77dff", tx: "#f3e8ff" },
+  { bg: "#2b1503", ac: "#ffb703", tx: "#fff1d6" },
+];
+const BFONT = ["Tektur", "Osw", "InterB", "Geist"];
+export const boardPal = (i: number) => BPAL[i % BPAL.length];
+
 export const BoardBg: React.FC<{ seed: number; color?: string }> = ({ seed, color = "#071a12" }) => {
   const f = useCurrentFrame();
   return (
@@ -241,37 +288,40 @@ export const BoardBg: React.FC<{ seed: number; color?: string }> = ({ seed, colo
   );
 };
 
-const Flap: React.FC<{ ch: string; delay: number; size: number; color: string }> = ({ ch, delay, size, color }) => {
+const Flap: React.FC<{ ch: string; delay: number; size: number; color: string; font: string }> = ({ ch, delay, size, color, font }) => {
   const f = useCurrentFrame();
   const p = interpolate(f, [delay, delay + 7], [0, 1], clamp);
   const pool = "0123456789";
   const shown = p < 1 && /\d/.test(ch) ? pool[(Math.floor(f * 1.7) + delay) % 10] : ch;
   if (ch === " ") return <div style={{ width: size * 0.3 }} />;
   return (
-    <div style={{ position: "relative", width: size * 0.68, height: size * 1.05, margin: "0 5px", background: "linear-gradient(180deg,#1d2a24 0 49.5%,#0c1411 50.5% 100%)", borderRadius: 12, boxShadow: "0 10px 24px rgba(0,0,0,.5), inset 0 0 0 2px rgba(255,255,255,.06)", display: "flex", alignItems: "center", justifyContent: "center", transform: `perspective(800px) rotateX(${interpolate(p, [0, 1], [-80, 0])}deg)`, opacity: interpolate(p, [0, 0.2], [0, 1], clamp) }}>
-      <span style={{ fontFamily: "Tektur", fontSize: size, color, lineHeight: 1, textShadow: `0 0 18px ${color}88` }}>{shown}</span>
+    <div style={{ position: "relative", width: size * 0.72, height: size * 1.12, margin: "0 5px", background: "linear-gradient(180deg,rgba(255,255,255,.10) 0 49.5%,rgba(0,0,0,.35) 50.5% 100%)", borderRadius: 12, boxShadow: "0 10px 24px rgba(0,0,0,.5), inset 0 0 0 2px rgba(255,255,255,.08)", display: "flex", alignItems: "center", justifyContent: "center", transform: `perspective(800px) rotateX(${interpolate(p, [0, 1], [-80, 0])}deg)`, opacity: interpolate(p, [0, 0.2], [0, 1], clamp) }}>
+      <span style={{ fontFamily: font, fontSize: size, color, lineHeight: 1, textShadow: `0 0 18px ${color}88` }}>{shown}</span>
       <div style={{ position: "absolute", left: 0, right: 0, top: "50%", height: 3, background: "rgba(0,0,0,.65)" }} />
     </div>
   );
 };
 
-export const BoardCard: React.FC<{ c: Card; idx: number; first: boolean; dur: number; accent: string }> = ({ c, idx, first, accent }) => {
+export const BoardCard: React.FC<{ c: Card; idx: number; first: boolean; dur: number; accent: string }> = ({ c, idx, first }) => {
   const f0 = useCurrentFrame();
   const f = first ? f0 + 60 : f0;
+  const pal = boardPal(idx);
+  const font = BFONT[idx % BFONT.length];
   const chars = c.big.split("");
-  const size = Math.min(230, Math.floor(880 / Math.max(2, chars.length * 0.78)));
+  const size = Math.min(230, Math.floor(860 / Math.max(2, chars.length * 0.84)));
   const pUnit = interpolate(f, [chars.length * 3 + 6, chars.length * 3 + 14], [0, 1], clamp);
   return (
     <AbsoluteFill>
-      <BoardBg seed={idx} />
+      <BoardBg seed={idx} color={pal.bg} />
+      <div style={{ position: "absolute", left: -100, top: 1320, width: 1400, height: 180, background: pal.ac, opacity: 0.12, transform: `rotate(-6deg) translateX(${interpolate(f0, [0, 90], [-80, 80])}px)` }} />
       <AbsoluteFill style={{ alignItems: "center", paddingTop: 620 }}>
         <div style={{ display: "flex" }}>
           {chars.map((ch, i) => (
-            <Flap key={i} ch={ch} delay={(first ? -60 : 0) + i * 3} size={size} color={i === 0 && c.big.startsWith("+") ? accent : "#ffe9a8"} />
+            <Flap key={i} ch={ch} delay={(first ? -60 : 0) + i * 3} size={size} color={i === 0 && c.big.startsWith("+") ? pal.ac : pal.tx} font={font} />
           ))}
         </div>
-        {c.unit ? <div style={{ marginTop: 40, fontFamily: "Tektur", fontSize: 76, letterSpacing: 4, color: accent, opacity: pUnit, transform: `translateY(${(1 - pUnit) * 30}px)` }}>{c.unit}</div> : null}
-        {c.label ? <div style={{ marginTop: 22, padding: "10px 30px", border: `3px solid ${accent}`, borderRadius: 10, fontFamily: "InterX", fontSize: 40, color: "#e8f2ec", opacity: pUnit }}>{c.label}</div> : null}
+        {c.unit ? <div style={{ marginTop: 40, fontFamily: font, fontSize: 76, letterSpacing: 4, color: pal.ac, opacity: pUnit, transform: `translateY(${(1 - pUnit) * 30}px)` }}>{c.unit}</div> : null}
+        {c.label ? <div style={{ marginTop: 22, padding: "10px 30px", border: `3px solid ${pal.ac}`, borderRadius: 10, fontFamily: "InterX", fontSize: 40, color: pal.tx, opacity: pUnit }}>{c.label}</div> : null}
       </AbsoluteFill>
     </AbsoluteFill>
   );
