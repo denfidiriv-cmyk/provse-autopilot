@@ -1,0 +1,153 @@
+{
+ "polityka": [
+  {
+   "query": "джаред кушнер",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-25T19:00:00-08:00",
+   "news": [
+    {
+     "title": "Джаред Кушнер заявил, что Путин — «историческая личность» и «гроссмейстер политики». Его коллега Стив Уиткофф называл российского президента «гуманистом»",
+     "url": "https://meduza.io/news/2026/11/26/dzhared-kushner-nazval-putina-istoricheskoy-lichnostyu-i-grossmeysterom-politiki-ego-kollega-stiv-uitkoff-nazyval-rossiyskogo-prezidenta-gumanistom",
+     "source": "Meduza"
+    },
+    {
+     "title": "«Гроссмейстер политики» и «историческая фигура»: Кушнер рассказал, каким видит Путина на переговорах",
+     "url": "https://nv.ua/world/geopolitics/kushner-nazval-putina-grossmeysterom-politiki-chto-specposlannik-trampa-skazal-o-peregovorah-50662623.html",
+     "source": "NV"
+    },
+    {
+     "title": "Кушнер назвал главное препятствие для завершения войны между Украиной и РФ",
+     "url": "https://www.rbc.ua/ukr/news/kushner-nazvav-golovnu-pereshkodu-zavershennya-1795647361.html",
+     "source": "РБК-Україна"
+    }
+   ],
+   "channel": "polityka",
+   "score": 7,
+   "matched": [
+    "кушнер",
+    "переговор",
+    "президент",
+    "уиткофф"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  }
+ ],
+ "dim": [
+  {
+   "query": "dtek график",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-25T18:30:00-08:00",
+   "news": [
+    {
+     "title": "Предварительный график отключения света на 25 ноября для абонентов ЦЭК - новости Днепра | Дніпровська порадниц",
+     "url": "https://dnpr.com.ua/ru/post/predvaritelnyj-grafik-otklyucheniya-sveta-na-25-noyabrya-dlya-abonentov-cek",
+     "source": "Дніпровська порадниця"
+    },
+    {
+     "title": "Графики отключения света в Кривом Роге 25 ноября",
+     "url": "https://1kr.ua/news-115062.html",
+     "source": "Первый Криворожский"
+    },
+    {
+     "title": "График отключений электричества в Днепропетровской области на 26 ноября (обновляется)",
+     "url": "https://nashreporter.com/ru/kommunalka_ru/grafik-otklyuchenij-elektrichestva-v-dnepropetrovskoj-oblasti-na-26-noyabrya-obnovlyaetsya-348726",
+     "source": "Наш Репортер"
+    }
+   ],
+   "channel": "dim",
+   "score": 6,
+   "matched": [
+    "график",
+    "отключен",
+    "свет"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  }
+ ],
+ "sport": [
+  {
+   "query": "шахтар – фенербахче турнірна таблиця",
+   "traffic": 10000,
+   "traffic_label": "10000+",
+   "published": "2026-11-25T14:10:00-08:00",
+   "news": [
+    {
+     "title": "Турнірна таблиця ЛЧ. На якому місці Шахтар після поразки від Фенербахче",
+     "url": "https://sport.ua/uk/news/928467-turnirna-tablitsya-lch-na-yakomu-mistsi-shahtar-pislya-porazki-vid-fenerbahche",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Шахтар поступився Фенербахче, зазнавши третьої поспіль поразки у Лізі чемпіонів",
+     "url": "https://champion.com.ua/ukr/football/shahtar-prograv-fenerbahche-u-5-turi-ligi-chempioniv-1091854/",
+     "source": "Champion.com.ua"
+    },
+    {
+     "title": "Прикрий удар у Лондоні: \"Шахтар\" поступився \"Фенербахче\" у матчі Ліги чемпіонів",
+     "url": "https://sport.rbc.ua/rus/football/prikriy-udar-londoni-shahtar-postupivsya-1795644121.html",
+     "source": "РБК-Україна"
+    }
+   ],
+   "channel": "sport",
+   "score": 6,
+   "matched": [
+    "матч",
+    "чемпіон",
+    "шахтар"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  },
+  {
+   "query": "брюгге (футбольный клуб) – ливерпуль турнирная таблица",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-25T15:30:00-08:00",
+   "news": [
+    {
+     "title": "ЛЧ. Дубль Исака и гол Вирца приносят Ливерпулю разгромную победу над Брюгге",
+     "url": "https://www.ua-football.com/foreign/champions_league/1795643236-lch-dubl-isaka-i-gol-virca-prinosyat-liverpulyu-razgromnuyu-pobedu-nad-bryugge.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "Ливерпуль благодаря голевой передаче Алиссона и дублю Исака разгромил Брюгге, а промах Ламменса лишил Манчестер Юнайтед Почеттино победы – три пенальти",
+     "url": "https://football24.ua/ru/news/liverpul-s-assistom-alissona-i-dublem-isaaka-razbil-brjugge-fejl-lammensa-ukral-u-mju-pochettino-pobedu-tri-penalti-978360",
+     "source": "Футбол 24"
+    },
+    {
+     "title": "Брюгге – Ливерпуль. Прогноз и анонс на матч Лиги чемпионов",
+     "url": "https://sport.ua/news/928198-bryugge-liverpul-prognoz-i-anons-na-match-ligi-chempionov",
+     "source": "Sport.ua"
+    }
+   ],
+   "channel": "sport",
+   "score": 7,
+   "matched": [
+    "=гол",
+    "манчестер",
+    "матч",
+    "футбол",
+    "чемпион"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 4
+  },
+  {
+   "query": "шахтёр донецк – фенербахче турнирная таблица",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-25T14:10:00-08:00",
+   "news": [],
+   "channel": "sport",
+   "score": 3,
+   "matched": [
+    "шахтер"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 3
+  }
+ ]
+}
