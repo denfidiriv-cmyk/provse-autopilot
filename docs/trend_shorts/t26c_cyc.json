@@ -1,0 +1,65 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26c/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26c/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "cyc",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26c/src/cyc",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26c/jobs/cyc",
+ "w1": 41,
+ "end_w": 36,
+ "bg": "#0b1a22",
+ "bg2": "#14303b",
+ "accent": "#e9c46a",
+ "mood": "epic",
+ "end_text": [
+  "УСЕ ПРО",
+  "СВІТ"
+ ],
+ "end_acc": "СВІТ",
+ "keywords": [
+  "шістдесяти",
+  "Ісландії",
+  "гектопаскалів.",
+  "рейси.",
+  "зачепить."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:y_160.jpg",
+   "",
+   ""
+  ],
+  [
+   7,
+   "img:p_rey.jpg",
+   "ШТОРМ НАД ІСЛАНДІЄЮ",
+   "ІСЛАНДІЄЮ"
+  ],
+  [
+   10,
+   "img:p_sat.jpg",
+   "",
+   ""
+  ],
+  [
+   13,
+   "img:y_945.jpg",
+   "",
+   ""
+  ],
+  [
+   24,
+   "img:p_kef.jpg",
+   "РЕЙСИ ПІД ЗАГРОЗОЮ",
+   "РЕЙСИ"
+  ],
+  [
+   30,
+   "img:y_ua.jpg",
+   "",
+   ""
+  ]
+ ]
+}

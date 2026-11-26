@@ -1,0 +1,58 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26c/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26c/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "chub",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26c/src/chub",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26c/jobs/chub",
+ "w1": 41,
+ "end_w": 36,
+ "bg": "#111111",
+ "bg2": "#1d1d1d",
+ "accent": "#ffd60a",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЕКОНОМІКУ"
+ ],
+ "end_acc": "ЕКОНОМІКУ",
+ "keywords": [
+  "П'ятнадцять",
+  "москалів",
+  "стагнація.",
+  "слабшатимуть."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:c_15.jpg",
+   "",
+   ""
+  ],
+  [
+   4,
+   "img:p_mibc2.jpg",
+   "ЕКОНОМІКА МОСКАЛІВ",
+   "МОСКАЛІВ"
+  ],
+  [
+   9,
+   "img:p_mibc1.jpg",
+   "",
+   ""
+  ],
+  [
+   17,
+   "img:c_0.jpg",
+   "",
+   ""
+  ],
+  [
+   26,
+   "img:c_2.jpg",
+   "",
+   ""
+  ]
+ ]
+}

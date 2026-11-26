@@ -1,0 +1,65 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26c/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26c/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "grek",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26c/src/grek",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26c/jobs/grek",
+ "w1": 39,
+ "end_w": 34,
+ "bg": "#14213d",
+ "bg2": "#1d2b4f",
+ "accent": "#ffd166",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "ПОЛІТИКУ"
+ ],
+ "end_acc": "ПОЛІТИКУ",
+ "keywords": [
+  "Хабар",
+  "арештували",
+  "полковник",
+  "ППО.",
+  "суд."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:g_b.jpg",
+   "",
+   ""
+  ],
+  [
+   5,
+   "img:p_modp.jpg",
+   "АРЕШТ ГЕНЕРАЛА",
+   "ГЕНЕРАЛА"
+  ],
+  [
+   10,
+   "img:g_a.jpg",
+   "",
+   ""
+  ],
+  [
+   16,
+   "img:p_s400.jpg",
+   "",
+   ""
+  ],
+  [
+   22,
+   "img:g_p.jpg",
+   "",
+   ""
+  ],
+  [
+   30,
+   "img:g_s.jpg",
+   "",
+   ""
+  ]
+ ]
+}

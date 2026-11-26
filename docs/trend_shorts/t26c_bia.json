@@ -1,0 +1,66 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26c/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26c/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "bia",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26c/src/bia",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26c/jobs/bia",
+ "w1": 44,
+ "end_w": 39,
+ "bg": "#0f2a1c",
+ "bg2": "#17402a",
+ "accent": "#ffe66d",
+ "mood": "upbeat",
+ "end_text": [
+  "УСЕ ПРО",
+  "СПОРТ"
+ ],
+ "end_acc": "СПОРТ",
+ "keywords": [
+  "Нуль",
+  "сенсація",
+  "Райт",
+  "хвилину.",
+  "ніколи",
+  "вісімнадцятий."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:b_0.jpg",
+   "",
+   ""
+  ],
+  [
+   5,
+   "img:p_kon.jpg",
+   "СЕНСАЦІЯ В БІАТЛОНІ",
+   "СЕНСАЦІЯ"
+  ],
+  [
+   11,
+   "img:b_t.jpg",
+   "",
+   ""
+  ],
+  [
+   18,
+   "img:b_g.jpg",
+   "",
+   ""
+  ],
+  [
+   24,
+   "img:b_1.jpg",
+   "",
+   ""
+  ],
+  [
+   33,
+   "img:b_18.jpg",
+   "",
+   ""
+  ]
+ ]
+}

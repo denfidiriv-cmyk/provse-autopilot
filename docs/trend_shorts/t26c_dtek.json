@@ -1,0 +1,60 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26c/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26c/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "dtek",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26c/src/dtek",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26c/jobs/dtek",
+ "w1": 41,
+ "end_w": 36,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#ffc857",
+ "mood": "explain",
+ "end_text": [
+  "УСЕ ПРО",
+  "ОСББ"
+ ],
+ "end_acc": "ОСББ",
+ "keywords": [
+  "темно?",
+  "звичка.",
+  "бойлер,",
+  "пральку,",
+  "тридцять",
+  "черзі."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:p_panel.jpg",
+   "СВІТЛО ЗНОВУ ЗНИКЛО?",
+   "ЗНИКЛО?"
+  ],
+  [
+   7,
+   "img:p_trafo.jpg",
+   "ОДНА ЗВИЧКА",
+   "ЗВИЧКА"
+  ],
+  [
+   13,
+   "img:d_3.jpg",
+   "",
+   ""
+  ],
+  [
+   21,
+   "img:d_x.jpg",
+   "",
+   ""
+  ],
+  [
+   28,
+   "img:d_30.jpg",
+   "",
+   ""
+  ]
+ ]
+}
