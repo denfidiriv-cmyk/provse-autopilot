@@ -1,0 +1,60 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26b/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26b/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "teach",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26b/src/teach",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26b/jobs/teach",
+ "w1": 43,
+ "end_w": 38,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#ff5a36",
+ "mood": "explain",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЕКОНОМІКУ"
+ ],
+ "end_acc": "ЕКОНОМІКУ",
+ "keywords": [
+  "Плюс",
+  "десять",
+  "петицію.",
+  "двісті",
+  "тридцять",
+  "більше,"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:e_10.jpg",
+   "",
+   ""
+  ],
+  [
+   10,
+   "img:e_class2.jpg",
+   "ПООБІЦЯВ ПРЕМ'ЄР",
+   "ПРЕМ'ЄР"
+  ],
+  [
+   18,
+   "img:e_bud.jpg",
+   "",
+   ""
+  ],
+  [
+   25,
+   "img:e_235.jpg",
+   "",
+   ""
+  ],
+  [
+   29,
+   "img:e_375.jpg",
+   "",
+   ""
+  ]
+ ]
+}

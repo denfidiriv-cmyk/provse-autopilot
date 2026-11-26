@@ -1,0 +1,60 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26b/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26b/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "kim",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26b/src/kim",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26b/jobs/kim",
+ "w1": 34,
+ "end_w": 29,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#e9c46a",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "СВІТ"
+ ],
+ "end_acc": "СВІТ",
+ "keywords": [
+  "посварився",
+  "москалями?",
+  "ГУР,",
+  "балістичних",
+  "небо.",
+  "Лаврова"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:n_pyong.jpg",
+   "КІМ ПОСВАРИВСЯ З МОСКАЛЯМИ?",
+   "МОСКАЛЯМИ?"
+  ],
+  [
+   6,
+   "img:ki_stop.jpg",
+   "",
+   ""
+  ],
+  [
+   11,
+   "img:n_missile.jpg",
+   "БАЛІСТИКА ДЛЯ МОСКАЛІВ НА ПАУЗІ",
+   "ПАУЗІ"
+  ],
+  [
+   16,
+   "img:ki_sky.jpg",
+   "",
+   ""
+  ],
+  [
+   23,
+   "img:ki_why.jpg",
+   "",
+   ""
+  ]
+ ]
+}

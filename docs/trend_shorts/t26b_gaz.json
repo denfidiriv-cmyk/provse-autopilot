@@ -1,0 +1,60 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26b/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26b/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "gaz",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26b/src/gaz",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26b/jobs/gaz",
+ "w1": 43,
+ "end_w": 38,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#ffc857",
+ "mood": "explain",
+ "end_text": [
+  "УСЕ ПРО",
+  "ОСББ"
+ ],
+ "end_acc": "ОСББ",
+ "keywords": [
+  "газ",
+  "сім",
+  "квітня.",
+  "окремо,",
+  "двадцять",
+  "п'ятого"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:g_flame.jpg",
+   "ГАЗ У ГРУДНІ",
+   "ГАЗ"
+  ],
+  [
+   5,
+   "img:g_796.jpg",
+   "",
+   ""
+  ],
+  [
+   14,
+   "img:g_0430.jpg",
+   "",
+   ""
+  ],
+  [
+   21,
+   "img:g_meters.jpg",
+   "ДОСТАВКА ОКРЕМО",
+   "ОКРЕМО"
+  ],
+  [
+   30,
+   "img:g_2501.jpg",
+   "",
+   ""
+  ]
+ ]
+}

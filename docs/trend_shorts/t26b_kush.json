@@ -1,0 +1,59 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26b/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26b/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "kush",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26b/src/kush",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26b/jobs/kush",
+ "w1": 37,
+ "end_w": 32,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#ffd166",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "ПОЛІТИКУ"
+ ],
+ "end_acc": "ПОЛІТИКУ",
+ "keywords": [
+  "Найбільший",
+  "тисячі",
+  "додому",
+  "святами.",
+  "гросмейстером"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:ku_k.jpg",
+   "",
+   ""
+  ],
+  [
+   6,
+   "img:k_abu.jpg",
+   "АНОНС КУШНЕРА",
+   "КУШНЕРА"
+  ],
+  [
+   13,
+   "img:ku_hol.jpg",
+   "",
+   ""
+  ],
+  [
+   22,
+   "img:k_wh.jpg",
+   "АЛЕ Є НЮАНС",
+   "НЮАНС"
+  ],
+  [
+   28,
+   "img:ku_gm.jpg",
+   "",
+   ""
+  ]
+ ]
+}

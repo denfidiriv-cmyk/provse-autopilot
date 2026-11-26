@@ -1,0 +1,60 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26b/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26b/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "zab",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26b/src/zab",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t26b/jobs/zab",
+ "w1": 33,
+ "end_w": 28,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#ffe66d",
+ "mood": "upbeat",
+ "end_text": [
+  "УСЕ ПРО",
+  "СПОРТ"
+ ],
+ "end_acc": "СПОРТ",
+ "keywords": [
+  "Перший",
+  "Забарного",
+  "зрівняв",
+  "Дембеле,",
+  "Мален",
+  "два."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:zb_1.jpg",
+   "",
+   ""
+  ],
+  [
+   6,
+   "img:z_pdp.jpg",
+   "УКРАЇНЕЦЬ ЗРІВНЯВ",
+   "УКРАЇНЕЦЬ"
+  ],
+  [
+   12,
+   "img:zb_31.jpg",
+   "",
+   ""
+  ],
+  [
+   19,
+   "img:z_pdp2.jpg",
+   "ДЕМБЕЛЕ: 2:1",
+   "2:1"
+  ],
+  [
+   22,
+   "img:zb_22.jpg",
+   "",
+   ""
+  ]
+ ]
+}
