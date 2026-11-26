@@ -1,0 +1,162 @@
+{
+ "polityka": [
+  {
+   "query": "валерій залужний",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-26T07:20:00-08:00",
+   "news": [
+    {
+     "title": "«Розумів російську загрозу». Залужний зустрівся з Ющенком і заявив про необхідність єдності українців",
+     "url": "https://nv.ua/ukr/ukraine/politics/valeriy-zaluzhniy-zustrivsya-z-viktorom-yushchenkom-i-zaklikav-ukrajinciv-do-yednosti-50662728.html",
+     "source": "NV"
+    },
+    {
+     "title": "Залужний зустрівся з Ющенком: про що говорили третій президент і посол України у Британії",
+     "url": "https://apostrophe.ua/politics/foreign-policy/nemozhlivo-dosjahti-miru-cherez-torhivlju-z-ahresorom-zaluzhnij-rozpoviv-pro-zustrich-iz-viktorom-jushchenkom.html",
+     "source": "Апостроф"
+    },
+    {
+     "title": "Залужний повідомив про розмову з Ющенком щодо війни, тиску й відбудови",
+     "url": "https://mezha.net/ua/news/mezha-f5e44fc256a6c1937ac73140_zaluzhniy_povidomiv_pro/",
+     "source": "Mezha.net"
+    }
+   ],
+   "channel": "polityka",
+   "score": 2,
+   "matched": [
+    "посол",
+    "президент"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  },
+  {
+   "query": "министр обороны италии",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-26T07:50:00-08:00",
+   "news": [
+    {
+     "title": "Мелони предостерегла Украину после атаки на судно России в Средиземном море",
+     "url": "https://www.pravda.com.ua/rus/news/2026/11/26/8064810/",
+     "source": "Українська правда"
+    },
+    {
+     "title": "После атаки на российский корвет в Ливии Мелони заявила, что война не должна распространяться на Средиземное море",
+     "url": "https://nv.ua/world/geopolitics/meloni-prokommentirovala-ataku-ukrainskih-dronov-na-rossiyskiy-korvet-u-beregov-livii-50662876.html",
+     "source": "NV"
+    },
+    {
+     "title": "\"Раздраженный\" глава Минобороны Италии вызвал атташе Украины из-за удара по корвету РФ, - СМИ",
+     "url": "https://www.rbc.ua/ukr/news/ministr-oboroni-italiyi-viklikav-ukrayinskogo-1795694144.html",
+     "source": "РБК-Україна"
+    }
+   ],
+   "channel": "polityka",
+   "score": 3,
+   "matched": [
+    "министр"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  }
+ ],
+ "sport": [
+  {
+   "query": "суспільне спорт онлайн",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-26T07:40:00-08:00",
+   "news": [
+    {
+     "title": "«Будуть великі зміни». Збірна України з волейболу замінить головного тренера жіночої команди",
+     "url": "https://suspilne.media/sport/1457631-budut-veliki-zmini-zbirna-ukraini-z-volejbolu-zaminit-golovnogo-trenera-zinocoi-komandi/",
+     "source": "Суспільне | Новини"
+    },
+    {
+     "title": "Збірна України з волейболу змінить головного тренера",
+     "url": "https://champion.com.ua/ukr/volleyball/zhinocha-zbirna-ukrajini-z-voleybolu-otrimaye-novogo-golovnogo-trenera-1091890/",
+     "source": "Champion.com.ua"
+    },
+    {
+     "title": "У ФВУ поставили завдання перед новим тренером жіночої збірної України",
+     "url": "https://sport.ua/uk/news/928642-u-fvu-postavili-zavdannya-pered-novim-trenerom-zhinochoi-zbirnoi-ukraini",
+     "source": "Sport.ua"
+    }
+   ],
+   "channel": "sport",
+   "score": 1,
+   "matched": [
+    "збірн"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 1
+  },
+  {
+   "query": "лига европы",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-26T07:50:00-08:00",
+   "news": [
+    {
+     "title": "Лига Европы: расписание и результаты матчей пятого тура",
+     "url": "https://tsn.ua/ru/prosport/liga-evropy-raspisanie-i-rezultaty-matchey-pyatogo-tura-3226195.html",
+     "source": "ТСН"
+    },
+    {
+     "title": "Олимпиакос - Милан. Анонс и прогноз матча Лиги Европы на 26.11.2026",
+     "url": "https://www.ua-football.com/predictions/europa-league/1795673449-olimpiakos-milan-anons-i-prognoz-matcha-ligi-evropy-na-26-11-2026.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "Тренер «Милана» Аморим поделился ожиданиями от матча Лиги Европы с «Олимпиакосом»",
+     "url": "https://www.championat.ru/football/news-6714978-trener-milana-amorim-podelilsya-ozhidaniyami-ot-matcha-ligi-evropy-s-olimpiakosom.html",
+     "source": "Чемпионат"
+    }
+   ],
+   "channel": "sport",
+   "score": 6,
+   "matched": [
+    "лига",
+    "матч",
+    "олимпи"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 3
+  }
+ ],
+ "ekonomika": [
+  {
+   "query": "українська",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-26T07:30:00-08:00",
+   "news": [
+    {
+     "title": "Україна отримала новий транш від Світового банку на підтримку бізнесу і відбудови",
+     "url": "https://www.slovoidilo.ua/2026/11/26/novyna/ekonomika/ukrayina-otrymala-novyj-transh-svitovoho-banku-pidtrymku-biznesu-vidbudovy",
+     "source": "Слово і Діло"
+    },
+    {
+     "title": "Світовий банк надав Україні 450 мільйонів доларів на підтримку бізнесу і відбудови",
+     "url": "https://epravda.com.ua/biznes/svitoviy-bank-nadav-ukrajini-450-milyoniv-dolariv-na-pidtrimku-biznesu-i-vidbudovi-828082/",
+     "source": "Економічна правда"
+    },
+    {
+     "title": "Під гарантії Японії. Україна отримала $450 млн від Світового банку на підтримку бізнесу й відбудови",
+     "url": "https://biz.nv.ua/ukr/economics/ukrajina-otrimala-450-mln-dolariv-vid-svitovogo-banku-pid-garantiji-yaponiji-na-pidtrimku-biznesu-50662872.html",
+     "source": "NV Бизнес"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 2,
+   "matched": [
+    "банк",
+    "долар"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  }
+ ]
+}

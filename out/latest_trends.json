@@ -1,153 +1,162 @@
 {
  "polityka": [
   {
-   "query": "джаред кушнер",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-25T19:00:00-08:00",
+   "query": "валерій залужний",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-26T07:20:00-08:00",
    "news": [
     {
-     "title": "Джаред Кушнер заявил, что Путин — «историческая личность» и «гроссмейстер политики». Его коллега Стив Уиткофф называл российского президента «гуманистом»",
-     "url": "https://meduza.io/news/2026/11/26/dzhared-kushner-nazval-putina-istoricheskoy-lichnostyu-i-grossmeysterom-politiki-ego-kollega-stiv-uitkoff-nazyval-rossiyskogo-prezidenta-gumanistom",
-     "source": "Meduza"
-    },
-    {
-     "title": "«Гроссмейстер политики» и «историческая фигура»: Кушнер рассказал, каким видит Путина на переговорах",
-     "url": "https://nv.ua/world/geopolitics/kushner-nazval-putina-grossmeysterom-politiki-chto-specposlannik-trampa-skazal-o-peregovorah-50662623.html",
+     "title": "«Розумів російську загрозу». Залужний зустрівся з Ющенком і заявив про необхідність єдності українців",
+     "url": "https://nv.ua/ukr/ukraine/politics/valeriy-zaluzhniy-zustrivsya-z-viktorom-yushchenkom-i-zaklikav-ukrajinciv-do-yednosti-50662728.html",
      "source": "NV"
     },
     {
-     "title": "Кушнер назвал главное препятствие для завершения войны между Украиной и РФ",
-     "url": "https://www.rbc.ua/ukr/news/kushner-nazvav-golovnu-pereshkodu-zavershennya-1795647361.html",
+     "title": "Залужний зустрівся з Ющенком: про що говорили третій президент і посол України у Британії",
+     "url": "https://apostrophe.ua/politics/foreign-policy/nemozhlivo-dosjahti-miru-cherez-torhivlju-z-ahresorom-zaluzhnij-rozpoviv-pro-zustrich-iz-viktorom-jushchenkom.html",
+     "source": "Апостроф"
+    },
+    {
+     "title": "Залужний повідомив про розмову з Ющенком щодо війни, тиску й відбудови",
+     "url": "https://mezha.net/ua/news/mezha-f5e44fc256a6c1937ac73140_zaluzhniy_povidomiv_pro/",
+     "source": "Mezha.net"
+    }
+   ],
+   "channel": "polityka",
+   "score": 2,
+   "matched": [
+    "посол",
+    "президент"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  },
+  {
+   "query": "министр обороны италии",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-26T07:50:00-08:00",
+   "news": [
+    {
+     "title": "Мелони предостерегла Украину после атаки на судно России в Средиземном море",
+     "url": "https://www.pravda.com.ua/rus/news/2026/11/26/8064810/",
+     "source": "Українська правда"
+    },
+    {
+     "title": "После атаки на российский корвет в Ливии Мелони заявила, что война не должна распространяться на Средиземное море",
+     "url": "https://nv.ua/world/geopolitics/meloni-prokommentirovala-ataku-ukrainskih-dronov-na-rossiyskiy-korvet-u-beregov-livii-50662876.html",
+     "source": "NV"
+    },
+    {
+     "title": "\"Раздраженный\" глава Минобороны Италии вызвал атташе Украины из-за удара по корвету РФ, - СМИ",
+     "url": "https://www.rbc.ua/ukr/news/ministr-oboroni-italiyi-viklikav-ukrayinskogo-1795694144.html",
      "source": "РБК-Україна"
     }
    ],
    "channel": "polityka",
-   "score": 7,
+   "score": 3,
    "matched": [
-    "кушнер",
-    "переговор",
-    "президент",
-    "уиткофф"
+    "министр"
    ],
    "skipped_reason": "",
    "extra_sources": 9
   }
  ],
- "dim": [
-  {
-   "query": "dtek график",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-25T18:30:00-08:00",
-   "news": [
-    {
-     "title": "Предварительный график отключения света на 25 ноября для абонентов ЦЭК - новости Днепра | Дніпровська порадниц",
-     "url": "https://dnpr.com.ua/ru/post/predvaritelnyj-grafik-otklyucheniya-sveta-na-25-noyabrya-dlya-abonentov-cek",
-     "source": "Дніпровська порадниця"
-    },
-    {
-     "title": "Графики отключения света в Кривом Роге 25 ноября",
-     "url": "https://1kr.ua/news-115062.html",
-     "source": "Первый Криворожский"
-    },
-    {
-     "title": "График отключений электричества в Днепропетровской области на 26 ноября (обновляется)",
-     "url": "https://nashreporter.com/ru/kommunalka_ru/grafik-otklyuchenij-elektrichestva-v-dnepropetrovskoj-oblasti-na-26-noyabrya-obnovlyaetsya-348726",
-     "source": "Наш Репортер"
-    }
-   ],
-   "channel": "dim",
-   "score": 6,
-   "matched": [
-    "график",
-    "отключен",
-    "свет"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 10
-  }
- ],
  "sport": [
   {
-   "query": "шахтар – фенербахче турнірна таблиця",
-   "traffic": 10000,
-   "traffic_label": "10000+",
-   "published": "2026-11-25T14:10:00-08:00",
+   "query": "суспільне спорт онлайн",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-26T07:40:00-08:00",
    "news": [
     {
-     "title": "Турнірна таблиця ЛЧ. На якому місці Шахтар після поразки від Фенербахче",
-     "url": "https://sport.ua/uk/news/928467-turnirna-tablitsya-lch-na-yakomu-mistsi-shahtar-pislya-porazki-vid-fenerbahche",
-     "source": "Sport.ua"
+     "title": "«Будуть великі зміни». Збірна України з волейболу замінить головного тренера жіночої команди",
+     "url": "https://suspilne.media/sport/1457631-budut-veliki-zmini-zbirna-ukraini-z-volejbolu-zaminit-golovnogo-trenera-zinocoi-komandi/",
+     "source": "Суспільне | Новини"
     },
     {
-     "title": "Шахтар поступився Фенербахче, зазнавши третьої поспіль поразки у Лізі чемпіонів",
-     "url": "https://champion.com.ua/ukr/football/shahtar-prograv-fenerbahche-u-5-turi-ligi-chempioniv-1091854/",
+     "title": "Збірна України з волейболу змінить головного тренера",
+     "url": "https://champion.com.ua/ukr/volleyball/zhinocha-zbirna-ukrajini-z-voleybolu-otrimaye-novogo-golovnogo-trenera-1091890/",
      "source": "Champion.com.ua"
     },
     {
-     "title": "Прикрий удар у Лондоні: \"Шахтар\" поступився \"Фенербахче\" у матчі Ліги чемпіонів",
-     "url": "https://sport.rbc.ua/rus/football/prikriy-udar-londoni-shahtar-postupivsya-1795644121.html",
-     "source": "РБК-Україна"
+     "title": "У ФВУ поставили завдання перед новим тренером жіночої збірної України",
+     "url": "https://sport.ua/uk/news/928642-u-fvu-postavili-zavdannya-pered-novim-trenerom-zhinochoi-zbirnoi-ukraini",
+     "source": "Sport.ua"
+    }
+   ],
+   "channel": "sport",
+   "score": 1,
+   "matched": [
+    "збірн"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 1
+  },
+  {
+   "query": "лига европы",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-26T07:50:00-08:00",
+   "news": [
+    {
+     "title": "Лига Европы: расписание и результаты матчей пятого тура",
+     "url": "https://tsn.ua/ru/prosport/liga-evropy-raspisanie-i-rezultaty-matchey-pyatogo-tura-3226195.html",
+     "source": "ТСН"
+    },
+    {
+     "title": "Олимпиакос - Милан. Анонс и прогноз матча Лиги Европы на 26.11.2026",
+     "url": "https://www.ua-football.com/predictions/europa-league/1795673449-olimpiakos-milan-anons-i-prognoz-matcha-ligi-evropy-na-26-11-2026.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "Тренер «Милана» Аморим поделился ожиданиями от матча Лиги Европы с «Олимпиакосом»",
+     "url": "https://www.championat.ru/football/news-6714978-trener-milana-amorim-podelilsya-ozhidaniyami-ot-matcha-ligi-evropy-s-olimpiakosom.html",
+     "source": "Чемпионат"
     }
    ],
    "channel": "sport",
    "score": 6,
    "matched": [
+    "лига",
     "матч",
-    "чемпіон",
-    "шахтар"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 8
-  },
-  {
-   "query": "брюгге (футбольный клуб) – ливерпуль турнирная таблица",
-   "traffic": 1000,
-   "traffic_label": "1000+",
-   "published": "2026-11-25T15:30:00-08:00",
-   "news": [
-    {
-     "title": "ЛЧ. Дубль Исака и гол Вирца приносят Ливерпулю разгромную победу над Брюгге",
-     "url": "https://www.ua-football.com/foreign/champions_league/1795643236-lch-dubl-isaka-i-gol-virca-prinosyat-liverpulyu-razgromnuyu-pobedu-nad-bryugge.html",
-     "source": "UA-Football"
-    },
-    {
-     "title": "Ливерпуль благодаря голевой передаче Алиссона и дублю Исака разгромил Брюгге, а промах Ламменса лишил Манчестер Юнайтед Почеттино победы – три пенальти",
-     "url": "https://football24.ua/ru/news/liverpul-s-assistom-alissona-i-dublem-isaaka-razbil-brjugge-fejl-lammensa-ukral-u-mju-pochettino-pobedu-tri-penalti-978360",
-     "source": "Футбол 24"
-    },
-    {
-     "title": "Брюгге – Ливерпуль. Прогноз и анонс на матч Лиги чемпионов",
-     "url": "https://sport.ua/news/928198-bryugge-liverpul-prognoz-i-anons-na-match-ligi-chempionov",
-     "source": "Sport.ua"
-    }
-   ],
-   "channel": "sport",
-   "score": 7,
-   "matched": [
-    "=гол",
-    "манчестер",
-    "матч",
-    "футбол",
-    "чемпион"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 4
-  },
-  {
-   "query": "шахтёр донецк – фенербахче турнирная таблица",
-   "traffic": 1000,
-   "traffic_label": "1000+",
-   "published": "2026-11-25T14:10:00-08:00",
-   "news": [],
-   "channel": "sport",
-   "score": 3,
-   "matched": [
-    "шахтер"
+    "олимпи"
    ],
    "skipped_reason": "",
    "extra_sources": 3
+  }
+ ],
+ "ekonomika": [
+  {
+   "query": "українська",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-26T07:30:00-08:00",
+   "news": [
+    {
+     "title": "Україна отримала новий транш від Світового банку на підтримку бізнесу і відбудови",
+     "url": "https://www.slovoidilo.ua/2026/11/26/novyna/ekonomika/ukrayina-otrymala-novyj-transh-svitovoho-banku-pidtrymku-biznesu-vidbudovy",
+     "source": "Слово і Діло"
+    },
+    {
+     "title": "Світовий банк надав Україні 450 мільйонів доларів на підтримку бізнесу і відбудови",
+     "url": "https://epravda.com.ua/biznes/svitoviy-bank-nadav-ukrajini-450-milyoniv-dolariv-na-pidtrimku-biznesu-i-vidbudovi-828082/",
+     "source": "Економічна правда"
+    },
+    {
+     "title": "Під гарантії Японії. Україна отримала $450 млн від Світового банку на підтримку бізнесу й відбудови",
+     "url": "https://biz.nv.ua/ukr/economics/ukrajina-otrimala-450-mln-dolariv-vid-svitovogo-banku-pid-garantiji-yaponiji-na-pidtrimku-biznesu-50662872.html",
+     "source": "NV Бизнес"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 2,
+   "matched": [
+    "банк",
+    "долар"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
   }
  ]
 }
