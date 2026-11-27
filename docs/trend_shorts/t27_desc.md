@@ -76,3 +76,10 @@ Billy Penn: https://billypenn.com/2016/11/25/the-very-philly-reason-the-day-afte
 Фото: Wikimedia Commons (Маркет-стріт у Філадельфії, стереолистівка: The Library Company of Philadelphia, без обмежень; ратуша Філадельфії: Ii2nmd, CC BY-SA 4.0). Музика: Kevin MacLeod, «Cipher» (incompetech.com), CC BY 3.0.
 
 #чорнапятниця #знижки #економіка #шопінг #історія #shorts
+
+## Опубліковано 27.11.2026
+osbb (ОСББ): https://youtube.com/shorts/dcEIyWrxOuI
+snow (Світ): https://youtube.com/shorts/u_JNL4AGNZE
+lb (Спорт): https://youtube.com/shorts/aqUbWxlOJqE
+vaid (Політика): https://youtube.com/shorts/txfHlCsVvac
+bf (Економіка): https://youtube.com/shorts/ldneMDJOgkA

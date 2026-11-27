@@ -79,3 +79,10 @@ Dnepr.Express: https://dnepr.express/ua/post/elektromerezhi-ne-vitrimuyut-navant
 Відео: Pixabay (штормове море: Kanenori, ліцензія Pixabay). Фото: Wikimedia Commons (аеропорт Кефлавік: Hansueli Krapf, CC BY-SA 3.0; архівний супутниковий знімок циклону над Ісландією: NASA, суспільне надбання). Музика: Kevin MacLeod, «Call to Adventure», CC BY 3.0.
 
 #циклон #ісландія #шторм #погода #світ #shorts
+
+## Опубліковано 27.11.2026
+bia (Спорт): https://youtube.com/shorts/Hog9xB_zvq4
+chub (Економіка): https://youtube.com/shorts/4ds_PCOYx78
+grek (Політика): https://youtube.com/shorts/WGsmGc7Y0zo
+dtek (ОСББ): https://youtube.com/shorts/U0mSRSVA_sI
+cyc (Світ): https://youtube.com/shorts/CmuyKWfLJxo
