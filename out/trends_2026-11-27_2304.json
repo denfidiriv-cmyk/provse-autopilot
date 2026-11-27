@@ -1,0 +1,196 @@
+{
+ "sport": [
+  {
+   "query": "форест – челсі",
+   "traffic": 2000,
+   "traffic_label": "2000+",
+   "published": "2026-11-27T11:10:00-08:00",
+   "news": [
+    {
+     "title": "Анонс 12-го туру АПЛ: битва за чемпіонство помре вже цими вихідними?",
+     "url": "https://sport.ua/uk/news/929003-anons-12-go-turu-apl-bitva-za-chempionstvo-pomre-vzhe-tsimi-vihidnimi",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Нету, Палмер, Роджерс і Велбек у старті «Челсі» на матч з «Ноттінгем Форест»",
+     "url": "https://ua.tribuna.com/uk/football/1000000395960-netu-palmer-rodzhers-i-velbek-u-starti-chelsi-na-match-z/",
+     "source": "Tribuna.com"
+    },
+    {
+     "title": "Футбольний вікенд , Сергій Гусак, 27 ноября 2026 г.",
+     "url": "https://dynamo.kiev.ua/blog/744421-futbolnij-vkend-",
+     "source": "Динамо Киев от Шурика"
+    }
+   ],
+   "channel": "sport",
+   "score": 3,
+   "matched": [
+    "матч",
+    "футбол",
+    "чемпіон"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 6
+  },
+  {
+   "query": "форест – челси",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-27T11:10:00-08:00",
+   "news": [
+    {
+     "title": "Ноттингем Форест — Челси. Анонс и прогноз матча 12-го тура АПЛ на 27.11.2026",
+     "url": "https://www.ua-football.com/predictions/apl/1795699690-nottingem-forest-chelsi-anons-i-prognoz-matcha-12-go-tura-apl-na-27-11-2026.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "Анонс 12-го тура АПЛ: битва за чемпионство умрет уже на этих выходных?",
+     "url": "https://sport.ua/news/929003-anons-12-go-tura-apl-bitva-za-chempionstvo-umret-uzhe-na-etih-vyhodnyh",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Алонсо ожидает \"сильной реакции\" от \"Челси\" против \"Форест\"",
+     "url": "https://fapl.ru/posts/125916/",
+     "source": "FAPL.ru"
+    }
+   ],
+   "channel": "sport",
+   "score": 2,
+   "matched": [
+    "матч",
+    "чемпион"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 6
+  },
+  {
+   "query": "венеция – болонья",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-27T11:40:00-08:00",
+   "news": [
+    {
+     "title": "Выйдет ли Довбик на поле? Болонья объявила стартовый состав на матч против Венеции",
+     "url": "https://www.ua-football.com/foreign/italy/1795808188-vyydet-li-dovbik-na-pole-bolonya-obyavila-startovyy-sostav-na-match-protiv-venecii.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "Венеция – Болонья. Прогноз и анонс на матч 13-го тура Серии А",
+     "url": "https://sport.ua/news/928335-venetsiya-bolonya-prognoz-i-anons-na-match-13-go-tura-serii-a",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Серия А: «Болонья» сыграет с «Венецией»",
+     "url": "https://by.tribuna.com/football/1113098236-seryya-a-balonnya-zgulyae-z-veneczyyaj/",
+     "source": "Tribuna.com Беларусь"
+    }
+   ],
+   "channel": "sport",
+   "score": 1,
+   "matched": [
+    "матч"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  }
+ ],
+ "dim": [
+  {
+   "query": "электроэнергия",
+   "traffic": 2000,
+   "traffic_label": "2000+",
+   "published": "2026-11-27T10:30:00-08:00",
+   "news": [
+    {
+     "title": "\"Укрэнерго\" объявило о круглосуточных графиках отключений электроэнергии на субботу",
+     "url": "https://epravda.com.ua/rus/energetika/elektroenergiya-grafiki-otklyucheniy-i-ogranicheniya-v-regionah-ukrainy-828135/",
+     "source": "Економічна правда"
+    },
+    {
+     "title": "Россия срывает попытки восстановить электроснабжение в Днепропетровской области: правительство обсудило резервные схемы",
+     "url": "https://nv.ua/ukraine/events/energoinfrastruktura-dnepropetrovskoy-oblasti-v-region-napravyat-sem-generatorov-50662946.html",
+     "source": "NV"
+    },
+    {
+     "title": "Целенаправленные удары РФ по энергетике привели к новым отключениям в шести областях, сложнее всего в Днепропетровской области – Минэнерго",
+     "url": "https://ru.interfax.com.ua/news/economic/1243387.html",
+     "source": "Інтерфакс-Україна"
+    }
+   ],
+   "channel": "dim",
+   "score": 6,
+   "matched": [
+    "график",
+    "отключен",
+    "электроэнерг"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 5
+  },
+  {
+   "query": "28 листопада",
+   "traffic": 2000,
+   "traffic_label": "2000+",
+   "published": "2026-11-27T11:30:00-08:00",
+   "news": [
+    {
+     "title": "Укренерго оголосило цілодобові графіки відключень світла на суботу",
+     "url": "https://epravda.com.ua/energetika/elektroenergiya-grafiki-vidklyuchen-ta-obmezhennya-u-regionah-ukrajini-828135/",
+     "source": "Економічна правда"
+    },
+    {
+     "title": "Цілодобові відключення світла: які обмеження діятимуть 27 листопада",
+     "url": "https://tsn.ua/ukrayina/tsilodobovi-vidkliuchennia-svitla-iaki-obmezennia-diiatymut-27-lystopada-3227959.html",
+     "source": "ТСН"
+    },
+    {
+     "title": "Графік погодинних відключень світла на суботу, 28 листопада",
+     "url": "https://shepetivka.com.ua/novyny/biznes/20901-hrafik-pohodynnykh-vidkliuchen-svitla-na-subotu-28-lystopada.html",
+     "source": "Сайт міста Шепетівка"
+    }
+   ],
+   "channel": "dim",
+   "score": 4,
+   "matched": [
+    "відключен",
+    "графік",
+    "світл",
+    "укренерго"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  }
+ ],
+ "ekonomika": [
+  {
+   "query": "емманюель макрон",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-27T10:10:00-08:00",
+   "news": [
+    {
+     "title": "Відмова від підтримки України поставить під загрозу безпеку Європи – Макрон",
+     "url": "https://www.pravda.com.ua/news/2026/11/27/8064893/",
+     "source": "Українська правда"
+    },
+    {
+     "title": "Кандидат у президенти Франції виступив проти підтримки України: Макрон різко відреагував",
+     "url": "https://tsn.ua/politika/kandydat-u-prezydenty-frantsiyi-vystupyv-proty-pidtrymky-ukrayiny-makron-rizko-vidreahuvav-3228299.html",
+     "source": "ТСН"
+    },
+    {
+     "title": "Сибіга: Зволікання з підтримкою України може обернутися для Європи більшими витратами на оборону",
+     "url": "https://lb.ua/world/2026/11/27/784290_sibiga_zvolikannya_z_pidtrimkoyu.html",
+     "source": "LB.ua"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 1,
+   "matched": [
+    "євро"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  }
+ ]
+}
