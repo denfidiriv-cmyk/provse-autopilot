@@ -214,5 +214,11 @@
   "channel": "ekonomika",
   "at": "2026-11-26T22:02:20.211316+00:00",
   "url": "ПОМИЛКА"
+ },
+ {
+  "query": "электроэнергия",
+  "channel": "dim",
+  "at": "2026-11-27T23:06:36.153654+00:00",
+  "url": "https://youtube.com/shorts/yd8CJu8_xjM"
  }
 ]
