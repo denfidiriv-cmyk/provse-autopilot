@@ -1,0 +1,64 @@
+{
+ "img": "/tmp/trend/2026-11-27/img",
+ "vid": "/tmp/trend/2026-11-27/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "kolos",
+ "src": "/tmp/trend/2026-11-27/src/kolos",
+ "job": "/tmp/trend/2026-11-27/jobs/kolos",
+ "w1": 57,
+ "end_w": 37,
+ "bg": "#1b1b1b",
+ "bg2": "#2b2b2b",
+ "accent": "#f4a259",
+ "mood": "calm",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЇЖУ"
+ ],
+ "end_acc": "ЇЖУ",
+ "keywords": [
+  "розстріл.",
+  "колосків.",
+  "десять",
+  "Голодомору."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:wheat.jpg",
+   "ЗА КОЛОСКИ РОЗСТРІЛ",
+   "РОЗСТРІЛ"
+  ],
+  [
+   7,
+   "img:ko_ros.jpg",
+   "",
+   ""
+  ],
+  [
+   9,
+   "img:ko_1932.jpg",
+   "",
+   ""
+  ],
+  [
+   23,
+   "img:ko_10.jpg",
+   "",
+   ""
+  ],
+  [
+   29,
+   "img:holo_mem.jpg",
+   "28 ЛИСТОПАДА",
+   "28"
+  ],
+  [
+   35,
+   "img:ko_svich.jpg",
+   "",
+   ""
+  ]
+ ]
+}

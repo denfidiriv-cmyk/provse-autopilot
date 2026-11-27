@@ -1,0 +1,58 @@
+{
+ "img": "/tmp/trend/2026-11-27/img",
+ "vid": "/tmp/trend/2026-11-27/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "kurs",
+ "src": "/tmp/trend/2026-11-27/src/kurs",
+ "job": "/tmp/trend/2026-11-27/jobs/kurs",
+ "w1": 59,
+ "end_w": 39,
+ "bg": "#073b4c",
+ "bg2": "#0b5468",
+ "accent": "#ffd166",
+ "mood": "upbeat",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЕКОНОМІКУ"
+ ],
+ "end_acc": "ЕКОНОМІКУ",
+ "keywords": [
+  "копійки.",
+  "менше.",
+  "подешевшало,",
+  "обмінниках"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:ku_45.jpg",
+   "",
+   ""
+  ],
+  [
+   6,
+   "img:hrn.jpg",
+   "",
+   ""
+  ],
+  [
+   16,
+   "img:ku_9.jpg",
+   "",
+   ""
+  ],
+  [
+   20,
+   "img:ku_eur.jpg",
+   "",
+   ""
+  ],
+  [
+   28,
+   "img:ku_obm.jpg",
+   "",
+   ""
+  ]
+ ]
+}
