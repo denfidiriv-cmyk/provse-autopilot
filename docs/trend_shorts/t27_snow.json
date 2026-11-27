@@ -1,0 +1,58 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t27/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t27/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "snow",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t27/src/snow",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t27/jobs/snow",
+ "w1": 39,
+ "end_w": 34,
+ "bg": "#03121a",
+ "bg2": "#0a2430",
+ "accent": "#e9c46a",
+ "mood": "epic",
+ "end_text": [
+  "УСЕ ПРО",
+  "СВІТ"
+ ],
+ "end_acc": "СВІТ",
+ "keywords": [
+  "шість",
+  "Львові,",
+  "паралізували",
+  "спецтехніки."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:s_6431.jpg",
+   "",
+   ""
+  ],
+  [
+   10,
+   "img:p_plow.jpg",
+   "",
+   ""
+  ],
+  [
+   16,
+   "img:s_3.jpg",
+   "",
+   ""
+  ],
+  [
+   22,
+   "img:p_plow.jpg",
+   "РУХ ПАРАЛІЗОВАНО",
+   "ПАРАЛІЗОВАНО"
+  ],
+  [
+   27,
+   "img:s_574.jpg",
+   "",
+   ""
+  ]
+ ]
+}

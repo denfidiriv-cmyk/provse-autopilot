@@ -1,0 +1,58 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t27/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t27/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "bf",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t27/src/bf",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t27/jobs/bf",
+ "w1": 44,
+ "end_w": 39,
+ "bg": "#0b0b0b",
+ "bg2": "#1a1a1a",
+ "accent": "#ffd60a",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЕКОНОМІКУ"
+ ],
+ "end_acc": "ЕКОНОМІКУ",
+ "keywords": [
+  "поліція.",
+  "Філадельфії:",
+  "крадіжки.",
+  "вісімдесятих."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:f_61.jpg",
+   "",
+   ""
+  ],
+  [
+   7,
+   "img:p_arch1.jpg",
+   "",
+   ""
+  ],
+  [
+   16,
+   "img:f_chaos.jpg",
+   "",
+   ""
+  ],
+  [
+   22,
+   "img:p_city.jpg",
+   "",
+   ""
+  ],
+  [
+   29,
+   "img:f_80.jpg",
+   "",
+   ""
+  ]
+ ]
+}

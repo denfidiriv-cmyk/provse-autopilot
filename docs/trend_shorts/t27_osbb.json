@@ -1,0 +1,64 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t27/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t27/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "osbb",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t27/src/osbb",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t27/jobs/osbb",
+ "w1": 43,
+ "end_w": 38,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#ffc857",
+ "mood": "explain",
+ "end_text": [
+  "УСЕ ПРО",
+  "ОСББ"
+ ],
+ "end_acc": "ОСББ",
+ "keywords": [
+  "графіком?",
+  "сто",
+  "обмеження",
+  "запас"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:p_kns.jpg",
+   "ВОДА ЗА ГРАФІКОМ?",
+   "ГРАФІКОМ?"
+  ],
+  [
+   8,
+   "img:o_100.jpg",
+   "",
+   ""
+  ],
+  [
+   16,
+   "img:o_doc.jpg",
+   "",
+   ""
+  ],
+  [
+   19,
+   "img:o_plan.jpg",
+   "",
+   ""
+  ],
+  [
+   25,
+   "img:o_lim.jpg",
+   "",
+   ""
+  ],
+  [
+   32,
+   "img:o_tip.jpg",
+   "",
+   ""
+  ]
+ ]
+}

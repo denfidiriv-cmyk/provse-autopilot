@@ -1,0 +1,64 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t27/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t27/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "vaid",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t27/src/vaid",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t27/jobs/vaid",
+ "w1": 38,
+ "end_w": 33,
+ "bg": "#14213d",
+ "bg2": "#1d2b4f",
+ "accent": "#ffd166",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "ПОЛІТИКУ"
+ ],
+ "end_acc": "ПОЛІТИКУ",
+ "keywords": [
+  "москалям",
+  "ультраправої",
+  "москалям,",
+  "байку"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:v_h.jpg",
+   "",
+   ""
+  ],
+  [
+   4,
+   "img:p_reich.jpg",
+   "",
+   ""
+  ],
+  [
+   8,
+   "img:v_adn.jpg",
+   "",
+   ""
+  ],
+  [
+   14,
+   "img:p_plen.jpg",
+   "",
+   ""
+  ],
+  [
+   20,
+   "img:v_ter.jpg",
+   "",
+   ""
+  ],
+  [
+   26,
+   "img:v_fake.jpg",
+   "",
+   ""
+  ]
+ ]
+}

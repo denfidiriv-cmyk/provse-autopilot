@@ -1,0 +1,58 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t27/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t27/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "lb",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t27/src/lb",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t27/jobs/lb",
+ "w1": 38,
+ "end_w": 33,
+ "bg": "#071a12",
+ "bg2": "#0d2a1d",
+ "accent": "#ffe66d",
+ "mood": "upbeat",
+ "end_text": [
+  "УСЕ ПРО",
+  "СПОРТ"
+ ],
+ "end_acc": "СПОРТ",
+ "keywords": [
+  "забив",
+  "Шастал",
+  "перемогу",
+  "тринадцять"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:l_5.jpg",
+   "",
+   ""
+  ],
+  [
+   8,
+   "img:p_net.jpg",
+   "ДМИТРО ШАСТАЛ",
+   "ШАСТАЛ"
+  ],
+  [
+   16,
+   "img:l_51.jpg",
+   "",
+   ""
+  ],
+  [
+   21,
+   "img:l_10.jpg",
+   "",
+   ""
+  ],
+  [
+   28,
+   "img:l_13.jpg",
+   "",
+   ""
+  ]
+ ]
+}
