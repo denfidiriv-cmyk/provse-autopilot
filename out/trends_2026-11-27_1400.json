@@ -1,0 +1,98 @@
+{
+ "ekonomika": [
+  {
+   "query": "криптовалюта",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-27T02:50:00-08:00",
+   "news": [
+    {
+     "title": "«Абсурдно»: налог в 22% поставил под угрозу развитие российского крипторынка",
+     "url": "https://www.rtvi.com/news/russia-crypto-market-usdt-vat-pershikov-exclusive/",
+     "source": "RTVI"
+    },
+    {
+     "title": "Банк России утвердил первые базовые стандарты с правилами тестирования по криптовалютам",
+     "url": "https://www.cbr.ru/press/event/?id=33017",
+     "source": "Центральный Банк России"
+    },
+    {
+     "title": "Утренний обзор за 27 ноября: ответственность за сделки через ИИ и тест для покупателей криптовалют - новости Право.ру",
+     "url": "https://pravo.ru/news/266986/",
+     "source": "ПРАВО.Ru"
+    }
+   ],
+   "channel": "ekonomika",
+   "score": 6,
+   "matched": [
+    "банк",
+    "крипт",
+    "налог"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 9
+  }
+ ],
+ "sport": [
+  {
+   "query": "лівий берег – колос",
+   "traffic": 2000,
+   "traffic_label": "2000+",
+   "published": "2026-11-27T02:10:00-08:00",
+   "news": [
+    {
+     "title": "Лівий Берег приймає Колос у стартовому матчі 14-го туру УПЛ",
+     "url": "https://sport.ua/uk/news/928880-liviy-bereg-priymaie-kolos-u-startovomu-matchi-14-go-turu-upl",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Відомі стартові складі на матч 14-го туру УПЛ між Лівим берегом і Колосом",
+     "url": "https://www.ua-football.com/ua/ukrainian/high/1795772207-vidomi-startovi-skladi-na-match-14-go-turu-upl-mizh-livim-beregom-i-kolosom.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "Лівий Берег – Колос: анонс і прогноз матчу УПЛ",
+     "url": "https://football24.ua/news/livyy-bereh-kolos-anons-i-prohnoz-matchu-upl-978576",
+     "source": "Футбол 24"
+    }
+   ],
+   "channel": "sport",
+   "score": 1,
+   "matched": [
+    "матч"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 6
+  },
+  {
+   "query": "левый берег – колос ковалёвка",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-27T02:10:00-08:00",
+   "news": [
+    {
+     "title": "Левый Берег - Колос. Анонс и прогноз матча УПЛ на 27.11.2026",
+     "url": "https://www.ua-football.com/predictions/upl/1795668001-levyy-bereg-kolos-anons-i-prognoz-matcha-upl-na-27-11-2026.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "Левый Берег – Колос: анонс и прогноз матча УПЛ",
+     "url": "https://football24.ua/ru/news/levyj-bereg-kolos-anons-i-prognoz-matcha-upl-978580",
+     "source": "Футбол 24"
+    },
+    {
+     "title": "Левый Берег принимает Колос в стартовом матче 14-го тура УПЛ",
+     "url": "https://sport.ua/news/928880-leviy-bereg-prinimaet-kolos-v-startovom-matche-14-go-tura-upl",
+     "source": "Sport.ua"
+    }
+   ],
+   "channel": "sport",
+   "score": 1,
+   "matched": [
+    "матч"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 3
+  }
+ ]
+}

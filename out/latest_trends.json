@@ -1,56 +1,59 @@
 {
- "sport": [
+ "ekonomika": [
   {
-   "query": "ювентус – омонія",
-   "traffic": 500,
-   "traffic_label": "500+",
-   "published": "2026-11-26T11:40:00-08:00",
+   "query": "криптовалюта",
+   "traffic": 100,
+   "traffic_label": "100+",
+   "published": "2026-11-27T02:50:00-08:00",
    "news": [
     {
-     "title": "ЛЕ. Ювентус напугал фанатов в начале матча, но потом уничтожил Омонию",
-     "url": "https://www.ua-football.com/foreign/europa_league/1795729761-le-yuventus-napugal-fanatov-v-nachale-matcha-no-potom-unichtozhil-omoniyu.html",
-     "source": "UA-Football"
+     "title": "«Абсурдно»: налог в 22% поставил под угрозу развитие российского крипторынка",
+     "url": "https://www.rtvi.com/news/russia-crypto-market-usdt-vat-pershikov-exclusive/",
+     "source": "RTVI"
     },
     {
-     "title": "ЖБ дня: «Ювентус» никогда не проигрывал дома в Лиге Европы 26.11.2026",
-     "url": "https://legalbet.ru/daily/787941",
-     "source": "legalbet.ru"
+     "title": "Банк России утвердил первые базовые стандарты с правилами тестирования по криптовалютам",
+     "url": "https://www.cbr.ru/press/event/?id=33017",
+     "source": "Центральный Банк России"
     },
     {
-     "title": "Консейсау: «Свой гол я посвятил семье, находившейся на трибунах»",
-     "url": "https://www.euro-football.ru/article/46/1006428189_konseysau_svoy_gol_ya_posvyatil_seme_nahodivsheysya_na_tribunah",
-     "source": "Евро-Футбол"
+     "title": "Утренний обзор за 27 ноября: ответственность за сделки через ИИ и тест для покупателей криптовалют - новости Право.ру",
+     "url": "https://pravo.ru/news/266986/",
+     "source": "ПРАВО.Ru"
     }
    ],
-   "channel": "sport",
-   "score": 2,
+   "channel": "ekonomika",
+   "score": 6,
    "matched": [
-    "=гол",
-    "матч"
+    "банк",
+    "крипт",
+    "налог"
    ],
    "skipped_reason": "",
-   "extra_sources": 8
-  },
+   "extra_sources": 9
+  }
+ ],
+ "sport": [
   {
-   "query": "цска софія – трабзонспор",
-   "traffic": 500,
-   "traffic_label": "500+",
-   "published": "2026-11-26T11:40:00-08:00",
+   "query": "лівий берег – колос",
+   "traffic": 2000,
+   "traffic_label": "2000+",
+   "published": "2026-11-27T02:10:00-08:00",
    "news": [
     {
-     "title": "ЦСКА София – Трабзонспор. Анонс и прогноз матча 4-го тура Лиги конференций на 26.11.2026",
-     "url": "https://www.ua-football.com/predictions/other/1795609952-cska-sofiya-trabzonspor-anons-i-prognoz-matcha-4-go-tura-ligi-konferenciy-na-26-11-2026.html",
-     "source": "UA-Football"
-    },
-    {
-     "title": "Трабзонспор в компенсированное время вырвал волевую победу над ЦСКА София",
-     "url": "https://sport.ua/news/928793-trabzonspor-v-kompensirovannoe-vremya-vyrval-volevuyu-pobedu-nad-tsska-sofiya",
+     "title": "Лівий Берег приймає Колос у стартовому матчі 14-го туру УПЛ",
+     "url": "https://sport.ua/uk/news/928880-liviy-bereg-priymaie-kolos-u-startovomu-matchi-14-go-turu-upl",
      "source": "Sport.ua"
     },
     {
-     "title": "Трабзонспор с голом и ассистом Салаха обыграл ЦСКА, Хайдук проиграл бельгийцам. Сыграл только один украинец из трех.",
-     "url": "https://www.ukr.net/ru/news/details/sport/120709392.html",
-     "source": "Ukr.net"
+     "title": "Відомі стартові складі на матч 14-го туру УПЛ між Лівим берегом і Колосом",
+     "url": "https://www.ua-football.com/ua/ukrainian/high/1795772207-vidomi-startovi-skladi-na-match-14-go-turu-upl-mizh-livim-beregom-i-kolosom.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "Лівий Берег – Колос: анонс і прогноз матчу УПЛ",
+     "url": "https://football24.ua/news/livyy-bereh-kolos-anons-i-prohnoz-matchu-upl-978576",
+     "source": "Футбол 24"
     }
    ],
    "channel": "sport",
@@ -59,107 +62,37 @@
     "матч"
    ],
    "skipped_reason": "",
-   "extra_sources": 7
+   "extra_sources": 6
   },
   {
-   "query": "крістал пелес – реал сосьєдад",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-26T12:20:00-08:00",
+   "query": "левый берег – колос ковалёвка",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-27T02:10:00-08:00",
    "news": [
     {
-     "title": "Крістал Пелес - Реал Сосьєдад онлайн трансляція",
-     "url": "https://sport.ua/uk/online/109150-kristal-pelas-real-sosyedad-2026-11-26",
-     "source": "Sport.ua"
+     "title": "Левый Берег - Колос. Анонс и прогноз матча УПЛ на 27.11.2026",
+     "url": "https://www.ua-football.com/predictions/upl/1795668001-levyy-bereg-kolos-anons-i-prognoz-matcha-upl-na-27-11-2026.html",
+     "source": "UA-Football"
     },
     {
-     "title": "Лондонський клуб не програє вдома в єврокубках 9 матчів поспіль",
-     "url": "https://sport.ua/uk/news/928821-londonskiy-klub-ne-prograie-vdoma-v-ievrokubkah-9-matchiv-pospil",
-     "source": "Sport.ua"
+     "title": "Левый Берег – Колос: анонс и прогноз матча УПЛ",
+     "url": "https://football24.ua/ru/news/levyj-bereg-kolos-anons-i-prognoz-matcha-upl-978580",
+     "source": "Футбол 24"
     },
     {
-     "title": "Реал Сосьєдад ускладнив собі життя в Лізі Європи: Крістал Пелас дотиснув іспанців, граючи в більшості",
-     "url": "https://terrikon.com/uk/posts/593268",
-     "source": "Террикон"
+     "title": "Левый Берег принимает Колос в стартовом матче 14-го тура УПЛ",
+     "url": "https://sport.ua/news/928880-leviy-bereg-prinimaet-kolos-v-startovom-matche-14-go-tura-upl",
+     "source": "Sport.ua"
     }
    ],
    "channel": "sport",
-   "score": 5,
+   "score": 1,
    "matched": [
-    "=реал",
     "матч"
    ],
    "skipped_reason": "",
-   "extra_sources": 5
-  }
- ],
- "dim": [
-  {
-   "query": "27 листопада",
-   "traffic": 5000,
-   "traffic_label": "5000+",
-   "published": "2026-11-26T11:50:00-08:00",
-   "news": [
-    {
-     "title": "В Укренерго розповіли, скільки можуть тривати відключення світла в п’ятницю",
-     "url": "https://epravda.com.ua/energetika/vidklyuchennya-svitla-27-listopada-diyatimut-obsyagom-do-3-5-cherg-828091/",
-     "source": "Економічна правда"
-    },
-    {
-     "title": "Енергетики оголосили графік відключень на 27 листопада: де не буде світла у п'ятницю",
-     "url": "https://www.obozrevatel.com/ukr/section-ekonomika-glavnaya/communalka/news-enerhetyky-oholosyly-hrafik-vidklyuchen-na-27-lystopada-de-ne-bude-svitla-u-pyatnytsyu-26-11-2026.html",
-     "source": "OBOZ.UA"
-    },
-    {
-     "title": "На Закарпатті 27 листопада застосують графіки погодинних відключень електроенергії",
-     "url": "https://suspilne.media/amp/uzhhorod/1458017-na-zakarpatti-27-listopada-zastosuut-grafiki-pogodinnih-vidklucen-elektroenergii/",
-     "source": "Суспільне | Новини"
-    }
-   ],
-   "channel": "dim",
-   "score": 5,
-   "matched": [
-    "відключен",
-    "графік",
-    "електроенерг",
-    "світл",
-    "укренерго"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 8
-  },
-  {
-   "query": "суспільне запоріжжя",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-26T11:10:00-08:00",
-   "news": [
-    {
-     "title": "Погодинні відключення світла в Запорізькій області: графік на 26 листопада",
-     "url": "https://suspilne.media/zaporizhzhia/1457455-pogodinni-vidklucenna-svitla-v-zaporizkij-oblasti-grafik-na-26-listopada/",
-     "source": "Суспільне | Новини"
-    },
-    {
-     "title": "Графіки відключень світла по Запоріжжю та області на 27 листопада: коли не буде електроенергії",
-     "url": "https://zabor.zp.ua/new/grafiki-vidklyuchen-svitla-po-zaporizhzhyu-ta-oblasti-na-27-listopada-koli-ne-bude-elektroenergii",
-     "source": "Zabor.Zp"
-    },
-    {
-     "title": "Як на Запоріжжі вимикатимуть світло – актуальні графіки",
-     "url": "https://spravzhne.media/ukr/community/1795673869-usi-chergi-vimikatimut-na-zaporizhzhi-26-listopada-grafiki",
-     "source": "Справжнє"
-    }
-   ],
-   "channel": "dim",
-   "score": 4,
-   "matched": [
-    "відключен",
-    "графік",
-    "електроенерг",
-    "світл"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 1
+   "extra_sources": 3
   }
  ]
 }
