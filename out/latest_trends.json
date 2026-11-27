@@ -1,162 +1,165 @@
 {
- "polityka": [
-  {
-   "query": "валерій залужний",
-   "traffic": 500,
-   "traffic_label": "500+",
-   "published": "2026-11-26T07:20:00-08:00",
-   "news": [
-    {
-     "title": "«Розумів російську загрозу». Залужний зустрівся з Ющенком і заявив про необхідність єдності українців",
-     "url": "https://nv.ua/ukr/ukraine/politics/valeriy-zaluzhniy-zustrivsya-z-viktorom-yushchenkom-i-zaklikav-ukrajinciv-do-yednosti-50662728.html",
-     "source": "NV"
-    },
-    {
-     "title": "Залужний зустрівся з Ющенком: про що говорили третій президент і посол України у Британії",
-     "url": "https://apostrophe.ua/politics/foreign-policy/nemozhlivo-dosjahti-miru-cherez-torhivlju-z-ahresorom-zaluzhnij-rozpoviv-pro-zustrich-iz-viktorom-jushchenkom.html",
-     "source": "Апостроф"
-    },
-    {
-     "title": "Залужний повідомив про розмову з Ющенком щодо війни, тиску й відбудови",
-     "url": "https://mezha.net/ua/news/mezha-f5e44fc256a6c1937ac73140_zaluzhniy_povidomiv_pro/",
-     "source": "Mezha.net"
-    }
-   ],
-   "channel": "polityka",
-   "score": 2,
-   "matched": [
-    "посол",
-    "президент"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 9
-  },
-  {
-   "query": "министр обороны италии",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-26T07:50:00-08:00",
-   "news": [
-    {
-     "title": "Мелони предостерегла Украину после атаки на судно России в Средиземном море",
-     "url": "https://www.pravda.com.ua/rus/news/2026/11/26/8064810/",
-     "source": "Українська правда"
-    },
-    {
-     "title": "После атаки на российский корвет в Ливии Мелони заявила, что война не должна распространяться на Средиземное море",
-     "url": "https://nv.ua/world/geopolitics/meloni-prokommentirovala-ataku-ukrainskih-dronov-na-rossiyskiy-korvet-u-beregov-livii-50662876.html",
-     "source": "NV"
-    },
-    {
-     "title": "\"Раздраженный\" глава Минобороны Италии вызвал атташе Украины из-за удара по корвету РФ, - СМИ",
-     "url": "https://www.rbc.ua/ukr/news/ministr-oboroni-italiyi-viklikav-ukrayinskogo-1795694144.html",
-     "source": "РБК-Україна"
-    }
-   ],
-   "channel": "polityka",
-   "score": 3,
-   "matched": [
-    "министр"
-   ],
-   "skipped_reason": "",
-   "extra_sources": 9
-  }
- ],
  "sport": [
   {
-   "query": "суспільне спорт онлайн",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-26T07:40:00-08:00",
+   "query": "ювентус – омонія",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-26T11:40:00-08:00",
    "news": [
     {
-     "title": "«Будуть великі зміни». Збірна України з волейболу замінить головного тренера жіночої команди",
-     "url": "https://suspilne.media/sport/1457631-budut-veliki-zmini-zbirna-ukraini-z-volejbolu-zaminit-golovnogo-trenera-zinocoi-komandi/",
-     "source": "Суспільне | Новини"
+     "title": "ЛЕ. Ювентус напугал фанатов в начале матча, но потом уничтожил Омонию",
+     "url": "https://www.ua-football.com/foreign/europa_league/1795729761-le-yuventus-napugal-fanatov-v-nachale-matcha-no-potom-unichtozhil-omoniyu.html",
+     "source": "UA-Football"
     },
     {
-     "title": "Збірна України з волейболу змінить головного тренера",
-     "url": "https://champion.com.ua/ukr/volleyball/zhinocha-zbirna-ukrajini-z-voleybolu-otrimaye-novogo-golovnogo-trenera-1091890/",
-     "source": "Champion.com.ua"
+     "title": "ЖБ дня: «Ювентус» никогда не проигрывал дома в Лиге Европы 26.11.2026",
+     "url": "https://legalbet.ru/daily/787941",
+     "source": "legalbet.ru"
     },
     {
-     "title": "У ФВУ поставили завдання перед новим тренером жіночої збірної України",
-     "url": "https://sport.ua/uk/news/928642-u-fvu-postavili-zavdannya-pered-novim-trenerom-zhinochoi-zbirnoi-ukraini",
+     "title": "Консейсау: «Свой гол я посвятил семье, находившейся на трибунах»",
+     "url": "https://www.euro-football.ru/article/46/1006428189_konseysau_svoy_gol_ya_posvyatil_seme_nahodivsheysya_na_tribunah",
+     "source": "Евро-Футбол"
+    }
+   ],
+   "channel": "sport",
+   "score": 2,
+   "matched": [
+    "=гол",
+    "матч"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  },
+  {
+   "query": "цска софія – трабзонспор",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-26T11:40:00-08:00",
+   "news": [
+    {
+     "title": "ЦСКА София – Трабзонспор. Анонс и прогноз матча 4-го тура Лиги конференций на 26.11.2026",
+     "url": "https://www.ua-football.com/predictions/other/1795609952-cska-sofiya-trabzonspor-anons-i-prognoz-matcha-4-go-tura-ligi-konferenciy-na-26-11-2026.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "Трабзонспор в компенсированное время вырвал волевую победу над ЦСКА София",
+     "url": "https://sport.ua/news/928793-trabzonspor-v-kompensirovannoe-vremya-vyrval-volevuyu-pobedu-nad-tsska-sofiya",
      "source": "Sport.ua"
+    },
+    {
+     "title": "Трабзонспор с голом и ассистом Салаха обыграл ЦСКА, Хайдук проиграл бельгийцам. Сыграл только один украинец из трех.",
+     "url": "https://www.ukr.net/ru/news/details/sport/120709392.html",
+     "source": "Ukr.net"
     }
    ],
    "channel": "sport",
    "score": 1,
    "matched": [
-    "збірн"
+    "матч"
    ],
    "skipped_reason": "",
-   "extra_sources": 1
+   "extra_sources": 7
   },
   {
-   "query": "лига европы",
-   "traffic": 100,
-   "traffic_label": "100+",
-   "published": "2026-11-26T07:50:00-08:00",
+   "query": "крістал пелес – реал сосьєдад",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-26T12:20:00-08:00",
    "news": [
     {
-     "title": "Лига Европы: расписание и результаты матчей пятого тура",
-     "url": "https://tsn.ua/ru/prosport/liga-evropy-raspisanie-i-rezultaty-matchey-pyatogo-tura-3226195.html",
-     "source": "ТСН"
+     "title": "Крістал Пелес - Реал Сосьєдад онлайн трансляція",
+     "url": "https://sport.ua/uk/online/109150-kristal-pelas-real-sosyedad-2026-11-26",
+     "source": "Sport.ua"
     },
     {
-     "title": "Олимпиакос - Милан. Анонс и прогноз матча Лиги Европы на 26.11.2026",
-     "url": "https://www.ua-football.com/predictions/europa-league/1795673449-olimpiakos-milan-anons-i-prognoz-matcha-ligi-evropy-na-26-11-2026.html",
-     "source": "UA-Football"
+     "title": "Лондонський клуб не програє вдома в єврокубках 9 матчів поспіль",
+     "url": "https://sport.ua/uk/news/928821-londonskiy-klub-ne-prograie-vdoma-v-ievrokubkah-9-matchiv-pospil",
+     "source": "Sport.ua"
     },
     {
-     "title": "Тренер «Милана» Аморим поделился ожиданиями от матча Лиги Европы с «Олимпиакосом»",
-     "url": "https://www.championat.ru/football/news-6714978-trener-milana-amorim-podelilsya-ozhidaniyami-ot-matcha-ligi-evropy-s-olimpiakosom.html",
-     "source": "Чемпионат"
+     "title": "Реал Сосьєдад ускладнив собі життя в Лізі Європи: Крістал Пелас дотиснув іспанців, граючи в більшості",
+     "url": "https://terrikon.com/uk/posts/593268",
+     "source": "Террикон"
     }
    ],
    "channel": "sport",
-   "score": 6,
+   "score": 5,
    "matched": [
-    "лига",
-    "матч",
-    "олимпи"
+    "=реал",
+    "матч"
    ],
    "skipped_reason": "",
-   "extra_sources": 3
+   "extra_sources": 5
   }
  ],
- "ekonomika": [
+ "dim": [
   {
-   "query": "українська",
-   "traffic": 200,
-   "traffic_label": "200+",
-   "published": "2026-11-26T07:30:00-08:00",
+   "query": "27 листопада",
+   "traffic": 5000,
+   "traffic_label": "5000+",
+   "published": "2026-11-26T11:50:00-08:00",
    "news": [
     {
-     "title": "Україна отримала новий транш від Світового банку на підтримку бізнесу і відбудови",
-     "url": "https://www.slovoidilo.ua/2026/11/26/novyna/ekonomika/ukrayina-otrymala-novyj-transh-svitovoho-banku-pidtrymku-biznesu-vidbudovy",
-     "source": "Слово і Діло"
-    },
-    {
-     "title": "Світовий банк надав Україні 450 мільйонів доларів на підтримку бізнесу і відбудови",
-     "url": "https://epravda.com.ua/biznes/svitoviy-bank-nadav-ukrajini-450-milyoniv-dolariv-na-pidtrimku-biznesu-i-vidbudovi-828082/",
+     "title": "В Укренерго розповіли, скільки можуть тривати відключення світла в п’ятницю",
+     "url": "https://epravda.com.ua/energetika/vidklyuchennya-svitla-27-listopada-diyatimut-obsyagom-do-3-5-cherg-828091/",
      "source": "Економічна правда"
     },
     {
-     "title": "Під гарантії Японії. Україна отримала $450 млн від Світового банку на підтримку бізнесу й відбудови",
-     "url": "https://biz.nv.ua/ukr/economics/ukrajina-otrimala-450-mln-dolariv-vid-svitovogo-banku-pid-garantiji-yaponiji-na-pidtrimku-biznesu-50662872.html",
-     "source": "NV Бизнес"
+     "title": "Енергетики оголосили графік відключень на 27 листопада: де не буде світла у п'ятницю",
+     "url": "https://www.obozrevatel.com/ukr/section-ekonomika-glavnaya/communalka/news-enerhetyky-oholosyly-hrafik-vidklyuchen-na-27-lystopada-de-ne-bude-svitla-u-pyatnytsyu-26-11-2026.html",
+     "source": "OBOZ.UA"
+    },
+    {
+     "title": "На Закарпатті 27 листопада застосують графіки погодинних відключень електроенергії",
+     "url": "https://suspilne.media/amp/uzhhorod/1458017-na-zakarpatti-27-listopada-zastosuut-grafiki-pogodinnih-vidklucen-elektroenergii/",
+     "source": "Суспільне | Новини"
     }
    ],
-   "channel": "ekonomika",
-   "score": 2,
+   "channel": "dim",
+   "score": 5,
    "matched": [
-    "банк",
-    "долар"
+    "відключен",
+    "графік",
+    "електроенерг",
+    "світл",
+    "укренерго"
    ],
    "skipped_reason": "",
    "extra_sources": 8
+  },
+  {
+   "query": "суспільне запоріжжя",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-26T11:10:00-08:00",
+   "news": [
+    {
+     "title": "Погодинні відключення світла в Запорізькій області: графік на 26 листопада",
+     "url": "https://suspilne.media/zaporizhzhia/1457455-pogodinni-vidklucenna-svitla-v-zaporizkij-oblasti-grafik-na-26-listopada/",
+     "source": "Суспільне | Новини"
+    },
+    {
+     "title": "Графіки відключень світла по Запоріжжю та області на 27 листопада: коли не буде електроенергії",
+     "url": "https://zabor.zp.ua/new/grafiki-vidklyuchen-svitla-po-zaporizhzhyu-ta-oblasti-na-27-listopada-koli-ne-bude-elektroenergii",
+     "source": "Zabor.Zp"
+    },
+    {
+     "title": "Як на Запоріжжі вимикатимуть світло – актуальні графіки",
+     "url": "https://spravzhne.media/ukr/community/1795673869-usi-chergi-vimikatimut-na-zaporizhzhi-26-listopada-grafiki",
+     "source": "Справжнє"
+    }
+   ],
+   "channel": "dim",
+   "score": 4,
+   "matched": [
+    "відключен",
+    "графік",
+    "електроенерг",
+    "світл"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 1
   }
  ]
 }

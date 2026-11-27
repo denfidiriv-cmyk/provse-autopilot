@@ -1,0 +1,165 @@
+{
+ "sport": [
+  {
+   "query": "ювентус – омонія",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-26T11:40:00-08:00",
+   "news": [
+    {
+     "title": "ЛЕ. Ювентус напугал фанатов в начале матча, но потом уничтожил Омонию",
+     "url": "https://www.ua-football.com/foreign/europa_league/1795729761-le-yuventus-napugal-fanatov-v-nachale-matcha-no-potom-unichtozhil-omoniyu.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "ЖБ дня: «Ювентус» никогда не проигрывал дома в Лиге Европы 26.11.2026",
+     "url": "https://legalbet.ru/daily/787941",
+     "source": "legalbet.ru"
+    },
+    {
+     "title": "Консейсау: «Свой гол я посвятил семье, находившейся на трибунах»",
+     "url": "https://www.euro-football.ru/article/46/1006428189_konseysau_svoy_gol_ya_posvyatil_seme_nahodivsheysya_na_tribunah",
+     "source": "Евро-Футбол"
+    }
+   ],
+   "channel": "sport",
+   "score": 2,
+   "matched": [
+    "=гол",
+    "матч"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  },
+  {
+   "query": "цска софія – трабзонспор",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-26T11:40:00-08:00",
+   "news": [
+    {
+     "title": "ЦСКА София – Трабзонспор. Анонс и прогноз матча 4-го тура Лиги конференций на 26.11.2026",
+     "url": "https://www.ua-football.com/predictions/other/1795609952-cska-sofiya-trabzonspor-anons-i-prognoz-matcha-4-go-tura-ligi-konferenciy-na-26-11-2026.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "Трабзонспор в компенсированное время вырвал волевую победу над ЦСКА София",
+     "url": "https://sport.ua/news/928793-trabzonspor-v-kompensirovannoe-vremya-vyrval-volevuyu-pobedu-nad-tsska-sofiya",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Трабзонспор с голом и ассистом Салаха обыграл ЦСКА, Хайдук проиграл бельгийцам. Сыграл только один украинец из трех.",
+     "url": "https://www.ukr.net/ru/news/details/sport/120709392.html",
+     "source": "Ukr.net"
+    }
+   ],
+   "channel": "sport",
+   "score": 1,
+   "matched": [
+    "матч"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 7
+  },
+  {
+   "query": "крістал пелес – реал сосьєдад",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-26T12:20:00-08:00",
+   "news": [
+    {
+     "title": "Крістал Пелес - Реал Сосьєдад онлайн трансляція",
+     "url": "https://sport.ua/uk/online/109150-kristal-pelas-real-sosyedad-2026-11-26",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Лондонський клуб не програє вдома в єврокубках 9 матчів поспіль",
+     "url": "https://sport.ua/uk/news/928821-londonskiy-klub-ne-prograie-vdoma-v-ievrokubkah-9-matchiv-pospil",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Реал Сосьєдад ускладнив собі життя в Лізі Європи: Крістал Пелас дотиснув іспанців, граючи в більшості",
+     "url": "https://terrikon.com/uk/posts/593268",
+     "source": "Террикон"
+    }
+   ],
+   "channel": "sport",
+   "score": 5,
+   "matched": [
+    "=реал",
+    "матч"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 5
+  }
+ ],
+ "dim": [
+  {
+   "query": "27 листопада",
+   "traffic": 5000,
+   "traffic_label": "5000+",
+   "published": "2026-11-26T11:50:00-08:00",
+   "news": [
+    {
+     "title": "В Укренерго розповіли, скільки можуть тривати відключення світла в п’ятницю",
+     "url": "https://epravda.com.ua/energetika/vidklyuchennya-svitla-27-listopada-diyatimut-obsyagom-do-3-5-cherg-828091/",
+     "source": "Економічна правда"
+    },
+    {
+     "title": "Енергетики оголосили графік відключень на 27 листопада: де не буде світла у п'ятницю",
+     "url": "https://www.obozrevatel.com/ukr/section-ekonomika-glavnaya/communalka/news-enerhetyky-oholosyly-hrafik-vidklyuchen-na-27-lystopada-de-ne-bude-svitla-u-pyatnytsyu-26-11-2026.html",
+     "source": "OBOZ.UA"
+    },
+    {
+     "title": "На Закарпатті 27 листопада застосують графіки погодинних відключень електроенергії",
+     "url": "https://suspilne.media/amp/uzhhorod/1458017-na-zakarpatti-27-listopada-zastosuut-grafiki-pogodinnih-vidklucen-elektroenergii/",
+     "source": "Суспільне | Новини"
+    }
+   ],
+   "channel": "dim",
+   "score": 5,
+   "matched": [
+    "відключен",
+    "графік",
+    "електроенерг",
+    "світл",
+    "укренерго"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 8
+  },
+  {
+   "query": "суспільне запоріжжя",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-26T11:10:00-08:00",
+   "news": [
+    {
+     "title": "Погодинні відключення світла в Запорізькій області: графік на 26 листопада",
+     "url": "https://suspilne.media/zaporizhzhia/1457455-pogodinni-vidklucenna-svitla-v-zaporizkij-oblasti-grafik-na-26-listopada/",
+     "source": "Суспільне | Новини"
+    },
+    {
+     "title": "Графіки відключень світла по Запоріжжю та області на 27 листопада: коли не буде електроенергії",
+     "url": "https://zabor.zp.ua/new/grafiki-vidklyuchen-svitla-po-zaporizhzhyu-ta-oblasti-na-27-listopada-koli-ne-bude-elektroenergii",
+     "source": "Zabor.Zp"
+    },
+    {
+     "title": "Як на Запоріжжі вимикатимуть світло – актуальні графіки",
+     "url": "https://spravzhne.media/ukr/community/1795673869-usi-chergi-vimikatimut-na-zaporizhzhi-26-listopada-grafiki",
+     "source": "Справжнє"
+    }
+   ],
+   "channel": "dim",
+   "score": 4,
+   "matched": [
+    "відключен",
+    "графік",
+    "електроенерг",
+    "світл"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 1
+  }
+ ]
+}
