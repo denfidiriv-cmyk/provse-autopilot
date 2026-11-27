@@ -1,0 +1,59 @@
+{
+ "img": "/tmp/trend/2026-11-27/img",
+ "vid": "/tmp/trend/2026-11-27/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "pov",
+ "src": "/tmp/trend/2026-11-27/src/pov",
+ "job": "/tmp/trend/2026-11-27/jobs/pov",
+ "w1": 54,
+ "end_w": 34,
+ "bg": "#14213d",
+ "bg2": "#1d2b4f",
+ "accent": "#ffd166",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "ПОЛІТИКУ"
+ ],
+ "end_acc": "ПОЛІТИКУ",
+ "keywords": [
+  "ночі.",
+  "цілодобово.",
+  "уповноважені:",
+  "не",
+  "вручають."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:pv_24.jpg",
+   "",
+   ""
+  ],
+  [
+   6,
+   "img:pv_35.jpg",
+   "",
+   ""
+  ],
+  [
+   15,
+   "img:pv_who.jpg",
+   "",
+   ""
+  ],
+  [
+   21,
+   "img:pv_tck.jpg",
+   "",
+   ""
+  ],
+  [
+   26,
+   "img:pv_no.jpg",
+   "",
+   ""
+  ]
+ ]
+}

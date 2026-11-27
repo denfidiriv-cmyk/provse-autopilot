@@ -1,0 +1,71 @@
+{
+ "img": "/tmp/trend/2026-11-27/img",
+ "vid": "/tmp/trend/2026-11-27/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "smol",
+ "src": "/tmp/trend/2026-11-27/src/smol",
+ "job": "/tmp/trend/2026-11-27/jobs/smol",
+ "w1": 59,
+ "end_w": 39,
+ "bg": "#0b132b",
+ "bg2": "#1c2541",
+ "accent": "#f4d35e",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "СВІТ"
+ ],
+ "end_acc": "СВІТ",
+ "keywords": [
+  "вибух,",
+  "помилки.",
+  "москалів",
+  "дев'яносто",
+  "шість"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:sm_hook.jpg",
+   "",
+   ""
+  ],
+  [
+   4,
+   "img:smol_mem.jpg",
+   "ЧЕРЕЗ 16 РОКІВ",
+   "16"
+  ],
+  [
+   12,
+   "img:tu154.jpg",
+   "",
+   ""
+  ],
+  [
+   17,
+   "img:fog.jpg",
+   "",
+   ""
+  ],
+  [
+   22,
+   "img:sm_alt.jpg",
+   "",
+   ""
+  ],
+  [
+   29,
+   "img:sm_disp.jpg",
+   "",
+   ""
+  ],
+  [
+   35,
+   "img:sm_96.jpg",
+   "",
+   ""
+  ]
+ ]
+}
