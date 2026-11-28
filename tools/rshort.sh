@@ -3,6 +3,7 @@
 #   bash tools/rshort.sh <name> <style> [cards.json ...]
 # style: cards | paper | kinetic | board | radar. Музика й мікс як раніше (cc_mix.py), картинка рендериться remotion_short.
 # env: VIDEO_SCENES='{"1":"clip.mp4"}' (кліп з <vid>/ замість фото сцени 1), BG=x.jpg (тло стилю radar з <img>/), PROPS_PATCH='{...}'.
+exec 9>/tmp/rshort.lock; flock 9
 cd "$(dirname "$0")/.." || exit 1
 n=$1; style=$2; shift 2
 J=$(python3 -c "import json;print(json.load(open('docs/trend_shorts/$n.json'))['job'])"); mood=$(python3 -c "import json;print(json.load(open('docs/trend_shorts/$n.json')).get('mood','upbeat'))")
