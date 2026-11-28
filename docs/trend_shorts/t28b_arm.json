@@ -1,0 +1,63 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t28/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t28/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "arm",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t28/src/arm",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t28/jobs/arm",
+ "w1": 45,
+ "end_w": 41,
+ "bg": "#1d2a2f",
+ "bg2": "#264653",
+ "accent": "#e9c46a",
+ "mood": "calm",
+ "end_text": [
+  "УСЕ ПРО",
+  "СВІТ"
+ ],
+ "end_acc": "СВІТ",
+ "keywords": [
+  "москальськими",
+  "ФСБ",
+  "Москалі"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:a_yer.jpg",
+   "ВІРМЕНІЯ БЕЗ МОСКАЛІВ",
+   "МОСКАЛІВ"
+  ],
+  [
+   5,
+   "img:a_yer.jpg",
+   "",
+   ""
+  ],
+  [
+   15,
+   "img:a_fsb.jpg",
+   "",
+   ""
+  ],
+  [
+   24,
+   "img:a_border.jpg",
+   "КОРДОН З ТУРЕЧЧИНОЮ",
+   "ТУРЕЧЧИНОЮ"
+  ],
+  [
+   31,
+   "img:a_92.jpg",
+   "",
+   ""
+  ],
+  [
+   36,
+   "img:a_time.jpg",
+   "",
+   ""
+  ]
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t28/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t28/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "snow",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t28/src/snow",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t28/jobs/snow",
+ "w1": 46,
+ "end_w": 42,
+ "bg": "#0b1220",
+ "bg2": "#14233a",
+ "accent": "#ffc857",
+ "mood": "explain",
+ "end_text": [
+  "УСЕ ПРО",
+  "О-ЕС-БЕ-БЕ"
+ ],
+ "end_acc": "О-ЕС-БЕ-БЕ",
+ "keywords": [
+  "слизькому",
+  "ОСББ",
+  "штраф",
+  "компенсацію."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:n_dirty.jpg",
+   "СЛИЗЬКО БІЛЯ ПІД'ЇЗДУ?",
+   "СЛИЗЬКО"
+  ],
+  [
+   5,
+   "img:n_who.jpg",
+   "",
+   ""
+  ],
+  [
+   7,
+   "img:n_yard.jpg",
+   "",
+   ""
+  ],
+  [
+   10,
+   "img:n_osbb.jpg",
+   "",
+   ""
+  ],
+  [
+   16,
+   "img:n_dirty.jpg",
+   "",
+   ""
+  ],
+  [
+   21,
+   "img:n_road.jpg",
+   "",
+   ""
+  ],
+  [
+   27,
+   "img:n_1700.jpg",
+   "",
+   ""
+  ],
+  [
+   37,
+   "img:n_comp.jpg",
+   "",
+   ""
+  ]
+ ]
+}

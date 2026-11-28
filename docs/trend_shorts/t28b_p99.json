@@ -1,0 +1,64 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t28/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t28/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "p99",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t28/src/p99",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t28/jobs/p99",
+ "w1": 48,
+ "end_w": 44,
+ "bg": "#0d1b2a",
+ "bg2": "#1b263b",
+ "accent": "#06d6a0",
+ "mood": "playful",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЕКОНОМІКУ"
+ ],
+ "end_acc": "ЕКОНОМІКУ",
+ "keywords": [
+  "дешевше",
+  "зліва",
+  "ліва",
+  "продажі."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:p_999.jpg",
+   "",
+   ""
+  ],
+  [
+   9,
+   "img:p_money.jpg",
+   "МОЗОК ЧИТАЄ ЗЛІВА",
+   "ЗЛІВА"
+  ],
+  [
+   18,
+   "img:p_cart.jpg",
+   "",
+   ""
+  ],
+  [
+   23,
+   "img:p_left.jpg",
+   "",
+   ""
+  ],
+  [
+   30,
+   "img:p_cart.jpg",
+   "",
+   ""
+  ],
+  [
+   38,
+   "img:p_3.jpg",
+   "",
+   ""
+  ]
+ ]
+}

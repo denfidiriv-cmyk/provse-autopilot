@@ -1,0 +1,63 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t28/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t28/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "sub",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t28/src/sub",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t28/jobs/sub",
+ "w1": 47,
+ "end_w": 43,
+ "bg": "#07121f",
+ "bg2": "#14213d",
+ "accent": "#ffd166",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "ПОЛІТИКУ"
+ ],
+ "end_acc": "ПОЛІТИКУ",
+ "keywords": [
+  "П'ять",
+  "ударів",
+  "океану."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:s_5.jpg",
+   "",
+   ""
+  ],
+  [
+   8,
+   "img:s_sev.jpg",
+   "СЄВЄРОДВІНСЬК",
+   "СЄВЄРОДВІНСЬК"
+  ],
+  [
+   14,
+   "img:s_perm.jpg",
+   "",
+   ""
+  ],
+  [
+   21,
+   "img:s_model.jpg",
+   "",
+   ""
+  ],
+  [
+   26,
+   "img:s_world.jpg",
+   "",
+   ""
+  ],
+  [
+   33,
+   "img:s_beyond.jpg",
+   "",
+   ""
+  ]
+ ]
+}
