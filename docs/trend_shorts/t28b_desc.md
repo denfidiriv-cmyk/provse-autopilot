@@ -13,7 +13,7 @@ Google Trends (Україна, 24 год, о 12:40 Київ): «флот» 10 т
 Ліга:Закон (роз'яснення Мін'юсту): https://buh.ligazakon.net/news/241563_shtrafi-do-1700-grn-dlya-pdprimstv--fopv-mnyust-poyasniv-vdpovdalnst-za-nepribran-vd-sngu-ta-ozheledits-vulits
 Дебет-Кредит: https://news.dtkt.ua/society/community/107073-iak-diiati-u-razi-travmuvannia-cerez-snig-ta-ozelediciu-i-xto-vidpovidaje-za-nepribrani-vulici
 
-Відео: Pixabay (засніжена стежка: Motionwell, ліцензія Pixabay). Фото: Wikimedia Commons (брудний сніг і лід: Kritzolina, CC BY-SA 4.0; двір у Солом'янському районі Києва: Maksym Kozlenko, CC BY-SA 3.0). Музика: MUSIC_SNOW
+Відео: Pixabay (засніжена стежка: Motionwell, ліцензія Pixabay). Фото: Wikimedia Commons (брудний сніг і лід: Kritzolina, CC BY-SA 4.0; двір у Солом'янському районі Києва: Maksym Kozlenko, CC BY-SA 3.0). Музика: Kevin MacLeod, «Thinking Music» (incompetech.com), CC BY 3.0.
 
 #осбб #ожеледиця #сніг #штраф #комуналка #shorts
 
@@ -28,7 +28,7 @@ Google Trends (Україна, 24 год, о 12:40 Київ): «флот» 10 т
 Укрінформ: https://www.ukrinform.ua/rubric-world/4188855-virmenia-planue-pripiniti-dialnist-prikordonnikiv-rf-na-svoij-teritorii.html
 UATV: https://uatv.ua/uk/pashynyan-zayavyv-pro-povne-vyvedennya-rosijskyh-prykordonnykiv-iz-virmeniyi/
 
-Відео: Pixabay (озеро Севан: Reshka_bez_orla, ліцензія Pixabay). Фото: Wikimedia Commons (Арарат і Єреван: Սէրուժ Ուրիշեան, CC BY-SA 3.0; кордон Туреччини й Вірменії: Martin Lopatka, CC BY-SA 2.0). Музика: MUSIC_ARM
+Відео: Pixabay (озеро Севан: Reshka_bez_orla, ліцензія Pixabay). Фото: Wikimedia Commons (Арарат і Єреван: Սէրուժ Ուրիշեան, CC BY-SA 3.0; кордон Туреччини й Вірменії: Martin Lopatka, CC BY-SA 2.0). Музика: Frank Schroeter, «Driving to the Night», CC BY 4.0.
 
 #вірменія #пашинян #фсб #кордон #світ #shorts
 
@@ -43,7 +43,7 @@ UATV: https://uatv.ua/uk/pashynyan-zayavyv-pro-povne-vyvedennya-rosijskyh-prykor
 Главком: https://glavcom.ua/world/observe/putin-nakazav-pidhotuvati-rosijskij-flot-do-udariv-u-vsomu-sviti-1158559.html
 ТСН: https://tsn.ua/svit/v-kremli-pokhyzuvalysia-planamy-otrymaty-piat-novykh-submaryn-iaku-zahrozu-vony-stanovliat-3229183.html
 
-Фото: Wikimedia Commons (модель човна проєкту «Ясень» на виставці: LeAZ-1977, CC BY-SA 4.0; будівля Севмашу: MurlocHead, суспільне надбання, прапор обрізано). Музика: MUSIC_SUB
+Фото: Wikimedia Commons (модель човна проєкту «Ясень» на виставці: LeAZ-1977, CC BY-SA 4.0; будівля Севмашу: MurlocHead, суспільне надбання, прапор обрізано). Музика: Kevin MacLeod, «Ouroboros» (incompetech.com), CC BY 3.0.
 
 #путін #флот #підводнийчовен #москалі #політика #shorts
 
@@ -58,7 +58,7 @@ UATV: https://uatv.ua/uk/pashynyan-zayavyv-pro-povne-vyvedennya-rosijskyh-prykor
 ScienceDaily (Thomas, Morwitz, Journal of Consumer Research): https://sciencedaily.com/releases/2005/06/050607030351.htm
 Kellogg School of Management (Anderson, Simester, Quantitative Marketing and Economics, 2003): https://www.kellogg.northwestern.edu/faculty/research/detail/2003/effects-of-9-price-endings-on-retail-sales-evidence
 
-Відео: Pixabay (покупниця в супермаркеті: GSA_Épicerie_Du_Monde, ліцензія Pixabay). Фото: Wikimedia Commons (українські банкноти: суспільне надбання; візок для покупок: Dmitry G, суспільне надбання). Музика: MUSIC_P99
+Відео: Pixabay (покупниця в супермаркеті: GSA_Épicerie_Du_Monde, ліцензія Pixabay). Фото: Wikimedia Commons (українські банкноти: суспільне надбання; візок для покупок: Dmitry G, суспільне надбання). Музика: Kevin MacLeod, «Digital Lemonade» (incompetech.com), CC BY 3.0.
 
 #ціни #маркетинг #економіка #психологія #знижки #shorts
 
@@ -73,6 +73,6 @@ Kellogg School of Management (Anderson, Simester, Quantitative Marketing and Eco
 Укрінформ: https://ukrinform.ua/rubric-sports/4189383-svedka-eberg-vigrala-individualnu-gonku-ks-z-biatlonu-v-kontiolahti-ukrainki-poza-top40.html
 OBOZ.UA: https://obozrevatel.com/ukr/section-sport-oboz/news-vyyshlo-shche-hirshe-ukrayinski-biatlonistky-zaznaly-fiasko-v-pershiy-hontsi-novoho-sezonu-kubku-svitu-rezultaty-27-11-2026.html
 
-Фото: Wikimedia Commons (біатлоністи Національної гвардії США на стрільбищі: Senior Master Sgt. David Lipp і Spc. Avery Cunningham, суспільне надбання). Музика: MUSIC_BIA
+Фото: Wikimedia Commons (біатлоністи Національної гвардії США на стрільбищі: Senior Master Sgt. David Lipp і Spc. Avery Cunningham, суспільне надбання). Музика: Raspberrymusic, «Aliens», CC BY 3.0.
 
 #біатлон #кубоксвіту #контіолахті #городна #спорт #shorts
