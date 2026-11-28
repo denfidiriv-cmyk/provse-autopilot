@@ -258,5 +258,12 @@
   "channel": "dim",
   "cost": 0.46446429999999994,
   "url": "https://youtube.com/shorts/19SxrUJyv_o"
+ },
+ {
+  "at": "2026-11-28T15:15:51.016619",
+  "query": "динамо київ – чорноморець",
+  "channel": "sport",
+  "cost": 0.3862425,
+  "url": "https://youtube.com/shorts/XcY1mvakQ44"
  }
 ]
