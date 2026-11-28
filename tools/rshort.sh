@@ -22,7 +22,7 @@ if os.environ.get('BG'):                                               # radar b
 d.update(json.loads(os.environ.get('PROPS_PATCH','{}')));json.dump(d,open(p,'w'),ensure_ascii=False,indent=1)
 PY
 B=${HF_BROWSER:-$(ls -d /opt/pw-browsers/chromium-*/chrome-linux64/chrome 2>/dev/null | tail -1)}
-(cd remotion_short && npx remotion render Short $J/rm.mp4 --props=props/$n.json --browser-executable=$B --crf=18 --concurrency=2 > $J/rm.log 2>&1) || { tail -5 $J/rm.log; exit 1; }
+(cd remotion_short && npx remotion render Short $J/rm.mp4 --props=props/$n.json --browser-executable=$B --crf=18 --concurrency=${CONC:-2} > $J/rm.log 2>&1) || { tail -5 $J/rm.log; exit 1; }
 O=/mnt/user-data/outputs/short_$n.mp4
 ffmpeg -v error -y -i $J/rm.mp4 -c:v libx264 -crf 24 -maxrate 3M -bufsize 6M -preset veryfast -c:a aac -b:a 160k -movflags +faststart $O && cp $O /mnt/user-data/uploads/out/
 D=$(ffprobe -v error -show_entries format=duration -of csv=p=0 $O)

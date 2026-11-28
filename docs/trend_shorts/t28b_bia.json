@@ -1,0 +1,64 @@
+{
+ "img": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t28/img",
+ "vid": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t28/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "bia",
+ "src": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t28/src/bia",
+ "job": "/tmp/claude-0/-home-claude/1aa8b6ad-0ff9-5c05-a29e-50e8238d6250/scratchpad/t28/jobs/bia",
+ "w1": 38,
+ "end_w": 34,
+ "bg": "#0b2a20",
+ "bg2": "#0f3d2e",
+ "accent": "#ffd23f",
+ "mood": "epic",
+ "end_text": [
+  "УСЕ ПРО",
+  "СПОРТ"
+ ],
+ "end_acc": "СПОРТ",
+ "keywords": [
+  "промах",
+  "перемога.",
+  "сорок",
+  "друга."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:b_1.jpg",
+   "",
+   ""
+  ],
+  [
+   4,
+   "img:b_shoot.jpg",
+   "СТАРТ КУБКА СВІТУ",
+   "СВІТУ"
+  ],
+  [
+   18,
+   "img:b_2.jpg",
+   "",
+   ""
+  ],
+  [
+   22,
+   "img:b_3.jpg",
+   "",
+   ""
+  ],
+  [
+   26,
+   "img:b_rifle.jpg",
+   "",
+   ""
+  ],
+  [
+   29,
+   "img:b_42.jpg",
+   "",
+   ""
+  ]
+ ]
+}
