@@ -1,0 +1,58 @@
+{
+ "img": "/tmp/trend/2026-11-28/img",
+ "vid": "/tmp/trend/2026-11-28/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "azs",
+ "src": "/tmp/trend/2026-11-28/src/azs",
+ "job": "/tmp/trend/2026-11-28/jobs/azs",
+ "w1": 39,
+ "end_w": 35,
+ "bg": "#1d3557",
+ "bg2": "#457b9d",
+ "accent": "#ffd23f",
+ "mood": "upbeat",
+ "end_text": [
+  "УСЕ ПРО",
+  "АВТО"
+ ],
+ "end_acc": "АВТО",
+ "keywords": [
+  "ніч.",
+  "UPG",
+  "три",
+  "гривню."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:a_hook.jpg",
+   "",
+   ""
+  ],
+  [
+   5,
+   "vid:fuel_1.mp4",
+   "",
+   ""
+  ],
+  [
+   10,
+   "img:a_rows.jpg",
+   "",
+   ""
+  ],
+  [
+   18,
+   "img:a_3.jpg",
+   "",
+   ""
+  ],
+  [
+   30,
+   "img:a_gas.jpg",
+   "",
+   ""
+  ]
+ ]
+}

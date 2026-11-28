@@ -1,0 +1,52 @@
+{
+ "img": "/tmp/trend/2026-11-28/img",
+ "vid": "/tmp/trend/2026-11-28/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "bidn",
+ "src": "/tmp/trend/2026-11-28/src/bidn",
+ "job": "/tmp/trend/2026-11-28/jobs/bidn",
+ "w1": 41,
+ "end_w": 37,
+ "bg": "#073b4c",
+ "bg2": "#0b5468",
+ "accent": "#ffd166",
+ "mood": "explain",
+ "end_text": [
+  "УСЕ ПРО",
+  "ЕКОНОМІКУ"
+ ],
+ "end_acc": "ЕКОНОМІКУ",
+ "keywords": [
+  "гривень.",
+  "реально",
+  "податками.",
+  "менший:"
+ ],
+ "scenes": [
+  [
+   0,
+   "img:b_hook.jpg",
+   "",
+   ""
+  ],
+  [
+   6,
+   "img:b_rows.jpg",
+   "",
+   ""
+  ],
+  [
+   19,
+   "img:b_8647.jpg",
+   "",
+   ""
+  ],
+  [
+   27,
+   "img:b_3209.jpg",
+   "",
+   ""
+  ]
+ ]
+}

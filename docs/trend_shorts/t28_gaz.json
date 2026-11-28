@@ -1,0 +1,58 @@
+{
+ "img": "/tmp/trend/2026-11-28/img",
+ "vid": "/tmp/trend/2026-11-28/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "gaz",
+ "src": "/tmp/trend/2026-11-28/src/gaz",
+ "job": "/tmp/trend/2026-11-28/jobs/gaz",
+ "w1": 43,
+ "end_w": 39,
+ "bg": "#14213d",
+ "bg2": "#1f4e79",
+ "accent": "#ffd23f",
+ "mood": "calm",
+ "end_text": [
+  "УСЕ ПРО",
+  "ОСББ"
+ ],
+ "end_acc": "ОСББ",
+ "keywords": [
+  "газу.",
+  "«Куб».",
+  "смартфона?",
+  "грудня."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:g_hook.jpg",
+   "",
+   ""
+  ],
+  [
+   8,
+   "vid:flame_1.mp4",
+   "",
+   ""
+  ],
+  [
+   13,
+   "vid:phone_1.mp4",
+   "",
+   ""
+  ],
+  [
+   18,
+   "img:g_rows.jpg",
+   "",
+   ""
+  ],
+  [
+   31,
+   "img:g_date.jpg",
+   "",
+   ""
+  ]
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "img": "/tmp/trend/2026-11-28/img",
+ "vid": "/tmp/trend/2026-11-28/vid",
+ "outro": null,
+ "w0": 0,
+ "name": "mist",
+ "src": "/tmp/trend/2026-11-28/src/mist",
+ "job": "/tmp/trend/2026-11-28/jobs/mist",
+ "w1": 41,
+ "end_w": 37,
+ "bg": "#111111",
+ "bg2": "#2b2d42",
+ "accent": "#ffd23f",
+ "mood": "tense",
+ "end_text": [
+  "УСЕ ПРО",
+  "ПОЛІТИКУ"
+ ],
+ "end_acc": "ПОЛІТИКУ",
+ "keywords": [
+  "знесли».",
+  "«Нептун»",
+  "арку",
+  "удар."
+ ],
+ "scenes": [
+  [
+   0,
+   "img:m_hook.jpg",
+   "",
+   ""
+  ],
+  [
+   11,
+   "img:kerch1.jpg",
+   "",
+   ""
+  ],
+  [
+   17,
+   "img:m_arch.jpg",
+   "",
+   ""
+  ],
+  [
+   31,
+   "img:m_new.jpg",
+   "",
+   ""
+  ]
+ ]
+}
