@@ -1,0 +1,67 @@
+{
+ "polityka": [
+  {
+   "query": "повестка",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-27T15:40:00-08:00",
+   "news": [
+    {
+     "title": "Могут ли вручить повестку посреди ночи: что говорит закон и ТЦК",
+     "url": "https://tsn.ua/ru/ukrayina/mogut-li-vruchit-povestku-posredi-nochi-chto-govorit-zakon-i-ttsk-3228723.html",
+     "source": "ТСН"
+    },
+    {
+     "title": "Законно ли вручать повестки в Украине круглосуточно: объяснение ТЦК",
+     "url": "https://www.rbc.ua/ukr/news/chi-zakonno-vruchati-povistki-ukrayini-tsilodobovo-1795786789.html",
+     "source": "РБК-Україна"
+    },
+    {
+     "title": "Звонок из полиции о повестке: могут ли требовать явиться в ТЦК",
+     "url": "https://fakty.com.ua/ru/ukraine/20261127-dzvinok-vid-politsiyi-pro-povistku-chy-mozhut-vymagaty-z-yavytysya-do-ttsk/",
+     "source": "Факти ICTV"
+    }
+   ],
+   "channel": "polityka",
+   "score": 2,
+   "matched": [
+    "закон",
+    "тцк"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  }
+ ],
+ "sport": [
+  {
+   "query": "венеція – болонья",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-27T11:10:00-08:00",
+   "news": [
+    {
+     "title": "Болонья Довбика сыграла вничью с Венецией в 13-м туре Серии А",
+     "url": "https://champion.com.ua/rus/football/bolonya-sygrala-vnichyu-s-veneciey-v-chempionate-italii-1092020/",
+     "source": "Champion.com.ua"
+    },
+    {
+     "title": "Выйдет ли Довбик на поле? Болонья объявила стартовый состав на матч против Венеции",
+     "url": "https://www.ua-football.com/foreign/italy/1795808188-vyydet-li-dovbik-na-pole-bolonya-obyavila-startovyy-sostav-na-match-protiv-venecii.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "Болонья сенсационно не смогла обыграть аутсайдера Серии А – Довбика снова проигнорировали",
+     "url": "https://www.ukr.net/ru/news/details/sport/120726747.html",
+     "source": "Ukr.net"
+    }
+   ],
+   "channel": "sport",
+   "score": 1,
+   "matched": [
+    "матч"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 10
+  }
+ ]
+}
