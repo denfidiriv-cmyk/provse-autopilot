@@ -251,5 +251,12 @@
   "channel": "dim",
   "cost": 0.8441382000000001,
   "url": "https://youtube.com/shorts/yd8CJu8_xjM"
+ },
+ {
+  "at": "2026-11-28T06:25:46.440732",
+  "query": "газ",
+  "channel": "dim",
+  "cost": 0.46446429999999994,
+  "url": "https://youtube.com/shorts/19SxrUJyv_o"
  }
 ]
