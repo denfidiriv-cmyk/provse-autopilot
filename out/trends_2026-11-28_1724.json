@@ -1,0 +1,131 @@
+{
+ "sport": [
+  {
+   "query": "мю – брентфорд",
+   "traffic": 2000,
+   "traffic_label": "2000+",
+   "published": "2026-11-28T06:10:00-08:00",
+   "news": [
+    {
+     "title": "Третий пропуск в сезоне: Ярмолюк не сыграет против Манчестер Юнайтед",
+     "url": "https://www.ua-football.com/foreign/england/1795876143-tretiy-propusk-v-sezone-yarmolyuk-ne-sygraet-protiv-manchester-yunayted.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "Манчестер Юнайтед – Брентфорд. Смотреть онлайн. LIVE трансляция",
+     "url": "https://sport.ua/news/929188-manchester-yunayted-brentford-smotret-onlayn-live-translyatsiya",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Сезон 2026/27. Превью к матчу Премьер-Лиги «Манчестер Юнайтед» — «Брентфорд»",
+     "url": "https://carrick.ru/preview/sezon-2026-27-prevju-k-matchu-premer-ligi-manchester-junajted-brentford/",
+     "source": "Карриковедение — Авангард Манчестер Юнайтед"
+    }
+   ],
+   "channel": "sport",
+   "score": 2,
+   "matched": [
+    "манчестер",
+    "матч"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 7
+  },
+  {
+   "query": "ельденсе – жирона",
+   "traffic": 1000,
+   "traffic_label": "1000+",
+   "published": "2026-11-28T06:30:00-08:00",
+   "news": [
+    {
+     "title": "«Не хотів грати за клуб». В Іспанії висловилися про гравця збірної України",
+     "url": "https://sport.ua/uk/news/928275-ne-hotiv-grati-za-klub-v-ispanii-vislovilisya-pro-gravtsya-zbirnoi-ukraini",
+     "source": "Sport.ua"
+    },
+    {
+     "title": "Ванат та Пишур з перших хвилин вийдуть у складі «Жирони» на виїзді проти «Ельденсе»",
+     "url": "https://ua.tribuna.com/uk/football/1000000396237-vanat-ta-pyshur-z-pershykh-khvylyn-vyydut-u-skladi-zhyro/",
+     "source": "Tribuna.com"
+    },
+    {
+     "title": "Ельденсе Жирона – онлайн-трансляція матчу 16 туру Сегунди і склади суперників – Футбол 24",
+     "url": "https://football24.ua/news/eldense-zhyrona-onlayn-translyatsiya-matchu-16-turu-segundy-i-sklady-supernikiv-978629",
+     "source": "Футбол 24"
+    }
+   ],
+   "channel": "sport",
+   "score": 3,
+   "matched": [
+    "збірн",
+    "матч",
+    "футбол"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 5
+  },
+  {
+   "query": "эльденсе – жирона",
+   "traffic": 200,
+   "traffic_label": "200+",
+   "published": "2026-11-28T06:50:00-08:00",
+   "news": [
+    {
+     "title": "Украинский десант в старте Жироны: кто сыграет против Эльденсе",
+     "url": "https://www.ua-football.com/foreign/spain/1795876946-ukrainskiy-desant-v-starte-zhirony-kto-sygraet-protiv-yeldense.html",
+     "source": "UA-Football"
+    },
+    {
+     "title": "Эльденсе — Жирона: прогноз и ставка. Хозяева не ограничатся одним голом 28.11.2026",
+     "url": "https://bookmaker-ratings.ru/tips/eldense-zhirona-prognoz-i-stavka-hozyaeva-ne-ogranichatsya-odnim-golom/",
+     "source": "Рейтинг Букмекеров"
+    },
+    {
+     "title": "Ванат и Пищур – в старте Жироны на матч с Эльденсе, Крапивцов остался в запасе",
+     "url": "https://sportarena.ua/football/primera/vanat-i-pishhur-v-starte-zhirony-na-match-s/",
+     "source": "Sportarena.ua"
+    }
+   ],
+   "channel": "sport",
+   "score": 1,
+   "matched": [
+    "матч"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 1
+  }
+ ],
+ "dim": [
+  {
+   "query": "услуга",
+   "traffic": 500,
+   "traffic_label": "500+",
+   "published": "2026-11-28T06:50:00-08:00",
+   "news": [
+    {
+     "title": "В Украине могут измениться правила оплаты коммунальных услуг: к чему следует подготовиться владельцам жилья",
+     "url": "https://tsn.ua/ru/groshi/v-ukraine-mogut-izmenitsya-pravila-oplaty-kommunalnyh-uslug-k-chemu-sleduet-podgotovitsya-vladeltsam-zhilya-3228907.html",
+     "source": "ТСН"
+    },
+    {
+     "title": "Выехали из-за войны, но получили долги за отопление: почему с ВПЛ взыскивают деньги за оставленные квартиры",
+     "url": "https://sud.ua/ru/news/publication/378217-vyikhaly-cherez-viinu-ale-otrymaly-borhy-za-opalennia-chomu-z-vpo-stiahuiut-hroshi-za-pokynuti-kvartyry",
+     "source": "Судово-юридична газета"
+    },
+    {
+     "title": "Платежки без права на претензии: украинцы могут лишиться защиты от коммунальщиков",
+     "url": "https://cv.znaj.ua/ru/575581-platizhki-bez-prava-na-pretenziji-ukrajinci-mozhut-vtratiti-pravo-na-zahist-vid-komunalnikiv",
+     "source": "Знай.ua"
+    }
+   ],
+   "channel": "dim",
+   "score": 3,
+   "matched": [
+    "квартир",
+    "коммунал",
+    "отоплен"
+   ],
+   "skipped_reason": "",
+   "extra_sources": 7
+  }
+ ]
+}
